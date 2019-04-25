@@ -1,0 +1,5 @@
+version: "Apple Swift version 4.2.1 (swiftlang-1000.11.42 clang-1000.11.45.1)"
+options: "74bd03869f8ac624246af1549f2c0927"
+build_time: [1556177349, 385875000]
+inputs:
+  "/Users/sunchuyue/Documents/test/RX_Product/Pods/RxAlamofire/Sources/RxAlamofire.swift": [1554086316, 0]

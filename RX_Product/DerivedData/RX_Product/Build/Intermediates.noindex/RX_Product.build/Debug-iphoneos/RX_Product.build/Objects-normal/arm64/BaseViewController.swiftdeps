@@ -1,0 +1,511 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "BaseViewController"
+provides-nominal:
+- "10RX_Product18BaseViewControllerC"
+provides-member:
+- ["10RX_Product18BaseViewControllerC", ""]
+provides-dynamic-lookup:
+- "viewDidLoad"
+depends-top-level:
+- "AssignmentPrecedence"
+- "BaseViewController"
+- !private "CGRect"
+- "DisposeBag"
+- !private "FloatLiteralType"
+- !private "IntegerLiteralType"
+- "String"
+- !private "UIBarButtonItem"
+- "UIButton"
+- "UIImage"
+- "UIViewController"
+depends-member:
+- !private ["10RX_Product18BaseViewControllerC", "CGRect"]
+- ["10RX_Product18BaseViewControllerC", "DisposeBag"]
+- ["10RX_Product18BaseViewControllerC", "String"]
+- !private ["10RX_Product18BaseViewControllerC", "UIBarButtonItem"]
+- ["10RX_Product18BaseViewControllerC", "UIButton"]
+- ["10RX_Product18BaseViewControllerC", "UIImage"]
+- ["10RX_Product18BaseViewControllerC", "addRightBarItem"]
+- ["10RX_Product18BaseViewControllerC", "disposeBag"]
+- ["10RX_Product18BaseViewControllerC", "init"]
+- !private ["10RX_Product18BaseViewControllerC", "navigationItem"]
+- ["10RX_Product18BaseViewControllerC", "viewDidLoad"]
+- !private ["So15CALayerDelegateP", "frame"]
+- !private ["So15CALayerDelegateP", "init"]
+- !private ["So15CALayerDelegateP", "setImage"]
+- !private ["So15CALayerDelegateP", "setTitle"]
+- !private ["So6CGRectV", "init"]
+- !private ["s7CVarArgP", "CGRect"]
+- ["s7CVarArgP", "DisposeBag"]
+- !private ["s7CVarArgP", "UIBarButtonItem"]
+- !private ["s7CVarArgP", "UIButton"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "frame"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "navigationItem"]
+- !private ["s7CVarArgP", "rightBarButtonItem"]
+- !private ["s7CVarArgP", "setImage"]
+- !private ["s7CVarArgP", "setTitle"]
+- !private ["s7CVarArgP", "viewDidLoad"]
+- !private ["7SnapKit25ConstraintRelatableTargetP", "frame"]
+- !private ["7SnapKit25ConstraintRelatableTargetP", "init"]
+- !private ["7SnapKit25ConstraintRelatableTargetP", "setImage"]
+- !private ["7SnapKit25ConstraintRelatableTargetP", "setTitle"]
+- !private ["s28CustomDebugStringConvertibleP", "CGRect"]
+- ["s28CustomDebugStringConvertibleP", "DisposeBag"]
+- !private ["s28CustomDebugStringConvertibleP", "UIBarButtonItem"]
+- !private ["s28CustomDebugStringConvertibleP", "UIButton"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "frame"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "navigationItem"]
+- !private ["s28CustomDebugStringConvertibleP", "rightBarButtonItem"]
+- !private ["s28CustomDebugStringConvertibleP", "setImage"]
+- !private ["s28CustomDebugStringConvertibleP", "setTitle"]
+- !private ["s28CustomDebugStringConvertibleP", "viewDidLoad"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s23CustomStringConvertibleP", "CGRect"]
+- ["s23CustomStringConvertibleP", "DisposeBag"]
+- !private ["s23CustomStringConvertibleP", "UIBarButtonItem"]
+- !private ["s23CustomStringConvertibleP", "UIButton"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "frame"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "navigationItem"]
+- !private ["s23CustomStringConvertibleP", "rightBarButtonItem"]
+- !private ["s23CustomStringConvertibleP", "setImage"]
+- !private ["s23CustomStringConvertibleP", "setTitle"]
+- !private ["s23CustomStringConvertibleP", "viewDidLoad"]
+- !private ["Se", "init"]
+- ["7RxSwift10DisposeBagC", "init"]
+- ["7RxSwift11DisposeBaseC", "init"]
+- !private ["SE", "init"]
+- !private ["SQ", "CGRect"]
+- ["SQ", "DisposeBag"]
+- !private ["SQ", "UIBarButtonItem"]
+- !private ["SQ", "UIButton"]
+- ["SQ", ""]
+- !private ["SQ", "frame"]
+- !private ["SQ", "init"]
+- !private ["SQ", "init"]
+- !private ["SQ", "navigationItem"]
+- !private ["SQ", "normal"]
+- !private ["SQ", "rightBarButtonItem"]
+- !private ["SQ", "setImage"]
+- !private ["SQ", "setTitle"]
+- !private ["SQ", "viewDidLoad"]
+- !private ["s25ExpressibleByArrayLiteralP", "normal"]
+- !private ["SH", "CGRect"]
+- ["SH", "DisposeBag"]
+- !private ["SH", "UIBarButtonItem"]
+- !private ["SH", "UIButton"]
+- ["SH", ""]
+- !private ["SH", "frame"]
+- !private ["SH", "init"]
+- !private ["SH", "init"]
+- !private ["SH", "navigationItem"]
+- !private ["SH", "rightBarButtonItem"]
+- !private ["SH", "setImage"]
+- !private ["SH", "setTitle"]
+- !private ["SH", "viewDidLoad"]
+- !private ["7RxCocoa16KVORepresentableP", "init"]
+- !private ["7SnapKit20LayoutConstraintItemP", "frame"]
+- !private ["7SnapKit20LayoutConstraintItemP", "init"]
+- !private ["7SnapKit20LayoutConstraintItemP", "setImage"]
+- !private ["7SnapKit20LayoutConstraintItemP", "setTitle"]
+- !private ["So8NSCodingP", "CGRect"]
+- ["So8NSCodingP", "DisposeBag"]
+- !private ["So8NSCodingP", "UIBarButtonItem"]
+- !private ["So8NSCodingP", "UIButton"]
+- ["So8NSCodingP", ""]
+- !private ["So8NSCodingP", "frame"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "navigationItem"]
+- !private ["So8NSCodingP", "rightBarButtonItem"]
+- !private ["So8NSCodingP", "setImage"]
+- !private ["So8NSCodingP", "setTitle"]
+- !private ["So8NSCodingP", "viewDidLoad"]
+- !private ["So26NSExtensionRequestHandlingP", "CGRect"]
+- ["So26NSExtensionRequestHandlingP", "DisposeBag"]
+- !private ["So26NSExtensionRequestHandlingP", "UIBarButtonItem"]
+- !private ["So26NSExtensionRequestHandlingP", "UIButton"]
+- ["So26NSExtensionRequestHandlingP", ""]
+- !private ["So26NSExtensionRequestHandlingP", "init"]
+- !private ["So26NSExtensionRequestHandlingP", "init"]
+- !private ["So26NSExtensionRequestHandlingP", "navigationItem"]
+- !private ["So26NSExtensionRequestHandlingP", "viewDidLoad"]
+- !private ["So8NSObjectC", "CGRect"]
+- ["So8NSObjectC", "DisposeBag"]
+- ["So8NSObjectC", "String"]
+- !private ["So8NSObjectC", "UIBarButtonItem"]
+- ["So8NSObjectC", "UIButton"]
+- ["So8NSObjectC", "UIImage"]
+- ["So8NSObjectC", "addRightBarItem"]
+- ["So8NSObjectC", "disposeBag"]
+- !private ["So8NSObjectC", "frame"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "navigationItem"]
+- !private ["So8NSObjectC", "rightBarButtonItem"]
+- !private ["So8NSObjectC", "setImage"]
+- !private ["So8NSObjectC", "setTitle"]
+- ["So8NSObjectC", "viewDidLoad"]
+- !private ["So8NSObjectP", "CGRect"]
+- ["So8NSObjectP", "DisposeBag"]
+- !private ["So8NSObjectP", "UIBarButtonItem"]
+- !private ["So8NSObjectP", "UIButton"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "frame"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "navigationItem"]
+- !private ["So8NSObjectP", "rightBarButtonItem"]
+- !private ["So8NSObjectP", "setImage"]
+- !private ["So8NSObjectP", "setTitle"]
+- !private ["So8NSObjectP", "viewDidLoad"]
+- !private ["s9OptionSetP", "normal"]
+- !private ["SY", "normal"]
+- !private ["7RxSwift18ReactiveCompatibleP", "CGRect"]
+- ["7RxSwift18ReactiveCompatibleP", "DisposeBag"]
+- !private ["7RxSwift18ReactiveCompatibleP", "UIBarButtonItem"]
+- !private ["7RxSwift18ReactiveCompatibleP", "UIButton"]
+- ["7RxSwift18ReactiveCompatibleP", ""]
+- !private ["7RxSwift18ReactiveCompatibleP", "frame"]
+- !private ["7RxSwift18ReactiveCompatibleP", "init"]
+- !private ["7RxSwift18ReactiveCompatibleP", "init"]
+- !private ["7RxSwift18ReactiveCompatibleP", "navigationItem"]
+- !private ["7RxSwift18ReactiveCompatibleP", "rightBarButtonItem"]
+- !private ["7RxSwift18ReactiveCompatibleP", "setImage"]
+- !private ["7RxSwift18ReactiveCompatibleP", "setTitle"]
+- !private ["7RxSwift18ReactiveCompatibleP", "viewDidLoad"]
+- !private ["s10SetAlgebraP", "normal"]
+- !private ["So14UIControlStateV", "normal"]
+- !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "frame"]
+- !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "init"]
+- !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "setImage"]
+- !private ["So48UIAccessibilityContentSizeCategoryImageAdjustingP", "setTitle"]
+- !private ["So29UIAccessibilityIdentificationP", "frame"]
+- !private ["So29UIAccessibilityIdentificationP", "init"]
+- !private ["So29UIAccessibilityIdentificationP", "setImage"]
+- !private ["So29UIAccessibilityIdentificationP", "setTitle"]
+- !private ["So12UIAppearanceP", "frame"]
+- !private ["So12UIAppearanceP", "init"]
+- !private ["So12UIAppearanceP", "setImage"]
+- !private ["So12UIAppearanceP", "setTitle"]
+- !private ["So21UIAppearanceContainerP", "CGRect"]
+- ["So21UIAppearanceContainerP", "DisposeBag"]
+- !private ["So21UIAppearanceContainerP", "UIBarButtonItem"]
+- !private ["So21UIAppearanceContainerP", "UIButton"]
+- ["So21UIAppearanceContainerP", ""]
+- !private ["So21UIAppearanceContainerP", "frame"]
+- !private ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "navigationItem"]
+- !private ["So21UIAppearanceContainerP", "setImage"]
+- !private ["So21UIAppearanceContainerP", "setTitle"]
+- !private ["So21UIAppearanceContainerP", "viewDidLoad"]
+- !private ["So15UIBarButtonItemC", "init"]
+- !private ["So9UIBarItemC", "init"]
+- !private ["So8UIButtonC", "frame"]
+- !private ["So8UIButtonC", "init"]
+- !private ["So8UIButtonC", "setImage"]
+- !private ["So8UIButtonC", "setTitle"]
+- !private ["So18UIContentContainerP", "CGRect"]
+- ["So18UIContentContainerP", "DisposeBag"]
+- !private ["So18UIContentContainerP", "UIBarButtonItem"]
+- !private ["So18UIContentContainerP", "UIButton"]
+- ["So18UIContentContainerP", ""]
+- !private ["So18UIContentContainerP", "init"]
+- !private ["So18UIContentContainerP", "init"]
+- !private ["So18UIContentContainerP", "navigationItem"]
+- !private ["So18UIContentContainerP", "viewDidLoad"]
+- !private ["So9UIControlC", "frame"]
+- !private ["So9UIControlC", "init"]
+- !private ["So9UIControlC", "setImage"]
+- !private ["So9UIControlC", "setTitle"]
+- !private ["So17UICoordinateSpaceP", "frame"]
+- !private ["So17UICoordinateSpaceP", "init"]
+- !private ["So17UICoordinateSpaceP", "setImage"]
+- !private ["So17UICoordinateSpaceP", "setTitle"]
+- !private ["So13UIDynamicItemP", "frame"]
+- !private ["So13UIDynamicItemP", "init"]
+- !private ["So13UIDynamicItemP", "setImage"]
+- !private ["So13UIDynamicItemP", "setTitle"]
+- !private ["So18UIFocusEnvironmentP", "CGRect"]
+- ["So18UIFocusEnvironmentP", "DisposeBag"]
+- !private ["So18UIFocusEnvironmentP", "UIBarButtonItem"]
+- !private ["So18UIFocusEnvironmentP", "UIButton"]
+- ["So18UIFocusEnvironmentP", ""]
+- !private ["So18UIFocusEnvironmentP", "frame"]
+- !private ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "navigationItem"]
+- !private ["So18UIFocusEnvironmentP", "setImage"]
+- !private ["So18UIFocusEnvironmentP", "setTitle"]
+- !private ["So18UIFocusEnvironmentP", "viewDidLoad"]
+- !private ["So11UIFocusItemP", "frame"]
+- !private ["So11UIFocusItemP", "init"]
+- !private ["So11UIFocusItemP", "setImage"]
+- !private ["So11UIFocusItemP", "setTitle"]
+- !private ["So20UIFocusItemContainerP", "frame"]
+- !private ["So20UIFocusItemContainerP", "init"]
+- !private ["So20UIFocusItemContainerP", "setImage"]
+- !private ["So20UIFocusItemContainerP", "setTitle"]
+- !private ["So16UINavigationItemC", "rightBarButtonItem"]
+- !private ["So30UIPasteConfigurationSupportingP", "CGRect"]
+- ["So30UIPasteConfigurationSupportingP", "DisposeBag"]
+- !private ["So30UIPasteConfigurationSupportingP", "UIBarButtonItem"]
+- !private ["So30UIPasteConfigurationSupportingP", "UIButton"]
+- ["So30UIPasteConfigurationSupportingP", ""]
+- !private ["So30UIPasteConfigurationSupportingP", "frame"]
+- !private ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "navigationItem"]
+- !private ["So30UIPasteConfigurationSupportingP", "setImage"]
+- !private ["So30UIPasteConfigurationSupportingP", "setTitle"]
+- !private ["So30UIPasteConfigurationSupportingP", "viewDidLoad"]
+- !private ["So11UIResponderC", "CGRect"]
+- ["So11UIResponderC", "DisposeBag"]
+- ["So11UIResponderC", "String"]
+- !private ["So11UIResponderC", "UIBarButtonItem"]
+- ["So11UIResponderC", "UIButton"]
+- ["So11UIResponderC", "UIImage"]
+- ["So11UIResponderC", "addRightBarItem"]
+- ["So11UIResponderC", "disposeBag"]
+- !private ["So11UIResponderC", "frame"]
+- ["So11UIResponderC", "init"]
+- !private ["So11UIResponderC", "init"]
+- !private ["So11UIResponderC", "navigationItem"]
+- !private ["So11UIResponderC", "setImage"]
+- !private ["So11UIResponderC", "setTitle"]
+- ["So11UIResponderC", "viewDidLoad"]
+- !private ["So30UIResponderStandardEditActionsP", "CGRect"]
+- ["So30UIResponderStandardEditActionsP", "DisposeBag"]
+- !private ["So30UIResponderStandardEditActionsP", "UIBarButtonItem"]
+- !private ["So30UIResponderStandardEditActionsP", "UIButton"]
+- ["So30UIResponderStandardEditActionsP", ""]
+- !private ["So30UIResponderStandardEditActionsP", "frame"]
+- !private ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "navigationItem"]
+- !private ["So30UIResponderStandardEditActionsP", "setImage"]
+- !private ["So30UIResponderStandardEditActionsP", "setTitle"]
+- !private ["So30UIResponderStandardEditActionsP", "viewDidLoad"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "frame"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "init"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "setImage"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "setTitle"]
+- !private ["So16UIStateRestoringP", "CGRect"]
+- ["So16UIStateRestoringP", "DisposeBag"]
+- !private ["So16UIStateRestoringP", "UIBarButtonItem"]
+- !private ["So16UIStateRestoringP", "UIButton"]
+- ["So16UIStateRestoringP", ""]
+- !private ["So16UIStateRestoringP", "init"]
+- !private ["So16UIStateRestoringP", "init"]
+- !private ["So16UIStateRestoringP", "navigationItem"]
+- !private ["So16UIStateRestoringP", "viewDidLoad"]
+- !private ["So18UITraitEnvironmentP", "CGRect"]
+- ["So18UITraitEnvironmentP", "DisposeBag"]
+- !private ["So18UITraitEnvironmentP", "UIBarButtonItem"]
+- !private ["So18UITraitEnvironmentP", "UIButton"]
+- ["So18UITraitEnvironmentP", ""]
+- !private ["So18UITraitEnvironmentP", "frame"]
+- !private ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "navigationItem"]
+- !private ["So18UITraitEnvironmentP", "setImage"]
+- !private ["So18UITraitEnvironmentP", "setTitle"]
+- !private ["So18UITraitEnvironmentP", "viewDidLoad"]
+- !private ["So23UIUserActivityRestoringP", "CGRect"]
+- ["So23UIUserActivityRestoringP", "DisposeBag"]
+- !private ["So23UIUserActivityRestoringP", "UIBarButtonItem"]
+- !private ["So23UIUserActivityRestoringP", "UIButton"]
+- ["So23UIUserActivityRestoringP", ""]
+- !private ["So23UIUserActivityRestoringP", "frame"]
+- !private ["So23UIUserActivityRestoringP", "init"]
+- !private ["So23UIUserActivityRestoringP", "init"]
+- !private ["So23UIUserActivityRestoringP", "navigationItem"]
+- !private ["So23UIUserActivityRestoringP", "setImage"]
+- !private ["So23UIUserActivityRestoringP", "setTitle"]
+- !private ["So23UIUserActivityRestoringP", "viewDidLoad"]
+- !private ["So6UIViewC", "frame"]
+- !private ["So6UIViewC", "init"]
+- !private ["So6UIViewC", "setImage"]
+- !private ["So6UIViewC", "setTitle"]
+- !private ["So16UIViewControllerC", "CGRect"]
+- ["So16UIViewControllerC", "DisposeBag"]
+- ["So16UIViewControllerC", "String"]
+- !private ["So16UIViewControllerC", "UIBarButtonItem"]
+- ["So16UIViewControllerC", "UIButton"]
+- ["So16UIViewControllerC", "UIImage"]
+- ["So16UIViewControllerC", ""]
+- ["So16UIViewControllerC", "addRightBarItem"]
+- ["So16UIViewControllerC", "disposeBag"]
+- ["So16UIViewControllerC", "init"]
+- !private ["So16UIViewControllerC", "init"]
+- !private ["So16UIViewControllerC", "navigationItem"]
+- ["So16UIViewControllerC", "viewDidLoad"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "frame"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "init"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "setImage"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "setTitle"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "CGRect"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "DisposeBag"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIBarButtonItem"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIButton"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "frame"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "navigationItem"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "rightBarButtonItem"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "setImage"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "setTitle"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "viewDidLoad"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+depends-nominal:
+- "10RX_Product18BaseViewControllerC"
+- !private "So15CALayerDelegateP"
+- !private "So6CGRectV"
+- "s7CVarArgP"
+- !private "7SnapKit25ConstraintRelatableTargetP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "Se"
+- "7RxSwift10DisposeBagC"
+- "7RxSwift11DisposeBaseC"
+- !private "SE"
+- "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
+- "SH"
+- !private "7RxCocoa16KVORepresentableP"
+- !private "7SnapKit20LayoutConstraintItemP"
+- "So8NSCodingP"
+- "So26NSExtensionRequestHandlingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "s9OptionSetP"
+- !private "SY"
+- "7RxSwift18ReactiveCompatibleP"
+- !private "s10SetAlgebraP"
+- !private "So14UIControlStateV"
+- !private "So48UIAccessibilityContentSizeCategoryImageAdjustingP"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "So12UIAppearanceP"
+- "So21UIAppearanceContainerP"
+- !private "So15UIBarButtonItemC"
+- !private "So9UIBarItemC"
+- !private "So8UIButtonC"
+- "So18UIContentContainerP"
+- !private "So9UIControlC"
+- !private "So17UICoordinateSpaceP"
+- !private "So13UIDynamicItemP"
+- "So18UIFocusEnvironmentP"
+- !private "So11UIFocusItemP"
+- !private "So20UIFocusItemContainerP"
+- !private "So16UINavigationItemC"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- !private "So35UISpringLoadedInteractionSupportingP"
+- "So16UIStateRestoringP"
+- "So18UITraitEnvironmentP"
+- "So23UIUserActivityRestoringP"
+- !private "So6UIViewC"
+- "So16UIViewControllerC"
+- !private "s37_DefaultCustomPlaygroundQuickLookableP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
+- "/Users/sunchuyue/Documents/test/RX_Product/DerivedData/RX_Product/Build/Products/Debug-iphoneos/RxCocoa/RxCocoa.framework/Modules/RxCocoa.swiftmodule/arm64.swiftmodule"
+- "/Users/sunchuyue/Documents/test/RX_Product/DerivedData/RX_Product/Build/Products/Debug-iphoneos/Moya/Moya.framework/Modules/Moya.swiftmodule/arm64.swiftmodule"
+- "/Users/sunchuyue/Documents/test/RX_Product/DerivedData/RX_Product/Build/Products/Debug-iphoneos/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/arm64.swiftmodule"
+- "/Users/sunchuyue/Documents/test/RX_Product/DerivedData/RX_Product/Build/Products/Debug-iphoneos/ObjectMapper/ObjectMapper.framework/Modules/ObjectMapper.swiftmodule/arm64.swiftmodule"
+- "/Users/sunchuyue/Documents/test/RX_Product/DerivedData/RX_Product/Build/Products/Debug-iphoneos/Moya-ObjectMapper/Moya_ObjectMapper.framework/Modules/Moya_ObjectMapper.swiftmodule/arm64.swiftmodule"
+- "/Users/sunchuyue/Documents/test/RX_Product/DerivedData/RX_Product/Build/Products/Debug-iphoneos/Differentiator/Differentiator.framework/Modules/Differentiator.swiftmodule/arm64.swiftmodule"
+- "/Users/sunchuyue/Documents/test/RX_Product/DerivedData/RX_Product/Build/Products/Debug-iphoneos/RxDataSources/RxDataSources.framework/Modules/RxDataSources.swiftmodule/arm64.swiftmodule"
+- "/Users/sunchuyue/Documents/test/RX_Product/DerivedData/RX_Product/Build/Products/Debug-iphoneos/ReactiveSwift/ReactiveSwift.framework/Modules/ReactiveSwift.swiftmodule/arm64.swiftmodule"
+- "/Users/sunchuyue/Documents/test/RX_Product/DerivedData/RX_Product/Build/Products/Debug-iphoneos/RxSwift/RxSwift.framework/Modules/RxSwift.swiftmodule/arm64.swiftmodule"
+- "/Users/sunchuyue/Documents/test/RX_Product/DerivedData/RX_Product/Build/Products/Debug-iphoneos/SnapKit/SnapKit.framework/Modules/SnapKit.swiftmodule/arm64.swiftmodule"
+- "/Users/sunchuyue/Documents/test/RX_Product/DerivedData/RX_Product/Build/Products/Debug-iphoneos/Result/Result.framework/Modules/Result.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreData.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Users/sunchuyue/Documents/test/RX_Product/DerivedData/RX_Product/Build/Products/Debug-iphoneos/SVProgressHUD/SVProgressHUD.framework/Headers/SVProgressHUD.h"
+- "/Users/sunchuyue/Documents/test/RX_Product/DerivedData/RX_Product/Build/Products/Debug-iphoneos/RxCocoa/RxCocoa.framework/Headers/_RX.h"
+- "/Users/sunchuyue/Documents/test/RX_Product/DerivedData/RX_Product/Build/Products/Debug-iphoneos/SVProgressHUD/SVProgressHUD.framework/Headers/SVProgressHUD-umbrella.h"
+- "/Users/sunchuyue/Documents/test/RX_Product/DerivedData/RX_Product/Build/Products/Debug-iphoneos/RxCocoa/RxCocoa.framework/Headers/RxCocoa-umbrella.h"
+- "/Users/sunchuyue/Documents/test/RX_Product/DerivedData/RX_Product/Build/Products/Debug-iphoneos/Moya/Moya.framework/Headers/Moya-umbrella.h"
+- "/Users/sunchuyue/Documents/test/RX_Product/DerivedData/RX_Product/Build/Products/Debug-iphoneos/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"
+- "/Users/sunchuyue/Documents/test/RX_Product/DerivedData/RX_Product/Build/Products/Debug-iphoneos/Moya-ObjectMapper/Moya_ObjectMapper.framework/Headers/Moya-ObjectMapper-umbrella.h"
+- "/Users/sunchuyue/Documents/test/RX_Product/DerivedData/RX_Product/Build/Products/Debug-iphoneos/ObjectMapper/ObjectMapper.framework/Headers/ObjectMapper-umbrella.h"
+- "/Users/sunchuyue/Documents/test/RX_Product/DerivedData/RX_Product/Build/Products/Debug-iphoneos/Differentiator/Differentiator.framework/Headers/Differentiator-umbrella.h"
+- "/Users/sunchuyue/Documents/test/RX_Product/DerivedData/RX_Product/Build/Products/Debug-iphoneos/RxDataSources/RxDataSources.framework/Headers/RxDataSources-umbrella.h"
+- "/Users/sunchuyue/Documents/test/RX_Product/DerivedData/RX_Product/Build/Products/Debug-iphoneos/ReactiveSwift/ReactiveSwift.framework/Headers/ReactiveSwift-umbrella.h"
+- "/Users/sunchuyue/Documents/test/RX_Product/DerivedData/RX_Product/Build/Products/Debug-iphoneos/RxSwift/RxSwift.framework/Headers/RxSwift-umbrella.h"
+- "/Users/sunchuyue/Documents/test/RX_Product/DerivedData/RX_Product/Build/Products/Debug-iphoneos/SnapKit/SnapKit.framework/Headers/SnapKit-umbrella.h"
+- "/Users/sunchuyue/Documents/test/RX_Product/DerivedData/RX_Product/Build/Products/Debug-iphoneos/Result/Result.framework/Headers/Result-umbrella.h"
+- "/Users/sunchuyue/Documents/test/RX_Product/DerivedData/RX_Product/Build/Products/Debug-iphoneos/RxCocoa/RxCocoa.framework/Headers/RxCocoa.h"
+- "/Users/sunchuyue/Documents/test/RX_Product/DerivedData/RX_Product/Build/Products/Debug-iphoneos/RxCocoa/RxCocoa.framework/Headers/_RXObjCRuntime.h"
+- "/Users/sunchuyue/Documents/test/RX_Product/DerivedData/RX_Product/Build/Products/Debug-iphoneos/RxCocoa/RxCocoa.framework/Headers/RxCocoaRuntime.h"
+- "/Users/sunchuyue/Documents/test/RX_Product/DerivedData/RX_Product/Build/Products/Debug-iphoneos/RxCocoa/RxCocoa.framework/Headers/_RXKVOObserver.h"
+- "/Users/sunchuyue/Documents/test/RX_Product/DerivedData/RX_Product/Build/Products/Debug-iphoneos/SVProgressHUD/SVProgressHUD.framework/Headers/SVRadialGradientLayer.h"
+- "/Users/sunchuyue/Documents/test/RX_Product/DerivedData/RX_Product/Build/Products/Debug-iphoneos/RxCocoa/RxCocoa.framework/Headers/RxCocoa-Swift.h"
+- "/Users/sunchuyue/Documents/test/RX_Product/DerivedData/RX_Product/Build/Products/Debug-iphoneos/Moya/Moya.framework/Headers/Moya-Swift.h"
+- "/Users/sunchuyue/Documents/test/RX_Product/DerivedData/RX_Product/Build/Products/Debug-iphoneos/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/sunchuyue/Documents/test/RX_Product/DerivedData/RX_Product/Build/Products/Debug-iphoneos/ObjectMapper/ObjectMapper.framework/Headers/ObjectMapper-Swift.h"
+- "/Users/sunchuyue/Documents/test/RX_Product/DerivedData/RX_Product/Build/Products/Debug-iphoneos/Moya-ObjectMapper/Moya_ObjectMapper.framework/Headers/Moya_ObjectMapper-Swift.h"
+- "/Users/sunchuyue/Documents/test/RX_Product/DerivedData/RX_Product/Build/Products/Debug-iphoneos/Differentiator/Differentiator.framework/Headers/Differentiator-Swift.h"
+- "/Users/sunchuyue/Documents/test/RX_Product/DerivedData/RX_Product/Build/Products/Debug-iphoneos/RxDataSources/RxDataSources.framework/Headers/RxDataSources-Swift.h"
+- "/Users/sunchuyue/Documents/test/RX_Product/DerivedData/RX_Product/Build/Products/Debug-iphoneos/ReactiveSwift/ReactiveSwift.framework/Headers/ReactiveSwift-Swift.h"
+- "/Users/sunchuyue/Documents/test/RX_Product/DerivedData/RX_Product/Build/Products/Debug-iphoneos/RxSwift/RxSwift.framework/Headers/RxSwift-Swift.h"
+- "/Users/sunchuyue/Documents/test/RX_Product/DerivedData/RX_Product/Build/Products/Debug-iphoneos/SnapKit/SnapKit.framework/Headers/SnapKit-Swift.h"
+- "/Users/sunchuyue/Documents/test/RX_Product/DerivedData/RX_Product/Build/Products/Debug-iphoneos/Result/Result.framework/Headers/Result-Swift.h"
+- "/Users/sunchuyue/Documents/test/RX_Product/DerivedData/RX_Product/Build/Products/Debug-iphoneos/SVProgressHUD/SVProgressHUD.framework/Headers/SVIndefiniteAnimatedView.h"
+- "/Users/sunchuyue/Documents/test/RX_Product/DerivedData/RX_Product/Build/Products/Debug-iphoneos/SVProgressHUD/SVProgressHUD.framework/Headers/SVProgressAnimatedView.h"
+- "/Users/sunchuyue/Documents/test/RX_Product/DerivedData/RX_Product/Build/Products/Debug-iphoneos/RxCocoa/RxCocoa.framework/Headers/_RXDelegateProxy.h"
+- "/Users/sunchuyue/Documents/test/RX_Product/DerivedData/RX_Product/Build/Products/Debug-iphoneos/SVProgressHUD/SVProgressHUD.framework/Modules/module.modulemap"
+- "/Users/sunchuyue/Documents/test/RX_Product/DerivedData/RX_Product/Build/Products/Debug-iphoneos/RxCocoa/RxCocoa.framework/Modules/module.modulemap"
+- "/Users/sunchuyue/Documents/test/RX_Product/DerivedData/RX_Product/Build/Products/Debug-iphoneos/Moya/Moya.framework/Modules/module.modulemap"
+- "/Users/sunchuyue/Documents/test/RX_Product/DerivedData/RX_Product/Build/Products/Debug-iphoneos/Alamofire/Alamofire.framework/Modules/module.modulemap"
+- "/Users/sunchuyue/Documents/test/RX_Product/DerivedData/RX_Product/Build/Products/Debug-iphoneos/ObjectMapper/ObjectMapper.framework/Modules/module.modulemap"
+- "/Users/sunchuyue/Documents/test/RX_Product/DerivedData/RX_Product/Build/Products/Debug-iphoneos/Moya-ObjectMapper/Moya_ObjectMapper.framework/Modules/module.modulemap"
+- "/Users/sunchuyue/Documents/test/RX_Product/DerivedData/RX_Product/Build/Products/Debug-iphoneos/Differentiator/Differentiator.framework/Modules/module.modulemap"
+- "/Users/sunchuyue/Documents/test/RX_Product/DerivedData/RX_Product/Build/Products/Debug-iphoneos/RxDataSources/RxDataSources.framework/Modules/module.modulemap"
+- "/Users/sunchuyue/Documents/test/RX_Product/DerivedData/RX_Product/Build/Products/Debug-iphoneos/ReactiveSwift/ReactiveSwift.framework/Modules/module.modulemap"
+- "/Users/sunchuyue/Documents/test/RX_Product/DerivedData/RX_Product/Build/Products/Debug-iphoneos/RxSwift/RxSwift.framework/Modules/module.modulemap"
+- "/Users/sunchuyue/Documents/test/RX_Product/DerivedData/RX_Product/Build/Products/Debug-iphoneos/SnapKit/SnapKit.framework/Modules/module.modulemap"
+- "/Users/sunchuyue/Documents/test/RX_Product/DerivedData/RX_Product/Build/Products/Debug-iphoneos/Result/Result.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "e8d6356227f6f804be4574bf56a1bf74"

@@ -1,0 +1,417 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "RxPickerViewStringAdapter"
+- "RxPickerViewAttributedStringAdapter"
+- "RxPickerViewViewAdapter"
+- "RxPickerViewDataSource"
+provides-nominal:
+- "13RxDataSources0A23PickerViewStringAdapterC"
+- "13RxDataSources0A33PickerViewAttributedStringAdapterC"
+- "13RxDataSources0a10PickerViewE7AdapterC"
+- "13RxDataSources0a10PickerViewB6SourceC"
+provides-member:
+- ["13RxDataSources0A23PickerViewStringAdapterC", ""]
+- ["13RxDataSources0A33PickerViewAttributedStringAdapterC", ""]
+- ["13RxDataSources0a10PickerViewE7AdapterC", ""]
+- ["13RxDataSources0a10PickerViewB6SourceC", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "AssignmentPrecedence"
+- !private "Binder"
+- "Event"
+- !private "FloatLiteralType"
+- "Int"
+- !private "IntegerLiteralType"
+- "NSAttributedString"
+- "NSObject"
+- "RxPickerViewAttributedStringAdapter"
+- "RxPickerViewDataSource"
+- "RxPickerViewDataSourceType"
+- "RxPickerViewStringAdapter"
+- "RxPickerViewViewAdapter"
+- "String"
+- !private "StringLiteralType"
+- "UIPickerView"
+- "UIPickerViewDataSource"
+- "UIPickerViewDelegate"
+- "UIView"
+depends-member:
+- !private ["7RxCocoa6BinderV", "init"]
+- !private ["7RxCocoa6BinderV", "on"]
+- !private ["So15CALayerDelegateP", "reloadAllComponents"]
+- !private ["s7CVarArgP", "Binder"]
+- ["s7CVarArgP", "Element"]
+- ["s7CVarArgP", ""]
+- ["s7CVarArgP", "_Default_Element"]
+- !private ["s7CVarArgP", "attributedTitleForRow"]
+- !private ["s7CVarArgP", "components"]
+- !private ["s7CVarArgP", "init"]
+- ["s7CVarArgP", "numberOfComponents"]
+- ["s7CVarArgP", "numberOfComponentsInPickerView"]
+- !private ["s7CVarArgP", "numberOfRowsInComponent"]
+- ["s7CVarArgP", "pickerView"]
+- !private ["s7CVarArgP", "reloadAllComponents"]
+- !private ["s7CVarArgP", "titleForRow"]
+- !private ["s7CVarArgP", "viewForRow"]
+- !private ["s28CustomDebugStringConvertibleP", "Binder"]
+- ["s28CustomDebugStringConvertibleP", "Element"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- ["s28CustomDebugStringConvertibleP", "_Default_Element"]
+- !private ["s28CustomDebugStringConvertibleP", "attributedTitleForRow"]
+- !private ["s28CustomDebugStringConvertibleP", "components"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- ["s28CustomDebugStringConvertibleP", "numberOfComponents"]
+- ["s28CustomDebugStringConvertibleP", "numberOfComponentsInPickerView"]
+- !private ["s28CustomDebugStringConvertibleP", "numberOfRowsInComponent"]
+- ["s28CustomDebugStringConvertibleP", "pickerView"]
+- !private ["s28CustomDebugStringConvertibleP", "reloadAllComponents"]
+- !private ["s28CustomDebugStringConvertibleP", "titleForRow"]
+- !private ["s28CustomDebugStringConvertibleP", "viewForRow"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s23CustomStringConvertibleP", "Binder"]
+- ["s23CustomStringConvertibleP", "Element"]
+- ["s23CustomStringConvertibleP", ""]
+- ["s23CustomStringConvertibleP", "_Default_Element"]
+- !private ["s23CustomStringConvertibleP", "attributedTitleForRow"]
+- !private ["s23CustomStringConvertibleP", "components"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", "numberOfComponents"]
+- ["s23CustomStringConvertibleP", "numberOfComponentsInPickerView"]
+- !private ["s23CustomStringConvertibleP", "numberOfRowsInComponent"]
+- ["s23CustomStringConvertibleP", "pickerView"]
+- !private ["s23CustomStringConvertibleP", "reloadAllComponents"]
+- !private ["s23CustomStringConvertibleP", "titleForRow"]
+- !private ["s23CustomStringConvertibleP", "viewForRow"]
+- !private ["SQ", "Binder"]
+- ["SQ", "Element"]
+- ["SQ", ""]
+- ["SQ", "_Default_Element"]
+- !private ["SQ", "attributedTitleForRow"]
+- !private ["SQ", "components"]
+- !private ["SQ", "init"]
+- ["SQ", "numberOfComponents"]
+- ["SQ", "numberOfComponentsInPickerView"]
+- !private ["SQ", "numberOfRowsInComponent"]
+- ["SQ", "pickerView"]
+- !private ["SQ", "reloadAllComponents"]
+- !private ["SQ", "titleForRow"]
+- !private ["SQ", "viewForRow"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["7RxCocoa13HasDataSourceP", "reloadAllComponents"]
+- !private ["7RxCocoa11HasDelegateP", "reloadAllComponents"]
+- !private ["SH", "Binder"]
+- ["SH", "Element"]
+- ["SH", ""]
+- ["SH", "_Default_Element"]
+- !private ["SH", "attributedTitleForRow"]
+- !private ["SH", "components"]
+- !private ["SH", "init"]
+- ["SH", "numberOfComponents"]
+- ["SH", "numberOfComponentsInPickerView"]
+- !private ["SH", "numberOfRowsInComponent"]
+- ["SH", "pickerView"]
+- !private ["SH", "reloadAllComponents"]
+- !private ["SH", "titleForRow"]
+- !private ["SH", "viewForRow"]
+- !private ["So8NSCodingP", "reloadAllComponents"]
+- ["So8NSObjectC", "AttributedTitleForRow"]
+- !private ["So8NSObjectC", "Binder"]
+- ["So8NSObjectC", "Element"]
+- ["So8NSObjectC", "Event"]
+- ["So8NSObjectC", "Int"]
+- ["So8NSObjectC", "NSAttributedString"]
+- ["So8NSObjectC", "NumberOfComponents"]
+- ["So8NSObjectC", "NumberOfRowsInComponent"]
+- ["So8NSObjectC", "RxPickerViewAttributedStringAdapter"]
+- ["So8NSObjectC", "RxPickerViewDataSource"]
+- ["So8NSObjectC", "RxPickerViewStringAdapter"]
+- ["So8NSObjectC", "RxPickerViewViewAdapter"]
+- ["So8NSObjectC", "String"]
+- ["So8NSObjectC", "T"]
+- ["So8NSObjectC", "TitleForRow"]
+- ["So8NSObjectC", "UIPickerView"]
+- ["So8NSObjectC", "UIView"]
+- ["So8NSObjectC", "ViewForRow"]
+- ["So8NSObjectC", ""]
+- ["So8NSObjectC", "_Default_Element"]
+- ["So8NSObjectC", "attributedTitleForRow"]
+- ["So8NSObjectC", "components"]
+- ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "numberOfComponents"]
+- ["So8NSObjectC", "numberOfComponentsInPickerView"]
+- ["So8NSObjectC", "numberOfRowsInComponent"]
+- ["So8NSObjectC", "pickerView"]
+- !private ["So8NSObjectC", "reloadAllComponents"]
+- ["So8NSObjectC", "titleForRow"]
+- ["So8NSObjectC", "viewForRow"]
+- !private ["So8NSObjectP", "Binder"]
+- ["So8NSObjectP", "Element"]
+- ["So8NSObjectP", ""]
+- ["So8NSObjectP", "_Default_Element"]
+- !private ["So8NSObjectP", "attributedTitleForRow"]
+- !private ["So8NSObjectP", "components"]
+- !private ["So8NSObjectP", "init"]
+- ["So8NSObjectP", "numberOfComponents"]
+- ["So8NSObjectP", "numberOfComponentsInPickerView"]
+- !private ["So8NSObjectP", "numberOfRowsInComponent"]
+- ["So8NSObjectP", "pickerView"]
+- !private ["So8NSObjectP", "reloadAllComponents"]
+- !private ["So8NSObjectP", "titleForRow"]
+- !private ["So8NSObjectP", "viewForRow"]
+- !private ["7RxSwift12ObserverTypeP", "init"]
+- !private ["7RxSwift12ObserverTypeP", "on"]
+- !private ["7RxSwift18ReactiveCompatibleP", "Binder"]
+- ["7RxSwift18ReactiveCompatibleP", "Element"]
+- ["7RxSwift18ReactiveCompatibleP", ""]
+- ["7RxSwift18ReactiveCompatibleP", "_Default_Element"]
+- !private ["7RxSwift18ReactiveCompatibleP", "attributedTitleForRow"]
+- !private ["7RxSwift18ReactiveCompatibleP", "components"]
+- !private ["7RxSwift18ReactiveCompatibleP", "init"]
+- ["7RxSwift18ReactiveCompatibleP", "numberOfComponents"]
+- ["7RxSwift18ReactiveCompatibleP", "numberOfComponentsInPickerView"]
+- !private ["7RxSwift18ReactiveCompatibleP", "numberOfRowsInComponent"]
+- ["7RxSwift18ReactiveCompatibleP", "pickerView"]
+- !private ["7RxSwift18ReactiveCompatibleP", "reloadAllComponents"]
+- !private ["7RxSwift18ReactiveCompatibleP", "titleForRow"]
+- !private ["7RxSwift18ReactiveCompatibleP", "viewForRow"]
+- ["13RxDataSources0A33PickerViewAttributedStringAdapterC", "AttributedTitleForRow"]
+- ["13RxDataSources0A33PickerViewAttributedStringAdapterC", "Int"]
+- ["13RxDataSources0A33PickerViewAttributedStringAdapterC", "NSAttributedString"]
+- ["13RxDataSources0A33PickerViewAttributedStringAdapterC", "NumberOfComponents"]
+- ["13RxDataSources0A33PickerViewAttributedStringAdapterC", "NumberOfRowsInComponent"]
+- ["13RxDataSources0A33PickerViewAttributedStringAdapterC", "RxPickerViewAttributedStringAdapter"]
+- ["13RxDataSources0A33PickerViewAttributedStringAdapterC", "T"]
+- ["13RxDataSources0A33PickerViewAttributedStringAdapterC", "UIPickerView"]
+- !private ["13RxDataSources0A33PickerViewAttributedStringAdapterC", "attributedTitleForRow"]
+- !private ["13RxDataSources0A33PickerViewAttributedStringAdapterC", "components"]
+- ["13RxDataSources0A33PickerViewAttributedStringAdapterC", "deinit"]
+- ["13RxDataSources0A33PickerViewAttributedStringAdapterC", "init"]
+- ["13RxDataSources0A33PickerViewAttributedStringAdapterC", "pickerView"]
+- ["13RxDataSources0a10PickerViewB6SourceC", "AttributedTitleForRow"]
+- !private ["13RxDataSources0a10PickerViewB6SourceC", "Binder"]
+- ["13RxDataSources0a10PickerViewB6SourceC", "Element"]
+- ["13RxDataSources0a10PickerViewB6SourceC", "Event"]
+- ["13RxDataSources0a10PickerViewB6SourceC", "Int"]
+- ["13RxDataSources0a10PickerViewB6SourceC", "NSAttributedString"]
+- ["13RxDataSources0a10PickerViewB6SourceC", "NumberOfComponents"]
+- ["13RxDataSources0a10PickerViewB6SourceC", "NumberOfRowsInComponent"]
+- ["13RxDataSources0a10PickerViewB6SourceC", "RxPickerViewAttributedStringAdapter"]
+- ["13RxDataSources0a10PickerViewB6SourceC", "RxPickerViewDataSource"]
+- ["13RxDataSources0a10PickerViewB6SourceC", "RxPickerViewStringAdapter"]
+- ["13RxDataSources0a10PickerViewB6SourceC", "RxPickerViewViewAdapter"]
+- ["13RxDataSources0a10PickerViewB6SourceC", "String"]
+- ["13RxDataSources0a10PickerViewB6SourceC", "T"]
+- ["13RxDataSources0a10PickerViewB6SourceC", "TitleForRow"]
+- ["13RxDataSources0a10PickerViewB6SourceC", "UIPickerView"]
+- ["13RxDataSources0a10PickerViewB6SourceC", "UIView"]
+- ["13RxDataSources0a10PickerViewB6SourceC", "ViewForRow"]
+- ["13RxDataSources0a10PickerViewB6SourceC", ""]
+- ["13RxDataSources0a10PickerViewB6SourceC", "_Default_Element"]
+- ["13RxDataSources0a10PickerViewB6SourceC", "attributedTitleForRow"]
+- !private ["13RxDataSources0a10PickerViewB6SourceC", "components"]
+- ["13RxDataSources0a10PickerViewB6SourceC", "deinit"]
+- ["13RxDataSources0a10PickerViewB6SourceC", "init"]
+- ["13RxDataSources0a10PickerViewB6SourceC", "numberOfComponents"]
+- ["13RxDataSources0a10PickerViewB6SourceC", "numberOfComponentsInPickerView"]
+- !private ["13RxDataSources0a10PickerViewB6SourceC", "numberOfRowsInComponent"]
+- ["13RxDataSources0a10PickerViewB6SourceC", "pickerView"]
+- ["13RxDataSources0a10PickerViewB6SourceC", "titleForRow"]
+- ["13RxDataSources0a10PickerViewB6SourceC", "viewForRow"]
+- !private ["7RxCocoa0A24PickerViewDataSourceTypeP", "Binder"]
+- ["7RxCocoa0A24PickerViewDataSourceTypeP", "Element"]
+- ["7RxCocoa0A24PickerViewDataSourceTypeP", ""]
+- ["7RxCocoa0A24PickerViewDataSourceTypeP", "_Default_Element"]
+- !private ["7RxCocoa0A24PickerViewDataSourceTypeP", "attributedTitleForRow"]
+- !private ["7RxCocoa0A24PickerViewDataSourceTypeP", "components"]
+- !private ["7RxCocoa0A24PickerViewDataSourceTypeP", "init"]
+- ["7RxCocoa0A24PickerViewDataSourceTypeP", "numberOfComponents"]
+- ["7RxCocoa0A24PickerViewDataSourceTypeP", "numberOfComponentsInPickerView"]
+- !private ["7RxCocoa0A24PickerViewDataSourceTypeP", "numberOfRowsInComponent"]
+- ["7RxCocoa0A24PickerViewDataSourceTypeP", "pickerView"]
+- !private ["7RxCocoa0A24PickerViewDataSourceTypeP", "titleForRow"]
+- !private ["7RxCocoa0A24PickerViewDataSourceTypeP", "viewForRow"]
+- ["13RxDataSources0A23PickerViewStringAdapterC", "Int"]
+- ["13RxDataSources0A23PickerViewStringAdapterC", "NumberOfComponents"]
+- ["13RxDataSources0A23PickerViewStringAdapterC", "NumberOfRowsInComponent"]
+- ["13RxDataSources0A23PickerViewStringAdapterC", "RxPickerViewStringAdapter"]
+- ["13RxDataSources0A23PickerViewStringAdapterC", "String"]
+- ["13RxDataSources0A23PickerViewStringAdapterC", "T"]
+- ["13RxDataSources0A23PickerViewStringAdapterC", "TitleForRow"]
+- ["13RxDataSources0A23PickerViewStringAdapterC", "UIPickerView"]
+- !private ["13RxDataSources0A23PickerViewStringAdapterC", "components"]
+- ["13RxDataSources0A23PickerViewStringAdapterC", "deinit"]
+- ["13RxDataSources0A23PickerViewStringAdapterC", "init"]
+- ["13RxDataSources0A23PickerViewStringAdapterC", "pickerView"]
+- !private ["13RxDataSources0A23PickerViewStringAdapterC", "titleForRow"]
+- ["13RxDataSources0a10PickerViewE7AdapterC", "Int"]
+- ["13RxDataSources0a10PickerViewE7AdapterC", "NumberOfComponents"]
+- ["13RxDataSources0a10PickerViewE7AdapterC", "NumberOfRowsInComponent"]
+- ["13RxDataSources0a10PickerViewE7AdapterC", "RxPickerViewViewAdapter"]
+- ["13RxDataSources0a10PickerViewE7AdapterC", "T"]
+- ["13RxDataSources0a10PickerViewE7AdapterC", "UIPickerView"]
+- ["13RxDataSources0a10PickerViewE7AdapterC", "UIView"]
+- ["13RxDataSources0a10PickerViewE7AdapterC", "ViewForRow"]
+- !private ["13RxDataSources0a10PickerViewE7AdapterC", "components"]
+- ["13RxDataSources0a10PickerViewE7AdapterC", "deinit"]
+- ["13RxDataSources0a10PickerViewE7AdapterC", "init"]
+- ["13RxDataSources0a10PickerViewE7AdapterC", "pickerView"]
+- !private ["13RxDataSources0a10PickerViewE7AdapterC", "viewForRow"]
+- !private ["s12StaticStringV", "init"]
+- !private ["s12StaticStringV", "init"]
+- !private ["So29UIAccessibilityIdentificationP", "reloadAllComponents"]
+- !private ["So12UIAppearanceP", "reloadAllComponents"]
+- !private ["So21UIAppearanceContainerP", "reloadAllComponents"]
+- !private ["So17UICoordinateSpaceP", "reloadAllComponents"]
+- !private ["So13UIDynamicItemP", "reloadAllComponents"]
+- !private ["So18UIFocusEnvironmentP", "reloadAllComponents"]
+- !private ["So11UIFocusItemP", "reloadAllComponents"]
+- !private ["So20UIFocusItemContainerP", "reloadAllComponents"]
+- !private ["So30UIPasteConfigurationSupportingP", "reloadAllComponents"]
+- !private ["So12UIPickerViewC", "reloadAllComponents"]
+- !private ["So22UIPickerViewDataSourceP", "Binder"]
+- ["So22UIPickerViewDataSourceP", "Element"]
+- ["So22UIPickerViewDataSourceP", ""]
+- ["So22UIPickerViewDataSourceP", "_Default_Element"]
+- !private ["So22UIPickerViewDataSourceP", "attributedTitleForRow"]
+- !private ["So22UIPickerViewDataSourceP", "components"]
+- !private ["So22UIPickerViewDataSourceP", "init"]
+- ["So22UIPickerViewDataSourceP", "numberOfComponents"]
+- ["So22UIPickerViewDataSourceP", "numberOfComponentsInPickerView"]
+- !private ["So22UIPickerViewDataSourceP", "numberOfRowsInComponent"]
+- ["So22UIPickerViewDataSourceP", "pickerView"]
+- !private ["So22UIPickerViewDataSourceP", "titleForRow"]
+- !private ["So22UIPickerViewDataSourceP", "viewForRow"]
+- ["So20UIPickerViewDelegateP", ""]
+- !private ["So20UIPickerViewDelegateP", "attributedTitleForRow"]
+- !private ["So20UIPickerViewDelegateP", "components"]
+- ["So20UIPickerViewDelegateP", "pickerView"]
+- !private ["So20UIPickerViewDelegateP", "titleForRow"]
+- !private ["So20UIPickerViewDelegateP", "viewForRow"]
+- !private ["So11UIResponderC", "reloadAllComponents"]
+- !private ["So30UIResponderStandardEditActionsP", "reloadAllComponents"]
+- !private ["So18UITraitEnvironmentP", "reloadAllComponents"]
+- !private ["So23UIUserActivityRestoringP", "reloadAllComponents"]
+- !private ["So6UIViewC", "reloadAllComponents"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "reloadAllComponents"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Binder"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "Element"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- ["10Foundation27_KeyValueCodingAndObservingP", "_Default_Element"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "attributedTitleForRow"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "components"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "numberOfComponents"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "numberOfComponentsInPickerView"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "numberOfRowsInComponent"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "pickerView"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "reloadAllComponents"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "titleForRow"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "viewForRow"]
+depends-nominal:
+- !private "7RxCocoa6BinderV"
+- !private "So15CALayerDelegateP"
+- "s7CVarArgP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "SQ"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "7RxCocoa13HasDataSourceP"
+- !private "7RxCocoa11HasDelegateP"
+- "SH"
+- !private "So8NSCodingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "7RxSwift12ObserverTypeP"
+- "7RxSwift18ReactiveCompatibleP"
+- "13RxDataSources0A33PickerViewAttributedStringAdapterC"
+- "13RxDataSources0a10PickerViewB6SourceC"
+- "7RxCocoa0A24PickerViewDataSourceTypeP"
+- "13RxDataSources0A23PickerViewStringAdapterC"
+- "13RxDataSources0a10PickerViewE7AdapterC"
+- !private "s12StaticStringV"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "So12UIAppearanceP"
+- !private "So21UIAppearanceContainerP"
+- !private "So17UICoordinateSpaceP"
+- !private "So13UIDynamicItemP"
+- !private "So18UIFocusEnvironmentP"
+- !private "So11UIFocusItemP"
+- !private "So20UIFocusItemContainerP"
+- !private "So30UIPasteConfigurationSupportingP"
+- !private "So12UIPickerViewC"
+- "So22UIPickerViewDataSourceP"
+- "So20UIPickerViewDelegateP"
+- !private "So11UIResponderC"
+- !private "So30UIResponderStandardEditActionsP"
+- !private "So18UITraitEnvironmentP"
+- !private "So23UIUserActivityRestoringP"
+- !private "So6UIViewC"
+- !private "s37_DefaultCustomPlaygroundQuickLookableP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Users/sunchuyue/Documents/test/RX_Product/DerivedData/RX_Product/Build/Products/Debug-iphonesimulator/RxCocoa/RxCocoa.framework/Modules/RxCocoa.swiftmodule/x86_64.swiftmodule"
+- "/Users/sunchuyue/Documents/test/RX_Product/DerivedData/RX_Product/Build/Products/Debug-iphonesimulator/Differentiator/Differentiator.framework/Modules/Differentiator.swiftmodule/x86_64.swiftmodule"
+- "/Users/sunchuyue/Documents/test/RX_Product/DerivedData/RX_Product/Build/Products/Debug-iphonesimulator/RxSwift/RxSwift.framework/Modules/RxSwift.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/sunchuyue/Documents/test/RX_Product/Pods/RxCocoa/RxCocoa/Runtime/include/_RX.h"
+- "/Users/sunchuyue/Documents/test/RX_Product/Pods/Target Support Files/RxCocoa/RxCocoa-umbrella.h"
+- "/Users/sunchuyue/Documents/test/RX_Product/Pods/Target Support Files/Differentiator/Differentiator-umbrella.h"
+- "/Users/sunchuyue/Documents/test/RX_Product/Pods/Target Support Files/RxDataSources/RxDataSources-umbrella.h"
+- "/Users/sunchuyue/Documents/test/RX_Product/Pods/Target Support Files/RxSwift/RxSwift-umbrella.h"
+- "/Users/sunchuyue/Documents/test/RX_Product/Pods/RxCocoa/RxCocoa/RxCocoa.h"
+- "/Users/sunchuyue/Documents/test/RX_Product/Pods/RxCocoa/RxCocoa/Runtime/include/_RXObjCRuntime.h"
+- "/Users/sunchuyue/Documents/test/RX_Product/Pods/RxCocoa/RxCocoa/Runtime/include/RxCocoaRuntime.h"
+- "/Users/sunchuyue/Documents/test/RX_Product/Pods/RxCocoa/RxCocoa/Runtime/include/_RXKVOObserver.h"
+- "/Users/sunchuyue/Documents/test/RX_Product/DerivedData/RX_Product/Build/Products/Debug-iphonesimulator/RxCocoa/RxCocoa.framework/Headers/RxCocoa-Swift.h"
+- "/Users/sunchuyue/Documents/test/RX_Product/DerivedData/RX_Product/Build/Products/Debug-iphonesimulator/Differentiator/Differentiator.framework/Headers/Differentiator-Swift.h"
+- "/Users/sunchuyue/Documents/test/RX_Product/DerivedData/RX_Product/Build/Products/Debug-iphonesimulator/RxSwift/RxSwift.framework/Headers/RxSwift-Swift.h"
+- "/Users/sunchuyue/Documents/test/RX_Product/Pods/RxCocoa/RxCocoa/Runtime/include/_RXDelegateProxy.h"
+- "/Users/sunchuyue/Documents/test/RX_Product/DerivedData/RX_Product/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/RxDataSources.build/unextended-module.modulemap"
+- "/Users/sunchuyue/Documents/test/RX_Product/DerivedData/RX_Product/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/RxCocoa.build/module.modulemap"
+- "/Users/sunchuyue/Documents/test/RX_Product/DerivedData/RX_Product/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Differentiator.build/module.modulemap"
+- "/Users/sunchuyue/Documents/test/RX_Product/DerivedData/RX_Product/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/RxSwift.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "4a78f5b92c9028cb20a5d9bd0a5be26c"

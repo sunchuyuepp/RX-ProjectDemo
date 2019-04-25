@@ -1,0 +1,8 @@
+version: "Apple Swift version 4.2.1 (swiftlang-1000.11.42 clang-1000.11.45.1)"
+options: "3a1c2f8edd62e98369e125560adcc182"
+build_time: [1556085998, 82658000]
+inputs:
+  "/Users/sunchuyue/Documents/test/RX_Product/Pods/Toaster/Sources/Toast.swift": [1553861536, 0]
+  "/Users/sunchuyue/Documents/test/RX_Product/Pods/Toaster/Sources/ToastCenter.swift": [1553861536, 0]
+  "/Users/sunchuyue/Documents/test/RX_Product/Pods/Toaster/Sources/ToastView.swift": [1553861536, 0]
+  "/Users/sunchuyue/Documents/test/RX_Product/Pods/Toaster/Sources/ToastWindow.swift": [1553861536, 0]

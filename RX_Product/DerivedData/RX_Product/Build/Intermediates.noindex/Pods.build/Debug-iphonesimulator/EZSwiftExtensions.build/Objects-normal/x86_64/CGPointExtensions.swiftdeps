@@ -1,0 +1,183 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "+"
+- "-"
+- "*"
+provides-nominal:
+provides-member:
+- ["So7CGPointV", ""]
+- ["So7CGPointV", "init"]
+- ["So7CGPointV", "init"]
+- ["So7CGPointV", "+"]
+- ["So7CGPointV", "-"]
+- ["So7CGPointV", "*"]
+- ["So7CGPointV", "distance"]
+- ["So7CGPointV", "normalized"]
+- ["So7CGPointV", "angle"]
+- ["So7CGPointV", "dotProduct"]
+- ["So7CGPointV", "linearInterpolation"]
+provides-dynamic-lookup:
+depends-top-level:
+- "*"
+- "+"
+- "-"
+- !private "/"
+- "CGFloat"
+- "CGPoint"
+- "CGVector"
+- !private "FloatLiteralType"
+- !private "IntegerLiteralType"
+- !private "atan2"
+- !private "cos"
+- !private "pow"
+- !private "sin"
+- !private "sqrt"
+depends-member:
+- ["So7CGPointV", "*"]
+- ["So7CGPointV", "+"]
+- ["So7CGPointV", "-"]
+- ["So7CGPointV", "CGFloat"]
+- ["So7CGPointV", "CGPoint"]
+- ["So7CGPointV", "CGVector"]
+- ["So7CGPointV", "angle"]
+- !private ["So7CGPointV", "atan2"]
+- !private ["So7CGPointV", "cos"]
+- ["So7CGPointV", "distance"]
+- ["So7CGPointV", "dotProduct"]
+- ["So7CGPointV", "init"]
+- ["So7CGPointV", "linearInterpolation"]
+- ["So7CGPointV", "normalized"]
+- !private ["So7CGPointV", "pow"]
+- !private ["So7CGPointV", "sin"]
+- !private ["So7CGPointV", "sqrt"]
+- !private ["So7CGPointV", "x"]
+- !private ["So7CGPointV", "y"]
+- !private ["So7CGPointV", "zero"]
+- !private ["So8CGVectorV", "dx"]
+- !private ["So8CGVectorV", "dy"]
+- !private ["s28CustomDebugStringConvertibleP", "CGPoint"]
+- !private ["s28CustomDebugStringConvertibleP", "atan2"]
+- !private ["s28CustomDebugStringConvertibleP", "cos"]
+- !private ["s28CustomDebugStringConvertibleP", "distance"]
+- !private ["s28CustomDebugStringConvertibleP", "dx"]
+- !private ["s28CustomDebugStringConvertibleP", "dy"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "pow"]
+- !private ["s28CustomDebugStringConvertibleP", "sin"]
+- !private ["s28CustomDebugStringConvertibleP", "sqrt"]
+- !private ["s28CustomDebugStringConvertibleP", "x"]
+- !private ["s28CustomDebugStringConvertibleP", "y"]
+- !private ["s28CustomDebugStringConvertibleP", "zero"]
+- !private ["s29CustomPlaygroundQuickLookableP", "CGPoint"]
+- !private ["s29CustomPlaygroundQuickLookableP", "atan2"]
+- !private ["s29CustomPlaygroundQuickLookableP", "cos"]
+- !private ["s29CustomPlaygroundQuickLookableP", "distance"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "pow"]
+- !private ["s29CustomPlaygroundQuickLookableP", "sin"]
+- !private ["s29CustomPlaygroundQuickLookableP", "sqrt"]
+- !private ["s29CustomPlaygroundQuickLookableP", "x"]
+- !private ["s29CustomPlaygroundQuickLookableP", "y"]
+- !private ["s29CustomPlaygroundQuickLookableP", "zero"]
+- !private ["s17CustomReflectableP", "CGPoint"]
+- !private ["s17CustomReflectableP", "atan2"]
+- !private ["s17CustomReflectableP", "cos"]
+- !private ["s17CustomReflectableP", "distance"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "pow"]
+- !private ["s17CustomReflectableP", "sin"]
+- !private ["s17CustomReflectableP", "sqrt"]
+- !private ["s17CustomReflectableP", "x"]
+- !private ["s17CustomReflectableP", "y"]
+- !private ["s17CustomReflectableP", "zero"]
+- !private ["Se", "CGPoint"]
+- !private ["Se", "atan2"]
+- !private ["Se", "cos"]
+- !private ["Se", "distance"]
+- !private ["Se", "dx"]
+- !private ["Se", "dy"]
+- !private ["Se", "init"]
+- !private ["Se", "pow"]
+- !private ["Se", "sin"]
+- !private ["Se", "sqrt"]
+- !private ["Se", "x"]
+- !private ["Se", "y"]
+- !private ["Se", "zero"]
+- !private ["SE", "CGPoint"]
+- !private ["SE", "atan2"]
+- !private ["SE", "cos"]
+- !private ["SE", "distance"]
+- !private ["SE", "dx"]
+- !private ["SE", "dy"]
+- !private ["SE", "init"]
+- !private ["SE", "pow"]
+- !private ["SE", "sin"]
+- !private ["SE", "sqrt"]
+- !private ["SE", "x"]
+- !private ["SE", "y"]
+- !private ["SE", "zero"]
+- !private ["SQ", "CGPoint"]
+- !private ["SQ", "atan2"]
+- !private ["SQ", "cos"]
+- !private ["SQ", "distance"]
+- !private ["SQ", "dx"]
+- !private ["SQ", "dy"]
+- !private ["SQ", "init"]
+- !private ["SQ", "pow"]
+- !private ["SQ", "sin"]
+- !private ["SQ", "sqrt"]
+- !private ["SQ", "x"]
+- !private ["SQ", "y"]
+- !private ["SQ", "zero"]
+- !private ["s21_ObjectiveCBridgeableP", "CGPoint"]
+- !private ["s21_ObjectiveCBridgeableP", "atan2"]
+- !private ["s21_ObjectiveCBridgeableP", "cos"]
+- !private ["s21_ObjectiveCBridgeableP", "distance"]
+- !private ["s21_ObjectiveCBridgeableP", "dx"]
+- !private ["s21_ObjectiveCBridgeableP", "dy"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "pow"]
+- !private ["s21_ObjectiveCBridgeableP", "sin"]
+- !private ["s21_ObjectiveCBridgeableP", "sqrt"]
+- !private ["s21_ObjectiveCBridgeableP", "x"]
+- !private ["s21_ObjectiveCBridgeableP", "y"]
+- !private ["s21_ObjectiveCBridgeableP", "zero"]
+depends-nominal:
+- "So7CGPointV"
+- !private "So8CGVectorV"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- !private "Se"
+- !private "SE"
+- !private "SQ"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/sunchuyue/Documents/test/RX_Product/Pods/Target Support Files/EZSwiftExtensions/EZSwiftExtensions-umbrella.h"
+- "/Users/sunchuyue/Documents/test/RX_Product/DerivedData/RX_Product/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/EZSwiftExtensions.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "2c7c0947ceece0aea0483e5daef524f6"

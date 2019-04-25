@@ -1,0 +1,132 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "BlockPinch"
+provides-nominal:
+- "17EZSwiftExtensions10BlockPinchC"
+provides-member:
+- ["17EZSwiftExtensions10BlockPinchC", ""]
+provides-dynamic-lookup:
+- "didPinch"
+depends-top-level:
+- "AssignmentPrecedence"
+- "BlockPinch"
+- "Selector"
+- "UIPinchGestureRecognizer"
+- "Void"
+depends-member:
+- !private ["17EZSwiftExtensions10BlockPinchC", "BlockPinch"]
+- ["17EZSwiftExtensions10BlockPinchC", "Selector"]
+- ["17EZSwiftExtensions10BlockPinchC", "UIPinchGestureRecognizer"]
+- ["17EZSwiftExtensions10BlockPinchC", "Void"]
+- !private ["17EZSwiftExtensions10BlockPinchC", "addTarget"]
+- ["17EZSwiftExtensions10BlockPinchC", "didPinch"]
+- ["17EZSwiftExtensions10BlockPinchC", "init"]
+- !private ["17EZSwiftExtensions10BlockPinchC", "pinchAction"]
+- !private ["s7CVarArgP", "BlockPinch"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "addTarget"]
+- !private ["s7CVarArgP", "didPinch"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "pinchAction"]
+- !private ["s28CustomDebugStringConvertibleP", "BlockPinch"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "addTarget"]
+- !private ["s28CustomDebugStringConvertibleP", "didPinch"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "pinchAction"]
+- !private ["s23CustomStringConvertibleP", "BlockPinch"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "addTarget"]
+- !private ["s23CustomStringConvertibleP", "didPinch"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "pinchAction"]
+- !private ["SQ", "BlockPinch"]
+- ["SQ", ""]
+- !private ["SQ", "addTarget"]
+- !private ["SQ", "didPinch"]
+- !private ["SQ", "init"]
+- !private ["SQ", "pinchAction"]
+- !private ["SH", "BlockPinch"]
+- ["SH", ""]
+- !private ["SH", "addTarget"]
+- !private ["SH", "didPinch"]
+- !private ["SH", "init"]
+- !private ["SH", "pinchAction"]
+- !private ["So8NSObjectC", "BlockPinch"]
+- ["So8NSObjectC", "Selector"]
+- ["So8NSObjectC", "UIPinchGestureRecognizer"]
+- ["So8NSObjectC", "Void"]
+- !private ["So8NSObjectC", "addTarget"]
+- ["So8NSObjectC", "didPinch"]
+- ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "pinchAction"]
+- !private ["So8NSObjectP", "BlockPinch"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "addTarget"]
+- !private ["So8NSObjectP", "didPinch"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "pinchAction"]
+- !private ["So19UIGestureRecognizerC", "BlockPinch"]
+- ["So19UIGestureRecognizerC", "Selector"]
+- ["So19UIGestureRecognizerC", "UIPinchGestureRecognizer"]
+- ["So19UIGestureRecognizerC", "Void"]
+- !private ["So19UIGestureRecognizerC", "addTarget"]
+- ["So19UIGestureRecognizerC", "didPinch"]
+- ["So19UIGestureRecognizerC", "init"]
+- ["So19UIGestureRecognizerC", "pinchAction"]
+- !private ["So24UIPinchGestureRecognizerC", "BlockPinch"]
+- ["So24UIPinchGestureRecognizerC", "Selector"]
+- ["So24UIPinchGestureRecognizerC", "UIPinchGestureRecognizer"]
+- ["So24UIPinchGestureRecognizerC", "Void"]
+- ["So24UIPinchGestureRecognizerC", ""]
+- !private ["So24UIPinchGestureRecognizerC", "addTarget"]
+- ["So24UIPinchGestureRecognizerC", "didPinch"]
+- ["So24UIPinchGestureRecognizerC", "init"]
+- ["So24UIPinchGestureRecognizerC", "pinchAction"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "BlockPinch"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "addTarget"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "didPinch"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "pinchAction"]
+depends-nominal:
+- "17EZSwiftExtensions10BlockPinchC"
+- "s7CVarArgP"
+- "s28CustomDebugStringConvertibleP"
+- "s23CustomStringConvertibleP"
+- "SQ"
+- "SH"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- "So19UIGestureRecognizerC"
+- "So24UIPinchGestureRecognizerC"
+- "10Foundation27_KeyValueCodingAndObservingP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/sunchuyue/Documents/test/RX_Product/Pods/Target Support Files/EZSwiftExtensions/EZSwiftExtensions-umbrella.h"
+- "/Users/sunchuyue/Documents/test/RX_Product/DerivedData/RX_Product/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/EZSwiftExtensions.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "c5dfcf2a7279997a39a46fa3900d2461"

@@ -1,0 +1,371 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "MainTabBarViewController"
+provides-nominal:
+- "10RX_Product24MainTabBarViewControllerC"
+provides-member:
+- ["10RX_Product24MainTabBarViewControllerC", ""]
+provides-dynamic-lookup:
+- "supportedInterfaceOrientations"
+- "tabBarController"
+- "viewDidLoad"
+depends-top-level:
+- !private "Array"
+- "AssignmentPrecedence"
+- "Bool"
+- !private "BooleanLiteralType"
+- "MainTabBarViewController"
+- "UIInterfaceOrientationMask"
+- "UITabBarController"
+- "UITabBarControllerDelegate"
+- "UIViewController"
+depends-member:
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "delegate"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "init"]
+- ["s7CVarArgP", "tabBarController"]
+- ["s7CVarArgP", "tabBarControllerPreferredInterfaceOrientationForPresentation"]
+- ["s7CVarArgP", "tabBarControllerSupportedInterfaceOrientations"]
+- !private ["s7CVarArgP", "viewDidLoad"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "delegate"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- ["s28CustomDebugStringConvertibleP", "tabBarController"]
+- ["s28CustomDebugStringConvertibleP", "tabBarControllerPreferredInterfaceOrientationForPresentation"]
+- ["s28CustomDebugStringConvertibleP", "tabBarControllerSupportedInterfaceOrientations"]
+- !private ["s28CustomDebugStringConvertibleP", "viewDidLoad"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "delegate"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", "tabBarController"]
+- ["s23CustomStringConvertibleP", "tabBarControllerPreferredInterfaceOrientationForPresentation"]
+- ["s23CustomStringConvertibleP", "tabBarControllerSupportedInterfaceOrientations"]
+- !private ["s23CustomStringConvertibleP", "viewDidLoad"]
+- ["SQ", ""]
+- !private ["SQ", "delegate"]
+- !private ["SQ", "init"]
+- !private ["SQ", "init"]
+- !private ["SQ", "portrait"]
+- ["SQ", "tabBarController"]
+- ["SQ", "tabBarControllerPreferredInterfaceOrientationForPresentation"]
+- ["SQ", "tabBarControllerSupportedInterfaceOrientations"]
+- !private ["SQ", "viewDidLoad"]
+- !private ["s25ExpressibleByArrayLiteralP", "portrait"]
+- ["7RxCocoa11HasDelegateP", ""]
+- !private ["7RxCocoa11HasDelegateP", "delegate"]
+- !private ["7RxCocoa11HasDelegateP", "init"]
+- !private ["7RxCocoa11HasDelegateP", "init"]
+- ["7RxCocoa11HasDelegateP", "tabBarController"]
+- ["7RxCocoa11HasDelegateP", "tabBarControllerPreferredInterfaceOrientationForPresentation"]
+- ["7RxCocoa11HasDelegateP", "tabBarControllerSupportedInterfaceOrientations"]
+- !private ["7RxCocoa11HasDelegateP", "viewDidLoad"]
+- ["SH", ""]
+- !private ["SH", "delegate"]
+- !private ["SH", "init"]
+- !private ["SH", "init"]
+- ["SH", "tabBarController"]
+- ["SH", "tabBarControllerPreferredInterfaceOrientationForPresentation"]
+- ["SH", "tabBarControllerSupportedInterfaceOrientations"]
+- !private ["SH", "viewDidLoad"]
+- ["10RX_Product24MainTabBarViewControllerC", "Bool"]
+- ["10RX_Product24MainTabBarViewControllerC", "UIInterfaceOrientationMask"]
+- ["10RX_Product24MainTabBarViewControllerC", "UITabBarController"]
+- ["10RX_Product24MainTabBarViewControllerC", "UIViewController"]
+- ["10RX_Product24MainTabBarViewControllerC", "deinit"]
+- !private ["10RX_Product24MainTabBarViewControllerC", "delegate"]
+- ["10RX_Product24MainTabBarViewControllerC", "init"]
+- ["10RX_Product24MainTabBarViewControllerC", "supportedInterfaceOrientations"]
+- ["10RX_Product24MainTabBarViewControllerC", "tabBarController"]
+- ["10RX_Product24MainTabBarViewControllerC", "tabBarControllerPreferredInterfaceOrientationForPresentation"]
+- ["10RX_Product24MainTabBarViewControllerC", "tabBarControllerSupportedInterfaceOrientations"]
+- ["10RX_Product24MainTabBarViewControllerC", "viewDidLoad"]
+- ["So8NSCodingP", ""]
+- !private ["So8NSCodingP", "delegate"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "init"]
+- ["So8NSCodingP", "tabBarController"]
+- ["So8NSCodingP", "tabBarControllerPreferredInterfaceOrientationForPresentation"]
+- ["So8NSCodingP", "tabBarControllerSupportedInterfaceOrientations"]
+- !private ["So8NSCodingP", "viewDidLoad"]
+- ["So26NSExtensionRequestHandlingP", ""]
+- !private ["So26NSExtensionRequestHandlingP", "delegate"]
+- !private ["So26NSExtensionRequestHandlingP", "init"]
+- !private ["So26NSExtensionRequestHandlingP", "init"]
+- ["So26NSExtensionRequestHandlingP", "tabBarController"]
+- ["So26NSExtensionRequestHandlingP", "tabBarControllerPreferredInterfaceOrientationForPresentation"]
+- ["So26NSExtensionRequestHandlingP", "tabBarControllerSupportedInterfaceOrientations"]
+- !private ["So26NSExtensionRequestHandlingP", "viewDidLoad"]
+- ["So8NSObjectC", "Bool"]
+- ["So8NSObjectC", "UIInterfaceOrientationMask"]
+- ["So8NSObjectC", "UITabBarController"]
+- ["So8NSObjectC", "UIViewController"]
+- !private ["So8NSObjectC", "delegate"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "supportedInterfaceOrientations"]
+- ["So8NSObjectC", "tabBarController"]
+- ["So8NSObjectC", "tabBarControllerPreferredInterfaceOrientationForPresentation"]
+- ["So8NSObjectC", "tabBarControllerSupportedInterfaceOrientations"]
+- ["So8NSObjectC", "viewDidLoad"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "delegate"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "init"]
+- ["So8NSObjectP", "tabBarController"]
+- ["So8NSObjectP", "tabBarControllerPreferredInterfaceOrientationForPresentation"]
+- ["So8NSObjectP", "tabBarControllerSupportedInterfaceOrientations"]
+- !private ["So8NSObjectP", "viewDidLoad"]
+- !private ["s9OptionSetP", "portrait"]
+- !private ["SY", "portrait"]
+- ["7RxSwift18ReactiveCompatibleP", ""]
+- !private ["7RxSwift18ReactiveCompatibleP", "delegate"]
+- !private ["7RxSwift18ReactiveCompatibleP", "init"]
+- !private ["7RxSwift18ReactiveCompatibleP", "init"]
+- ["7RxSwift18ReactiveCompatibleP", "tabBarController"]
+- ["7RxSwift18ReactiveCompatibleP", "tabBarControllerPreferredInterfaceOrientationForPresentation"]
+- ["7RxSwift18ReactiveCompatibleP", "tabBarControllerSupportedInterfaceOrientations"]
+- !private ["7RxSwift18ReactiveCompatibleP", "viewDidLoad"]
+- !private ["s10SetAlgebraP", "portrait"]
+- ["So21UIAppearanceContainerP", ""]
+- !private ["So21UIAppearanceContainerP", "delegate"]
+- !private ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "init"]
+- ["So21UIAppearanceContainerP", "tabBarController"]
+- ["So21UIAppearanceContainerP", "tabBarControllerPreferredInterfaceOrientationForPresentation"]
+- ["So21UIAppearanceContainerP", "tabBarControllerSupportedInterfaceOrientations"]
+- !private ["So21UIAppearanceContainerP", "viewDidLoad"]
+- ["So18UIContentContainerP", ""]
+- !private ["So18UIContentContainerP", "delegate"]
+- !private ["So18UIContentContainerP", "init"]
+- !private ["So18UIContentContainerP", "init"]
+- ["So18UIContentContainerP", "tabBarController"]
+- ["So18UIContentContainerP", "tabBarControllerPreferredInterfaceOrientationForPresentation"]
+- ["So18UIContentContainerP", "tabBarControllerSupportedInterfaceOrientations"]
+- !private ["So18UIContentContainerP", "viewDidLoad"]
+- ["So18UIFocusEnvironmentP", ""]
+- !private ["So18UIFocusEnvironmentP", "delegate"]
+- !private ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "init"]
+- ["So18UIFocusEnvironmentP", "tabBarController"]
+- ["So18UIFocusEnvironmentP", "tabBarControllerPreferredInterfaceOrientationForPresentation"]
+- ["So18UIFocusEnvironmentP", "tabBarControllerSupportedInterfaceOrientations"]
+- !private ["So18UIFocusEnvironmentP", "viewDidLoad"]
+- !private ["So26UIInterfaceOrientationMaskV", "portrait"]
+- ["So30UIPasteConfigurationSupportingP", ""]
+- !private ["So30UIPasteConfigurationSupportingP", "delegate"]
+- !private ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "init"]
+- ["So30UIPasteConfigurationSupportingP", "tabBarController"]
+- ["So30UIPasteConfigurationSupportingP", "tabBarControllerPreferredInterfaceOrientationForPresentation"]
+- ["So30UIPasteConfigurationSupportingP", "tabBarControllerSupportedInterfaceOrientations"]
+- !private ["So30UIPasteConfigurationSupportingP", "viewDidLoad"]
+- ["So11UIResponderC", "Bool"]
+- ["So11UIResponderC", "UIInterfaceOrientationMask"]
+- ["So11UIResponderC", "UITabBarController"]
+- ["So11UIResponderC", "UIViewController"]
+- !private ["So11UIResponderC", "delegate"]
+- ["So11UIResponderC", "init"]
+- !private ["So11UIResponderC", "init"]
+- ["So11UIResponderC", "supportedInterfaceOrientations"]
+- ["So11UIResponderC", "tabBarController"]
+- ["So11UIResponderC", "tabBarControllerPreferredInterfaceOrientationForPresentation"]
+- ["So11UIResponderC", "tabBarControllerSupportedInterfaceOrientations"]
+- ["So11UIResponderC", "viewDidLoad"]
+- ["So30UIResponderStandardEditActionsP", ""]
+- !private ["So30UIResponderStandardEditActionsP", "delegate"]
+- !private ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "init"]
+- ["So30UIResponderStandardEditActionsP", "tabBarController"]
+- ["So30UIResponderStandardEditActionsP", "tabBarControllerPreferredInterfaceOrientationForPresentation"]
+- ["So30UIResponderStandardEditActionsP", "tabBarControllerSupportedInterfaceOrientations"]
+- !private ["So30UIResponderStandardEditActionsP", "viewDidLoad"]
+- ["So16UIStateRestoringP", ""]
+- !private ["So16UIStateRestoringP", "delegate"]
+- !private ["So16UIStateRestoringP", "init"]
+- !private ["So16UIStateRestoringP", "init"]
+- ["So16UIStateRestoringP", "tabBarController"]
+- ["So16UIStateRestoringP", "tabBarControllerPreferredInterfaceOrientationForPresentation"]
+- ["So16UIStateRestoringP", "tabBarControllerSupportedInterfaceOrientations"]
+- !private ["So16UIStateRestoringP", "viewDidLoad"]
+- ["So18UITabBarControllerC", "Bool"]
+- ["So18UITabBarControllerC", "UIInterfaceOrientationMask"]
+- ["So18UITabBarControllerC", "UITabBarController"]
+- ["So18UITabBarControllerC", "UIViewController"]
+- ["So18UITabBarControllerC", ""]
+- !private ["So18UITabBarControllerC", "delegate"]
+- ["So18UITabBarControllerC", "init"]
+- !private ["So18UITabBarControllerC", "init"]
+- ["So18UITabBarControllerC", "supportedInterfaceOrientations"]
+- ["So18UITabBarControllerC", "tabBarController"]
+- ["So18UITabBarControllerC", "tabBarControllerPreferredInterfaceOrientationForPresentation"]
+- ["So18UITabBarControllerC", "tabBarControllerSupportedInterfaceOrientations"]
+- ["So18UITabBarControllerC", "viewDidLoad"]
+- ["So26UITabBarControllerDelegateP", ""]
+- !private ["So26UITabBarControllerDelegateP", "delegate"]
+- ["So26UITabBarControllerDelegateP", "tabBarController"]
+- ["So26UITabBarControllerDelegateP", "tabBarControllerPreferredInterfaceOrientationForPresentation"]
+- ["So26UITabBarControllerDelegateP", "tabBarControllerSupportedInterfaceOrientations"]
+- ["So16UITabBarDelegateP", ""]
+- !private ["So16UITabBarDelegateP", "delegate"]
+- !private ["So16UITabBarDelegateP", "init"]
+- !private ["So16UITabBarDelegateP", "init"]
+- ["So16UITabBarDelegateP", "tabBarController"]
+- ["So16UITabBarDelegateP", "tabBarControllerPreferredInterfaceOrientationForPresentation"]
+- ["So16UITabBarDelegateP", "tabBarControllerSupportedInterfaceOrientations"]
+- !private ["So16UITabBarDelegateP", "viewDidLoad"]
+- ["So18UITraitEnvironmentP", ""]
+- !private ["So18UITraitEnvironmentP", "delegate"]
+- !private ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "init"]
+- ["So18UITraitEnvironmentP", "tabBarController"]
+- ["So18UITraitEnvironmentP", "tabBarControllerPreferredInterfaceOrientationForPresentation"]
+- ["So18UITraitEnvironmentP", "tabBarControllerSupportedInterfaceOrientations"]
+- !private ["So18UITraitEnvironmentP", "viewDidLoad"]
+- ["So23UIUserActivityRestoringP", ""]
+- !private ["So23UIUserActivityRestoringP", "delegate"]
+- !private ["So23UIUserActivityRestoringP", "init"]
+- !private ["So23UIUserActivityRestoringP", "init"]
+- ["So23UIUserActivityRestoringP", "tabBarController"]
+- ["So23UIUserActivityRestoringP", "tabBarControllerPreferredInterfaceOrientationForPresentation"]
+- ["So23UIUserActivityRestoringP", "tabBarControllerSupportedInterfaceOrientations"]
+- !private ["So23UIUserActivityRestoringP", "viewDidLoad"]
+- ["So16UIViewControllerC", "Bool"]
+- ["So16UIViewControllerC", "UIInterfaceOrientationMask"]
+- ["So16UIViewControllerC", "UITabBarController"]
+- ["So16UIViewControllerC", "UIViewController"]
+- !private ["So16UIViewControllerC", "delegate"]
+- ["So16UIViewControllerC", "init"]
+- !private ["So16UIViewControllerC", "init"]
+- ["So16UIViewControllerC", "supportedInterfaceOrientations"]
+- ["So16UIViewControllerC", "tabBarController"]
+- ["So16UIViewControllerC", "tabBarControllerPreferredInterfaceOrientationForPresentation"]
+- ["So16UIViewControllerC", "tabBarControllerSupportedInterfaceOrientations"]
+- ["So16UIViewControllerC", "viewDidLoad"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "delegate"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "tabBarController"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "tabBarControllerPreferredInterfaceOrientationForPresentation"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "tabBarControllerSupportedInterfaceOrientations"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "viewDidLoad"]
+depends-nominal:
+- "s7CVarArgP"
+- "s28CustomDebugStringConvertibleP"
+- "s23CustomStringConvertibleP"
+- "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
+- "7RxCocoa11HasDelegateP"
+- "SH"
+- "10RX_Product24MainTabBarViewControllerC"
+- "So8NSCodingP"
+- "So26NSExtensionRequestHandlingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "s9OptionSetP"
+- !private "SY"
+- "7RxSwift18ReactiveCompatibleP"
+- !private "s10SetAlgebraP"
+- "So21UIAppearanceContainerP"
+- "So18UIContentContainerP"
+- "So18UIFocusEnvironmentP"
+- !private "So26UIInterfaceOrientationMaskV"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- "So16UIStateRestoringP"
+- "So18UITabBarControllerC"
+- "So26UITabBarControllerDelegateP"
+- "So16UITabBarDelegateP"
+- "So18UITraitEnvironmentP"
+- "So23UIUserActivityRestoringP"
+- "So16UIViewControllerC"
+- "10Foundation27_KeyValueCodingAndObservingP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
+- "/Users/sunchuyue/Documents/test/RX_Product/DerivedData/RX_Product/Build/Products/Debug-iphoneos/RxCocoa/RxCocoa.framework/Modules/RxCocoa.swiftmodule/arm64.swiftmodule"
+- "/Users/sunchuyue/Documents/test/RX_Product/DerivedData/RX_Product/Build/Products/Debug-iphoneos/Moya/Moya.framework/Modules/Moya.swiftmodule/arm64.swiftmodule"
+- "/Users/sunchuyue/Documents/test/RX_Product/DerivedData/RX_Product/Build/Products/Debug-iphoneos/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/arm64.swiftmodule"
+- "/Users/sunchuyue/Documents/test/RX_Product/DerivedData/RX_Product/Build/Products/Debug-iphoneos/ObjectMapper/ObjectMapper.framework/Modules/ObjectMapper.swiftmodule/arm64.swiftmodule"
+- "/Users/sunchuyue/Documents/test/RX_Product/DerivedData/RX_Product/Build/Products/Debug-iphoneos/Moya-ObjectMapper/Moya_ObjectMapper.framework/Modules/Moya_ObjectMapper.swiftmodule/arm64.swiftmodule"
+- "/Users/sunchuyue/Documents/test/RX_Product/DerivedData/RX_Product/Build/Products/Debug-iphoneos/Differentiator/Differentiator.framework/Modules/Differentiator.swiftmodule/arm64.swiftmodule"
+- "/Users/sunchuyue/Documents/test/RX_Product/DerivedData/RX_Product/Build/Products/Debug-iphoneos/RxDataSources/RxDataSources.framework/Modules/RxDataSources.swiftmodule/arm64.swiftmodule"
+- "/Users/sunchuyue/Documents/test/RX_Product/DerivedData/RX_Product/Build/Products/Debug-iphoneos/ReactiveSwift/ReactiveSwift.framework/Modules/ReactiveSwift.swiftmodule/arm64.swiftmodule"
+- "/Users/sunchuyue/Documents/test/RX_Product/DerivedData/RX_Product/Build/Products/Debug-iphoneos/RxSwift/RxSwift.framework/Modules/RxSwift.swiftmodule/arm64.swiftmodule"
+- "/Users/sunchuyue/Documents/test/RX_Product/DerivedData/RX_Product/Build/Products/Debug-iphoneos/SnapKit/SnapKit.framework/Modules/SnapKit.swiftmodule/arm64.swiftmodule"
+- "/Users/sunchuyue/Documents/test/RX_Product/DerivedData/RX_Product/Build/Products/Debug-iphoneos/Result/Result.framework/Modules/Result.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreData.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Users/sunchuyue/Documents/test/RX_Product/DerivedData/RX_Product/Build/Products/Debug-iphoneos/SVProgressHUD/SVProgressHUD.framework/Headers/SVProgressHUD.h"
+- "/Users/sunchuyue/Documents/test/RX_Product/DerivedData/RX_Product/Build/Products/Debug-iphoneos/RxCocoa/RxCocoa.framework/Headers/_RX.h"
+- "/Users/sunchuyue/Documents/test/RX_Product/DerivedData/RX_Product/Build/Products/Debug-iphoneos/SVProgressHUD/SVProgressHUD.framework/Headers/SVProgressHUD-umbrella.h"
+- "/Users/sunchuyue/Documents/test/RX_Product/DerivedData/RX_Product/Build/Products/Debug-iphoneos/RxCocoa/RxCocoa.framework/Headers/RxCocoa-umbrella.h"
+- "/Users/sunchuyue/Documents/test/RX_Product/DerivedData/RX_Product/Build/Products/Debug-iphoneos/Moya/Moya.framework/Headers/Moya-umbrella.h"
+- "/Users/sunchuyue/Documents/test/RX_Product/DerivedData/RX_Product/Build/Products/Debug-iphoneos/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"
+- "/Users/sunchuyue/Documents/test/RX_Product/DerivedData/RX_Product/Build/Products/Debug-iphoneos/Moya-ObjectMapper/Moya_ObjectMapper.framework/Headers/Moya-ObjectMapper-umbrella.h"
+- "/Users/sunchuyue/Documents/test/RX_Product/DerivedData/RX_Product/Build/Products/Debug-iphoneos/ObjectMapper/ObjectMapper.framework/Headers/ObjectMapper-umbrella.h"
+- "/Users/sunchuyue/Documents/test/RX_Product/DerivedData/RX_Product/Build/Products/Debug-iphoneos/Differentiator/Differentiator.framework/Headers/Differentiator-umbrella.h"
+- "/Users/sunchuyue/Documents/test/RX_Product/DerivedData/RX_Product/Build/Products/Debug-iphoneos/RxDataSources/RxDataSources.framework/Headers/RxDataSources-umbrella.h"
+- "/Users/sunchuyue/Documents/test/RX_Product/DerivedData/RX_Product/Build/Products/Debug-iphoneos/ReactiveSwift/ReactiveSwift.framework/Headers/ReactiveSwift-umbrella.h"
+- "/Users/sunchuyue/Documents/test/RX_Product/DerivedData/RX_Product/Build/Products/Debug-iphoneos/RxSwift/RxSwift.framework/Headers/RxSwift-umbrella.h"
+- "/Users/sunchuyue/Documents/test/RX_Product/DerivedData/RX_Product/Build/Products/Debug-iphoneos/SnapKit/SnapKit.framework/Headers/SnapKit-umbrella.h"
+- "/Users/sunchuyue/Documents/test/RX_Product/DerivedData/RX_Product/Build/Products/Debug-iphoneos/Result/Result.framework/Headers/Result-umbrella.h"
+- "/Users/sunchuyue/Documents/test/RX_Product/DerivedData/RX_Product/Build/Products/Debug-iphoneos/RxCocoa/RxCocoa.framework/Headers/RxCocoa.h"
+- "/Users/sunchuyue/Documents/test/RX_Product/DerivedData/RX_Product/Build/Products/Debug-iphoneos/RxCocoa/RxCocoa.framework/Headers/_RXObjCRuntime.h"
+- "/Users/sunchuyue/Documents/test/RX_Product/DerivedData/RX_Product/Build/Products/Debug-iphoneos/RxCocoa/RxCocoa.framework/Headers/RxCocoaRuntime.h"
+- "/Users/sunchuyue/Documents/test/RX_Product/DerivedData/RX_Product/Build/Products/Debug-iphoneos/RxCocoa/RxCocoa.framework/Headers/_RXKVOObserver.h"
+- "/Users/sunchuyue/Documents/test/RX_Product/DerivedData/RX_Product/Build/Products/Debug-iphoneos/SVProgressHUD/SVProgressHUD.framework/Headers/SVRadialGradientLayer.h"
+- "/Users/sunchuyue/Documents/test/RX_Product/DerivedData/RX_Product/Build/Products/Debug-iphoneos/RxCocoa/RxCocoa.framework/Headers/RxCocoa-Swift.h"
+- "/Users/sunchuyue/Documents/test/RX_Product/DerivedData/RX_Product/Build/Products/Debug-iphoneos/Moya/Moya.framework/Headers/Moya-Swift.h"
+- "/Users/sunchuyue/Documents/test/RX_Product/DerivedData/RX_Product/Build/Products/Debug-iphoneos/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/sunchuyue/Documents/test/RX_Product/DerivedData/RX_Product/Build/Products/Debug-iphoneos/ObjectMapper/ObjectMapper.framework/Headers/ObjectMapper-Swift.h"
+- "/Users/sunchuyue/Documents/test/RX_Product/DerivedData/RX_Product/Build/Products/Debug-iphoneos/Moya-ObjectMapper/Moya_ObjectMapper.framework/Headers/Moya_ObjectMapper-Swift.h"
+- "/Users/sunchuyue/Documents/test/RX_Product/DerivedData/RX_Product/Build/Products/Debug-iphoneos/Differentiator/Differentiator.framework/Headers/Differentiator-Swift.h"
+- "/Users/sunchuyue/Documents/test/RX_Product/DerivedData/RX_Product/Build/Products/Debug-iphoneos/RxDataSources/RxDataSources.framework/Headers/RxDataSources-Swift.h"
+- "/Users/sunchuyue/Documents/test/RX_Product/DerivedData/RX_Product/Build/Products/Debug-iphoneos/ReactiveSwift/ReactiveSwift.framework/Headers/ReactiveSwift-Swift.h"
+- "/Users/sunchuyue/Documents/test/RX_Product/DerivedData/RX_Product/Build/Products/Debug-iphoneos/RxSwift/RxSwift.framework/Headers/RxSwift-Swift.h"
+- "/Users/sunchuyue/Documents/test/RX_Product/DerivedData/RX_Product/Build/Products/Debug-iphoneos/SnapKit/SnapKit.framework/Headers/SnapKit-Swift.h"
+- "/Users/sunchuyue/Documents/test/RX_Product/DerivedData/RX_Product/Build/Products/Debug-iphoneos/Result/Result.framework/Headers/Result-Swift.h"
+- "/Users/sunchuyue/Documents/test/RX_Product/DerivedData/RX_Product/Build/Products/Debug-iphoneos/SVProgressHUD/SVProgressHUD.framework/Headers/SVIndefiniteAnimatedView.h"
+- "/Users/sunchuyue/Documents/test/RX_Product/DerivedData/RX_Product/Build/Products/Debug-iphoneos/SVProgressHUD/SVProgressHUD.framework/Headers/SVProgressAnimatedView.h"
+- "/Users/sunchuyue/Documents/test/RX_Product/DerivedData/RX_Product/Build/Products/Debug-iphoneos/RxCocoa/RxCocoa.framework/Headers/_RXDelegateProxy.h"
+- "/Users/sunchuyue/Documents/test/RX_Product/DerivedData/RX_Product/Build/Products/Debug-iphoneos/SVProgressHUD/SVProgressHUD.framework/Modules/module.modulemap"
+- "/Users/sunchuyue/Documents/test/RX_Product/DerivedData/RX_Product/Build/Products/Debug-iphoneos/RxCocoa/RxCocoa.framework/Modules/module.modulemap"
+- "/Users/sunchuyue/Documents/test/RX_Product/DerivedData/RX_Product/Build/Products/Debug-iphoneos/Moya/Moya.framework/Modules/module.modulemap"
+- "/Users/sunchuyue/Documents/test/RX_Product/DerivedData/RX_Product/Build/Products/Debug-iphoneos/Alamofire/Alamofire.framework/Modules/module.modulemap"
+- "/Users/sunchuyue/Documents/test/RX_Product/DerivedData/RX_Product/Build/Products/Debug-iphoneos/ObjectMapper/ObjectMapper.framework/Modules/module.modulemap"
+- "/Users/sunchuyue/Documents/test/RX_Product/DerivedData/RX_Product/Build/Products/Debug-iphoneos/Moya-ObjectMapper/Moya_ObjectMapper.framework/Modules/module.modulemap"
+- "/Users/sunchuyue/Documents/test/RX_Product/DerivedData/RX_Product/Build/Products/Debug-iphoneos/Differentiator/Differentiator.framework/Modules/module.modulemap"
+- "/Users/sunchuyue/Documents/test/RX_Product/DerivedData/RX_Product/Build/Products/Debug-iphoneos/RxDataSources/RxDataSources.framework/Modules/module.modulemap"
+- "/Users/sunchuyue/Documents/test/RX_Product/DerivedData/RX_Product/Build/Products/Debug-iphoneos/ReactiveSwift/ReactiveSwift.framework/Modules/module.modulemap"
+- "/Users/sunchuyue/Documents/test/RX_Product/DerivedData/RX_Product/Build/Products/Debug-iphoneos/RxSwift/RxSwift.framework/Modules/module.modulemap"
+- "/Users/sunchuyue/Documents/test/RX_Product/DerivedData/RX_Product/Build/Products/Debug-iphoneos/SnapKit/SnapKit.framework/Modules/module.modulemap"
+- "/Users/sunchuyue/Documents/test/RX_Product/DerivedData/RX_Product/Build/Products/Debug-iphoneos/Result/Result.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "3775b4e9690b4863c06e6fc5d44f7931"

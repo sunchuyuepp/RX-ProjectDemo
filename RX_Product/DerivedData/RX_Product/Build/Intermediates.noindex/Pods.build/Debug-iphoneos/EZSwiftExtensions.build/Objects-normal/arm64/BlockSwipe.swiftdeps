@@ -1,0 +1,166 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "BlockSwipe"
+provides-nominal:
+- "17EZSwiftExtensions10BlockSwipeC"
+provides-member:
+- ["17EZSwiftExtensions10BlockSwipeC", ""]
+provides-dynamic-lookup:
+- "didSwipe"
+depends-top-level:
+- "AssignmentPrecedence"
+- "BlockSwipe"
+- "FloatLiteralType"
+- "Int"
+- "IntegerLiteralType"
+- "Selector"
+- "UISwipeGestureRecognizer"
+- "UISwipeGestureRecognizerDirection"
+- "Void"
+depends-member:
+- !private ["17EZSwiftExtensions10BlockSwipeC", "BlockSwipe"]
+- ["17EZSwiftExtensions10BlockSwipeC", "Int"]
+- ["17EZSwiftExtensions10BlockSwipeC", "Selector"]
+- ["17EZSwiftExtensions10BlockSwipeC", "UISwipeGestureRecognizer"]
+- ["17EZSwiftExtensions10BlockSwipeC", "UISwipeGestureRecognizerDirection"]
+- ["17EZSwiftExtensions10BlockSwipeC", "Void"]
+- !private ["17EZSwiftExtensions10BlockSwipeC", "addTarget"]
+- ["17EZSwiftExtensions10BlockSwipeC", "didSwipe"]
+- !private ["17EZSwiftExtensions10BlockSwipeC", "direction"]
+- ["17EZSwiftExtensions10BlockSwipeC", "init"]
+- !private ["17EZSwiftExtensions10BlockSwipeC", "numberOfTouchesRequired"]
+- !private ["17EZSwiftExtensions10BlockSwipeC", "swipeAction"]
+- !private ["s7CVarArgP", "BlockSwipe"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "addTarget"]
+- !private ["s7CVarArgP", "didSwipe"]
+- !private ["s7CVarArgP", "direction"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "numberOfTouchesRequired"]
+- !private ["s7CVarArgP", "swipeAction"]
+- !private ["s28CustomDebugStringConvertibleP", "BlockSwipe"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "addTarget"]
+- !private ["s28CustomDebugStringConvertibleP", "didSwipe"]
+- !private ["s28CustomDebugStringConvertibleP", "direction"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "numberOfTouchesRequired"]
+- !private ["s28CustomDebugStringConvertibleP", "swipeAction"]
+- !private ["s23CustomStringConvertibleP", "BlockSwipe"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "addTarget"]
+- !private ["s23CustomStringConvertibleP", "didSwipe"]
+- !private ["s23CustomStringConvertibleP", "direction"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "numberOfTouchesRequired"]
+- !private ["s23CustomStringConvertibleP", "swipeAction"]
+- !private ["SQ", "BlockSwipe"]
+- ["SQ", ""]
+- !private ["SQ", "addTarget"]
+- !private ["SQ", "didSwipe"]
+- !private ["SQ", "direction"]
+- !private ["SQ", "init"]
+- !private ["SQ", "numberOfTouchesRequired"]
+- !private ["SQ", "swipeAction"]
+- !private ["SH", "BlockSwipe"]
+- ["SH", ""]
+- !private ["SH", "addTarget"]
+- !private ["SH", "didSwipe"]
+- !private ["SH", "direction"]
+- !private ["SH", "init"]
+- !private ["SH", "numberOfTouchesRequired"]
+- !private ["SH", "swipeAction"]
+- !private ["So8NSObjectC", "BlockSwipe"]
+- ["So8NSObjectC", "Int"]
+- ["So8NSObjectC", "Selector"]
+- ["So8NSObjectC", "UISwipeGestureRecognizer"]
+- ["So8NSObjectC", "UISwipeGestureRecognizerDirection"]
+- ["So8NSObjectC", "Void"]
+- !private ["So8NSObjectC", "addTarget"]
+- ["So8NSObjectC", "didSwipe"]
+- !private ["So8NSObjectC", "direction"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "numberOfTouchesRequired"]
+- ["So8NSObjectC", "swipeAction"]
+- !private ["So8NSObjectP", "BlockSwipe"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "addTarget"]
+- !private ["So8NSObjectP", "didSwipe"]
+- !private ["So8NSObjectP", "direction"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "numberOfTouchesRequired"]
+- !private ["So8NSObjectP", "swipeAction"]
+- !private ["So19UIGestureRecognizerC", "BlockSwipe"]
+- ["So19UIGestureRecognizerC", "Int"]
+- ["So19UIGestureRecognizerC", "Selector"]
+- ["So19UIGestureRecognizerC", "UISwipeGestureRecognizer"]
+- ["So19UIGestureRecognizerC", "UISwipeGestureRecognizerDirection"]
+- ["So19UIGestureRecognizerC", "Void"]
+- !private ["So19UIGestureRecognizerC", "addTarget"]
+- ["So19UIGestureRecognizerC", "didSwipe"]
+- !private ["So19UIGestureRecognizerC", "direction"]
+- ["So19UIGestureRecognizerC", "init"]
+- !private ["So19UIGestureRecognizerC", "numberOfTouchesRequired"]
+- ["So19UIGestureRecognizerC", "swipeAction"]
+- !private ["So24UISwipeGestureRecognizerC", "BlockSwipe"]
+- ["So24UISwipeGestureRecognizerC", "Int"]
+- ["So24UISwipeGestureRecognizerC", "Selector"]
+- ["So24UISwipeGestureRecognizerC", "UISwipeGestureRecognizer"]
+- ["So24UISwipeGestureRecognizerC", "UISwipeGestureRecognizerDirection"]
+- ["So24UISwipeGestureRecognizerC", "Void"]
+- ["So24UISwipeGestureRecognizerC", ""]
+- !private ["So24UISwipeGestureRecognizerC", "addTarget"]
+- ["So24UISwipeGestureRecognizerC", "didSwipe"]
+- !private ["So24UISwipeGestureRecognizerC", "direction"]
+- ["So24UISwipeGestureRecognizerC", "init"]
+- !private ["So24UISwipeGestureRecognizerC", "numberOfTouchesRequired"]
+- ["So24UISwipeGestureRecognizerC", "swipeAction"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "BlockSwipe"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "addTarget"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "didSwipe"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "direction"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "numberOfTouchesRequired"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "swipeAction"]
+depends-nominal:
+- "17EZSwiftExtensions10BlockSwipeC"
+- "s7CVarArgP"
+- "s28CustomDebugStringConvertibleP"
+- "s23CustomStringConvertibleP"
+- "SQ"
+- "SH"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- "So19UIGestureRecognizerC"
+- "So24UISwipeGestureRecognizerC"
+- "10Foundation27_KeyValueCodingAndObservingP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Users/sunchuyue/Documents/test/RX_Product/Pods/Target Support Files/EZSwiftExtensions/EZSwiftExtensions-umbrella.h"
+- "/Users/sunchuyue/Documents/test/RX_Product/DerivedData/RX_Product/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/EZSwiftExtensions.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "3866c3e53eb995a80afe081c235c9a62"

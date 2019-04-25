@@ -1,0 +1,21 @@
+version: "Apple Swift version 4.2.1 (swiftlang-1000.11.42 clang-1000.11.45.1)"
+options: "e02149ba4ecd4e639523a471a1bd5bb7"
+build_time: [1556177347, 372182000]
+inputs:
+  "/Users/sunchuyue/Documents/test/RX_Product/Pods/Alamofire/Source/AFError.swift": [1553861478, 0]
+  "/Users/sunchuyue/Documents/test/RX_Product/Pods/Alamofire/Source/Alamofire.swift": [1553861478, 0]
+  "/Users/sunchuyue/Documents/test/RX_Product/Pods/Alamofire/Source/DispatchQueue+Alamofire.swift": [1553861478, 0]
+  "/Users/sunchuyue/Documents/test/RX_Product/Pods/Alamofire/Source/MultipartFormData.swift": [1553861478, 0]
+  "/Users/sunchuyue/Documents/test/RX_Product/Pods/Alamofire/Source/NetworkReachabilityManager.swift": [1553861478, 0]
+  "/Users/sunchuyue/Documents/test/RX_Product/Pods/Alamofire/Source/Notifications.swift": [1553861478, 0]
+  "/Users/sunchuyue/Documents/test/RX_Product/Pods/Alamofire/Source/ParameterEncoding.swift": [1553861478, 0]
+  "/Users/sunchuyue/Documents/test/RX_Product/Pods/Alamofire/Source/Request.swift": [1553861478, 0]
+  "/Users/sunchuyue/Documents/test/RX_Product/Pods/Alamofire/Source/Response.swift": [1553861478, 0]
+  "/Users/sunchuyue/Documents/test/RX_Product/Pods/Alamofire/Source/ResponseSerialization.swift": [1553861478, 0]
+  "/Users/sunchuyue/Documents/test/RX_Product/Pods/Alamofire/Source/Result.swift": [1553861478, 0]
+  "/Users/sunchuyue/Documents/test/RX_Product/Pods/Alamofire/Source/ServerTrustPolicy.swift": [1553861478, 0]
+  "/Users/sunchuyue/Documents/test/RX_Product/Pods/Alamofire/Source/SessionDelegate.swift": [1553861478, 0]
+  "/Users/sunchuyue/Documents/test/RX_Product/Pods/Alamofire/Source/SessionManager.swift": [1553861478, 0]
+  "/Users/sunchuyue/Documents/test/RX_Product/Pods/Alamofire/Source/TaskDelegate.swift": [1553861478, 0]
+  "/Users/sunchuyue/Documents/test/RX_Product/Pods/Alamofire/Source/Timeline.swift": [1553861478, 0]
+  "/Users/sunchuyue/Documents/test/RX_Product/Pods/Alamofire/Source/Validation.swift": [1553861478, 0]

@@ -1,0 +1,622 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "FlattenStrategy"
+provides-nominal:
+- "13ReactiveSwift15FlattenStrategyV"
+provides-member:
+- ["13ReactiveSwift15FlattenStrategyV", ""]
+- ["13ReactiveSwift6SignalC", ""]
+- ["13ReactiveSwift14SignalProducerV", ""]
+- ["13ReactiveSwift6SignalC", "flatten"]
+- ["13ReactiveSwift6SignalC", "flatten"]
+- ["13ReactiveSwift6SignalC", "flatten"]
+- ["13ReactiveSwift6SignalC", "flatten"]
+- ["13ReactiveSwift14SignalProducerV", "flatten"]
+- ["13ReactiveSwift14SignalProducerV", "flatten"]
+- ["13ReactiveSwift14SignalProducerV", "flatten"]
+- ["13ReactiveSwift14SignalProducerV", "flatten"]
+- ["13ReactiveSwift6SignalC", "flatten"]
+- ["13ReactiveSwift14SignalProducerV", "flatten"]
+- ["13ReactiveSwift14SignalProducerV", "concat"]
+- ["13ReactiveSwift14SignalProducerV", "concat"]
+- ["13ReactiveSwift14SignalProducerV", "concat"]
+- ["13ReactiveSwift14SignalProducerV", "prefix"]
+- ["13ReactiveSwift14SignalProducerV", "prefix"]
+- ["13ReactiveSwift6SignalC", "merge"]
+- ["13ReactiveSwift6SignalC", "merge"]
+- ["13ReactiveSwift14SignalProducerV", "merge"]
+- ["13ReactiveSwift14SignalProducerV", "merge"]
+- ["13ReactiveSwift6SignalC", "flatMap"]
+- ["13ReactiveSwift6SignalC", "flatMap"]
+- ["13ReactiveSwift6SignalC", "flatMap"]
+- ["13ReactiveSwift6SignalC", "flatMap"]
+- ["13ReactiveSwift14SignalProducerV", "flatMap"]
+- ["13ReactiveSwift14SignalProducerV", "flatMap"]
+- ["13ReactiveSwift14SignalProducerV", "flatMap"]
+- ["13ReactiveSwift14SignalProducerV", "flatMap"]
+- ["13ReactiveSwift6SignalC", "flatMapError"]
+- ["13ReactiveSwift14SignalProducerV", "flatMapError"]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "!"
+- !private "&&"
+- !private "+="
+- !private "-="
+- !private "<"
+- "=="
+- !private ">"
+- !private "AnyDisposable"
+- !private "Array"
+- "AssignmentPrecedence"
+- !private "Atomic"
+- "Bool"
+- "BooleanLiteralType"
+- "CompositeDisposable"
+- !private "ConcurrentFlattenState"
+- "Disposable"
+- "FlattenStrategy"
+- "FloatLiteralType"
+- "Int32"
+- "IntegerLiteralType"
+- !private "LatestState"
+- "Lifetime"
+- "NoError"
+- "ProducerState"
+- !private "RaceState"
+- "ReactiveSwift"
+- !private "ScopedDisposable"
+- "Sequence"
+- "SerialDisposable"
+- "Signal"
+- "SignalProducer"
+- "SignalProducerConvertible"
+- !private "StringLiteralType"
+- "Swift"
+- "UInt"
+- "UnsafeAtomicState"
+- !private "precondition"
+- !private "withExtendedLifetime"
+- !private "~="
+depends-member:
+- !private ["13ReactiveSwift13AnyDisposableC", "deinit"]
+- !private ["13ReactiveSwift13AnyDisposableC", "init"]
+- !private ["Sa", "append"]
+- !private ["Sa", "isEmpty"]
+- !private ["Sa", "removeFirst"]
+- !private ["s13ArrayProtocolP", "append"]
+- !private ["s13ArrayProtocolP", "isEmpty"]
+- !private ["s13ArrayProtocolP", "removeFirst"]
+- !private ["13ReactiveSwift6AtomicC", "init"]
+- !private ["13ReactiveSwift6AtomicC", "modify"]
+- !private ["SK", "append"]
+- !private ["SK", "init"]
+- !private ["SK", "init"]
+- !private ["SK", "isEmpty"]
+- !private ["SK", "removeFirst"]
+- ["Sz", "max"]
+- !private ["13ReactiveSwift13BindingSourceP", "AnyDisposable"]
+- !private ["13ReactiveSwift13BindingSourceP", "Atomic"]
+- !private ["13ReactiveSwift13BindingSourceP", "CompositeDisposable"]
+- !private ["13ReactiveSwift13BindingSourceP", "ConcurrentFlattenState"]
+- !private ["13ReactiveSwift13BindingSourceP", "Error"]
+- !private ["13ReactiveSwift13BindingSourceP", "LatestState"]
+- ["13ReactiveSwift13BindingSourceP", "NoError"]
+- ["13ReactiveSwift13BindingSourceP", "Observer"]
+- !private ["13ReactiveSwift13BindingSourceP", "RaceState"]
+- !private ["13ReactiveSwift13BindingSourceP", "ScopedDisposable"]
+- ["13ReactiveSwift13BindingSourceP", "Sequence"]
+- !private ["13ReactiveSwift13BindingSourceP", "SerialDisposable"]
+- !private ["13ReactiveSwift13BindingSourceP", "Signal"]
+- !private ["13ReactiveSwift13BindingSourceP", "SignalProducer"]
+- ["13ReactiveSwift13BindingSourceP", "SignalProducerConvertible"]
+- !private ["13ReactiveSwift13BindingSourceP", "UnsafeAtomicState"]
+- !private ["13ReactiveSwift13BindingSourceP", "Value"]
+- !private ["13ReactiveSwift13BindingSourceP", "concat"]
+- !private ["13ReactiveSwift13BindingSourceP", "concurrent"]
+- !private ["13ReactiveSwift13BindingSourceP", "flatMap"]
+- !private ["13ReactiveSwift13BindingSourceP", "flatten"]
+- !private ["13ReactiveSwift13BindingSourceP", "init"]
+- !private ["13ReactiveSwift13BindingSourceP", "init"]
+- !private ["13ReactiveSwift13BindingSourceP", "map"]
+- !private ["13ReactiveSwift13BindingSourceP", "merge"]
+- !private ["13ReactiveSwift13BindingSourceP", "observe"]
+- !private ["13ReactiveSwift13BindingSourceP", "observeConcurrent"]
+- !private ["13ReactiveSwift13BindingSourceP", "observeFlatMapError"]
+- !private ["13ReactiveSwift13BindingSourceP", "observeRace"]
+- !private ["13ReactiveSwift13BindingSourceP", "observeSwitchToLatest"]
+- !private ["13ReactiveSwift13BindingSourceP", "precondition"]
+- !private ["13ReactiveSwift13BindingSourceP", "prefix"]
+- !private ["13ReactiveSwift13BindingSourceP", "producer"]
+- !private ["13ReactiveSwift13BindingSourceP", "promoteError"]
+- !private ["13ReactiveSwift13BindingSourceP", "race"]
+- !private ["13ReactiveSwift13BindingSourceP", "startAndRetrieveSignal"]
+- !private ["13ReactiveSwift13BindingSourceP", "startWithSignal"]
+- !private ["13ReactiveSwift13BindingSourceP", "switchToLatest"]
+- !private ["13ReactiveSwift13BindingSourceP", "withExtendedLifetime"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "append"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "isEmpty"]
+- ["s7CVarArgP", "max"]
+- !private ["s7CVarArgP", "removeFirst"]
+- !private ["Sl", "append"]
+- !private ["Sl", "init"]
+- !private ["Sl", "init"]
+- !private ["Sl", "isEmpty"]
+- !private ["Sl", "removeFirst"]
+- !private ["SL", "init"]
+- !private ["SL", "init"]
+- ["SL", "max"]
+- !private ["13ReactiveSwift19CompositeDisposableC", "add"]
+- !private ["13ReactiveSwift19CompositeDisposableC", "deinit"]
+- !private ["13ReactiveSwift19CompositeDisposableC", "dispose"]
+- !private ["13ReactiveSwift19CompositeDisposableC", "init"]
+- !private ["13ReactiveSwift19CompositeDisposableC", "isDisposed"]
+- !private ["s28CustomDebugStringConvertibleP", "append"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "isEmpty"]
+- !private ["s28CustomDebugStringConvertibleP", "removeFirst"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- ["s29CustomPlaygroundQuickLookableP", "max"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "append"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "isEmpty"]
+- ["s17CustomReflectableP", "max"]
+- !private ["s17CustomReflectableP", "removeFirst"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "append"]
+- !private ["s23CustomStringConvertibleP", "completed"]
+- !private ["s23CustomStringConvertibleP", "failed"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "interrupted"]
+- !private ["s23CustomStringConvertibleP", "isEmpty"]
+- ["s23CustomStringConvertibleP", "max"]
+- !private ["s23CustomStringConvertibleP", "removeFirst"]
+- !private ["s23CustomStringConvertibleP", "value"]
+- !private ["Se", "_getBuiltinLogicValue"]
+- !private ["Se", "append"]
+- !private ["Se", "init"]
+- !private ["Se", "init"]
+- !private ["Se", "isEmpty"]
+- ["Se", "max"]
+- !private ["Se", "removeFirst"]
+- !private ["13ReactiveSwift10DisposableP", "add"]
+- !private ["13ReactiveSwift10DisposableP", "dispose"]
+- !private ["13ReactiveSwift10DisposableP", "init"]
+- !private ["13ReactiveSwift10DisposableP", "inner"]
+- !private ["13ReactiveSwift10DisposableP", "isDisposed"]
+- !private ["SE", "_getBuiltinLogicValue"]
+- !private ["SE", "append"]
+- !private ["SE", "init"]
+- !private ["SE", "init"]
+- !private ["SE", "isEmpty"]
+- ["SE", "max"]
+- !private ["SE", "removeFirst"]
+- ["SQ", "RawValue"]
+- !private ["SQ", ""]
+- ["SQ", "_Default_RawValue"]
+- !private ["SQ", "_getBuiltinLogicValue"]
+- !private ["SQ", "append"]
+- ["SQ", "hash"]
+- ["SQ", "hashValue"]
+- ["SQ", "init"]
+- !private ["SQ", "init"]
+- !private ["SQ", "isEmpty"]
+- ["SQ", "max"]
+- ["SQ", "rawValue"]
+- !private ["SQ", "removeFirst"]
+- !private ["SQ", "started"]
+- !private ["SQ", "starting"]
+- !private ["13ReactiveSwift6SignalC5EventO", "completed"]
+- !private ["13ReactiveSwift6SignalC5EventO", "failed"]
+- !private ["13ReactiveSwift6SignalC5EventO", "interrupted"]
+- !private ["13ReactiveSwift6SignalC5EventO", "value"]
+- !private ["13ReactiveSwift13EventProtocolP", "completed"]
+- !private ["13ReactiveSwift13EventProtocolP", "failed"]
+- !private ["13ReactiveSwift13EventProtocolP", "interrupted"]
+- !private ["13ReactiveSwift13EventProtocolP", "value"]
+- !private ["s25ExpressibleByArrayLiteralP", "append"]
+- !private ["s25ExpressibleByArrayLiteralP", "isEmpty"]
+- !private ["s25ExpressibleByArrayLiteralP", "removeFirst"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- ["s27ExpressibleByIntegerLiteralP", "max"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- ["s17FixedWidthIntegerP", "max"]
+- ["13ReactiveSwift15FlattenStrategyV", "FlattenStrategy"]
+- ["13ReactiveSwift15FlattenStrategyV", "Kind"]
+- ["13ReactiveSwift15FlattenStrategyV", "UInt"]
+- ["13ReactiveSwift15FlattenStrategyV", "concat"]
+- ["13ReactiveSwift15FlattenStrategyV", "concurrent"]
+- ["13ReactiveSwift15FlattenStrategyV", "init"]
+- !private ["13ReactiveSwift15FlattenStrategyV", "kind"]
+- ["13ReactiveSwift15FlattenStrategyV", "latest"]
+- ["13ReactiveSwift15FlattenStrategyV", "merge"]
+- ["13ReactiveSwift15FlattenStrategyV", "race"]
+- ["SH", "RawValue"]
+- !private ["SH", ""]
+- ["SH", "_Default_RawValue"]
+- !private ["SH", "_getBuiltinLogicValue"]
+- !private ["SH", "append"]
+- ["SH", "hash"]
+- ["SH", "hashValue"]
+- ["SH", "init"]
+- !private ["SH", "init"]
+- !private ["SH", "isEmpty"]
+- ["SH", "max"]
+- ["SH", "rawValue"]
+- !private ["SH", "removeFirst"]
+- !private ["SH", "started"]
+- !private ["SH", "starting"]
+- !private ["s6HasherV", "combine"]
+- !private ["St", "Element"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- ["s25LosslessStringConvertibleP", "max"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["SM", "append"]
+- !private ["SM", "isEmpty"]
+- !private ["SM", "removeFirst"]
+- ["Sj", "max"]
+- !private ["13ReactiveSwift6SignalC8ObserverC", "send"]
+- !private ["13ReactiveSwift6SignalC8ObserverC", "sendCompleted"]
+- !private ["13ReactiveSwift6SignalC8ObserverC", "sendInterrupted"]
+- !private ["Sk", "append"]
+- !private ["Sk", "isEmpty"]
+- !private ["Sk", "removeFirst"]
+- !private ["Sm", "append"]
+- !private ["Sm", "init"]
+- !private ["Sm", "init"]
+- !private ["Sm", "isEmpty"]
+- !private ["Sm", "removeFirst"]
+- ["SY", "RawValue"]
+- !private ["SY", ""]
+- ["SY", "_Default_RawValue"]
+- ["SY", "hash"]
+- ["SY", "hashValue"]
+- ["SY", "init"]
+- ["SY", "rawValue"]
+- !private ["SY", "started"]
+- !private ["SY", "starting"]
+- !private ["13ReactiveSwift16ScopedDisposableC", "init"]
+- !private ["ST", "Iterator"]
+- !private ["ST", "append"]
+- !private ["ST", "init"]
+- !private ["ST", "init"]
+- !private ["ST", "isEmpty"]
+- !private ["ST", "removeFirst"]
+- !private ["13ReactiveSwift16SerialDisposableC", "deinit"]
+- !private ["13ReactiveSwift16SerialDisposableC", "init"]
+- !private ["13ReactiveSwift16SerialDisposableC", "inner"]
+- !private ["13ReactiveSwift6SignalC", "AnyDisposable"]
+- !private ["13ReactiveSwift6SignalC", "Atomic"]
+- !private ["13ReactiveSwift6SignalC", "Bool"]
+- ["13ReactiveSwift6SignalC", "CompositeDisposable"]
+- !private ["13ReactiveSwift6SignalC", "ConcurrentFlattenState"]
+- ["13ReactiveSwift6SignalC", "Disposable"]
+- ["13ReactiveSwift6SignalC", "Error"]
+- ["13ReactiveSwift6SignalC", "FlattenStrategy"]
+- !private ["13ReactiveSwift6SignalC", "LatestState"]
+- ["13ReactiveSwift6SignalC", "Lifetime"]
+- ["13ReactiveSwift6SignalC", "NoError"]
+- ["13ReactiveSwift6SignalC", "Observer"]
+- !private ["13ReactiveSwift6SignalC", "ProducerState"]
+- !private ["13ReactiveSwift6SignalC", "RaceState"]
+- !private ["13ReactiveSwift6SignalC", "ScopedDisposable"]
+- ["13ReactiveSwift6SignalC", "Sequence"]
+- ["13ReactiveSwift6SignalC", "SerialDisposable"]
+- ["13ReactiveSwift6SignalC", "Signal"]
+- ["13ReactiveSwift6SignalC", "SignalProducer"]
+- ["13ReactiveSwift6SignalC", "SignalProducerConvertible"]
+- ["13ReactiveSwift6SignalC", "UInt"]
+- !private ["13ReactiveSwift6SignalC", "UnsafeAtomicState"]
+- ["13ReactiveSwift6SignalC", "Value"]
+- !private ["13ReactiveSwift6SignalC", "concurrent"]
+- !private ["13ReactiveSwift6SignalC", "deinit"]
+- ["13ReactiveSwift6SignalC", "flatMap"]
+- ["13ReactiveSwift6SignalC", "flatMapError"]
+- ["13ReactiveSwift6SignalC", "flatten"]
+- !private ["13ReactiveSwift6SignalC", "init"]
+- !private ["13ReactiveSwift6SignalC", "map"]
+- ["13ReactiveSwift6SignalC", "merge"]
+- !private ["13ReactiveSwift6SignalC", "observe"]
+- !private ["13ReactiveSwift6SignalC", "observeConcurrent"]
+- !private ["13ReactiveSwift6SignalC", "observeFlatMapError"]
+- !private ["13ReactiveSwift6SignalC", "observeRace"]
+- !private ["13ReactiveSwift6SignalC", "observeSwitchToLatest"]
+- !private ["13ReactiveSwift6SignalC", "precondition"]
+- !private ["13ReactiveSwift6SignalC", "promoteError"]
+- !private ["13ReactiveSwift6SignalC", "race"]
+- !private ["13ReactiveSwift6SignalC", "switchToLatest"]
+- !private ["13ReactiveSwift6SignalC", "withExtendedLifetime"]
+- !private ["13ReactiveSwift14SignalProducerV", "CompositeDisposable"]
+- ["13ReactiveSwift14SignalProducerV", "Error"]
+- ["13ReactiveSwift14SignalProducerV", "FlattenStrategy"]
+- ["13ReactiveSwift14SignalProducerV", "NoError"]
+- ["13ReactiveSwift14SignalProducerV", "Sequence"]
+- !private ["13ReactiveSwift14SignalProducerV", "SerialDisposable"]
+- ["13ReactiveSwift14SignalProducerV", "SignalProducer"]
+- ["13ReactiveSwift14SignalProducerV", "SignalProducerConvertible"]
+- ["13ReactiveSwift14SignalProducerV", "UInt"]
+- ["13ReactiveSwift14SignalProducerV", "Value"]
+- ["13ReactiveSwift14SignalProducerV", "concat"]
+- !private ["13ReactiveSwift14SignalProducerV", "concurrent"]
+- !private ["13ReactiveSwift14SignalProducerV", "deinit"]
+- ["13ReactiveSwift14SignalProducerV", "flatMap"]
+- ["13ReactiveSwift14SignalProducerV", "flatMapError"]
+- ["13ReactiveSwift14SignalProducerV", "flatten"]
+- !private ["13ReactiveSwift14SignalProducerV", "init"]
+- !private ["13ReactiveSwift14SignalProducerV", "init"]
+- !private ["13ReactiveSwift14SignalProducerV", "map"]
+- ["13ReactiveSwift14SignalProducerV", "merge"]
+- !private ["13ReactiveSwift14SignalProducerV", "precondition"]
+- ["13ReactiveSwift14SignalProducerV", "prefix"]
+- !private ["13ReactiveSwift14SignalProducerV", "producer"]
+- !private ["13ReactiveSwift14SignalProducerV", "promoteError"]
+- !private ["13ReactiveSwift14SignalProducerV", "race"]
+- !private ["13ReactiveSwift14SignalProducerV", "startAndRetrieveSignal"]
+- !private ["13ReactiveSwift14SignalProducerV", "startWithSignal"]
+- !private ["13ReactiveSwift14SignalProducerV", "switchToLatest"]
+- !private ["13ReactiveSwift25SignalProducerConvertibleP", "AnyDisposable"]
+- !private ["13ReactiveSwift25SignalProducerConvertibleP", "Atomic"]
+- !private ["13ReactiveSwift25SignalProducerConvertibleP", "CompositeDisposable"]
+- !private ["13ReactiveSwift25SignalProducerConvertibleP", "ConcurrentFlattenState"]
+- !private ["13ReactiveSwift25SignalProducerConvertibleP", "Error"]
+- !private ["13ReactiveSwift25SignalProducerConvertibleP", "LatestState"]
+- ["13ReactiveSwift25SignalProducerConvertibleP", "NoError"]
+- ["13ReactiveSwift25SignalProducerConvertibleP", "Observer"]
+- !private ["13ReactiveSwift25SignalProducerConvertibleP", "RaceState"]
+- !private ["13ReactiveSwift25SignalProducerConvertibleP", "ScopedDisposable"]
+- ["13ReactiveSwift25SignalProducerConvertibleP", "Sequence"]
+- !private ["13ReactiveSwift25SignalProducerConvertibleP", "SerialDisposable"]
+- !private ["13ReactiveSwift25SignalProducerConvertibleP", "Signal"]
+- !private ["13ReactiveSwift25SignalProducerConvertibleP", "SignalProducer"]
+- ["13ReactiveSwift25SignalProducerConvertibleP", "SignalProducerConvertible"]
+- !private ["13ReactiveSwift25SignalProducerConvertibleP", "UnsafeAtomicState"]
+- !private ["13ReactiveSwift25SignalProducerConvertibleP", "Value"]
+- !private ["13ReactiveSwift25SignalProducerConvertibleP", "concat"]
+- !private ["13ReactiveSwift25SignalProducerConvertibleP", "concurrent"]
+- !private ["13ReactiveSwift25SignalProducerConvertibleP", "flatMap"]
+- !private ["13ReactiveSwift25SignalProducerConvertibleP", "flatten"]
+- !private ["13ReactiveSwift25SignalProducerConvertibleP", "init"]
+- !private ["13ReactiveSwift25SignalProducerConvertibleP", "init"]
+- !private ["13ReactiveSwift25SignalProducerConvertibleP", "map"]
+- !private ["13ReactiveSwift25SignalProducerConvertibleP", "merge"]
+- !private ["13ReactiveSwift25SignalProducerConvertibleP", "observe"]
+- !private ["13ReactiveSwift25SignalProducerConvertibleP", "observeConcurrent"]
+- !private ["13ReactiveSwift25SignalProducerConvertibleP", "observeFlatMapError"]
+- !private ["13ReactiveSwift25SignalProducerConvertibleP", "observeRace"]
+- !private ["13ReactiveSwift25SignalProducerConvertibleP", "observeSwitchToLatest"]
+- !private ["13ReactiveSwift25SignalProducerConvertibleP", "precondition"]
+- !private ["13ReactiveSwift25SignalProducerConvertibleP", "prefix"]
+- !private ["13ReactiveSwift25SignalProducerConvertibleP", "producer"]
+- !private ["13ReactiveSwift25SignalProducerConvertibleP", "promoteError"]
+- !private ["13ReactiveSwift25SignalProducerConvertibleP", "race"]
+- !private ["13ReactiveSwift25SignalProducerConvertibleP", "startAndRetrieveSignal"]
+- !private ["13ReactiveSwift25SignalProducerConvertibleP", "startWithSignal"]
+- !private ["13ReactiveSwift25SignalProducerConvertibleP", "switchToLatest"]
+- !private ["13ReactiveSwift25SignalProducerConvertibleP", "withExtendedLifetime"]
+- !private ["13ReactiveSwift22SignalProducerProtocolP", "CompositeDisposable"]
+- !private ["13ReactiveSwift22SignalProducerProtocolP", "Error"]
+- ["13ReactiveSwift22SignalProducerProtocolP", "NoError"]
+- ["13ReactiveSwift22SignalProducerProtocolP", "Sequence"]
+- !private ["13ReactiveSwift22SignalProducerProtocolP", "SerialDisposable"]
+- !private ["13ReactiveSwift22SignalProducerProtocolP", "SignalProducer"]
+- ["13ReactiveSwift22SignalProducerProtocolP", "SignalProducerConvertible"]
+- !private ["13ReactiveSwift22SignalProducerProtocolP", "Value"]
+- !private ["13ReactiveSwift22SignalProducerProtocolP", "concat"]
+- !private ["13ReactiveSwift22SignalProducerProtocolP", "concurrent"]
+- !private ["13ReactiveSwift22SignalProducerProtocolP", "flatMap"]
+- !private ["13ReactiveSwift22SignalProducerProtocolP", "flatten"]
+- !private ["13ReactiveSwift22SignalProducerProtocolP", "init"]
+- !private ["13ReactiveSwift22SignalProducerProtocolP", "init"]
+- !private ["13ReactiveSwift22SignalProducerProtocolP", "map"]
+- !private ["13ReactiveSwift22SignalProducerProtocolP", "merge"]
+- !private ["13ReactiveSwift22SignalProducerProtocolP", "precondition"]
+- !private ["13ReactiveSwift22SignalProducerProtocolP", "prefix"]
+- !private ["13ReactiveSwift22SignalProducerProtocolP", "producer"]
+- !private ["13ReactiveSwift22SignalProducerProtocolP", "promoteError"]
+- !private ["13ReactiveSwift22SignalProducerProtocolP", "race"]
+- !private ["13ReactiveSwift22SignalProducerProtocolP", "startAndRetrieveSignal"]
+- !private ["13ReactiveSwift22SignalProducerProtocolP", "startWithSignal"]
+- !private ["13ReactiveSwift22SignalProducerProtocolP", "switchToLatest"]
+- !private ["13ReactiveSwift14SignalProtocolP", "AnyDisposable"]
+- !private ["13ReactiveSwift14SignalProtocolP", "Atomic"]
+- !private ["13ReactiveSwift14SignalProtocolP", "CompositeDisposable"]
+- !private ["13ReactiveSwift14SignalProtocolP", "ConcurrentFlattenState"]
+- !private ["13ReactiveSwift14SignalProtocolP", "Error"]
+- !private ["13ReactiveSwift14SignalProtocolP", "LatestState"]
+- ["13ReactiveSwift14SignalProtocolP", "NoError"]
+- ["13ReactiveSwift14SignalProtocolP", "Observer"]
+- !private ["13ReactiveSwift14SignalProtocolP", "RaceState"]
+- !private ["13ReactiveSwift14SignalProtocolP", "ScopedDisposable"]
+- ["13ReactiveSwift14SignalProtocolP", "Sequence"]
+- !private ["13ReactiveSwift14SignalProtocolP", "SerialDisposable"]
+- !private ["13ReactiveSwift14SignalProtocolP", "Signal"]
+- !private ["13ReactiveSwift14SignalProtocolP", "SignalProducer"]
+- ["13ReactiveSwift14SignalProtocolP", "SignalProducerConvertible"]
+- !private ["13ReactiveSwift14SignalProtocolP", "UnsafeAtomicState"]
+- !private ["13ReactiveSwift14SignalProtocolP", "Value"]
+- !private ["13ReactiveSwift14SignalProtocolP", "concurrent"]
+- !private ["13ReactiveSwift14SignalProtocolP", "flatMap"]
+- !private ["13ReactiveSwift14SignalProtocolP", "flatten"]
+- !private ["13ReactiveSwift14SignalProtocolP", "init"]
+- !private ["13ReactiveSwift14SignalProtocolP", "map"]
+- !private ["13ReactiveSwift14SignalProtocolP", "merge"]
+- !private ["13ReactiveSwift14SignalProtocolP", "observe"]
+- !private ["13ReactiveSwift14SignalProtocolP", "observeConcurrent"]
+- !private ["13ReactiveSwift14SignalProtocolP", "observeFlatMapError"]
+- !private ["13ReactiveSwift14SignalProtocolP", "observeRace"]
+- !private ["13ReactiveSwift14SignalProtocolP", "observeSwitchToLatest"]
+- !private ["13ReactiveSwift14SignalProtocolP", "precondition"]
+- !private ["13ReactiveSwift14SignalProtocolP", "promoteError"]
+- !private ["13ReactiveSwift14SignalProtocolP", "race"]
+- !private ["13ReactiveSwift14SignalProtocolP", "switchToLatest"]
+- !private ["13ReactiveSwift14SignalProtocolP", "withExtendedLifetime"]
+- !private ["s12StaticStringV", "init"]
+- !private ["s12StaticStringV", "init"]
+- ["Sx", "max"]
+- !private ["SS", "init"]
+- !private ["SS", "init"]
+- !private ["Sy", "init"]
+- !private ["Sy", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- ["Su", "max"]
+- ["13ReactiveSwift17UnsafeAtomicStateV", "ProducerState"]
+- !private ["13ReactiveSwift17UnsafeAtomicStateV", "deinitialize"]
+- !private ["13ReactiveSwift17UnsafeAtomicStateV", "init"]
+- !private ["13ReactiveSwift17UnsafeAtomicStateV", "is"]
+- !private ["13ReactiveSwift17UnsafeAtomicStateV", "precondition"]
+- !private ["13ReactiveSwift17UnsafeAtomicStateV", "setStarted"]
+- !private ["13ReactiveSwift17UnsafeAtomicStateV", "tryTransition"]
+- ["SU", "max"]
+- ["s18_BitwiseOperationsP", "max"]
+- !private ["s24_DestructorSafeContainerP", "append"]
+- !private ["s24_DestructorSafeContainerP", "isEmpty"]
+- !private ["s24_DestructorSafeContainerP", "removeFirst"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- ["s35_ExpressibleByBuiltinIntegerLiteralP", "max"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "append"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "isEmpty"]
+- ["s35_HasCustomAnyHashableRepresentationP", "max"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "removeFirst"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "append"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "isEmpty"]
+- ["s21_ObjectiveCBridgeableP", "max"]
+- !private ["s21_ObjectiveCBridgeableP", "removeFirst"]
+- !private ["s16_SwiftStringViewP", "init"]
+- !private ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- !private "13ReactiveSwift13AnyDisposableC"
+- !private "Sa"
+- !private "s13ArrayProtocolP"
+- !private "13ReactiveSwift6AtomicC"
+- !private "SK"
+- "Sz"
+- "13ReactiveSwift13BindingSourceP"
+- !private "Sb"
+- "s7CVarArgP"
+- !private "Sl"
+- "SL"
+- !private "13ReactiveSwift19CompositeDisposableC"
+- !private "s28CustomDebugStringConvertibleP"
+- "s29CustomPlaygroundQuickLookableP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "Se"
+- !private "13ReactiveSwift10DisposableP"
+- "SE"
+- "SQ"
+- !private "13ReactiveSwift6SignalC5EventO"
+- !private "13ReactiveSwift13EventProtocolP"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- "s27ExpressibleByIntegerLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- "s17FixedWidthIntegerP"
+- "13ReactiveSwift15FlattenStrategyV"
+- "SH"
+- !private "s6HasherV"
+- !private "St"
+- "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "SM"
+- "Sj"
+- !private "13ReactiveSwift6SignalC8ObserverC"
+- !private "Sk"
+- !private "Sm"
+- "SY"
+- !private "13ReactiveSwift16ScopedDisposableC"
+- !private "ST"
+- !private "13ReactiveSwift16SerialDisposableC"
+- "13ReactiveSwift6SignalC"
+- "13ReactiveSwift14SignalProducerV"
+- "13ReactiveSwift25SignalProducerConvertibleP"
+- "13ReactiveSwift22SignalProducerProtocolP"
+- "13ReactiveSwift14SignalProtocolP"
+- !private "s12StaticStringV"
+- "Sx"
+- !private "SS"
+- !private "Sy"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- "Su"
+- "13ReactiveSwift17UnsafeAtomicStateV"
+- "SU"
+- "s18_BitwiseOperationsP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- "s35_HasCustomAnyHashableRepresentationP"
+- "s21_ObjectiveCBridgeableP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Users/sunchuyue/Documents/test/RX_Product/DerivedData/RX_Product/Build/Products/Debug-iphonesimulator/Result/Result.framework/Modules/Result.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/sunchuyue/Documents/test/RX_Product/Pods/Target Support Files/ReactiveSwift/ReactiveSwift-umbrella.h"
+- "/Users/sunchuyue/Documents/test/RX_Product/Pods/Target Support Files/Result/Result-umbrella.h"
+- "/Users/sunchuyue/Documents/test/RX_Product/DerivedData/RX_Product/Build/Products/Debug-iphonesimulator/Result/Result.framework/Headers/Result-Swift.h"
+- "/Users/sunchuyue/Documents/test/RX_Product/DerivedData/RX_Product/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ReactiveSwift.build/unextended-module.modulemap"
+- "/Users/sunchuyue/Documents/test/RX_Product/DerivedData/RX_Product/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Result.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "5935b06687bd46d446f8127a6d4cb72a"

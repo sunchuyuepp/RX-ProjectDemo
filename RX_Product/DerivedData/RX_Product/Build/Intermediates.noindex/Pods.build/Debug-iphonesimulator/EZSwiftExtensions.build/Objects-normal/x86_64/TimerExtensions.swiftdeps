@@ -1,0 +1,280 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+provides-member:
+- ["So7NSTimerC", ""]
+- ["So7NSTimerC", "runThisEvery"]
+- ["So7NSTimerC", "runThisAfterDelay"]
+- ["So7NSTimerC", "runThisAfterDelay"]
+provides-dynamic-lookup:
+- "runThisAfterDelay"
+- "runThisEvery"
+depends-top-level:
+- !private "*"
+- !private "+"
+- !private "/"
+- !private "CFAbsoluteTimeGetCurrent"
+- !private "CFRunLoopAddTimer"
+- !private "CFRunLoopGetCurrent"
+- !private "CFRunLoopMode"
+- !private "CFRunLoopTimerCreateWithHandler"
+- "DispatchQueue"
+- !private "DispatchTime"
+- "Double"
+- !private "FloatLiteralType"
+- !private "Int64"
+- !private "IntegerLiteralType"
+- !private "NSEC_PER_SEC"
+- "TimeInterval"
+- "Timer"
+- "Void"
+- !private "kCFAllocatorDefault"
+depends-member:
+- !private ["SB", "init"]
+- !private ["Sz", "init"]
+- !private ["So13CFRunLoopModea", "commonModes"]
+- !private ["s7CVarArgP", "CFAbsoluteTimeGetCurrent"]
+- !private ["s7CVarArgP", "CFRunLoopAddTimer"]
+- !private ["s7CVarArgP", "CFRunLoopGetCurrent"]
+- !private ["s7CVarArgP", "CFRunLoopMode"]
+- !private ["s7CVarArgP", "CFRunLoopTimerCreateWithHandler"]
+- !private ["s7CVarArgP", "DispatchQueue"]
+- !private ["s7CVarArgP", "DispatchTime"]
+- !private ["s7CVarArgP", "Double"]
+- !private ["s7CVarArgP", "Int64"]
+- !private ["s7CVarArgP", "NSEC_PER_SEC"]
+- !private ["s7CVarArgP", "asyncAfter"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "kCFAllocatorDefault"]
+- !private ["s7CVarArgP", "main"]
+- !private ["s7CVarArgP", "runThisAfterDelay"]
+- !private ["SL", "init"]
+- !private ["SL", "now"]
+- !private ["s28CustomDebugStringConvertibleP", "CFAbsoluteTimeGetCurrent"]
+- !private ["s28CustomDebugStringConvertibleP", "CFRunLoopAddTimer"]
+- !private ["s28CustomDebugStringConvertibleP", "CFRunLoopGetCurrent"]
+- !private ["s28CustomDebugStringConvertibleP", "CFRunLoopMode"]
+- !private ["s28CustomDebugStringConvertibleP", "CFRunLoopTimerCreateWithHandler"]
+- !private ["s28CustomDebugStringConvertibleP", "DispatchQueue"]
+- !private ["s28CustomDebugStringConvertibleP", "DispatchTime"]
+- !private ["s28CustomDebugStringConvertibleP", "Double"]
+- !private ["s28CustomDebugStringConvertibleP", "Int64"]
+- !private ["s28CustomDebugStringConvertibleP", "NSEC_PER_SEC"]
+- !private ["s28CustomDebugStringConvertibleP", "asyncAfter"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "kCFAllocatorDefault"]
+- !private ["s28CustomDebugStringConvertibleP", "main"]
+- !private ["s28CustomDebugStringConvertibleP", "runThisAfterDelay"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s23CustomStringConvertibleP", "CFAbsoluteTimeGetCurrent"]
+- !private ["s23CustomStringConvertibleP", "CFRunLoopAddTimer"]
+- !private ["s23CustomStringConvertibleP", "CFRunLoopGetCurrent"]
+- !private ["s23CustomStringConvertibleP", "CFRunLoopMode"]
+- !private ["s23CustomStringConvertibleP", "CFRunLoopTimerCreateWithHandler"]
+- !private ["s23CustomStringConvertibleP", "DispatchQueue"]
+- !private ["s23CustomStringConvertibleP", "DispatchTime"]
+- !private ["s23CustomStringConvertibleP", "Double"]
+- !private ["s23CustomStringConvertibleP", "Int64"]
+- !private ["s23CustomStringConvertibleP", "NSEC_PER_SEC"]
+- !private ["s23CustomStringConvertibleP", "asyncAfter"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "kCFAllocatorDefault"]
+- !private ["s23CustomStringConvertibleP", "main"]
+- !private ["s23CustomStringConvertibleP", "runThisAfterDelay"]
+- !private ["Se", "init"]
+- !private ["So18OS_dispatch_objectC", "asyncAfter"]
+- !private ["So18OS_dispatch_objectC", "main"]
+- !private ["So17OS_dispatch_queueC", "asyncAfter"]
+- !private ["So17OS_dispatch_queueC", "main"]
+- !private ["8Dispatch0A4TimeV", "now"]
+- !private ["Sd", "init"]
+- !private ["SE", "init"]
+- !private ["SQ", "CFAbsoluteTimeGetCurrent"]
+- !private ["SQ", "CFRunLoopAddTimer"]
+- !private ["SQ", "CFRunLoopGetCurrent"]
+- !private ["SQ", "CFRunLoopMode"]
+- !private ["SQ", "CFRunLoopTimerCreateWithHandler"]
+- !private ["SQ", "DispatchQueue"]
+- !private ["SQ", "DispatchTime"]
+- !private ["SQ", "Double"]
+- !private ["SQ", "Int64"]
+- !private ["SQ", "NSEC_PER_SEC"]
+- !private ["SQ", "asyncAfter"]
+- !private ["SQ", "commonModes"]
+- !private ["SQ", "init"]
+- !private ["SQ", "kCFAllocatorDefault"]
+- !private ["SQ", "main"]
+- !private ["SQ", "now"]
+- !private ["SQ", "runThisAfterDelay"]
+- !private ["s25ExpressibleByFloatLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s17FixedWidthIntegerP", "init"]
+- !private ["SF", "init"]
+- !private ["SH", "CFAbsoluteTimeGetCurrent"]
+- !private ["SH", "CFRunLoopAddTimer"]
+- !private ["SH", "CFRunLoopGetCurrent"]
+- !private ["SH", "CFRunLoopMode"]
+- !private ["SH", "CFRunLoopTimerCreateWithHandler"]
+- !private ["SH", "DispatchQueue"]
+- !private ["SH", "DispatchTime"]
+- !private ["SH", "Double"]
+- !private ["SH", "Int64"]
+- !private ["SH", "NSEC_PER_SEC"]
+- !private ["SH", "asyncAfter"]
+- !private ["SH", "commonModes"]
+- !private ["SH", "init"]
+- !private ["SH", "kCFAllocatorDefault"]
+- !private ["SH", "main"]
+- !private ["SH", "runThisAfterDelay"]
+- !private ["s5Int64V", "init"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["So8NSObjectC", "CFAbsoluteTimeGetCurrent"]
+- !private ["So8NSObjectC", "CFRunLoopAddTimer"]
+- !private ["So8NSObjectC", "CFRunLoopGetCurrent"]
+- !private ["So8NSObjectC", "CFRunLoopMode"]
+- !private ["So8NSObjectC", "CFRunLoopTimerCreateWithHandler"]
+- ["So8NSObjectC", "DispatchQueue"]
+- !private ["So8NSObjectC", "DispatchTime"]
+- ["So8NSObjectC", "Double"]
+- !private ["So8NSObjectC", "Int64"]
+- !private ["So8NSObjectC", "NSEC_PER_SEC"]
+- ["So8NSObjectC", "TimeInterval"]
+- ["So8NSObjectC", "Timer"]
+- ["So8NSObjectC", "Void"]
+- !private ["So8NSObjectC", "asyncAfter"]
+- !private ["So8NSObjectC", "kCFAllocatorDefault"]
+- !private ["So8NSObjectC", "main"]
+- ["So8NSObjectC", "runThisAfterDelay"]
+- ["So8NSObjectC", "runThisEvery"]
+- !private ["So8NSObjectP", "CFAbsoluteTimeGetCurrent"]
+- !private ["So8NSObjectP", "CFRunLoopAddTimer"]
+- !private ["So8NSObjectP", "CFRunLoopGetCurrent"]
+- !private ["So8NSObjectP", "CFRunLoopMode"]
+- !private ["So8NSObjectP", "CFRunLoopTimerCreateWithHandler"]
+- !private ["So8NSObjectP", "DispatchQueue"]
+- !private ["So8NSObjectP", "DispatchTime"]
+- !private ["So8NSObjectP", "Double"]
+- !private ["So8NSObjectP", "Int64"]
+- !private ["So8NSObjectP", "NSEC_PER_SEC"]
+- !private ["So8NSObjectP", "asyncAfter"]
+- !private ["So8NSObjectP", "kCFAllocatorDefault"]
+- !private ["So8NSObjectP", "main"]
+- !private ["So8NSObjectP", "runThisAfterDelay"]
+- !private ["Sj", "init"]
+- !private ["So9OS_objectC", "asyncAfter"]
+- !private ["So9OS_objectC", "main"]
+- !private ["SY", "commonModes"]
+- !private ["SZ", "init"]
+- !private ["s13SignedNumericP", "init"]
+- !private ["Sx", "init"]
+- !private ["So7NSTimerC", "CFAbsoluteTimeGetCurrent"]
+- !private ["So7NSTimerC", "CFRunLoopAddTimer"]
+- !private ["So7NSTimerC", "CFRunLoopGetCurrent"]
+- !private ["So7NSTimerC", "CFRunLoopMode"]
+- !private ["So7NSTimerC", "CFRunLoopTimerCreateWithHandler"]
+- ["So7NSTimerC", "DispatchQueue"]
+- !private ["So7NSTimerC", "DispatchTime"]
+- ["So7NSTimerC", "Double"]
+- !private ["So7NSTimerC", "Int64"]
+- !private ["So7NSTimerC", "NSEC_PER_SEC"]
+- ["So7NSTimerC", "TimeInterval"]
+- ["So7NSTimerC", "Timer"]
+- ["So7NSTimerC", "Void"]
+- !private ["So7NSTimerC", "kCFAllocatorDefault"]
+- ["So7NSTimerC", "runThisAfterDelay"]
+- ["So7NSTimerC", "runThisEvery"]
+- !private ["s18_BitwiseOperationsP", "init"]
+- !private ["s15_CVarArgAlignedP", "init"]
+- !private ["s22_CVarArgPassedAsDoubleP", "init"]
+- !private ["s33_ExpressibleByBuiltinFloatLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "commonModes"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "CFAbsoluteTimeGetCurrent"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "CFRunLoopAddTimer"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "CFRunLoopGetCurrent"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "CFRunLoopMode"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "CFRunLoopTimerCreateWithHandler"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "DispatchQueue"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "DispatchTime"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Double"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Int64"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "NSEC_PER_SEC"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "asyncAfter"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "kCFAllocatorDefault"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "main"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "runThisAfterDelay"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s20_SwiftNewtypeWrapperP", "commonModes"]
+depends-nominal:
+- !private "SB"
+- !private "Sz"
+- !private "So13CFRunLoopModea"
+- !private "s7CVarArgP"
+- !private "SL"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "So18OS_dispatch_objectC"
+- !private "So17OS_dispatch_queueC"
+- !private "8Dispatch0A4TimeV"
+- !private "Sd"
+- !private "SE"
+- !private "SQ"
+- !private "s25ExpressibleByFloatLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "s17FixedWidthIntegerP"
+- !private "SF"
+- !private "SH"
+- !private "s5Int64V"
+- !private "s25LosslessStringConvertibleP"
+- "So8NSObjectC"
+- !private "So8NSObjectP"
+- !private "Sj"
+- !private "So9OS_objectC"
+- !private "SY"
+- !private "SZ"
+- !private "s13SignedNumericP"
+- !private "Sx"
+- "So7NSTimerC"
+- !private "s18_BitwiseOperationsP"
+- !private "s15_CVarArgAlignedP"
+- !private "s22_CVarArgPassedAsDoubleP"
+- !private "s33_ExpressibleByBuiltinFloatLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s20_SwiftNewtypeWrapperP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/sunchuyue/Documents/test/RX_Product/Pods/Target Support Files/EZSwiftExtensions/EZSwiftExtensions-umbrella.h"
+- "/Users/sunchuyue/Documents/test/RX_Product/DerivedData/RX_Product/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/EZSwiftExtensions.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "1ffdb565bd7c479dd56f6995ec96ee4b"

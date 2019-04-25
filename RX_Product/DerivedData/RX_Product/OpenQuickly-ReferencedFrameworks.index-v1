@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<string>MapKit</string>
+	<string>SnapKit</string>
+	<string>SceneKit</string>
+	<string>RxSwift</string>
+	<string>Glibc</string>
+	<string>libkern</string>
+	<string>RxDataSources</string>
+	<string>Dispatch</string>
+	<string>SwiftShims</string>
+	<string>ImageIO</string>
+	<string>AssetsLibrary</string>
+	<string>CoreServices</string>
+	<string>Result</string>
+	<string>mach</string>
+	<string>let</string>
+	<string>YYKit</string>
+	<string>Swift</string>
+	<string>MobileCoreServices</string>
+	<string>Moya</string>
+	<string>CoreText</string>
+	<string>AppKit</string>
+	<string>SVProgressHUD</string>
+	<string>CoreFoundation</string>
+	<string>Differentiator</string>
+	<string>Cocoa</string>
+	<string>RxCocoa</string>
+	<string>sqlite3</string>
+	<string>XCTest</string>
+	<string>CoreData</string>
+	<string>netinet</string>
+	<string>Accelerate</string>
+	<string>MachO</string>
+	<string>CommonCrypto</string>
+	<string>ReactiveSwift</string>
+	<string>Alamofire</string>
+	<string>SQLiteObjc</string>
+	<string>pop</string>
+	<string>QuartzCore</string>
+	<string>SystemConfiguration</string>
+	<string>Security</string>
+	<string>CoreGraphics</string>
+	<string>RX</string>
+	<string>objc</string>
+	<string>CSQLite</string>
+	<string>RxCocoaRuntime</string>
+	<string>SQLite</string>
+	<string>SQLCipher</string>
+	<string>SQLite3</string>
+	<string>UIKit</string>
+	<string>webp</string>
+	<string>CoreTelephony</string>
+	<string>SwiftKeychainWrapper</string>
+	<string>Darwin</string>
+	<string>ObjectMapper</string>
+	<string>sys</string>
+	<string>Foundation</string>
+</array>
+</plist>

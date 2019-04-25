@@ -1,0 +1,441 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "BlockWebView"
+provides-nominal:
+- "17EZSwiftExtensions12BlockWebViewC"
+provides-member:
+- ["17EZSwiftExtensions12BlockWebViewC", ""]
+provides-dynamic-lookup:
+- "didFailLoad"
+- "didFinishLoad"
+- "didStartLoad"
+- "shouldStartLoadingRequest"
+- "webView"
+- "webViewDidFinishLoad"
+- "webViewDidStartLoad"
+depends-top-level:
+- "AssignmentPrecedence"
+- "BlockWebView"
+- "Bool"
+- !private "BooleanLiteralType"
+- "CGRect"
+- "Error"
+- "NSCoder"
+- "UIWebView"
+- "UIWebViewDelegate"
+- "UIWebViewNavigationType"
+- "URLRequest"
+- "Void"
+depends-member:
+- ["17EZSwiftExtensions12BlockWebViewC", "Bool"]
+- ["17EZSwiftExtensions12BlockWebViewC", "CGRect"]
+- ["17EZSwiftExtensions12BlockWebViewC", "Error"]
+- ["17EZSwiftExtensions12BlockWebViewC", "NSCoder"]
+- ["17EZSwiftExtensions12BlockWebViewC", "UIWebView"]
+- ["17EZSwiftExtensions12BlockWebViewC", "UIWebViewNavigationType"]
+- ["17EZSwiftExtensions12BlockWebViewC", "URLRequest"]
+- ["17EZSwiftExtensions12BlockWebViewC", "Void"]
+- ["17EZSwiftExtensions12BlockWebViewC", "deinit"]
+- !private ["17EZSwiftExtensions12BlockWebViewC", "delegate"]
+- ["17EZSwiftExtensions12BlockWebViewC", "didFailLoad"]
+- ["17EZSwiftExtensions12BlockWebViewC", "didFinishLoad"]
+- ["17EZSwiftExtensions12BlockWebViewC", "didStartLoad"]
+- ["17EZSwiftExtensions12BlockWebViewC", "init"]
+- ["17EZSwiftExtensions12BlockWebViewC", "shouldStartLoadingRequest"]
+- ["17EZSwiftExtensions12BlockWebViewC", "webView"]
+- ["17EZSwiftExtensions12BlockWebViewC", "webViewDidFinishLoad"]
+- ["17EZSwiftExtensions12BlockWebViewC", "webViewDidStartLoad"]
+- ["So15CALayerDelegateP", ""]
+- !private ["So15CALayerDelegateP", "delegate"]
+- !private ["So15CALayerDelegateP", "didFailLoad"]
+- !private ["So15CALayerDelegateP", "didFinishLoad"]
+- !private ["So15CALayerDelegateP", "didStartLoad"]
+- !private ["So15CALayerDelegateP", "init"]
+- !private ["So15CALayerDelegateP", "request"]
+- !private ["So15CALayerDelegateP", "shouldStartLoadingRequest"]
+- ["So15CALayerDelegateP", "webView"]
+- ["So15CALayerDelegateP", "webViewDidFinishLoad"]
+- ["So15CALayerDelegateP", "webViewDidStartLoad"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "delegate"]
+- !private ["s7CVarArgP", "didFailLoad"]
+- !private ["s7CVarArgP", "didFinishLoad"]
+- !private ["s7CVarArgP", "didStartLoad"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "request"]
+- !private ["s7CVarArgP", "shouldStartLoadingRequest"]
+- ["s7CVarArgP", "webView"]
+- ["s7CVarArgP", "webViewDidFinishLoad"]
+- ["s7CVarArgP", "webViewDidStartLoad"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "delegate"]
+- !private ["s28CustomDebugStringConvertibleP", "didFailLoad"]
+- !private ["s28CustomDebugStringConvertibleP", "didFinishLoad"]
+- !private ["s28CustomDebugStringConvertibleP", "didStartLoad"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "request"]
+- !private ["s28CustomDebugStringConvertibleP", "shouldStartLoadingRequest"]
+- ["s28CustomDebugStringConvertibleP", "webView"]
+- ["s28CustomDebugStringConvertibleP", "webViewDidFinishLoad"]
+- ["s28CustomDebugStringConvertibleP", "webViewDidStartLoad"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "delegate"]
+- !private ["s23CustomStringConvertibleP", "didFailLoad"]
+- !private ["s23CustomStringConvertibleP", "didFinishLoad"]
+- !private ["s23CustomStringConvertibleP", "didStartLoad"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "request"]
+- !private ["s23CustomStringConvertibleP", "shouldStartLoadingRequest"]
+- ["s23CustomStringConvertibleP", "webView"]
+- ["s23CustomStringConvertibleP", "webViewDidFinishLoad"]
+- ["s23CustomStringConvertibleP", "webViewDidStartLoad"]
+- ["SQ", ""]
+- !private ["SQ", "delegate"]
+- !private ["SQ", "didFailLoad"]
+- !private ["SQ", "didFinishLoad"]
+- !private ["SQ", "didStartLoad"]
+- !private ["SQ", "init"]
+- !private ["SQ", "request"]
+- !private ["SQ", "shouldStartLoadingRequest"]
+- ["SQ", "webView"]
+- ["SQ", "webViewDidFinishLoad"]
+- ["SQ", "webViewDidStartLoad"]
+- ["SH", ""]
+- !private ["SH", "delegate"]
+- !private ["SH", "didFailLoad"]
+- !private ["SH", "didFinishLoad"]
+- !private ["SH", "didStartLoad"]
+- !private ["SH", "init"]
+- !private ["SH", "request"]
+- !private ["SH", "shouldStartLoadingRequest"]
+- ["SH", "webView"]
+- ["SH", "webViewDidFinishLoad"]
+- ["SH", "webViewDidStartLoad"]
+- ["So8NSCodingP", ""]
+- !private ["So8NSCodingP", "delegate"]
+- !private ["So8NSCodingP", "didFailLoad"]
+- !private ["So8NSCodingP", "didFinishLoad"]
+- !private ["So8NSCodingP", "didStartLoad"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "request"]
+- !private ["So8NSCodingP", "shouldStartLoadingRequest"]
+- ["So8NSCodingP", "webView"]
+- ["So8NSCodingP", "webViewDidFinishLoad"]
+- ["So8NSCodingP", "webViewDidStartLoad"]
+- ["So8NSObjectC", "Bool"]
+- ["So8NSObjectC", "CGRect"]
+- ["So8NSObjectC", "Error"]
+- ["So8NSObjectC", "NSCoder"]
+- ["So8NSObjectC", "UIWebView"]
+- ["So8NSObjectC", "UIWebViewNavigationType"]
+- ["So8NSObjectC", "URLRequest"]
+- ["So8NSObjectC", "Void"]
+- !private ["So8NSObjectC", "delegate"]
+- ["So8NSObjectC", "didFailLoad"]
+- ["So8NSObjectC", "didFinishLoad"]
+- ["So8NSObjectC", "didStartLoad"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "request"]
+- ["So8NSObjectC", "shouldStartLoadingRequest"]
+- ["So8NSObjectC", "webView"]
+- ["So8NSObjectC", "webViewDidFinishLoad"]
+- ["So8NSObjectC", "webViewDidStartLoad"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "delegate"]
+- !private ["So8NSObjectP", "didFailLoad"]
+- !private ["So8NSObjectP", "didFinishLoad"]
+- !private ["So8NSObjectP", "didStartLoad"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "request"]
+- !private ["So8NSObjectP", "shouldStartLoadingRequest"]
+- ["So8NSObjectP", "webView"]
+- ["So8NSObjectP", "webViewDidFinishLoad"]
+- ["So8NSObjectP", "webViewDidStartLoad"]
+- ["So29UIAccessibilityIdentificationP", ""]
+- !private ["So29UIAccessibilityIdentificationP", "delegate"]
+- !private ["So29UIAccessibilityIdentificationP", "didFailLoad"]
+- !private ["So29UIAccessibilityIdentificationP", "didFinishLoad"]
+- !private ["So29UIAccessibilityIdentificationP", "didStartLoad"]
+- !private ["So29UIAccessibilityIdentificationP", "init"]
+- !private ["So29UIAccessibilityIdentificationP", "request"]
+- !private ["So29UIAccessibilityIdentificationP", "shouldStartLoadingRequest"]
+- ["So29UIAccessibilityIdentificationP", "webView"]
+- ["So29UIAccessibilityIdentificationP", "webViewDidFinishLoad"]
+- ["So29UIAccessibilityIdentificationP", "webViewDidStartLoad"]
+- ["So12UIAppearanceP", ""]
+- !private ["So12UIAppearanceP", "delegate"]
+- !private ["So12UIAppearanceP", "didFailLoad"]
+- !private ["So12UIAppearanceP", "didFinishLoad"]
+- !private ["So12UIAppearanceP", "didStartLoad"]
+- !private ["So12UIAppearanceP", "init"]
+- !private ["So12UIAppearanceP", "request"]
+- !private ["So12UIAppearanceP", "shouldStartLoadingRequest"]
+- ["So12UIAppearanceP", "webView"]
+- ["So12UIAppearanceP", "webViewDidFinishLoad"]
+- ["So12UIAppearanceP", "webViewDidStartLoad"]
+- ["So21UIAppearanceContainerP", ""]
+- !private ["So21UIAppearanceContainerP", "delegate"]
+- !private ["So21UIAppearanceContainerP", "didFailLoad"]
+- !private ["So21UIAppearanceContainerP", "didFinishLoad"]
+- !private ["So21UIAppearanceContainerP", "didStartLoad"]
+- !private ["So21UIAppearanceContainerP", "init"]
+- !private ["So21UIAppearanceContainerP", "request"]
+- !private ["So21UIAppearanceContainerP", "shouldStartLoadingRequest"]
+- ["So21UIAppearanceContainerP", "webView"]
+- ["So21UIAppearanceContainerP", "webViewDidFinishLoad"]
+- ["So21UIAppearanceContainerP", "webViewDidStartLoad"]
+- ["So17UICoordinateSpaceP", ""]
+- !private ["So17UICoordinateSpaceP", "delegate"]
+- !private ["So17UICoordinateSpaceP", "didFailLoad"]
+- !private ["So17UICoordinateSpaceP", "didFinishLoad"]
+- !private ["So17UICoordinateSpaceP", "didStartLoad"]
+- !private ["So17UICoordinateSpaceP", "init"]
+- !private ["So17UICoordinateSpaceP", "request"]
+- !private ["So17UICoordinateSpaceP", "shouldStartLoadingRequest"]
+- ["So17UICoordinateSpaceP", "webView"]
+- ["So17UICoordinateSpaceP", "webViewDidFinishLoad"]
+- ["So17UICoordinateSpaceP", "webViewDidStartLoad"]
+- ["So13UIDynamicItemP", ""]
+- !private ["So13UIDynamicItemP", "delegate"]
+- !private ["So13UIDynamicItemP", "didFailLoad"]
+- !private ["So13UIDynamicItemP", "didFinishLoad"]
+- !private ["So13UIDynamicItemP", "didStartLoad"]
+- !private ["So13UIDynamicItemP", "init"]
+- !private ["So13UIDynamicItemP", "request"]
+- !private ["So13UIDynamicItemP", "shouldStartLoadingRequest"]
+- ["So13UIDynamicItemP", "webView"]
+- ["So13UIDynamicItemP", "webViewDidFinishLoad"]
+- ["So13UIDynamicItemP", "webViewDidStartLoad"]
+- ["So18UIFocusEnvironmentP", ""]
+- !private ["So18UIFocusEnvironmentP", "delegate"]
+- !private ["So18UIFocusEnvironmentP", "didFailLoad"]
+- !private ["So18UIFocusEnvironmentP", "didFinishLoad"]
+- !private ["So18UIFocusEnvironmentP", "didStartLoad"]
+- !private ["So18UIFocusEnvironmentP", "init"]
+- !private ["So18UIFocusEnvironmentP", "request"]
+- !private ["So18UIFocusEnvironmentP", "shouldStartLoadingRequest"]
+- ["So18UIFocusEnvironmentP", "webView"]
+- ["So18UIFocusEnvironmentP", "webViewDidFinishLoad"]
+- ["So18UIFocusEnvironmentP", "webViewDidStartLoad"]
+- ["So11UIFocusItemP", ""]
+- !private ["So11UIFocusItemP", "delegate"]
+- !private ["So11UIFocusItemP", "didFailLoad"]
+- !private ["So11UIFocusItemP", "didFinishLoad"]
+- !private ["So11UIFocusItemP", "didStartLoad"]
+- !private ["So11UIFocusItemP", "init"]
+- !private ["So11UIFocusItemP", "request"]
+- !private ["So11UIFocusItemP", "shouldStartLoadingRequest"]
+- ["So11UIFocusItemP", "webView"]
+- ["So11UIFocusItemP", "webViewDidFinishLoad"]
+- ["So11UIFocusItemP", "webViewDidStartLoad"]
+- ["So20UIFocusItemContainerP", ""]
+- !private ["So20UIFocusItemContainerP", "delegate"]
+- !private ["So20UIFocusItemContainerP", "didFailLoad"]
+- !private ["So20UIFocusItemContainerP", "didFinishLoad"]
+- !private ["So20UIFocusItemContainerP", "didStartLoad"]
+- !private ["So20UIFocusItemContainerP", "init"]
+- !private ["So20UIFocusItemContainerP", "request"]
+- !private ["So20UIFocusItemContainerP", "shouldStartLoadingRequest"]
+- ["So20UIFocusItemContainerP", "webView"]
+- ["So20UIFocusItemContainerP", "webViewDidFinishLoad"]
+- ["So20UIFocusItemContainerP", "webViewDidStartLoad"]
+- ["So30UIPasteConfigurationSupportingP", ""]
+- !private ["So30UIPasteConfigurationSupportingP", "delegate"]
+- !private ["So30UIPasteConfigurationSupportingP", "didFailLoad"]
+- !private ["So30UIPasteConfigurationSupportingP", "didFinishLoad"]
+- !private ["So30UIPasteConfigurationSupportingP", "didStartLoad"]
+- !private ["So30UIPasteConfigurationSupportingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "request"]
+- !private ["So30UIPasteConfigurationSupportingP", "shouldStartLoadingRequest"]
+- ["So30UIPasteConfigurationSupportingP", "webView"]
+- ["So30UIPasteConfigurationSupportingP", "webViewDidFinishLoad"]
+- ["So30UIPasteConfigurationSupportingP", "webViewDidStartLoad"]
+- ["So11UIResponderC", "Bool"]
+- ["So11UIResponderC", "CGRect"]
+- ["So11UIResponderC", "Error"]
+- ["So11UIResponderC", "NSCoder"]
+- ["So11UIResponderC", "UIWebView"]
+- ["So11UIResponderC", "UIWebViewNavigationType"]
+- ["So11UIResponderC", "URLRequest"]
+- ["So11UIResponderC", "Void"]
+- !private ["So11UIResponderC", "delegate"]
+- ["So11UIResponderC", "didFailLoad"]
+- ["So11UIResponderC", "didFinishLoad"]
+- ["So11UIResponderC", "didStartLoad"]
+- ["So11UIResponderC", "init"]
+- !private ["So11UIResponderC", "request"]
+- ["So11UIResponderC", "shouldStartLoadingRequest"]
+- ["So11UIResponderC", "webView"]
+- ["So11UIResponderC", "webViewDidFinishLoad"]
+- ["So11UIResponderC", "webViewDidStartLoad"]
+- ["So30UIResponderStandardEditActionsP", ""]
+- !private ["So30UIResponderStandardEditActionsP", "delegate"]
+- !private ["So30UIResponderStandardEditActionsP", "didFailLoad"]
+- !private ["So30UIResponderStandardEditActionsP", "didFinishLoad"]
+- !private ["So30UIResponderStandardEditActionsP", "didStartLoad"]
+- !private ["So30UIResponderStandardEditActionsP", "init"]
+- !private ["So30UIResponderStandardEditActionsP", "request"]
+- !private ["So30UIResponderStandardEditActionsP", "shouldStartLoadingRequest"]
+- ["So30UIResponderStandardEditActionsP", "webView"]
+- ["So30UIResponderStandardEditActionsP", "webViewDidFinishLoad"]
+- ["So30UIResponderStandardEditActionsP", "webViewDidStartLoad"]
+- ["So20UIScrollViewDelegateP", ""]
+- !private ["So20UIScrollViewDelegateP", "delegate"]
+- !private ["So20UIScrollViewDelegateP", "didFailLoad"]
+- !private ["So20UIScrollViewDelegateP", "didFinishLoad"]
+- !private ["So20UIScrollViewDelegateP", "didStartLoad"]
+- !private ["So20UIScrollViewDelegateP", "init"]
+- !private ["So20UIScrollViewDelegateP", "request"]
+- !private ["So20UIScrollViewDelegateP", "shouldStartLoadingRequest"]
+- ["So20UIScrollViewDelegateP", "webView"]
+- ["So20UIScrollViewDelegateP", "webViewDidFinishLoad"]
+- ["So20UIScrollViewDelegateP", "webViewDidStartLoad"]
+- ["So18UITraitEnvironmentP", ""]
+- !private ["So18UITraitEnvironmentP", "delegate"]
+- !private ["So18UITraitEnvironmentP", "didFailLoad"]
+- !private ["So18UITraitEnvironmentP", "didFinishLoad"]
+- !private ["So18UITraitEnvironmentP", "didStartLoad"]
+- !private ["So18UITraitEnvironmentP", "init"]
+- !private ["So18UITraitEnvironmentP", "request"]
+- !private ["So18UITraitEnvironmentP", "shouldStartLoadingRequest"]
+- ["So18UITraitEnvironmentP", "webView"]
+- ["So18UITraitEnvironmentP", "webViewDidFinishLoad"]
+- ["So18UITraitEnvironmentP", "webViewDidStartLoad"]
+- ["So23UIUserActivityRestoringP", ""]
+- !private ["So23UIUserActivityRestoringP", "delegate"]
+- !private ["So23UIUserActivityRestoringP", "didFailLoad"]
+- !private ["So23UIUserActivityRestoringP", "didFinishLoad"]
+- !private ["So23UIUserActivityRestoringP", "didStartLoad"]
+- !private ["So23UIUserActivityRestoringP", "init"]
+- !private ["So23UIUserActivityRestoringP", "request"]
+- !private ["So23UIUserActivityRestoringP", "shouldStartLoadingRequest"]
+- ["So23UIUserActivityRestoringP", "webView"]
+- ["So23UIUserActivityRestoringP", "webViewDidFinishLoad"]
+- ["So23UIUserActivityRestoringP", "webViewDidStartLoad"]
+- ["So6UIViewC", "Bool"]
+- ["So6UIViewC", "CGRect"]
+- ["So6UIViewC", "Error"]
+- ["So6UIViewC", "NSCoder"]
+- ["So6UIViewC", "UIWebView"]
+- ["So6UIViewC", "UIWebViewNavigationType"]
+- ["So6UIViewC", "URLRequest"]
+- ["So6UIViewC", "Void"]
+- !private ["So6UIViewC", "delegate"]
+- ["So6UIViewC", "didFailLoad"]
+- ["So6UIViewC", "didFinishLoad"]
+- ["So6UIViewC", "didStartLoad"]
+- ["So6UIViewC", "init"]
+- !private ["So6UIViewC", "request"]
+- ["So6UIViewC", "shouldStartLoadingRequest"]
+- ["So6UIViewC", "webView"]
+- ["So6UIViewC", "webViewDidFinishLoad"]
+- ["So6UIViewC", "webViewDidStartLoad"]
+- ["So9UIWebViewC", "Bool"]
+- ["So9UIWebViewC", "CGRect"]
+- ["So9UIWebViewC", "Error"]
+- ["So9UIWebViewC", "NSCoder"]
+- ["So9UIWebViewC", "UIWebView"]
+- ["So9UIWebViewC", "UIWebViewNavigationType"]
+- ["So9UIWebViewC", "URLRequest"]
+- ["So9UIWebViewC", "Void"]
+- ["So9UIWebViewC", ""]
+- !private ["So9UIWebViewC", "delegate"]
+- ["So9UIWebViewC", "didFailLoad"]
+- ["So9UIWebViewC", "didFinishLoad"]
+- ["So9UIWebViewC", "didStartLoad"]
+- ["So9UIWebViewC", "init"]
+- !private ["So9UIWebViewC", "request"]
+- ["So9UIWebViewC", "shouldStartLoadingRequest"]
+- ["So9UIWebViewC", "webView"]
+- ["So9UIWebViewC", "webViewDidFinishLoad"]
+- ["So9UIWebViewC", "webViewDidStartLoad"]
+- ["So17UIWebViewDelegateP", ""]
+- !private ["So17UIWebViewDelegateP", "delegate"]
+- !private ["So17UIWebViewDelegateP", "didFailLoad"]
+- !private ["So17UIWebViewDelegateP", "didFinishLoad"]
+- !private ["So17UIWebViewDelegateP", "didStartLoad"]
+- !private ["So17UIWebViewDelegateP", "shouldStartLoadingRequest"]
+- ["So17UIWebViewDelegateP", "webView"]
+- ["So17UIWebViewDelegateP", "webViewDidFinishLoad"]
+- ["So17UIWebViewDelegateP", "webViewDidStartLoad"]
+- ["s37_DefaultCustomPlaygroundQuickLookableP", ""]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "delegate"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "didFailLoad"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "didFinishLoad"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "didStartLoad"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "init"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "request"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "shouldStartLoadingRequest"]
+- ["s37_DefaultCustomPlaygroundQuickLookableP", "webView"]
+- ["s37_DefaultCustomPlaygroundQuickLookableP", "webViewDidFinishLoad"]
+- ["s37_DefaultCustomPlaygroundQuickLookableP", "webViewDidStartLoad"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "delegate"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "didFailLoad"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "didFinishLoad"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "didStartLoad"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "request"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "shouldStartLoadingRequest"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "webView"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "webViewDidFinishLoad"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "webViewDidStartLoad"]
+depends-nominal:
+- "17EZSwiftExtensions12BlockWebViewC"
+- "So15CALayerDelegateP"
+- "s7CVarArgP"
+- "s28CustomDebugStringConvertibleP"
+- "s23CustomStringConvertibleP"
+- "SQ"
+- "SH"
+- "So8NSCodingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- "So29UIAccessibilityIdentificationP"
+- "So12UIAppearanceP"
+- "So21UIAppearanceContainerP"
+- "So17UICoordinateSpaceP"
+- "So13UIDynamicItemP"
+- "So18UIFocusEnvironmentP"
+- "So11UIFocusItemP"
+- "So20UIFocusItemContainerP"
+- "So30UIPasteConfigurationSupportingP"
+- "So11UIResponderC"
+- "So30UIResponderStandardEditActionsP"
+- "So20UIScrollViewDelegateP"
+- "So18UITraitEnvironmentP"
+- "So23UIUserActivityRestoringP"
+- "So6UIViewC"
+- "So9UIWebViewC"
+- "So17UIWebViewDelegateP"
+- "s37_DefaultCustomPlaygroundQuickLookableP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/sunchuyue/Documents/test/RX_Product/Pods/Target Support Files/EZSwiftExtensions/EZSwiftExtensions-umbrella.h"
+- "/Users/sunchuyue/Documents/test/RX_Product/DerivedData/RX_Product/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/EZSwiftExtensions.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "cd0653454f57ddd7d75fcbbf52d5cb0d"

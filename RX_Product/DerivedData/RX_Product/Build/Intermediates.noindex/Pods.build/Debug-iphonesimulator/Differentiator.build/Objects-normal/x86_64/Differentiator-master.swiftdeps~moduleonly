@@ -1,0 +1,16 @@
+version: "Apple Swift version 4.2.1 (swiftlang-1000.11.42 clang-1000.11.45.1)"
+options: "08fc49fb7fdedf22ce33ada6f7d9b619"
+build_time: [1556177347, 971952000]
+inputs:
+  "/Users/sunchuyue/Documents/test/RX_Product/Pods/Differentiator/Sources/Differentiator/AnimatableSectionModel.swift": [1554086277, 0]
+  "/Users/sunchuyue/Documents/test/RX_Product/Pods/Differentiator/Sources/Differentiator/AnimatableSectionModelType+ItemPath.swift": [1554086277, 0]
+  "/Users/sunchuyue/Documents/test/RX_Product/Pods/Differentiator/Sources/Differentiator/AnimatableSectionModelType.swift": [1554086277, 0]
+  "/Users/sunchuyue/Documents/test/RX_Product/Pods/Differentiator/Sources/Differentiator/Changeset.swift": [1554086277, 0]
+  "/Users/sunchuyue/Documents/test/RX_Product/Pods/Differentiator/Sources/Differentiator/Diff.swift": [1554086277, 0]
+  "/Users/sunchuyue/Documents/test/RX_Product/Pods/Differentiator/Sources/Differentiator/IdentifiableType.swift": [1554086277, 0]
+  "/Users/sunchuyue/Documents/test/RX_Product/Pods/Differentiator/Sources/Differentiator/IdentifiableValue.swift": [1554086277, 0]
+  "/Users/sunchuyue/Documents/test/RX_Product/Pods/Differentiator/Sources/Differentiator/ItemPath.swift": [1554086277, 0]
+  "/Users/sunchuyue/Documents/test/RX_Product/Pods/Differentiator/Sources/Differentiator/Optional+Extensions.swift": [1554086277, 0]
+  "/Users/sunchuyue/Documents/test/RX_Product/Pods/Differentiator/Sources/Differentiator/SectionModel.swift": [1554086277, 0]
+  "/Users/sunchuyue/Documents/test/RX_Product/Pods/Differentiator/Sources/Differentiator/SectionModelType.swift": [1554086277, 0]
+  "/Users/sunchuyue/Documents/test/RX_Product/Pods/Differentiator/Sources/Differentiator/Utilities.swift": [1554086277, 0]

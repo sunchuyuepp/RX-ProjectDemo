@@ -1,0 +1,362 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "+="
+provides-nominal:
+provides-member:
+- ["So18NSAttributedStringC", ""]
+- ["So18NSAttributedStringC", "bold"]
+- ["So18NSAttributedStringC", "underline"]
+- ["So18NSAttributedStringC", "italic"]
+- ["So18NSAttributedStringC", "strikethrough"]
+- ["So18NSAttributedStringC", "color"]
+provides-dynamic-lookup:
+- "bold"
+- "color"
+- "italic"
+- "strikethrough"
+- "underline"
+depends-top-level:
+- "+="
+- "AssignmentPrecedence"
+- "CastingPrecedence"
+- !private "Dictionary"
+- !private "Int"
+- "NSAttributedString"
+- !private "NSFontAttributeName"
+- !private "NSForegroundColorAttributeName"
+- !private "NSMutableAttributedString"
+- !private "NSNumber"
+- !private "NSStrikethroughStyleAttributeName"
+- !private "NSString"
+- !private "NSUnderlineStyle"
+- !private "NSUnderlineStyleAttributeName"
+- "UIColor"
+- !private "UIFont"
+depends-member:
+- !private ["s7CVarArgP", "NSFontAttributeName"]
+- !private ["s7CVarArgP", "NSForegroundColorAttributeName"]
+- !private ["s7CVarArgP", "NSNumber"]
+- !private ["s7CVarArgP", "NSStrikethroughStyleAttributeName"]
+- !private ["s7CVarArgP", "NSUnderlineStyle"]
+- !private ["s7CVarArgP", "NSUnderlineStyleAttributeName"]
+- !private ["s7CVarArgP", "UIFont"]
+- !private ["s7CVarArgP", "addAttributes"]
+- !private ["s7CVarArgP", "append"]
+- !private ["s7CVarArgP", "boldSystemFont"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "italicSystemFont"]
+- !private ["s7CVarArgP", "mutableCopy"]
+- !private ["s7CVarArgP", "range"]
+- !private ["s7CVarArgP", "string"]
+- !private ["s7CVarArgP", "systemFontSize"]
+- !private ["s28CustomDebugStringConvertibleP", "NSFontAttributeName"]
+- !private ["s28CustomDebugStringConvertibleP", "NSForegroundColorAttributeName"]
+- !private ["s28CustomDebugStringConvertibleP", "NSNumber"]
+- !private ["s28CustomDebugStringConvertibleP", "NSStrikethroughStyleAttributeName"]
+- !private ["s28CustomDebugStringConvertibleP", "NSUnderlineStyle"]
+- !private ["s28CustomDebugStringConvertibleP", "NSUnderlineStyleAttributeName"]
+- !private ["s28CustomDebugStringConvertibleP", "UIFont"]
+- !private ["s28CustomDebugStringConvertibleP", "addAttributes"]
+- !private ["s28CustomDebugStringConvertibleP", "append"]
+- !private ["s28CustomDebugStringConvertibleP", "boldSystemFont"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "italicSystemFont"]
+- !private ["s28CustomDebugStringConvertibleP", "mutableCopy"]
+- !private ["s28CustomDebugStringConvertibleP", "range"]
+- !private ["s28CustomDebugStringConvertibleP", "string"]
+- !private ["s28CustomDebugStringConvertibleP", "systemFontSize"]
+- !private ["s29CustomPlaygroundQuickLookableP", "range"]
+- !private ["s23CustomStringConvertibleP", "NSFontAttributeName"]
+- !private ["s23CustomStringConvertibleP", "NSForegroundColorAttributeName"]
+- !private ["s23CustomStringConvertibleP", "NSNumber"]
+- !private ["s23CustomStringConvertibleP", "NSStrikethroughStyleAttributeName"]
+- !private ["s23CustomStringConvertibleP", "NSUnderlineStyle"]
+- !private ["s23CustomStringConvertibleP", "NSUnderlineStyleAttributeName"]
+- !private ["s23CustomStringConvertibleP", "UIFont"]
+- !private ["s23CustomStringConvertibleP", "addAttributes"]
+- !private ["s23CustomStringConvertibleP", "append"]
+- !private ["s23CustomStringConvertibleP", "boldSystemFont"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "italicSystemFont"]
+- !private ["s23CustomStringConvertibleP", "mutableCopy"]
+- !private ["s23CustomStringConvertibleP", "range"]
+- !private ["s23CustomStringConvertibleP", "string"]
+- !private ["s23CustomStringConvertibleP", "systemFontSize"]
+- !private ["SQ", "NSFontAttributeName"]
+- !private ["SQ", "NSForegroundColorAttributeName"]
+- !private ["SQ", "NSNumber"]
+- !private ["SQ", "NSStrikethroughStyleAttributeName"]
+- !private ["SQ", "NSUnderlineStyle"]
+- !private ["SQ", "NSUnderlineStyleAttributeName"]
+- !private ["SQ", "UIFont"]
+- !private ["SQ", "addAttributes"]
+- !private ["SQ", "append"]
+- !private ["SQ", "boldSystemFont"]
+- !private ["SQ", "init"]
+- !private ["SQ", "italicSystemFont"]
+- !private ["SQ", "mutableCopy"]
+- !private ["SQ", "range"]
+- !private ["SQ", "rawValue"]
+- !private ["SQ", "string"]
+- !private ["SQ", "styleSingle"]
+- !private ["SQ", "systemFontSize"]
+- !private ["s27ExpressibleByBooleanLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "range"]
+- !private ["s25ExpressibleByFloatLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "range"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "range"]
+- !private ["SH", "NSFontAttributeName"]
+- !private ["SH", "NSForegroundColorAttributeName"]
+- !private ["SH", "NSNumber"]
+- !private ["SH", "NSStrikethroughStyleAttributeName"]
+- !private ["SH", "NSUnderlineStyle"]
+- !private ["SH", "NSUnderlineStyleAttributeName"]
+- !private ["SH", "UIFont"]
+- !private ["SH", "addAttributes"]
+- !private ["SH", "append"]
+- !private ["SH", "boldSystemFont"]
+- !private ["SH", "init"]
+- !private ["SH", "italicSystemFont"]
+- !private ["SH", "mutableCopy"]
+- !private ["SH", "range"]
+- !private ["SH", "rawValue"]
+- !private ["SH", "string"]
+- !private ["SH", "styleSingle"]
+- !private ["SH", "systemFontSize"]
+- !private ["So18NSAttributedStringC", "Int"]
+- ["So18NSAttributedStringC", "NSAttributedString"]
+- !private ["So18NSAttributedStringC", "NSFontAttributeName"]
+- !private ["So18NSAttributedStringC", "NSForegroundColorAttributeName"]
+- !private ["So18NSAttributedStringC", "NSMutableAttributedString"]
+- !private ["So18NSAttributedStringC", "NSNumber"]
+- !private ["So18NSAttributedStringC", "NSStrikethroughStyleAttributeName"]
+- !private ["So18NSAttributedStringC", "NSString"]
+- !private ["So18NSAttributedStringC", "NSUnderlineStyle"]
+- !private ["So18NSAttributedStringC", "NSUnderlineStyleAttributeName"]
+- ["So18NSAttributedStringC", "UIColor"]
+- !private ["So18NSAttributedStringC", "UIFont"]
+- !private ["So18NSAttributedStringC", "addAttributes"]
+- !private ["So18NSAttributedStringC", "append"]
+- ["So18NSAttributedStringC", "bold"]
+- ["So18NSAttributedStringC", "color"]
+- !private ["So18NSAttributedStringC", "init"]
+- ["So18NSAttributedStringC", "italic"]
+- !private ["So18NSAttributedStringC", "mutableCopy"]
+- ["So18NSAttributedStringC", "strikethrough"]
+- !private ["So18NSAttributedStringC", "string"]
+- ["So18NSAttributedStringC", "underline"]
+- !private ["So8NSCodingP", "NSFontAttributeName"]
+- !private ["So8NSCodingP", "NSForegroundColorAttributeName"]
+- !private ["So8NSCodingP", "NSNumber"]
+- !private ["So8NSCodingP", "NSStrikethroughStyleAttributeName"]
+- !private ["So8NSCodingP", "NSUnderlineStyle"]
+- !private ["So8NSCodingP", "NSUnderlineStyleAttributeName"]
+- !private ["So8NSCodingP", "UIFont"]
+- !private ["So8NSCodingP", "addAttributes"]
+- !private ["So8NSCodingP", "append"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "mutableCopy"]
+- !private ["So8NSCodingP", "range"]
+- !private ["So8NSCodingP", "string"]
+- !private ["So9NSCopyingP", "NSFontAttributeName"]
+- !private ["So9NSCopyingP", "NSForegroundColorAttributeName"]
+- !private ["So9NSCopyingP", "NSNumber"]
+- !private ["So9NSCopyingP", "NSStrikethroughStyleAttributeName"]
+- !private ["So9NSCopyingP", "NSUnderlineStyle"]
+- !private ["So9NSCopyingP", "NSUnderlineStyleAttributeName"]
+- !private ["So9NSCopyingP", "UIFont"]
+- !private ["So9NSCopyingP", "addAttributes"]
+- !private ["So9NSCopyingP", "append"]
+- !private ["So9NSCopyingP", "boldSystemFont"]
+- !private ["So9NSCopyingP", "init"]
+- !private ["So9NSCopyingP", "italicSystemFont"]
+- !private ["So9NSCopyingP", "mutableCopy"]
+- !private ["So9NSCopyingP", "range"]
+- !private ["So9NSCopyingP", "string"]
+- !private ["So9NSCopyingP", "systemFontSize"]
+- !private ["So21NSItemProviderReadingP", "NSFontAttributeName"]
+- !private ["So21NSItemProviderReadingP", "NSForegroundColorAttributeName"]
+- !private ["So21NSItemProviderReadingP", "NSNumber"]
+- !private ["So21NSItemProviderReadingP", "NSStrikethroughStyleAttributeName"]
+- !private ["So21NSItemProviderReadingP", "NSUnderlineStyle"]
+- !private ["So21NSItemProviderReadingP", "NSUnderlineStyleAttributeName"]
+- !private ["So21NSItemProviderReadingP", "UIFont"]
+- !private ["So21NSItemProviderReadingP", "addAttributes"]
+- !private ["So21NSItemProviderReadingP", "append"]
+- !private ["So21NSItemProviderReadingP", "init"]
+- !private ["So21NSItemProviderReadingP", "mutableCopy"]
+- !private ["So21NSItemProviderReadingP", "range"]
+- !private ["So21NSItemProviderReadingP", "string"]
+- !private ["So21NSItemProviderWritingP", "NSFontAttributeName"]
+- !private ["So21NSItemProviderWritingP", "NSForegroundColorAttributeName"]
+- !private ["So21NSItemProviderWritingP", "NSNumber"]
+- !private ["So21NSItemProviderWritingP", "NSStrikethroughStyleAttributeName"]
+- !private ["So21NSItemProviderWritingP", "NSUnderlineStyle"]
+- !private ["So21NSItemProviderWritingP", "NSUnderlineStyleAttributeName"]
+- !private ["So21NSItemProviderWritingP", "UIFont"]
+- !private ["So21NSItemProviderWritingP", "addAttributes"]
+- !private ["So21NSItemProviderWritingP", "append"]
+- !private ["So21NSItemProviderWritingP", "init"]
+- !private ["So21NSItemProviderWritingP", "mutableCopy"]
+- !private ["So21NSItemProviderWritingP", "range"]
+- !private ["So21NSItemProviderWritingP", "string"]
+- !private ["So25NSMutableAttributedStringC", "addAttributes"]
+- !private ["So25NSMutableAttributedStringC", "append"]
+- !private ["So25NSMutableAttributedStringC", "init"]
+- !private ["So16NSMutableCopyingP", "NSFontAttributeName"]
+- !private ["So16NSMutableCopyingP", "NSForegroundColorAttributeName"]
+- !private ["So16NSMutableCopyingP", "NSNumber"]
+- !private ["So16NSMutableCopyingP", "NSStrikethroughStyleAttributeName"]
+- !private ["So16NSMutableCopyingP", "NSUnderlineStyle"]
+- !private ["So16NSMutableCopyingP", "NSUnderlineStyleAttributeName"]
+- !private ["So16NSMutableCopyingP", "UIFont"]
+- !private ["So16NSMutableCopyingP", "addAttributes"]
+- !private ["So16NSMutableCopyingP", "append"]
+- !private ["So16NSMutableCopyingP", "init"]
+- !private ["So16NSMutableCopyingP", "mutableCopy"]
+- !private ["So16NSMutableCopyingP", "range"]
+- !private ["So16NSMutableCopyingP", "string"]
+- !private ["So8NSNumberC", "init"]
+- !private ["So8NSObjectC", "Int"]
+- ["So8NSObjectC", "NSAttributedString"]
+- !private ["So8NSObjectC", "NSFontAttributeName"]
+- !private ["So8NSObjectC", "NSForegroundColorAttributeName"]
+- !private ["So8NSObjectC", "NSMutableAttributedString"]
+- !private ["So8NSObjectC", "NSNumber"]
+- !private ["So8NSObjectC", "NSStrikethroughStyleAttributeName"]
+- !private ["So8NSObjectC", "NSString"]
+- !private ["So8NSObjectC", "NSUnderlineStyle"]
+- !private ["So8NSObjectC", "NSUnderlineStyleAttributeName"]
+- ["So8NSObjectC", "UIColor"]
+- !private ["So8NSObjectC", "UIFont"]
+- !private ["So8NSObjectC", "addAttributes"]
+- !private ["So8NSObjectC", "append"]
+- ["So8NSObjectC", "bold"]
+- !private ["So8NSObjectC", "boldSystemFont"]
+- ["So8NSObjectC", "color"]
+- !private ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "italic"]
+- !private ["So8NSObjectC", "italicSystemFont"]
+- !private ["So8NSObjectC", "mutableCopy"]
+- !private ["So8NSObjectC", "range"]
+- ["So8NSObjectC", "strikethrough"]
+- !private ["So8NSObjectC", "string"]
+- !private ["So8NSObjectC", "systemFontSize"]
+- ["So8NSObjectC", "underline"]
+- !private ["So8NSObjectP", "NSFontAttributeName"]
+- !private ["So8NSObjectP", "NSForegroundColorAttributeName"]
+- !private ["So8NSObjectP", "NSNumber"]
+- !private ["So8NSObjectP", "NSStrikethroughStyleAttributeName"]
+- !private ["So8NSObjectP", "NSUnderlineStyle"]
+- !private ["So8NSObjectP", "NSUnderlineStyleAttributeName"]
+- !private ["So8NSObjectP", "UIFont"]
+- !private ["So8NSObjectP", "addAttributes"]
+- !private ["So8NSObjectP", "append"]
+- !private ["So8NSObjectP", "boldSystemFont"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "italicSystemFont"]
+- !private ["So8NSObjectP", "mutableCopy"]
+- !private ["So8NSObjectP", "range"]
+- !private ["So8NSObjectP", "string"]
+- !private ["So8NSObjectP", "systemFontSize"]
+- !private ["So14NSSecureCodingP", "NSFontAttributeName"]
+- !private ["So14NSSecureCodingP", "NSForegroundColorAttributeName"]
+- !private ["So14NSSecureCodingP", "NSNumber"]
+- !private ["So14NSSecureCodingP", "NSStrikethroughStyleAttributeName"]
+- !private ["So14NSSecureCodingP", "NSUnderlineStyle"]
+- !private ["So14NSSecureCodingP", "NSUnderlineStyleAttributeName"]
+- !private ["So14NSSecureCodingP", "UIFont"]
+- !private ["So14NSSecureCodingP", "addAttributes"]
+- !private ["So14NSSecureCodingP", "append"]
+- !private ["So14NSSecureCodingP", "init"]
+- !private ["So14NSSecureCodingP", "mutableCopy"]
+- !private ["So14NSSecureCodingP", "range"]
+- !private ["So14NSSecureCodingP", "string"]
+- !private ["So8NSStringC", "range"]
+- !private ["So16NSUnderlineStyleV", "rawValue"]
+- !private ["So16NSUnderlineStyleV", "styleSingle"]
+- !private ["So7NSValueC", "init"]
+- !private ["SY", "rawValue"]
+- !private ["SY", "styleSingle"]
+- !private ["So6UIFontC", "boldSystemFont"]
+- !private ["So6UIFontC", "italicSystemFont"]
+- !private ["So6UIFontC", "systemFontSize"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "range"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "NSFontAttributeName"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "NSForegroundColorAttributeName"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "NSNumber"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "NSStrikethroughStyleAttributeName"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "NSUnderlineStyle"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "NSUnderlineStyleAttributeName"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIFont"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "addAttributes"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "append"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "boldSystemFont"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "italicSystemFont"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "mutableCopy"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "range"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "string"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "systemFontSize"]
+depends-nominal:
+- !private "s7CVarArgP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s23CustomStringConvertibleP"
+- !private "SQ"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s25ExpressibleByFloatLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "SH"
+- "So18NSAttributedStringC"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So25NSMutableAttributedStringC"
+- !private "So16NSMutableCopyingP"
+- !private "So8NSNumberC"
+- "So8NSObjectC"
+- !private "So8NSObjectP"
+- !private "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- !private "So16NSUnderlineStyleV"
+- !private "So7NSValueC"
+- !private "SY"
+- !private "So6UIFontC"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Users/sunchuyue/Documents/test/RX_Product/Pods/Target Support Files/EZSwiftExtensions/EZSwiftExtensions-umbrella.h"
+- "/Users/sunchuyue/Documents/test/RX_Product/DerivedData/RX_Product/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/EZSwiftExtensions.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "ba25987fbff4159364e1892215f6f45d"

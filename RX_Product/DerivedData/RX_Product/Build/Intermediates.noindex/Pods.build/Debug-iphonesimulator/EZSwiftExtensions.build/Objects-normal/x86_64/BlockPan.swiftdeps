@@ -1,0 +1,132 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "BlockPan"
+provides-nominal:
+- "17EZSwiftExtensions8BlockPanC"
+provides-member:
+- ["17EZSwiftExtensions8BlockPanC", ""]
+provides-dynamic-lookup:
+- "didPan"
+depends-top-level:
+- "AssignmentPrecedence"
+- "BlockPan"
+- "Selector"
+- "UIPanGestureRecognizer"
+- "Void"
+depends-member:
+- !private ["17EZSwiftExtensions8BlockPanC", "BlockPan"]
+- ["17EZSwiftExtensions8BlockPanC", "Selector"]
+- ["17EZSwiftExtensions8BlockPanC", "UIPanGestureRecognizer"]
+- ["17EZSwiftExtensions8BlockPanC", "Void"]
+- !private ["17EZSwiftExtensions8BlockPanC", "addTarget"]
+- ["17EZSwiftExtensions8BlockPanC", "didPan"]
+- ["17EZSwiftExtensions8BlockPanC", "init"]
+- !private ["17EZSwiftExtensions8BlockPanC", "panAction"]
+- !private ["s7CVarArgP", "BlockPan"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "addTarget"]
+- !private ["s7CVarArgP", "didPan"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "panAction"]
+- !private ["s28CustomDebugStringConvertibleP", "BlockPan"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "addTarget"]
+- !private ["s28CustomDebugStringConvertibleP", "didPan"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "panAction"]
+- !private ["s23CustomStringConvertibleP", "BlockPan"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "addTarget"]
+- !private ["s23CustomStringConvertibleP", "didPan"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "panAction"]
+- !private ["SQ", "BlockPan"]
+- ["SQ", ""]
+- !private ["SQ", "addTarget"]
+- !private ["SQ", "didPan"]
+- !private ["SQ", "init"]
+- !private ["SQ", "panAction"]
+- !private ["SH", "BlockPan"]
+- ["SH", ""]
+- !private ["SH", "addTarget"]
+- !private ["SH", "didPan"]
+- !private ["SH", "init"]
+- !private ["SH", "panAction"]
+- !private ["So8NSObjectC", "BlockPan"]
+- ["So8NSObjectC", "Selector"]
+- ["So8NSObjectC", "UIPanGestureRecognizer"]
+- ["So8NSObjectC", "Void"]
+- !private ["So8NSObjectC", "addTarget"]
+- ["So8NSObjectC", "didPan"]
+- ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "panAction"]
+- !private ["So8NSObjectP", "BlockPan"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "addTarget"]
+- !private ["So8NSObjectP", "didPan"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "panAction"]
+- !private ["So19UIGestureRecognizerC", "BlockPan"]
+- ["So19UIGestureRecognizerC", "Selector"]
+- ["So19UIGestureRecognizerC", "UIPanGestureRecognizer"]
+- ["So19UIGestureRecognizerC", "Void"]
+- !private ["So19UIGestureRecognizerC", "addTarget"]
+- ["So19UIGestureRecognizerC", "didPan"]
+- ["So19UIGestureRecognizerC", "init"]
+- ["So19UIGestureRecognizerC", "panAction"]
+- !private ["So22UIPanGestureRecognizerC", "BlockPan"]
+- ["So22UIPanGestureRecognizerC", "Selector"]
+- ["So22UIPanGestureRecognizerC", "UIPanGestureRecognizer"]
+- ["So22UIPanGestureRecognizerC", "Void"]
+- ["So22UIPanGestureRecognizerC", ""]
+- !private ["So22UIPanGestureRecognizerC", "addTarget"]
+- ["So22UIPanGestureRecognizerC", "didPan"]
+- ["So22UIPanGestureRecognizerC", "init"]
+- ["So22UIPanGestureRecognizerC", "panAction"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "BlockPan"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "addTarget"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "didPan"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "panAction"]
+depends-nominal:
+- "17EZSwiftExtensions8BlockPanC"
+- "s7CVarArgP"
+- "s28CustomDebugStringConvertibleP"
+- "s23CustomStringConvertibleP"
+- "SQ"
+- "SH"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- "So19UIGestureRecognizerC"
+- "So22UIPanGestureRecognizerC"
+- "10Foundation27_KeyValueCodingAndObservingP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/sunchuyue/Documents/test/RX_Product/Pods/Target Support Files/EZSwiftExtensions/EZSwiftExtensions-umbrella.h"
+- "/Users/sunchuyue/Documents/test/RX_Product/DerivedData/RX_Product/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/EZSwiftExtensions.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "23e6d0c65931167323efcd9d00e027fb"

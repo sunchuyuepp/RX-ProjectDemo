@@ -1,0 +1,10 @@
+framework module Toaster {
+  umbrella header "Toaster-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module Toaster.__Swift {
+    exclude header "Toaster-Swift.h"
+}

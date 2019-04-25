@@ -1,0 +1,6 @@
+version: "Apple Swift version 4.2.1 (swiftlang-1000.11.42 clang-1000.11.45.1)"
+options: "c83e73bd9f6454d2c0f2273b093c3bee"
+build_time: [1556085999, 37842000]
+inputs:
+  "/Users/sunchuyue/Documents/test/RX_Product/Pods/SwiftKeychainWrapper/SwiftKeychainWrapper/KeychainItemAccessibility.swift": [1553861526, 0]
+  "/Users/sunchuyue/Documents/test/RX_Product/Pods/SwiftKeychainWrapper/SwiftKeychainWrapper/KeychainWrapper.swift": [1553861526, 0]

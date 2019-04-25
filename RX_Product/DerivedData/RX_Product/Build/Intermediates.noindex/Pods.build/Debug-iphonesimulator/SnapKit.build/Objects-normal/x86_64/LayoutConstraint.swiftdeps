@@ -1,0 +1,202 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "LayoutConstraint"
+- "=="
+provides-nominal:
+- "7SnapKit16LayoutConstraintC"
+provides-member:
+- ["7SnapKit16LayoutConstraintC", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "&&"
+- "=="
+- !private "==="
+- "AssignmentPrecedence"
+- "Bool"
+- !private "BooleanLiteralType"
+- "Constraint"
+- "LayoutConstraint"
+- "NSLayoutConstraint"
+- "String"
+depends-member:
+- !private ["Sb", "_getBuiltinLogicValue"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "firstAttribute"]
+- !private ["s7CVarArgP", "firstItem"]
+- !private ["s7CVarArgP", "identifier"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "multiplier"]
+- !private ["s7CVarArgP", "priority"]
+- !private ["s7CVarArgP", "relation"]
+- !private ["s7CVarArgP", "secondAttribute"]
+- !private ["s7CVarArgP", "secondItem"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "firstAttribute"]
+- !private ["s28CustomDebugStringConvertibleP", "firstItem"]
+- !private ["s28CustomDebugStringConvertibleP", "identifier"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "multiplier"]
+- !private ["s28CustomDebugStringConvertibleP", "priority"]
+- !private ["s28CustomDebugStringConvertibleP", "relation"]
+- !private ["s28CustomDebugStringConvertibleP", "secondAttribute"]
+- !private ["s28CustomDebugStringConvertibleP", "secondItem"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "firstAttribute"]
+- !private ["s23CustomStringConvertibleP", "firstItem"]
+- !private ["s23CustomStringConvertibleP", "identifier"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "multiplier"]
+- !private ["s23CustomStringConvertibleP", "priority"]
+- !private ["s23CustomStringConvertibleP", "relation"]
+- !private ["s23CustomStringConvertibleP", "secondAttribute"]
+- !private ["s23CustomStringConvertibleP", "secondItem"]
+- !private ["Se", "_getBuiltinLogicValue"]
+- !private ["SE", "_getBuiltinLogicValue"]
+- ["SQ", ""]
+- !private ["SQ", "_getBuiltinLogicValue"]
+- !private ["SQ", "firstAttribute"]
+- !private ["SQ", "firstItem"]
+- !private ["SQ", "identifier"]
+- !private ["SQ", "init"]
+- !private ["SQ", "init"]
+- !private ["SQ", "multiplier"]
+- !private ["SQ", "priority"]
+- !private ["SQ", "relation"]
+- !private ["SQ", "secondAttribute"]
+- !private ["SQ", "secondItem"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- ["SH", ""]
+- !private ["SH", "_getBuiltinLogicValue"]
+- !private ["SH", "firstAttribute"]
+- !private ["SH", "firstItem"]
+- !private ["SH", "identifier"]
+- !private ["SH", "init"]
+- !private ["SH", "init"]
+- !private ["SH", "multiplier"]
+- !private ["SH", "priority"]
+- !private ["SH", "relation"]
+- !private ["SH", "secondAttribute"]
+- !private ["SH", "secondItem"]
+- ["7SnapKit16LayoutConstraintC", "Constraint"]
+- ["7SnapKit16LayoutConstraintC", "String"]
+- ["7SnapKit16LayoutConstraintC", "constraint"]
+- !private ["7SnapKit16LayoutConstraintC", "firstAttribute"]
+- !private ["7SnapKit16LayoutConstraintC", "firstItem"]
+- !private ["7SnapKit16LayoutConstraintC", "identifier"]
+- ["7SnapKit16LayoutConstraintC", "init"]
+- ["7SnapKit16LayoutConstraintC", "label"]
+- !private ["7SnapKit16LayoutConstraintC", "multiplier"]
+- !private ["7SnapKit16LayoutConstraintC", "priority"]
+- !private ["7SnapKit16LayoutConstraintC", "relation"]
+- !private ["7SnapKit16LayoutConstraintC", "secondAttribute"]
+- !private ["7SnapKit16LayoutConstraintC", "secondItem"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- ["So18NSLayoutConstraintC", "Constraint"]
+- ["So18NSLayoutConstraintC", "String"]
+- ["So18NSLayoutConstraintC", ""]
+- ["So18NSLayoutConstraintC", "constraint"]
+- !private ["So18NSLayoutConstraintC", "firstAttribute"]
+- !private ["So18NSLayoutConstraintC", "firstItem"]
+- !private ["So18NSLayoutConstraintC", "identifier"]
+- ["So18NSLayoutConstraintC", "init"]
+- !private ["So18NSLayoutConstraintC", "init"]
+- ["So18NSLayoutConstraintC", "label"]
+- !private ["So18NSLayoutConstraintC", "multiplier"]
+- !private ["So18NSLayoutConstraintC", "priority"]
+- !private ["So18NSLayoutConstraintC", "relation"]
+- !private ["So18NSLayoutConstraintC", "secondAttribute"]
+- !private ["So18NSLayoutConstraintC", "secondItem"]
+- ["So8NSObjectC", "Constraint"]
+- ["So8NSObjectC", "String"]
+- ["So8NSObjectC", "constraint"]
+- !private ["So8NSObjectC", "firstAttribute"]
+- !private ["So8NSObjectC", "firstItem"]
+- !private ["So8NSObjectC", "identifier"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "init"]
+- ["So8NSObjectC", "label"]
+- !private ["So8NSObjectC", "multiplier"]
+- !private ["So8NSObjectC", "priority"]
+- !private ["So8NSObjectC", "relation"]
+- !private ["So8NSObjectC", "secondAttribute"]
+- !private ["So8NSObjectC", "secondItem"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "firstAttribute"]
+- !private ["So8NSObjectP", "firstItem"]
+- !private ["So8NSObjectP", "identifier"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "multiplier"]
+- !private ["So8NSObjectP", "priority"]
+- !private ["So8NSObjectP", "relation"]
+- !private ["So8NSObjectP", "secondAttribute"]
+- !private ["So8NSObjectP", "secondItem"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "firstAttribute"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "firstItem"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "identifier"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "multiplier"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "priority"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "relation"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "secondAttribute"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "secondItem"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+depends-nominal:
+- !private "Sb"
+- "s7CVarArgP"
+- "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "SE"
+- "SQ"
+- !private "s27ExpressibleByBooleanLiteralP"
+- "SH"
+- "7SnapKit16LayoutConstraintC"
+- !private "s25LosslessStringConvertibleP"
+- "So18NSLayoutConstraintC"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/sunchuyue/Documents/test/RX_Product/Pods/Target Support Files/SnapKit/SnapKit-umbrella.h"
+- "/Users/sunchuyue/Documents/test/RX_Product/DerivedData/RX_Product/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SnapKit.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "5cffcfb3b315ff2d343bda3ed85463b6"

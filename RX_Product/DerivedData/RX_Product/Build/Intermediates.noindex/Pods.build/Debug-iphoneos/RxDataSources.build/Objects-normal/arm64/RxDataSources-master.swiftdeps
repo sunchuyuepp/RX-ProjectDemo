@@ -1,0 +1,20 @@
+version: "Apple Swift version 4.2.1 (swiftlang-1000.11.42 clang-1000.11.45.1)"
+options: "f350419603d297fe1546cc017c30c3df"
+build_time: [1556086036, 251526000]
+inputs:
+  "/Users/sunchuyue/Documents/test/RX_Product/Pods/RxDataSources/Sources/RxDataSources/AnimationConfiguration.swift": [1554086334, 0]
+  "/Users/sunchuyue/Documents/test/RX_Product/Pods/RxDataSources/Sources/RxDataSources/Array+Extensions.swift": [1554086334, 0]
+  "/Users/sunchuyue/Documents/test/RX_Product/Pods/RxDataSources/Sources/RxDataSources/CollectionViewSectionedDataSource.swift": [1554086334, 0]
+  "/Users/sunchuyue/Documents/test/RX_Product/Pods/RxDataSources/Sources/RxDataSources/DataSources.swift": [1554086334, 0]
+  "/Users/sunchuyue/Documents/test/RX_Product/Pods/RxDataSources/Sources/RxDataSources/Deprecated.swift": [1554086334, 0]
+  "/Users/sunchuyue/Documents/test/RX_Product/Pods/RxDataSources/Sources/RxDataSources/FloatingPointType+IdentifiableType.swift": [1554086334, 0]
+  "/Users/sunchuyue/Documents/test/RX_Product/Pods/RxDataSources/Sources/RxDataSources/IntegerType+IdentifiableType.swift": [1554086334, 0]
+  "/Users/sunchuyue/Documents/test/RX_Product/Pods/RxDataSources/Sources/RxDataSources/RxCollectionViewSectionedAnimatedDataSource.swift": [1554086334, 0]
+  "/Users/sunchuyue/Documents/test/RX_Product/Pods/RxDataSources/Sources/RxDataSources/RxCollectionViewSectionedReloadDataSource.swift": [1554086334, 0]
+  "/Users/sunchuyue/Documents/test/RX_Product/Pods/RxDataSources/Sources/RxDataSources/RxPickerViewAdapter.swift": [1554086334, 0]
+  "/Users/sunchuyue/Documents/test/RX_Product/Pods/RxDataSources/Sources/RxDataSources/RxTableViewSectionedAnimatedDataSource.swift": [1554086334, 0]
+  "/Users/sunchuyue/Documents/test/RX_Product/Pods/RxDataSources/Sources/RxDataSources/RxTableViewSectionedReloadDataSource.swift": [1554086334, 0]
+  "/Users/sunchuyue/Documents/test/RX_Product/Pods/RxDataSources/Sources/RxDataSources/String+IdentifiableType.swift": [1554086334, 0]
+  "/Users/sunchuyue/Documents/test/RX_Product/Pods/RxDataSources/Sources/RxDataSources/TableViewSectionedDataSource.swift": [1554086334, 0]
+  "/Users/sunchuyue/Documents/test/RX_Product/Pods/RxDataSources/Sources/RxDataSources/UI+SectionedViewType.swift": [1554086334, 0]
+  "/Users/sunchuyue/Documents/test/RX_Product/Pods/RxDataSources/Sources/RxDataSources/ViewTransition.swift": [1554086334, 0]

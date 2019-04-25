@@ -1,0 +1,721 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "RxCollectionViewSectionedAnimatedDataSource"
+provides-nominal:
+- "13RxDataSources0a31CollectionViewSectionedAnimatedB6SourceC"
+provides-member:
+- ["13RxDataSources0a31CollectionViewSectionedAnimatedB6SourceC", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "!"
+- !private "=="
+- "AnimatableSectionModelType"
+- "AnimationConfiguration"
+- "AssignmentPrecedence"
+- !private "Binder"
+- "BooleanLiteralType"
+- "Changeset"
+- "CollectionViewSectionedDataSource"
+- !private "Diff"
+- "DisposeBag"
+- "Event"
+- !private "FloatLiteralType"
+- !private "MainScheduler"
+- "PublishSubject"
+- "RxCollectionViewDataSourceType"
+- "RxCollectionViewSectionedAnimatedDataSource"
+- "StringLiteralType"
+- "UICollectionView"
+- "ViewTransition"
+- !private "print"
+- !private "rxDebugFatalError"
+depends-member:
+- !private ["13RxDataSources22AnimationConfigurationV", "init"]
+- !private ["SK", "init"]
+- !private ["SK", "init"]
+- !private ["7RxCocoa6BinderV", "init"]
+- !private ["7RxCocoa6BinderV", "on"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["So15CALayerDelegateP", "performBatchUpdates"]
+- !private ["So15CALayerDelegateP", "reloadData"]
+- !private ["So15CALayerDelegateP", "window"]
+- !private ["s7CVarArgP", "AnimationConfiguration"]
+- !private ["s7CVarArgP", "Binder"]
+- !private ["s7CVarArgP", "Diff"]
+- ["s7CVarArgP", "DisposeBag"]
+- ["s7CVarArgP", "Element"]
+- !private ["s7CVarArgP", "MainScheduler"]
+- ["s7CVarArgP", "PublishSubject"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "_dataSourceBound"]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "animationConfiguration"]
+- ["s7CVarArgP", "collectionView"]
+- !private ["s7CVarArgP", "dataSet"]
+- !private ["s7CVarArgP", "decideViewTransition"]
+- !private ["s7CVarArgP", "disposeBag"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "partialUpdateEvent"]
+- !private ["s7CVarArgP", "performBatchUpdates"]
+- !private ["s7CVarArgP", "print"]
+- !private ["s7CVarArgP", "reloadData"]
+- !private ["s7CVarArgP", "rxDebugFatalError"]
+- !private ["s7CVarArgP", "sectionModels"]
+- !private ["s7CVarArgP", "setSections"]
+- !private ["s7CVarArgP", "window"]
+- ["7RxSwift10CancelableP", "init"]
+- !private ["7RxSwift10CancelableP", "observeOn"]
+- !private ["7RxSwift10CancelableP", "on"]
+- !private ["14Differentiator9ChangesetV", "finalSections"]
+- !private ["Sl", "init"]
+- !private ["Sl", "init"]
+- ["13RxDataSources023CollectionViewSectionedB6SourceC", "AnimationConfiguration"]
+- !private ["13RxDataSources023CollectionViewSectionedB6SourceC", "Binder"]
+- ["13RxDataSources023CollectionViewSectionedB6SourceC", "CanMoveItemAtIndexPath"]
+- ["13RxDataSources023CollectionViewSectionedB6SourceC", "Changeset"]
+- ["13RxDataSources023CollectionViewSectionedB6SourceC", "CollectionViewSectionedDataSource"]
+- ["13RxDataSources023CollectionViewSectionedB6SourceC", "ConfigureCell"]
+- ["13RxDataSources023CollectionViewSectionedB6SourceC", "ConfigureSupplementaryView"]
+- ["13RxDataSources023CollectionViewSectionedB6SourceC", "DecideViewTransition"]
+- !private ["13RxDataSources023CollectionViewSectionedB6SourceC", "Diff"]
+- ["13RxDataSources023CollectionViewSectionedB6SourceC", "DisposeBag"]
+- ["13RxDataSources023CollectionViewSectionedB6SourceC", "Element"]
+- ["13RxDataSources023CollectionViewSectionedB6SourceC", "Event"]
+- !private ["13RxDataSources023CollectionViewSectionedB6SourceC", "MainScheduler"]
+- ["13RxDataSources023CollectionViewSectionedB6SourceC", "MoveItem"]
+- ["13RxDataSources023CollectionViewSectionedB6SourceC", "PublishSubject"]
+- ["13RxDataSources023CollectionViewSectionedB6SourceC", "S"]
+- ["13RxDataSources023CollectionViewSectionedB6SourceC", "UICollectionView"]
+- ["13RxDataSources023CollectionViewSectionedB6SourceC", "ViewTransition"]
+- ["13RxDataSources023CollectionViewSectionedB6SourceC", ""]
+- !private ["13RxDataSources023CollectionViewSectionedB6SourceC", "_dataSourceBound"]
+- ["13RxDataSources023CollectionViewSectionedB6SourceC", "animationConfiguration"]
+- ["13RxDataSources023CollectionViewSectionedB6SourceC", "collectionView"]
+- ["13RxDataSources023CollectionViewSectionedB6SourceC", "dataSet"]
+- ["13RxDataSources023CollectionViewSectionedB6SourceC", "decideViewTransition"]
+- ["13RxDataSources023CollectionViewSectionedB6SourceC", "disposeBag"]
+- ["13RxDataSources023CollectionViewSectionedB6SourceC", "init"]
+- ["13RxDataSources023CollectionViewSectionedB6SourceC", "partialUpdateEvent"]
+- !private ["13RxDataSources023CollectionViewSectionedB6SourceC", "print"]
+- !private ["13RxDataSources023CollectionViewSectionedB6SourceC", "rxDebugFatalError"]
+- !private ["13RxDataSources023CollectionViewSectionedB6SourceC", "sectionModels"]
+- !private ["13RxDataSources023CollectionViewSectionedB6SourceC", "setSections"]
+- !private ["SL", "init"]
+- !private ["SL", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "AnimationConfiguration"]
+- !private ["s28CustomDebugStringConvertibleP", "Binder"]
+- !private ["s28CustomDebugStringConvertibleP", "Diff"]
+- ["s28CustomDebugStringConvertibleP", "DisposeBag"]
+- ["s28CustomDebugStringConvertibleP", "Element"]
+- !private ["s28CustomDebugStringConvertibleP", "MainScheduler"]
+- ["s28CustomDebugStringConvertibleP", "PublishSubject"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "_dataSourceBound"]
+- !private ["s28CustomDebugStringConvertibleP", "animationConfiguration"]
+- ["s28CustomDebugStringConvertibleP", "collectionView"]
+- !private ["s28CustomDebugStringConvertibleP", "dataSet"]
+- !private ["s28CustomDebugStringConvertibleP", "decideViewTransition"]
+- !private ["s28CustomDebugStringConvertibleP", "disposeBag"]
+- !private ["s28CustomDebugStringConvertibleP", "finalSections"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "next"]
+- !private ["s28CustomDebugStringConvertibleP", "partialUpdateEvent"]
+- !private ["s28CustomDebugStringConvertibleP", "performBatchUpdates"]
+- !private ["s28CustomDebugStringConvertibleP", "print"]
+- !private ["s28CustomDebugStringConvertibleP", "reloadData"]
+- !private ["s28CustomDebugStringConvertibleP", "rxDebugFatalError"]
+- !private ["s28CustomDebugStringConvertibleP", "sectionModels"]
+- !private ["s28CustomDebugStringConvertibleP", "setSections"]
+- !private ["s28CustomDebugStringConvertibleP", "window"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s23CustomStringConvertibleP", "AnimationConfiguration"]
+- !private ["s23CustomStringConvertibleP", "Binder"]
+- !private ["s23CustomStringConvertibleP", "Diff"]
+- ["s23CustomStringConvertibleP", "DisposeBag"]
+- ["s23CustomStringConvertibleP", "Element"]
+- !private ["s23CustomStringConvertibleP", "MainScheduler"]
+- ["s23CustomStringConvertibleP", "PublishSubject"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "_dataSourceBound"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "animationConfiguration"]
+- ["s23CustomStringConvertibleP", "collectionView"]
+- !private ["s23CustomStringConvertibleP", "dataSet"]
+- !private ["s23CustomStringConvertibleP", "decideViewTransition"]
+- !private ["s23CustomStringConvertibleP", "disposeBag"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "partialUpdateEvent"]
+- !private ["s23CustomStringConvertibleP", "performBatchUpdates"]
+- !private ["s23CustomStringConvertibleP", "print"]
+- !private ["s23CustomStringConvertibleP", "reloadData"]
+- !private ["s23CustomStringConvertibleP", "rxDebugFatalError"]
+- !private ["s23CustomStringConvertibleP", "sectionModels"]
+- !private ["s23CustomStringConvertibleP", "setSections"]
+- !private ["s23CustomStringConvertibleP", "window"]
+- !private ["Se", "_getBuiltinLogicValue"]
+- !private ["Se", "init"]
+- !private ["Se", "init"]
+- !private ["14Differentiator4DiffO", "differencesForSectionedView"]
+- !private ["7RxSwift10DisposableP", "disposed"]
+- ["7RxSwift10DisposableP", "init"]
+- !private ["7RxSwift10DisposableP", "observeOn"]
+- !private ["7RxSwift10DisposableP", "on"]
+- ["7RxSwift10DisposeBagC", "init"]
+- ["7RxSwift11DisposeBaseC", "init"]
+- !private ["SE", "_getBuiltinLogicValue"]
+- !private ["SE", "init"]
+- !private ["SE", "init"]
+- !private ["SQ", "AnimationConfiguration"]
+- !private ["SQ", "Binder"]
+- !private ["SQ", "Diff"]
+- ["SQ", "DisposeBag"]
+- ["SQ", "Element"]
+- !private ["SQ", "MainScheduler"]
+- ["SQ", "PublishSubject"]
+- ["SQ", ""]
+- !private ["SQ", "_dataSourceBound"]
+- !private ["SQ", "_getBuiltinLogicValue"]
+- !private ["SQ", "animated"]
+- !private ["SQ", "animationConfiguration"]
+- ["SQ", "collectionView"]
+- !private ["SQ", "dataSet"]
+- !private ["SQ", "decideViewTransition"]
+- !private ["SQ", "disposeBag"]
+- !private ["SQ", "init"]
+- !private ["SQ", "init"]
+- !private ["SQ", "partialUpdateEvent"]
+- !private ["SQ", "performBatchUpdates"]
+- !private ["SQ", "print"]
+- !private ["SQ", "reload"]
+- !private ["SQ", "reloadData"]
+- !private ["SQ", "rxDebugFatalError"]
+- !private ["SQ", "sectionModels"]
+- !private ["SQ", "setSections"]
+- !private ["SQ", "window"]
+- !private ["7RxSwift5EventO", "next"]
+- !private ["7RxSwift16EventConvertibleP", "next"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["7RxCocoa13HasDataSourceP", "performBatchUpdates"]
+- !private ["7RxCocoa13HasDataSourceP", "reloadData"]
+- !private ["7RxCocoa13HasDataSourceP", "window"]
+- !private ["7RxCocoa11HasDelegateP", "performBatchUpdates"]
+- !private ["7RxCocoa11HasDelegateP", "reloadData"]
+- !private ["7RxCocoa11HasDelegateP", "window"]
+- !private ["7RxCocoa21HasPrefetchDataSourceP", "performBatchUpdates"]
+- !private ["7RxCocoa21HasPrefetchDataSourceP", "reloadData"]
+- !private ["7RxCocoa21HasPrefetchDataSourceP", "window"]
+- !private ["SH", "AnimationConfiguration"]
+- !private ["SH", "Binder"]
+- !private ["SH", "Diff"]
+- ["SH", "DisposeBag"]
+- ["SH", "Element"]
+- !private ["SH", "MainScheduler"]
+- ["SH", "PublishSubject"]
+- ["SH", ""]
+- !private ["SH", "_dataSourceBound"]
+- !private ["SH", "_getBuiltinLogicValue"]
+- !private ["SH", "animated"]
+- !private ["SH", "animationConfiguration"]
+- ["SH", "collectionView"]
+- !private ["SH", "dataSet"]
+- !private ["SH", "decideViewTransition"]
+- !private ["SH", "disposeBag"]
+- !private ["SH", "init"]
+- !private ["SH", "init"]
+- !private ["SH", "partialUpdateEvent"]
+- !private ["SH", "performBatchUpdates"]
+- !private ["SH", "print"]
+- !private ["SH", "reload"]
+- !private ["SH", "reloadData"]
+- !private ["SH", "rxDebugFatalError"]
+- !private ["SH", "sectionModels"]
+- !private ["SH", "setSections"]
+- !private ["SH", "window"]
+- !private ["14Differentiator16IdentifiableTypeP", "init"]
+- !private ["14Differentiator16IdentifiableTypeP", "init"]
+- !private ["7RxSwift22ImmediateSchedulerTypeP", "asyncInstance"]
+- !private ["7RxSwift22ImmediateSchedulerTypeP", "instance"]
+- !private ["7RxCocoa16KVORepresentableP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["7RxSwift13MainSchedulerC", "asyncInstance"]
+- !private ["7RxSwift13MainSchedulerC", "instance"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["So8NSCodingP", "performBatchUpdates"]
+- !private ["So8NSCodingP", "reloadData"]
+- !private ["So8NSCodingP", "window"]
+- ["So8NSObjectC", "AnimationConfiguration"]
+- !private ["So8NSObjectC", "Binder"]
+- ["So8NSObjectC", "CanMoveItemAtIndexPath"]
+- ["So8NSObjectC", "Changeset"]
+- ["So8NSObjectC", "CollectionViewSectionedDataSource"]
+- ["So8NSObjectC", "ConfigureCell"]
+- ["So8NSObjectC", "ConfigureSupplementaryView"]
+- ["So8NSObjectC", "DecideViewTransition"]
+- !private ["So8NSObjectC", "Diff"]
+- ["So8NSObjectC", "DisposeBag"]
+- ["So8NSObjectC", "Element"]
+- ["So8NSObjectC", "Event"]
+- !private ["So8NSObjectC", "MainScheduler"]
+- ["So8NSObjectC", "MoveItem"]
+- ["So8NSObjectC", "PublishSubject"]
+- ["So8NSObjectC", "S"]
+- ["So8NSObjectC", "UICollectionView"]
+- ["So8NSObjectC", "ViewTransition"]
+- !private ["So8NSObjectC", "_dataSourceBound"]
+- ["So8NSObjectC", "animationConfiguration"]
+- ["So8NSObjectC", "collectionView"]
+- ["So8NSObjectC", "dataSet"]
+- ["So8NSObjectC", "decideViewTransition"]
+- ["So8NSObjectC", "disposeBag"]
+- ["So8NSObjectC", "partialUpdateEvent"]
+- !private ["So8NSObjectC", "performBatchUpdates"]
+- !private ["So8NSObjectC", "print"]
+- !private ["So8NSObjectC", "reloadData"]
+- !private ["So8NSObjectC", "rxDebugFatalError"]
+- !private ["So8NSObjectC", "sectionModels"]
+- !private ["So8NSObjectC", "setSections"]
+- !private ["So8NSObjectC", "window"]
+- !private ["So8NSObjectP", "AnimationConfiguration"]
+- !private ["So8NSObjectP", "Binder"]
+- !private ["So8NSObjectP", "Diff"]
+- ["So8NSObjectP", "DisposeBag"]
+- ["So8NSObjectP", "Element"]
+- !private ["So8NSObjectP", "MainScheduler"]
+- ["So8NSObjectP", "PublishSubject"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "_dataSourceBound"]
+- !private ["So8NSObjectP", "animationConfiguration"]
+- ["So8NSObjectP", "collectionView"]
+- !private ["So8NSObjectP", "dataSet"]
+- !private ["So8NSObjectP", "decideViewTransition"]
+- !private ["So8NSObjectP", "disposeBag"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "partialUpdateEvent"]
+- !private ["So8NSObjectP", "performBatchUpdates"]
+- !private ["So8NSObjectP", "print"]
+- !private ["So8NSObjectP", "reloadData"]
+- !private ["So8NSObjectP", "rxDebugFatalError"]
+- !private ["So8NSObjectP", "sectionModels"]
+- !private ["So8NSObjectP", "setSections"]
+- !private ["So8NSObjectP", "window"]
+- ["7RxSwift10ObservableC", "init"]
+- !private ["7RxSwift10ObservableC", "observeOn"]
+- !private ["7RxSwift10ObservableC", "on"]
+- !private ["7RxSwift10ObservableC", "subscribe"]
+- !private ["7RxSwift10ObservableC", "throttle"]
+- ["7RxSwift25ObservableConvertibleTypeP", "init"]
+- !private ["7RxSwift25ObservableConvertibleTypeP", "observeOn"]
+- !private ["7RxSwift25ObservableConvertibleTypeP", "on"]
+- !private ["7RxSwift25ObservableConvertibleTypeP", "subscribe"]
+- !private ["7RxSwift25ObservableConvertibleTypeP", "throttle"]
+- ["7RxSwift14ObservableTypeP", "init"]
+- !private ["7RxSwift14ObservableTypeP", "observeOn"]
+- !private ["7RxSwift14ObservableTypeP", "on"]
+- !private ["7RxSwift14ObservableTypeP", "subscribe"]
+- !private ["7RxSwift14ObservableTypeP", "throttle"]
+- ["7RxSwift12ObserverTypeP", "init"]
+- !private ["7RxSwift12ObserverTypeP", "observeOn"]
+- !private ["7RxSwift12ObserverTypeP", "on"]
+- ["7RxSwift14PublishSubjectC", "init"]
+- !private ["7RxSwift14PublishSubjectC", "observeOn"]
+- !private ["7RxSwift14PublishSubjectC", "on"]
+- !private ["Sm", "init"]
+- !private ["Sm", "init"]
+- !private ["7RxSwift18ReactiveCompatibleP", "AnimationConfiguration"]
+- !private ["7RxSwift18ReactiveCompatibleP", "Binder"]
+- !private ["7RxSwift18ReactiveCompatibleP", "Diff"]
+- ["7RxSwift18ReactiveCompatibleP", "DisposeBag"]
+- ["7RxSwift18ReactiveCompatibleP", "Element"]
+- !private ["7RxSwift18ReactiveCompatibleP", "MainScheduler"]
+- ["7RxSwift18ReactiveCompatibleP", "PublishSubject"]
+- ["7RxSwift18ReactiveCompatibleP", ""]
+- !private ["7RxSwift18ReactiveCompatibleP", "_dataSourceBound"]
+- !private ["7RxSwift18ReactiveCompatibleP", "animationConfiguration"]
+- ["7RxSwift18ReactiveCompatibleP", "collectionView"]
+- !private ["7RxSwift18ReactiveCompatibleP", "dataSet"]
+- !private ["7RxSwift18ReactiveCompatibleP", "decideViewTransition"]
+- !private ["7RxSwift18ReactiveCompatibleP", "disposeBag"]
+- !private ["7RxSwift18ReactiveCompatibleP", "init"]
+- !private ["7RxSwift18ReactiveCompatibleP", "partialUpdateEvent"]
+- !private ["7RxSwift18ReactiveCompatibleP", "performBatchUpdates"]
+- !private ["7RxSwift18ReactiveCompatibleP", "print"]
+- !private ["7RxSwift18ReactiveCompatibleP", "reloadData"]
+- !private ["7RxSwift18ReactiveCompatibleP", "rxDebugFatalError"]
+- !private ["7RxSwift18ReactiveCompatibleP", "sectionModels"]
+- !private ["7RxSwift18ReactiveCompatibleP", "setSections"]
+- !private ["7RxSwift18ReactiveCompatibleP", "window"]
+- !private ["7RxCocoa0A28CollectionViewDataSourceTypeP", "AnimationConfiguration"]
+- !private ["7RxCocoa0A28CollectionViewDataSourceTypeP", "Binder"]
+- !private ["7RxCocoa0A28CollectionViewDataSourceTypeP", "Diff"]
+- ["7RxCocoa0A28CollectionViewDataSourceTypeP", "DisposeBag"]
+- ["7RxCocoa0A28CollectionViewDataSourceTypeP", "Element"]
+- !private ["7RxCocoa0A28CollectionViewDataSourceTypeP", "MainScheduler"]
+- ["7RxCocoa0A28CollectionViewDataSourceTypeP", "PublishSubject"]
+- ["7RxCocoa0A28CollectionViewDataSourceTypeP", ""]
+- !private ["7RxCocoa0A28CollectionViewDataSourceTypeP", "_dataSourceBound"]
+- !private ["7RxCocoa0A28CollectionViewDataSourceTypeP", "animationConfiguration"]
+- ["7RxCocoa0A28CollectionViewDataSourceTypeP", "collectionView"]
+- !private ["7RxCocoa0A28CollectionViewDataSourceTypeP", "dataSet"]
+- !private ["7RxCocoa0A28CollectionViewDataSourceTypeP", "decideViewTransition"]
+- !private ["7RxCocoa0A28CollectionViewDataSourceTypeP", "disposeBag"]
+- !private ["7RxCocoa0A28CollectionViewDataSourceTypeP", "partialUpdateEvent"]
+- !private ["7RxCocoa0A28CollectionViewDataSourceTypeP", "print"]
+- !private ["7RxCocoa0A28CollectionViewDataSourceTypeP", "rxDebugFatalError"]
+- !private ["7RxCocoa0A28CollectionViewDataSourceTypeP", "sectionModels"]
+- !private ["7RxCocoa0A28CollectionViewDataSourceTypeP", "setSections"]
+- ["13RxDataSources0a31CollectionViewSectionedAnimatedB6SourceC", "AnimationConfiguration"]
+- !private ["13RxDataSources0a31CollectionViewSectionedAnimatedB6SourceC", "Binder"]
+- ["13RxDataSources0a31CollectionViewSectionedAnimatedB6SourceC", "CanMoveItemAtIndexPath"]
+- ["13RxDataSources0a31CollectionViewSectionedAnimatedB6SourceC", "Changeset"]
+- ["13RxDataSources0a31CollectionViewSectionedAnimatedB6SourceC", "CollectionViewSectionedDataSource"]
+- ["13RxDataSources0a31CollectionViewSectionedAnimatedB6SourceC", "ConfigureCell"]
+- ["13RxDataSources0a31CollectionViewSectionedAnimatedB6SourceC", "ConfigureSupplementaryView"]
+- ["13RxDataSources0a31CollectionViewSectionedAnimatedB6SourceC", "DecideViewTransition"]
+- !private ["13RxDataSources0a31CollectionViewSectionedAnimatedB6SourceC", "Diff"]
+- ["13RxDataSources0a31CollectionViewSectionedAnimatedB6SourceC", "DisposeBag"]
+- ["13RxDataSources0a31CollectionViewSectionedAnimatedB6SourceC", "Element"]
+- ["13RxDataSources0a31CollectionViewSectionedAnimatedB6SourceC", "Event"]
+- !private ["13RxDataSources0a31CollectionViewSectionedAnimatedB6SourceC", "MainScheduler"]
+- ["13RxDataSources0a31CollectionViewSectionedAnimatedB6SourceC", "MoveItem"]
+- ["13RxDataSources0a31CollectionViewSectionedAnimatedB6SourceC", "PublishSubject"]
+- ["13RxDataSources0a31CollectionViewSectionedAnimatedB6SourceC", "S"]
+- ["13RxDataSources0a31CollectionViewSectionedAnimatedB6SourceC", "UICollectionView"]
+- ["13RxDataSources0a31CollectionViewSectionedAnimatedB6SourceC", "ViewTransition"]
+- !private ["13RxDataSources0a31CollectionViewSectionedAnimatedB6SourceC", "_dataSourceBound"]
+- ["13RxDataSources0a31CollectionViewSectionedAnimatedB6SourceC", "animationConfiguration"]
+- ["13RxDataSources0a31CollectionViewSectionedAnimatedB6SourceC", "collectionView"]
+- ["13RxDataSources0a31CollectionViewSectionedAnimatedB6SourceC", "dataSet"]
+- ["13RxDataSources0a31CollectionViewSectionedAnimatedB6SourceC", "decideViewTransition"]
+- ["13RxDataSources0a31CollectionViewSectionedAnimatedB6SourceC", "deinit"]
+- !private ["13RxDataSources0a31CollectionViewSectionedAnimatedB6SourceC", "disposeBag"]
+- ["13RxDataSources0a31CollectionViewSectionedAnimatedB6SourceC", "init"]
+- !private ["13RxDataSources0a31CollectionViewSectionedAnimatedB6SourceC", "partialUpdateEvent"]
+- !private ["13RxDataSources0a31CollectionViewSectionedAnimatedB6SourceC", "print"]
+- !private ["13RxDataSources0a31CollectionViewSectionedAnimatedB6SourceC", "rxDebugFatalError"]
+- !private ["13RxDataSources0a31CollectionViewSectionedAnimatedB6SourceC", "sectionModels"]
+- !private ["13RxDataSources0a31CollectionViewSectionedAnimatedB6SourceC", "setSections"]
+- !private ["7RxSwift13SchedulerTypeP", "asyncInstance"]
+- !private ["7RxSwift13SchedulerTypeP", "instance"]
+- !private ["7RxCocoa27SectionedViewDataSourceTypeP", "AnimationConfiguration"]
+- !private ["7RxCocoa27SectionedViewDataSourceTypeP", "Binder"]
+- !private ["7RxCocoa27SectionedViewDataSourceTypeP", "Diff"]
+- ["7RxCocoa27SectionedViewDataSourceTypeP", "DisposeBag"]
+- ["7RxCocoa27SectionedViewDataSourceTypeP", "Element"]
+- !private ["7RxCocoa27SectionedViewDataSourceTypeP", "MainScheduler"]
+- ["7RxCocoa27SectionedViewDataSourceTypeP", "PublishSubject"]
+- ["7RxCocoa27SectionedViewDataSourceTypeP", ""]
+- !private ["7RxCocoa27SectionedViewDataSourceTypeP", "_dataSourceBound"]
+- !private ["7RxCocoa27SectionedViewDataSourceTypeP", "animationConfiguration"]
+- ["7RxCocoa27SectionedViewDataSourceTypeP", "collectionView"]
+- !private ["7RxCocoa27SectionedViewDataSourceTypeP", "dataSet"]
+- !private ["7RxCocoa27SectionedViewDataSourceTypeP", "decideViewTransition"]
+- !private ["7RxCocoa27SectionedViewDataSourceTypeP", "disposeBag"]
+- !private ["7RxCocoa27SectionedViewDataSourceTypeP", "init"]
+- !private ["7RxCocoa27SectionedViewDataSourceTypeP", "partialUpdateEvent"]
+- !private ["7RxCocoa27SectionedViewDataSourceTypeP", "print"]
+- !private ["7RxCocoa27SectionedViewDataSourceTypeP", "rxDebugFatalError"]
+- !private ["7RxCocoa27SectionedViewDataSourceTypeP", "sectionModels"]
+- !private ["7RxCocoa27SectionedViewDataSourceTypeP", "setSections"]
+- !private ["13RxDataSources17SectionedViewTypeP", "performBatchUpdates"]
+- !private ["13RxDataSources17SectionedViewTypeP", "reloadData"]
+- !private ["13RxDataSources17SectionedViewTypeP", "window"]
+- !private ["ST", "init"]
+- !private ["ST", "init"]
+- !private ["7RxSwift28SerialDispatchQueueSchedulerC", "asyncInstance"]
+- !private ["7RxSwift28SerialDispatchQueueSchedulerC", "instance"]
+- !private ["s12StaticStringV", "init"]
+- !private ["s12StaticStringV", "init"]
+- !private ["SS", "init"]
+- !private ["SS", "init"]
+- !private ["Sy", "init"]
+- !private ["Sy", "init"]
+- ["7RxSwift11SubjectTypeP", "init"]
+- !private ["7RxSwift11SubjectTypeP", "observeOn"]
+- !private ["7RxSwift11SubjectTypeP", "on"]
+- ["7RxSwift27SynchronizedUnsubscribeTypeP", "init"]
+- !private ["7RxSwift27SynchronizedUnsubscribeTypeP", "observeOn"]
+- !private ["7RxSwift27SynchronizedUnsubscribeTypeP", "on"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["So29UIAccessibilityIdentificationP", "performBatchUpdates"]
+- !private ["So29UIAccessibilityIdentificationP", "reloadData"]
+- !private ["So29UIAccessibilityIdentificationP", "window"]
+- !private ["So12UIAppearanceP", "performBatchUpdates"]
+- !private ["So12UIAppearanceP", "reloadData"]
+- !private ["So12UIAppearanceP", "window"]
+- !private ["So21UIAppearanceContainerP", "performBatchUpdates"]
+- !private ["So21UIAppearanceContainerP", "reloadData"]
+- !private ["So21UIAppearanceContainerP", "window"]
+- !private ["So16UICollectionViewC", "deinit"]
+- !private ["So16UICollectionViewC", "performBatchUpdates"]
+- !private ["So16UICollectionViewC", "reloadData"]
+- !private ["So16UICollectionViewC", "window"]
+- !private ["So26UICollectionViewDataSourceP", "AnimationConfiguration"]
+- !private ["So26UICollectionViewDataSourceP", "Binder"]
+- !private ["So26UICollectionViewDataSourceP", "Diff"]
+- ["So26UICollectionViewDataSourceP", "DisposeBag"]
+- ["So26UICollectionViewDataSourceP", "Element"]
+- !private ["So26UICollectionViewDataSourceP", "MainScheduler"]
+- ["So26UICollectionViewDataSourceP", "PublishSubject"]
+- ["So26UICollectionViewDataSourceP", ""]
+- !private ["So26UICollectionViewDataSourceP", "_dataSourceBound"]
+- !private ["So26UICollectionViewDataSourceP", "animationConfiguration"]
+- ["So26UICollectionViewDataSourceP", "collectionView"]
+- !private ["So26UICollectionViewDataSourceP", "dataSet"]
+- !private ["So26UICollectionViewDataSourceP", "decideViewTransition"]
+- !private ["So26UICollectionViewDataSourceP", "disposeBag"]
+- !private ["So26UICollectionViewDataSourceP", "init"]
+- !private ["So26UICollectionViewDataSourceP", "partialUpdateEvent"]
+- !private ["So26UICollectionViewDataSourceP", "print"]
+- !private ["So26UICollectionViewDataSourceP", "rxDebugFatalError"]
+- !private ["So26UICollectionViewDataSourceP", "sectionModels"]
+- !private ["So26UICollectionViewDataSourceP", "setSections"]
+- !private ["So17UICoordinateSpaceP", "performBatchUpdates"]
+- !private ["So17UICoordinateSpaceP", "reloadData"]
+- !private ["So17UICoordinateSpaceP", "window"]
+- !private ["So23UIDataSourceTranslatingP", "performBatchUpdates"]
+- !private ["So23UIDataSourceTranslatingP", "reloadData"]
+- !private ["So23UIDataSourceTranslatingP", "window"]
+- !private ["So13UIDynamicItemP", "performBatchUpdates"]
+- !private ["So13UIDynamicItemP", "reloadData"]
+- !private ["So13UIDynamicItemP", "window"]
+- !private ["So18UIFocusEnvironmentP", "performBatchUpdates"]
+- !private ["So18UIFocusEnvironmentP", "reloadData"]
+- !private ["So18UIFocusEnvironmentP", "window"]
+- !private ["So11UIFocusItemP", "performBatchUpdates"]
+- !private ["So11UIFocusItemP", "reloadData"]
+- !private ["So11UIFocusItemP", "window"]
+- !private ["So20UIFocusItemContainerP", "performBatchUpdates"]
+- !private ["So20UIFocusItemContainerP", "reloadData"]
+- !private ["So20UIFocusItemContainerP", "window"]
+- !private ["So30UIFocusItemScrollableContainerP", "performBatchUpdates"]
+- !private ["So30UIFocusItemScrollableContainerP", "reloadData"]
+- !private ["So30UIFocusItemScrollableContainerP", "window"]
+- !private ["So30UIPasteConfigurationSupportingP", "performBatchUpdates"]
+- !private ["So30UIPasteConfigurationSupportingP", "reloadData"]
+- !private ["So30UIPasteConfigurationSupportingP", "window"]
+- !private ["So11UIResponderC", "performBatchUpdates"]
+- !private ["So11UIResponderC", "reloadData"]
+- !private ["So11UIResponderC", "window"]
+- !private ["So30UIResponderStandardEditActionsP", "performBatchUpdates"]
+- !private ["So30UIResponderStandardEditActionsP", "reloadData"]
+- !private ["So30UIResponderStandardEditActionsP", "window"]
+- !private ["So12UIScrollViewC", "performBatchUpdates"]
+- !private ["So12UIScrollViewC", "reloadData"]
+- !private ["So12UIScrollViewC", "window"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "performBatchUpdates"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "reloadData"]
+- !private ["So35UISpringLoadedInteractionSupportingP", "window"]
+- !private ["So18UITraitEnvironmentP", "performBatchUpdates"]
+- !private ["So18UITraitEnvironmentP", "reloadData"]
+- !private ["So18UITraitEnvironmentP", "window"]
+- !private ["So23UIUserActivityRestoringP", "performBatchUpdates"]
+- !private ["So23UIUserActivityRestoringP", "reloadData"]
+- !private ["So23UIUserActivityRestoringP", "window"]
+- !private ["So6UIViewC", "performBatchUpdates"]
+- !private ["So6UIViewC", "reloadData"]
+- !private ["So6UIViewC", "window"]
+- !private ["13RxDataSources14ViewTransitionO", "animated"]
+- !private ["13RxDataSources14ViewTransitionO", "reload"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "performBatchUpdates"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "reloadData"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "window"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "AnimationConfiguration"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Binder"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Diff"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "DisposeBag"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "Element"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "MainScheduler"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "PublishSubject"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "_dataSourceBound"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "animationConfiguration"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "collectionView"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "dataSet"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "decideViewTransition"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "disposeBag"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "partialUpdateEvent"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "performBatchUpdates"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "print"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "reloadData"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "rxDebugFatalError"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "sectionModels"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "setSections"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "window"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s16_SwiftStringViewP", "init"]
+- !private ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- !private "13RxDataSources22AnimationConfigurationV"
+- !private "SK"
+- !private "7RxCocoa6BinderV"
+- !private "Sb"
+- !private "So15CALayerDelegateP"
+- "s7CVarArgP"
+- "7RxSwift10CancelableP"
+- !private "14Differentiator9ChangesetV"
+- !private "Sl"
+- "13RxDataSources023CollectionViewSectionedB6SourceC"
+- !private "SL"
+- "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "14Differentiator4DiffO"
+- "7RxSwift10DisposableP"
+- "7RxSwift10DisposeBagC"
+- "7RxSwift11DisposeBaseC"
+- !private "SE"
+- "SQ"
+- !private "7RxSwift5EventO"
+- !private "7RxSwift16EventConvertibleP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "7RxCocoa13HasDataSourceP"
+- !private "7RxCocoa11HasDelegateP"
+- !private "7RxCocoa21HasPrefetchDataSourceP"
+- "SH"
+- !private "14Differentiator16IdentifiableTypeP"
+- !private "7RxSwift22ImmediateSchedulerTypeP"
+- !private "7RxCocoa16KVORepresentableP"
+- !private "s25LosslessStringConvertibleP"
+- !private "7RxSwift13MainSchedulerC"
+- !private "s10MirrorPathP"
+- !private "So8NSCodingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- "7RxSwift10ObservableC"
+- "7RxSwift25ObservableConvertibleTypeP"
+- "7RxSwift14ObservableTypeP"
+- "7RxSwift12ObserverTypeP"
+- "7RxSwift14PublishSubjectC"
+- !private "Sm"
+- "7RxSwift18ReactiveCompatibleP"
+- "7RxCocoa0A28CollectionViewDataSourceTypeP"
+- "13RxDataSources0a31CollectionViewSectionedAnimatedB6SourceC"
+- !private "7RxSwift13SchedulerTypeP"
+- "7RxCocoa27SectionedViewDataSourceTypeP"
+- !private "13RxDataSources17SectionedViewTypeP"
+- !private "ST"
+- !private "7RxSwift28SerialDispatchQueueSchedulerC"
+- !private "s12StaticStringV"
+- !private "SS"
+- !private "Sy"
+- "7RxSwift11SubjectTypeP"
+- "7RxSwift27SynchronizedUnsubscribeTypeP"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "So12UIAppearanceP"
+- !private "So21UIAppearanceContainerP"
+- !private "So16UICollectionViewC"
+- "So26UICollectionViewDataSourceP"
+- !private "So17UICoordinateSpaceP"
+- !private "So23UIDataSourceTranslatingP"
+- !private "So13UIDynamicItemP"
+- !private "So18UIFocusEnvironmentP"
+- !private "So11UIFocusItemP"
+- !private "So20UIFocusItemContainerP"
+- !private "So30UIFocusItemScrollableContainerP"
+- !private "So30UIPasteConfigurationSupportingP"
+- !private "So11UIResponderC"
+- !private "So30UIResponderStandardEditActionsP"
+- !private "So12UIScrollViewC"
+- !private "So35UISpringLoadedInteractionSupportingP"
+- !private "So18UITraitEnvironmentP"
+- !private "So23UIUserActivityRestoringP"
+- !private "So6UIViewC"
+- !private "13RxDataSources14ViewTransitionO"
+- !private "s37_DefaultCustomPlaygroundQuickLookableP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Users/sunchuyue/Documents/test/RX_Product/DerivedData/RX_Product/Build/Products/Debug-iphonesimulator/RxCocoa/RxCocoa.framework/Modules/RxCocoa.swiftmodule/x86_64.swiftmodule"
+- "/Users/sunchuyue/Documents/test/RX_Product/DerivedData/RX_Product/Build/Products/Debug-iphonesimulator/Differentiator/Differentiator.framework/Modules/Differentiator.swiftmodule/x86_64.swiftmodule"
+- "/Users/sunchuyue/Documents/test/RX_Product/DerivedData/RX_Product/Build/Products/Debug-iphonesimulator/RxSwift/RxSwift.framework/Modules/RxSwift.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/sunchuyue/Documents/test/RX_Product/Pods/RxCocoa/RxCocoa/Runtime/include/_RX.h"
+- "/Users/sunchuyue/Documents/test/RX_Product/Pods/Target Support Files/RxCocoa/RxCocoa-umbrella.h"
+- "/Users/sunchuyue/Documents/test/RX_Product/Pods/Target Support Files/Differentiator/Differentiator-umbrella.h"
+- "/Users/sunchuyue/Documents/test/RX_Product/Pods/Target Support Files/RxDataSources/RxDataSources-umbrella.h"
+- "/Users/sunchuyue/Documents/test/RX_Product/Pods/Target Support Files/RxSwift/RxSwift-umbrella.h"
+- "/Users/sunchuyue/Documents/test/RX_Product/Pods/RxCocoa/RxCocoa/RxCocoa.h"
+- "/Users/sunchuyue/Documents/test/RX_Product/Pods/RxCocoa/RxCocoa/Runtime/include/_RXObjCRuntime.h"
+- "/Users/sunchuyue/Documents/test/RX_Product/Pods/RxCocoa/RxCocoa/Runtime/include/RxCocoaRuntime.h"
+- "/Users/sunchuyue/Documents/test/RX_Product/Pods/RxCocoa/RxCocoa/Runtime/include/_RXKVOObserver.h"
+- "/Users/sunchuyue/Documents/test/RX_Product/DerivedData/RX_Product/Build/Products/Debug-iphonesimulator/RxCocoa/RxCocoa.framework/Headers/RxCocoa-Swift.h"
+- "/Users/sunchuyue/Documents/test/RX_Product/DerivedData/RX_Product/Build/Products/Debug-iphonesimulator/Differentiator/Differentiator.framework/Headers/Differentiator-Swift.h"
+- "/Users/sunchuyue/Documents/test/RX_Product/DerivedData/RX_Product/Build/Products/Debug-iphonesimulator/RxSwift/RxSwift.framework/Headers/RxSwift-Swift.h"
+- "/Users/sunchuyue/Documents/test/RX_Product/Pods/RxCocoa/RxCocoa/Runtime/include/_RXDelegateProxy.h"
+- "/Users/sunchuyue/Documents/test/RX_Product/DerivedData/RX_Product/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/RxDataSources.build/unextended-module.modulemap"
+- "/Users/sunchuyue/Documents/test/RX_Product/DerivedData/RX_Product/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/RxCocoa.build/module.modulemap"
+- "/Users/sunchuyue/Documents/test/RX_Product/DerivedData/RX_Product/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Differentiator.build/module.modulemap"
+- "/Users/sunchuyue/Documents/test/RX_Product/DerivedData/RX_Product/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/RxSwift.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "5b15b05ad0f876fe84f6143f30656b0b"

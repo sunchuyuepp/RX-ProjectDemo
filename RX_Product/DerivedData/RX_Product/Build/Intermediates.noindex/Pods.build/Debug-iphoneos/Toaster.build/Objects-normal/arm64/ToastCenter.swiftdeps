@@ -1,0 +1,264 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ToastCenter"
+provides-nominal:
+- "7Toaster11ToastCenterC"
+provides-member:
+- ["7Toaster11ToastCenterC", ""]
+provides-dynamic-lookup:
+- "deviceOrientationDidChange"
+depends-top-level:
+- !private "!"
+- !private "&&"
+- "AssignmentPrecedence"
+- "CastingPrecedence"
+- "FloatLiteralType"
+- "IntegerLiteralType"
+- !private "NotificationCenter"
+- "OperationQueue"
+- "Toast"
+- "ToastCenter"
+depends-member:
+- !private ["Sa", "first"]
+- !private ["s13ArrayProtocolP", "first"]
+- !private ["SK", "first"]
+- !private ["So15CALayerDelegateP", "setNeedsLayout"]
+- !private ["s7CVarArgP", "addObserver"]
+- !private ["s7CVarArgP", "addOperation"]
+- !private ["s7CVarArgP", "cancelAllOperations"]
+- !private ["s7CVarArgP", "default"]
+- !private ["s7CVarArgP", "first"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "isCancelled"]
+- !private ["s7CVarArgP", "isFinished"]
+- ["s7CVarArgP", "maxConcurrentOperationCount"]
+- !private ["s7CVarArgP", "operations"]
+- !private ["s7CVarArgP", "setNeedsLayout"]
+- !private ["s7CVarArgP", "view"]
+- !private ["Sl", "first"]
+- !private ["s28CustomDebugStringConvertibleP", "UIDeviceOrientationDidChange"]
+- !private ["s28CustomDebugStringConvertibleP", "addObserver"]
+- !private ["s28CustomDebugStringConvertibleP", "addOperation"]
+- !private ["s28CustomDebugStringConvertibleP", "cancelAllOperations"]
+- !private ["s28CustomDebugStringConvertibleP", "default"]
+- !private ["s28CustomDebugStringConvertibleP", "first"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "isCancelled"]
+- !private ["s28CustomDebugStringConvertibleP", "isFinished"]
+- ["s28CustomDebugStringConvertibleP", "maxConcurrentOperationCount"]
+- !private ["s28CustomDebugStringConvertibleP", "operations"]
+- !private ["s28CustomDebugStringConvertibleP", "setNeedsLayout"]
+- !private ["s28CustomDebugStringConvertibleP", "view"]
+- !private ["s17CustomReflectableP", "UIDeviceOrientationDidChange"]
+- !private ["s17CustomReflectableP", "first"]
+- !private ["s23CustomStringConvertibleP", "addObserver"]
+- !private ["s23CustomStringConvertibleP", "addOperation"]
+- !private ["s23CustomStringConvertibleP", "cancelAllOperations"]
+- !private ["s23CustomStringConvertibleP", "default"]
+- !private ["s23CustomStringConvertibleP", "first"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "isCancelled"]
+- !private ["s23CustomStringConvertibleP", "isFinished"]
+- ["s23CustomStringConvertibleP", "maxConcurrentOperationCount"]
+- !private ["s23CustomStringConvertibleP", "operations"]
+- !private ["s23CustomStringConvertibleP", "setNeedsLayout"]
+- !private ["s23CustomStringConvertibleP", "view"]
+- !private ["Se", "UIDeviceOrientationDidChange"]
+- !private ["Se", "first"]
+- !private ["SE", "UIDeviceOrientationDidChange"]
+- !private ["SE", "first"]
+- !private ["SQ", "UIDeviceOrientationDidChange"]
+- !private ["SQ", "addObserver"]
+- !private ["SQ", "addOperation"]
+- !private ["SQ", "cancelAllOperations"]
+- !private ["SQ", "default"]
+- !private ["SQ", "first"]
+- ["SQ", "init"]
+- !private ["SQ", "isCancelled"]
+- !private ["SQ", "isFinished"]
+- ["SQ", "maxConcurrentOperationCount"]
+- !private ["SQ", "operations"]
+- !private ["SQ", "setNeedsLayout"]
+- !private ["SQ", "view"]
+- !private ["s25ExpressibleByArrayLiteralP", "first"]
+- !private ["s23ExpressibleByNilLiteralP", "UIDeviceOrientationDidChange"]
+- !private ["SH", "UIDeviceOrientationDidChange"]
+- !private ["SH", "addObserver"]
+- !private ["SH", "addOperation"]
+- !private ["SH", "cancelAllOperations"]
+- !private ["SH", "default"]
+- !private ["SH", "first"]
+- ["SH", "init"]
+- !private ["SH", "isCancelled"]
+- !private ["SH", "isFinished"]
+- ["SH", "maxConcurrentOperationCount"]
+- !private ["SH", "operations"]
+- !private ["SH", "setNeedsLayout"]
+- !private ["SH", "view"]
+- !private ["SM", "first"]
+- !private ["So8NSCodingP", "setNeedsLayout"]
+- !private ["So8NSObjectC", "addObserver"]
+- !private ["So8NSObjectC", "addOperation"]
+- !private ["So8NSObjectC", "cancelAllOperations"]
+- !private ["So8NSObjectC", "default"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "isCancelled"]
+- !private ["So8NSObjectC", "isFinished"]
+- ["So8NSObjectC", "maxConcurrentOperationCount"]
+- !private ["So8NSObjectC", "operations"]
+- !private ["So8NSObjectC", "setNeedsLayout"]
+- !private ["So8NSObjectC", "view"]
+- !private ["So8NSObjectP", "addObserver"]
+- !private ["So8NSObjectP", "addOperation"]
+- !private ["So8NSObjectP", "cancelAllOperations"]
+- !private ["So8NSObjectP", "default"]
+- ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "isCancelled"]
+- !private ["So8NSObjectP", "isFinished"]
+- ["So8NSObjectP", "maxConcurrentOperationCount"]
+- !private ["So8NSObjectP", "operations"]
+- !private ["So8NSObjectP", "setNeedsLayout"]
+- !private ["So8NSObjectP", "view"]
+- !private ["So18NSNotificationNamea", "UIDeviceOrientationDidChange"]
+- !private ["So20NSNotificationCenterC", "addObserver"]
+- !private ["So20NSNotificationCenterC", "default"]
+- !private ["So11NSOperationC", "isCancelled"]
+- !private ["So11NSOperationC", "isFinished"]
+- !private ["So11NSOperationC", "view"]
+- !private ["So16NSOperationQueueC", "addOperation"]
+- !private ["So16NSOperationQueueC", "cancelAllOperations"]
+- ["So16NSOperationQueueC", "init"]
+- ["So16NSOperationQueueC", "maxConcurrentOperationCount"]
+- !private ["So16NSOperationQueueC", "operations"]
+- !private ["Sq", "UIDeviceOrientationDidChange"]
+- !private ["Sk", "first"]
+- !private ["Sm", "first"]
+- !private ["SY", "UIDeviceOrientationDidChange"]
+- !private ["ST", "first"]
+- !private ["7Toaster5ToastC", "view"]
+- !private ["7Toaster11ToastCenterC", "NotificationCenter"]
+- ["7Toaster11ToastCenterC", "OperationQueue"]
+- ["7Toaster11ToastCenterC", "Toast"]
+- ["7Toaster11ToastCenterC", "ToastCenter"]
+- ["7Toaster11ToastCenterC", "add"]
+- ["7Toaster11ToastCenterC", "cancelAll"]
+- ["7Toaster11ToastCenterC", "currentToast"]
+- ["7Toaster11ToastCenterC", "default"]
+- ["7Toaster11ToastCenterC", "deviceOrientationDidChange"]
+- ["7Toaster11ToastCenterC", "init"]
+- !private ["7Toaster11ToastCenterC", "queue"]
+- !private ["7Toaster9ToastViewC", "setNeedsLayout"]
+- !private ["So29UIAccessibilityIdentificationP", "setNeedsLayout"]
+- !private ["So12UIAppearanceP", "setNeedsLayout"]
+- !private ["So21UIAppearanceContainerP", "setNeedsLayout"]
+- !private ["So17UICoordinateSpaceP", "setNeedsLayout"]
+- !private ["So13UIDynamicItemP", "setNeedsLayout"]
+- !private ["So18UIFocusEnvironmentP", "setNeedsLayout"]
+- !private ["So11UIFocusItemP", "setNeedsLayout"]
+- !private ["So20UIFocusItemContainerP", "setNeedsLayout"]
+- !private ["So30UIPasteConfigurationSupportingP", "setNeedsLayout"]
+- !private ["So11UIResponderC", "setNeedsLayout"]
+- !private ["So30UIResponderStandardEditActionsP", "setNeedsLayout"]
+- !private ["So18UITraitEnvironmentP", "setNeedsLayout"]
+- !private ["So23UIUserActivityRestoringP", "setNeedsLayout"]
+- !private ["So6UIViewC", "setNeedsLayout"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "setNeedsLayout"]
+- !private ["s24_DestructorSafeContainerP", "first"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "UIDeviceOrientationDidChange"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "first"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "addObserver"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "addOperation"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "cancelAllOperations"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "default"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "isCancelled"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "isFinished"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "maxConcurrentOperationCount"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "operations"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "setNeedsLayout"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "view"]
+- !private ["s21_ObjectiveCBridgeableP", "UIDeviceOrientationDidChange"]
+- !private ["s21_ObjectiveCBridgeableP", "first"]
+- !private ["s20_SwiftNewtypeWrapperP", "UIDeviceOrientationDidChange"]
+depends-nominal:
+- !private "Sa"
+- !private "s13ArrayProtocolP"
+- !private "SK"
+- !private "So15CALayerDelegateP"
+- "s7CVarArgP"
+- !private "Sl"
+- "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "SE"
+- "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- "SH"
+- !private "SM"
+- !private "So8NSCodingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- !private "So18NSNotificationNamea"
+- !private "So20NSNotificationCenterC"
+- !private "So11NSOperationC"
+- "So16NSOperationQueueC"
+- !private "Sq"
+- !private "Sk"
+- !private "Sm"
+- !private "SY"
+- !private "ST"
+- !private "7Toaster5ToastC"
+- "7Toaster11ToastCenterC"
+- !private "7Toaster9ToastViewC"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "So12UIAppearanceP"
+- !private "So21UIAppearanceContainerP"
+- !private "So17UICoordinateSpaceP"
+- !private "So13UIDynamicItemP"
+- !private "So18UIFocusEnvironmentP"
+- !private "So11UIFocusItemP"
+- !private "So20UIFocusItemContainerP"
+- !private "So30UIPasteConfigurationSupportingP"
+- !private "So11UIResponderC"
+- !private "So30UIResponderStandardEditActionsP"
+- !private "So18UITraitEnvironmentP"
+- !private "So23UIUserActivityRestoringP"
+- !private "So6UIViewC"
+- !private "s37_DefaultCustomPlaygroundQuickLookableP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s20_SwiftNewtypeWrapperP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Users/sunchuyue/Documents/test/RX_Product/Pods/Target Support Files/Toaster/Toaster-umbrella.h"
+- "/Users/sunchuyue/Documents/test/RX_Product/Pods/Toaster/Sources/Toaster.h"
+- "/Users/sunchuyue/Documents/test/RX_Product/DerivedData/RX_Product/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/Toaster.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "698477bb1115601412fa542f5c826734"

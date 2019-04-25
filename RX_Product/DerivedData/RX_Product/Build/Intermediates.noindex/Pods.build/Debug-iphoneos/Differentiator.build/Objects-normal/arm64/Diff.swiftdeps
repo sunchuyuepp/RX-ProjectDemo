@@ -1,0 +1,648 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Diff"
+provides-nominal:
+- "14Differentiator4DiffO"
+- "14Differentiator4DiffO5ErrorO"
+provides-member:
+- ["14Differentiator4DiffO", ""]
+- ["14Differentiator4DiffO5ErrorO", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "!="
+- !private "&&"
+- !private "*"
+- !private "+"
+- !private "+="
+- !private "..<"
+- !private "<"
+- "=="
+- !private "??"
+- "AnimatableSectionModelType"
+- "AssignmentPrecedence"
+- "Bool"
+- !private "BooleanLiteralType"
+- "Changeset"
+- "ContiguousArray"
+- "CustomDebugStringConvertible"
+- !private "Dictionary"
+- "Diff"
+- !private "FloatLiteralType"
+- "Hashable"
+- "IdentifiableType"
+- "Int"
+- !private "IntegerLiteralType"
+- "ItemPath"
+- "String"
+- !private "StringLiteralType"
+- "Swift"
+- "TernaryPrecedence"
+- !private "UnicodeScalarType"
+- !private "UnsafeBufferPointer"
+- "UnsafePointer"
+- !private "precondition"
+- !private "print"
+- !private "||"
+depends-member:
+- !private ["14Differentiator26AnimatableSectionModelTypeP", "Diff"]
+- !private ["14Differentiator26AnimatableSectionModelTypeP", "Identity"]
+- ["14Differentiator26AnimatableSectionModelTypeP", "Item"]
+- ["14Differentiator26AnimatableSectionModelTypeP", "Self"]
+- !private ["14Differentiator26AnimatableSectionModelTypeP", "identity"]
+- !private ["14Differentiator26AnimatableSectionModelTypeP", "init"]
+- !private ["14Differentiator26AnimatableSectionModelTypeP", "init"]
+- !private ["14Differentiator26AnimatableSectionModelTypeP", "items"]
+- !private ["Sa", "append"]
+- !private ["Sa", "count"]
+- !private ["Sa", "enumerated"]
+- !private ["Sa", "init"]
+- !private ["Sa", "map"]
+- !private ["Sa", "reduce"]
+- !private ["Sa", "reserveCapacity"]
+- !private ["Sa", "subscript"]
+- !private ["s13ArrayProtocolP", "append"]
+- !private ["s13ArrayProtocolP", "count"]
+- !private ["s13ArrayProtocolP", "enumerated"]
+- !private ["s13ArrayProtocolP", "event"]
+- !private ["s13ArrayProtocolP", "indexAfterDelete"]
+- !private ["s13ArrayProtocolP", "init"]
+- !private ["s13ArrayProtocolP", "itemCount"]
+- !private ["s13ArrayProtocolP", "items"]
+- !private ["s13ArrayProtocolP", "map"]
+- !private ["s13ArrayProtocolP", "moveIndex"]
+- !private ["s13ArrayProtocolP", "reduce"]
+- !private ["s13ArrayProtocolP", "reserveCapacity"]
+- !private ["s13ArrayProtocolP", "subscript"]
+- !private ["s13ArrayProtocolP", "withUnsafeBufferPointer"]
+- !private ["s10ArraySliceV", "count"]
+- !private ["s10ArraySliceV", "event"]
+- !private ["s10ArraySliceV", "indexAfterDelete"]
+- !private ["s10ArraySliceV", "itemCount"]
+- !private ["s10ArraySliceV", "items"]
+- !private ["s10ArraySliceV", "moveIndex"]
+- !private ["s10ArraySliceV", "subscript"]
+- !private ["SK", "append"]
+- !private ["SK", "baseAddress"]
+- !private ["SK", "count"]
+- !private ["SK", "enumerated"]
+- !private ["SK", "event"]
+- !private ["SK", "indexAfterDelete"]
+- !private ["SK", "init"]
+- !private ["SK", "init"]
+- !private ["SK", "itemCount"]
+- !private ["SK", "items"]
+- !private ["SK", "map"]
+- !private ["SK", "moveIndex"]
+- !private ["SK", "reduce"]
+- !private ["SK", "reserveCapacity"]
+- !private ["SK", "subscript"]
+- !private ["SK", "withUnsafeBufferPointer"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "advanced"]
+- !private ["s7CVarArgP", "append"]
+- !private ["s7CVarArgP", "count"]
+- !private ["s7CVarArgP", "distance"]
+- !private ["s7CVarArgP", "enumerated"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "map"]
+- !private ["s7CVarArgP", "pointee"]
+- !private ["s7CVarArgP", "reduce"]
+- !private ["s7CVarArgP", "reserveCapacity"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["14Differentiator9ChangesetV", "init"]
+- !private ["Sl", "append"]
+- !private ["Sl", "baseAddress"]
+- !private ["Sl", "count"]
+- !private ["Sl", "enumerated"]
+- !private ["Sl", "event"]
+- !private ["Sl", "indexAfterDelete"]
+- !private ["Sl", "init"]
+- !private ["Sl", "init"]
+- !private ["Sl", "itemCount"]
+- !private ["Sl", "items"]
+- !private ["Sl", "map"]
+- !private ["Sl", "moveIndex"]
+- !private ["Sl", "reduce"]
+- !private ["Sl", "reserveCapacity"]
+- !private ["Sl", "subscript"]
+- !private ["Sl", "withUnsafeBufferPointer"]
+- !private ["SL", "advanced"]
+- !private ["SL", "distance"]
+- !private ["SL", "init"]
+- !private ["SL", "init"]
+- !private ["SL", "pointee"]
+- !private ["s15ContiguousArrayV", "append"]
+- !private ["s15ContiguousArrayV", "count"]
+- !private ["s15ContiguousArrayV", "enumerated"]
+- !private ["s15ContiguousArrayV", "init"]
+- !private ["s15ContiguousArrayV", "map"]
+- !private ["s15ContiguousArrayV", "reserveCapacity"]
+- !private ["s15ContiguousArrayV", "subscript"]
+- !private ["s15ContiguousArrayV", "withUnsafeBufferPointer"]
+- !private ["s28CustomDebugStringConvertibleP", "ItemAssociatedData"]
+- !private ["s28CustomDebugStringConvertibleP", "SectionAssociatedData"]
+- !private ["s28CustomDebugStringConvertibleP", "String"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- ["s28CustomDebugStringConvertibleP", "_code"]
+- ["s28CustomDebugStringConvertibleP", "_domain"]
+- ["s28CustomDebugStringConvertibleP", "_getEmbeddedNSError"]
+- ["s28CustomDebugStringConvertibleP", "_userInfo"]
+- !private ["s28CustomDebugStringConvertibleP", "advanced"]
+- !private ["s28CustomDebugStringConvertibleP", "append"]
+- !private ["s28CustomDebugStringConvertibleP", "baseAddress"]
+- !private ["s28CustomDebugStringConvertibleP", "count"]
+- ["s28CustomDebugStringConvertibleP", "debugDescription"]
+- ["s28CustomDebugStringConvertibleP", "deleted"]
+- ["s28CustomDebugStringConvertibleP", "deletedAutomatically"]
+- !private ["s28CustomDebugStringConvertibleP", "distance"]
+- ["s28CustomDebugStringConvertibleP", "duplicateItem"]
+- ["s28CustomDebugStringConvertibleP", "duplicateSection"]
+- !private ["s28CustomDebugStringConvertibleP", "enumerated"]
+- !private ["s28CustomDebugStringConvertibleP", "event"]
+- ["s28CustomDebugStringConvertibleP", "hash"]
+- ["s28CustomDebugStringConvertibleP", "hashValue"]
+- !private ["s28CustomDebugStringConvertibleP", "indexAfterDelete"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "initial"]
+- ["s28CustomDebugStringConvertibleP", "inserted"]
+- ["s28CustomDebugStringConvertibleP", "insertedAutomatically"]
+- ["s28CustomDebugStringConvertibleP", "invalidInitializerImplementation"]
+- !private ["s28CustomDebugStringConvertibleP", "itemCount"]
+- !private ["s28CustomDebugStringConvertibleP", "itemIndex"]
+- !private ["s28CustomDebugStringConvertibleP", "items"]
+- !private ["s28CustomDebugStringConvertibleP", "map"]
+- !private ["s28CustomDebugStringConvertibleP", "moveIndex"]
+- ["s28CustomDebugStringConvertibleP", "moved"]
+- ["s28CustomDebugStringConvertibleP", "movedAutomatically"]
+- !private ["s28CustomDebugStringConvertibleP", "pointee"]
+- !private ["s28CustomDebugStringConvertibleP", "reduce"]
+- !private ["s28CustomDebugStringConvertibleP", "reserveCapacity"]
+- !private ["s28CustomDebugStringConvertibleP", "sectionIndex"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- ["s28CustomDebugStringConvertibleP", "untouched"]
+- !private ["s28CustomDebugStringConvertibleP", "unwrap"]
+- !private ["s28CustomDebugStringConvertibleP", "withUnsafeBufferPointer"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "advanced"]
+- !private ["s29CustomPlaygroundQuickLookableP", "distance"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "pointee"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "advanced"]
+- !private ["s17CustomReflectableP", "append"]
+- !private ["s17CustomReflectableP", "count"]
+- !private ["s17CustomReflectableP", "distance"]
+- !private ["s17CustomReflectableP", "enumerated"]
+- !private ["s17CustomReflectableP", "event"]
+- !private ["s17CustomReflectableP", "indexAfterDelete"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "itemCount"]
+- !private ["s17CustomReflectableP", "items"]
+- !private ["s17CustomReflectableP", "map"]
+- !private ["s17CustomReflectableP", "moveIndex"]
+- !private ["s17CustomReflectableP", "pointee"]
+- !private ["s17CustomReflectableP", "reduce"]
+- !private ["s17CustomReflectableP", "reserveCapacity"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s17CustomReflectableP", "unwrap"]
+- !private ["s17CustomReflectableP", "withUnsafeBufferPointer"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "append"]
+- !private ["s23CustomStringConvertibleP", "count"]
+- !private ["s23CustomStringConvertibleP", "enumerated"]
+- !private ["s23CustomStringConvertibleP", "event"]
+- !private ["s23CustomStringConvertibleP", "indexAfterDelete"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "itemCount"]
+- !private ["s23CustomStringConvertibleP", "items"]
+- !private ["s23CustomStringConvertibleP", "map"]
+- !private ["s23CustomStringConvertibleP", "moveIndex"]
+- !private ["s23CustomStringConvertibleP", "reduce"]
+- !private ["s23CustomStringConvertibleP", "reserveCapacity"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "withUnsafeBufferPointer"]
+- !private ["Se", "_getBuiltinLogicValue"]
+- !private ["Se", "append"]
+- !private ["Se", "count"]
+- !private ["Se", "enumerated"]
+- !private ["Se", "init"]
+- !private ["Se", "init"]
+- !private ["Se", "map"]
+- !private ["Se", "reduce"]
+- !private ["Se", "reserveCapacity"]
+- !private ["Se", "subscript"]
+- !private ["Se", "unwrap"]
+- !private ["SD", "init"]
+- !private ["SD", "subscript"]
+- ["14Differentiator4DiffO", "AnimatableSectionModelType"]
+- ["14Differentiator4DiffO", "Bool"]
+- ["14Differentiator4DiffO", "Changeset"]
+- ["14Differentiator4DiffO", "CommandGenerator"]
+- ["14Differentiator4DiffO", "ContiguousArray"]
+- ["14Differentiator4DiffO", "CustomDebugStringConvertible"]
+- !private ["14Differentiator4DiffO", "Dictionary"]
+- !private ["14Differentiator4DiffO", "Diff"]
+- ["14Differentiator4DiffO", "EditEvent"]
+- ["14Differentiator4DiffO", "Error"]
+- ["14Differentiator4DiffO", "Hashable"]
+- ["14Differentiator4DiffO", "IdentifiableType"]
+- ["14Differentiator4DiffO", "Int"]
+- ["14Differentiator4DiffO", "ItemAssociatedData"]
+- ["14Differentiator4DiffO", "ItemPath"]
+- ["14Differentiator4DiffO", "OptimizedIdentity"]
+- ["14Differentiator4DiffO", "SectionAssociatedData"]
+- ["14Differentiator4DiffO", "String"]
+- ["14Differentiator4DiffO", "Swift"]
+- !private ["14Differentiator4DiffO", "UnsafeBufferPointer"]
+- ["14Differentiator4DiffO", "UnsafePointer"]
+- !private ["14Differentiator4DiffO", "calculateAssociatedData"]
+- ["14Differentiator4DiffO", "differencesForSectionedView"]
+- !private ["14Differentiator4DiffO", "indexSections"]
+- !private ["14Differentiator4DiffO", "precondition"]
+- !private ["14Differentiator4DiffO", "print"]
+- !private ["SE", "_getBuiltinLogicValue"]
+- !private ["SE", "append"]
+- !private ["SE", "count"]
+- !private ["SE", "enumerated"]
+- !private ["SE", "init"]
+- !private ["SE", "init"]
+- !private ["SE", "map"]
+- !private ["SE", "reduce"]
+- !private ["SE", "reserveCapacity"]
+- !private ["SE", "subscript"]
+- !private ["SE", "unwrap"]
+- !private ["s18EnumeratedSequenceV", "map"]
+- !private ["SQ", ""]
+- !private ["SQ", "_getBuiltinLogicValue"]
+- !private ["SQ", "advanced"]
+- !private ["SQ", "append"]
+- !private ["SQ", "count"]
+- ["SQ", "debugDescription"]
+- ["SQ", "deleted"]
+- ["SQ", "deletedAutomatically"]
+- !private ["SQ", "distance"]
+- !private ["SQ", "enumerated"]
+- !private ["SQ", "event"]
+- ["SQ", "hash"]
+- ["SQ", "hashValue"]
+- !private ["SQ", "identity"]
+- !private ["SQ", "indexAfterDelete"]
+- !private ["SQ", "init"]
+- !private ["SQ", "init"]
+- ["SQ", "inserted"]
+- ["SQ", "insertedAutomatically"]
+- !private ["SQ", "itemCount"]
+- !private ["SQ", "itemIndex"]
+- !private ["SQ", "items"]
+- !private ["SQ", "map"]
+- !private ["SQ", "moveIndex"]
+- ["SQ", "moved"]
+- ["SQ", "movedAutomatically"]
+- !private ["SQ", "pointee"]
+- !private ["SQ", "reduce"]
+- !private ["SQ", "reserveCapacity"]
+- !private ["SQ", "sectionIndex"]
+- !private ["SQ", "subscript"]
+- ["SQ", "untouched"]
+- !private ["SQ", "unwrap"]
+- !private ["SQ", "withUnsafeBufferPointer"]
+- ["14Differentiator4DiffO5ErrorO", "String"]
+- ["s5ErrorP", ""]
+- ["14Differentiator4DiffO5ErrorO", "_code"]
+- ["s5ErrorP", "_code"]
+- ["14Differentiator4DiffO5ErrorO", "_domain"]
+- ["s5ErrorP", "_domain"]
+- ["14Differentiator4DiffO5ErrorO", "_getEmbeddedNSError"]
+- ["s5ErrorP", "_getEmbeddedNSError"]
+- ["14Differentiator4DiffO5ErrorO", "_userInfo"]
+- ["s5ErrorP", "_userInfo"]
+- ["14Differentiator4DiffO5ErrorO", "debugDescription"]
+- ["s5ErrorP", "debugDescription"]
+- ["14Differentiator4DiffO5ErrorO", "deinit"]
+- ["14Differentiator4DiffO5ErrorO", "duplicateItem"]
+- ["s5ErrorP", "duplicateItem"]
+- ["14Differentiator4DiffO5ErrorO", "duplicateSection"]
+- ["s5ErrorP", "duplicateSection"]
+- ["14Differentiator4DiffO5ErrorO", "invalidInitializerImplementation"]
+- ["s5ErrorP", "invalidInitializerImplementation"]
+- !private ["s25ExpressibleByArrayLiteralP", "append"]
+- !private ["s25ExpressibleByArrayLiteralP", "count"]
+- !private ["s25ExpressibleByArrayLiteralP", "enumerated"]
+- !private ["s25ExpressibleByArrayLiteralP", "event"]
+- !private ["s25ExpressibleByArrayLiteralP", "indexAfterDelete"]
+- !private ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", "itemCount"]
+- !private ["s25ExpressibleByArrayLiteralP", "items"]
+- !private ["s25ExpressibleByArrayLiteralP", "map"]
+- !private ["s25ExpressibleByArrayLiteralP", "moveIndex"]
+- !private ["s25ExpressibleByArrayLiteralP", "reduce"]
+- !private ["s25ExpressibleByArrayLiteralP", "reserveCapacity"]
+- !private ["s25ExpressibleByArrayLiteralP", "subscript"]
+- !private ["s25ExpressibleByArrayLiteralP", "withUnsafeBufferPointer"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "init"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "subscript"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s23ExpressibleByNilLiteralP", "unwrap"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["SH", ""]
+- !private ["SH", "_getBuiltinLogicValue"]
+- !private ["SH", "advanced"]
+- !private ["SH", "append"]
+- !private ["SH", "count"]
+- ["SH", "debugDescription"]
+- ["SH", "deleted"]
+- ["SH", "deletedAutomatically"]
+- !private ["SH", "distance"]
+- !private ["SH", "enumerated"]
+- !private ["SH", "event"]
+- ["SH", "hash"]
+- ["SH", "hashValue"]
+- !private ["SH", "identity"]
+- !private ["SH", "indexAfterDelete"]
+- !private ["SH", "init"]
+- !private ["SH", "init"]
+- ["SH", "inserted"]
+- ["SH", "insertedAutomatically"]
+- !private ["SH", "itemCount"]
+- !private ["SH", "itemIndex"]
+- !private ["SH", "items"]
+- !private ["SH", "map"]
+- !private ["SH", "moveIndex"]
+- ["SH", "moved"]
+- ["SH", "movedAutomatically"]
+- !private ["SH", "pointee"]
+- !private ["SH", "reduce"]
+- !private ["SH", "reserveCapacity"]
+- !private ["SH", "sectionIndex"]
+- !private ["SH", "subscript"]
+- ["SH", "untouched"]
+- !private ["SH", "unwrap"]
+- !private ["SH", "withUnsafeBufferPointer"]
+- !private ["s6HasherV", "combine"]
+- !private ["14Differentiator16IdentifiableTypeP", "Diff"]
+- !private ["14Differentiator16IdentifiableTypeP", "Identity"]
+- ["14Differentiator16IdentifiableTypeP", "Item"]
+- ["14Differentiator16IdentifiableTypeP", "Self"]
+- !private ["14Differentiator16IdentifiableTypeP", "identity"]
+- !private ["14Differentiator16IdentifiableTypeP", "init"]
+- !private ["14Differentiator16IdentifiableTypeP", "init"]
+- !private ["14Differentiator16IdentifiableTypeP", "items"]
+- !private ["14Differentiator8ItemPathV", "deinit"]
+- !private ["14Differentiator8ItemPathV", "init"]
+- !private ["14Differentiator8ItemPathV", "itemIndex"]
+- !private ["14Differentiator8ItemPathV", "sectionIndex"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["SM", "append"]
+- !private ["SM", "count"]
+- !private ["SM", "enumerated"]
+- !private ["SM", "event"]
+- !private ["SM", "indexAfterDelete"]
+- !private ["SM", "init"]
+- !private ["SM", "itemCount"]
+- !private ["SM", "items"]
+- !private ["SM", "map"]
+- !private ["SM", "moveIndex"]
+- !private ["SM", "reduce"]
+- !private ["SM", "reserveCapacity"]
+- !private ["SM", "subscript"]
+- !private ["SM", "withUnsafeBufferPointer"]
+- !private ["Sq", "unwrap"]
+- !private ["Sk", "append"]
+- !private ["Sk", "baseAddress"]
+- !private ["Sk", "count"]
+- !private ["Sk", "enumerated"]
+- !private ["Sk", "event"]
+- !private ["Sk", "indexAfterDelete"]
+- !private ["Sk", "init"]
+- !private ["Sk", "itemCount"]
+- !private ["Sk", "items"]
+- !private ["Sk", "map"]
+- !private ["Sk", "moveIndex"]
+- !private ["Sk", "reduce"]
+- !private ["Sk", "reserveCapacity"]
+- !private ["Sk", "subscript"]
+- !private ["Sk", "withUnsafeBufferPointer"]
+- !private ["Sm", "append"]
+- !private ["Sm", "count"]
+- !private ["Sm", "enumerated"]
+- !private ["Sm", "event"]
+- !private ["Sm", "indexAfterDelete"]
+- !private ["Sm", "init"]
+- !private ["Sm", "init"]
+- !private ["Sm", "itemCount"]
+- !private ["Sm", "items"]
+- !private ["Sm", "map"]
+- !private ["Sm", "moveIndex"]
+- !private ["Sm", "reduce"]
+- !private ["Sm", "reserveCapacity"]
+- !private ["Sm", "subscript"]
+- !private ["Sm", "withUnsafeBufferPointer"]
+- !private ["14Differentiator16SectionModelTypeP", "Diff"]
+- !private ["14Differentiator16SectionModelTypeP", "Identity"]
+- ["14Differentiator16SectionModelTypeP", "Item"]
+- ["14Differentiator16SectionModelTypeP", "Self"]
+- !private ["14Differentiator16SectionModelTypeP", "identity"]
+- !private ["14Differentiator16SectionModelTypeP", "init"]
+- !private ["14Differentiator16SectionModelTypeP", "init"]
+- !private ["14Differentiator16SectionModelTypeP", "items"]
+- !private ["ST", "append"]
+- !private ["ST", "baseAddress"]
+- !private ["ST", "count"]
+- !private ["ST", "enumerated"]
+- !private ["ST", "event"]
+- !private ["ST", "indexAfterDelete"]
+- !private ["ST", "init"]
+- !private ["ST", "init"]
+- !private ["ST", "itemCount"]
+- !private ["ST", "items"]
+- !private ["ST", "map"]
+- !private ["ST", "moveIndex"]
+- !private ["ST", "reduce"]
+- !private ["ST", "reserveCapacity"]
+- !private ["ST", "subscript"]
+- !private ["ST", "withUnsafeBufferPointer"]
+- !private ["Sx", "advanced"]
+- !private ["Sx", "distance"]
+- !private ["Sx", "pointee"]
+- !private ["SS", "init"]
+- !private ["SS", "init"]
+- !private ["Sy", "init"]
+- !private ["Sy", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["SR", "baseAddress"]
+- !private ["SP", "advanced"]
+- !private ["SP", "distance"]
+- !private ["SP", "pointee"]
+- !private ["s24_DestructorSafeContainerP", "append"]
+- !private ["s24_DestructorSafeContainerP", "count"]
+- !private ["s24_DestructorSafeContainerP", "enumerated"]
+- !private ["s24_DestructorSafeContainerP", "event"]
+- !private ["s24_DestructorSafeContainerP", "indexAfterDelete"]
+- !private ["s24_DestructorSafeContainerP", "init"]
+- !private ["s24_DestructorSafeContainerP", "itemCount"]
+- !private ["s24_DestructorSafeContainerP", "items"]
+- !private ["s24_DestructorSafeContainerP", "map"]
+- !private ["s24_DestructorSafeContainerP", "moveIndex"]
+- !private ["s24_DestructorSafeContainerP", "reduce"]
+- !private ["s24_DestructorSafeContainerP", "reserveCapacity"]
+- !private ["s24_DestructorSafeContainerP", "subscript"]
+- !private ["s24_DestructorSafeContainerP", "withUnsafeBufferPointer"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "append"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "count"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "enumerated"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "map"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "reduce"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "reserveCapacity"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "append"]
+- !private ["s21_ObjectiveCBridgeableP", "count"]
+- !private ["s21_ObjectiveCBridgeableP", "enumerated"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "map"]
+- !private ["s21_ObjectiveCBridgeableP", "reduce"]
+- !private ["s21_ObjectiveCBridgeableP", "reserveCapacity"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+- !private ["s21_ObjectiveCBridgeableP", "unwrap"]
+- !private ["s8_PointerP", "advanced"]
+- !private ["s8_PointerP", "distance"]
+- !private ["s8_PointerP", "pointee"]
+- !private ["s16_SwiftStringViewP", "init"]
+- !private ["s16_SwiftStringViewP", "init"]
+depends-nominal:
+- "14Differentiator26AnimatableSectionModelTypeP"
+- !private "Sa"
+- !private "s13ArrayProtocolP"
+- !private "s10ArraySliceV"
+- !private "SK"
+- !private "Sb"
+- !private "s7CVarArgP"
+- !private "14Differentiator9ChangesetV"
+- !private "Sl"
+- !private "SL"
+- !private "s15ContiguousArrayV"
+- "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "SD"
+- "14Differentiator4DiffO"
+- !private "SE"
+- !private "s18EnumeratedSequenceV"
+- "SQ"
+- "14Differentiator4DiffO5ErrorO"
+- "s5ErrorP"
+- "14Differentiator4DiffO5ErrorO"
+- "s5ErrorP"
+- "14Differentiator4DiffO5ErrorO"
+- "s5ErrorP"
+- "14Differentiator4DiffO5ErrorO"
+- "s5ErrorP"
+- "14Differentiator4DiffO5ErrorO"
+- "s5ErrorP"
+- "14Differentiator4DiffO5ErrorO"
+- "s5ErrorP"
+- "14Differentiator4DiffO5ErrorO"
+- "s5ErrorP"
+- "14Differentiator4DiffO5ErrorO"
+- "s5ErrorP"
+- "14Differentiator4DiffO5ErrorO"
+- "s5ErrorP"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s30ExpressibleByDictionaryLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s23ExpressibleByNilLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- "SH"
+- !private "s6HasherV"
+- "14Differentiator16IdentifiableTypeP"
+- !private "14Differentiator8ItemPathV"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "SM"
+- !private "Sq"
+- !private "Sk"
+- !private "Sm"
+- "14Differentiator16SectionModelTypeP"
+- !private "ST"
+- !private "Sx"
+- !private "SS"
+- !private "Sy"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "SR"
+- !private "SP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s8_PointerP"
+- !private "s16_SwiftStringViewP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Users/sunchuyue/Documents/test/RX_Product/Pods/Target Support Files/Differentiator/Differentiator-umbrella.h"
+- "/Users/sunchuyue/Documents/test/RX_Product/DerivedData/RX_Product/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/Differentiator.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "8ebd507d4f9a9d30e2f67b2700283f82"

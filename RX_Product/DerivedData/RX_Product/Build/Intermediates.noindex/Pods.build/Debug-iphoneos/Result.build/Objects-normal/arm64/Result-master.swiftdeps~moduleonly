@@ -1,0 +1,6 @@
+version: "Apple Swift version 4.2.1 (swiftlang-1000.11.42 clang-1000.11.45.1)"
+options: "2ec95cbab011ac650052292c3c39cc74"
+build_time: [1556086010, 302531000]
+inputs:
+  "/Users/sunchuyue/Documents/test/RX_Product/Pods/Result/Result/Result.swift": [1554086308, 0]
+  "/Users/sunchuyue/Documents/test/RX_Product/Pods/Result/Result/ResultProtocol.swift": [1554086308, 0]

@@ -1,0 +1,335 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "LMErrorOption"
+- "LoadingOption"
+- "NetworkLoadingProtocol"
+- "NetworkTimeoutProtocol"
+- "NetworkLoadingPlugin"
+- "NetworkTimeoutPlugin"
+provides-nominal:
+- "10RX_Product13LMErrorOptionO"
+- "10RX_Product13LoadingOptionO"
+- "10RX_Product22NetworkLoadingProtocolP"
+- "10RX_Product22NetworkTimeoutProtocolP"
+- "10RX_Product20NetworkLoadingPluginC"
+- "10RX_Product20NetworkTimeoutPluginC"
+provides-member:
+- ["10RX_Product13LMErrorOptionO", ""]
+- ["10RX_Product13LoadingOptionO", ""]
+- ["10RX_Product22NetworkLoadingProtocolP", ""]
+- ["10RX_Product22NetworkTimeoutProtocolP", ""]
+- ["10RX_Product20NetworkLoadingPluginC", ""]
+- ["10RX_Product20NetworkTimeoutPluginC", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- "=="
+- "AssignmentPrecedence"
+- "CastingPrecedence"
+- "LMErrorOption"
+- "LoadingOption"
+- "Moya"
+- "MoyaError"
+- "NetworkLoadingPlugin"
+- "NetworkLoadingProtocol"
+- "NetworkTimeoutPlugin"
+- "NetworkTimeoutProtocol"
+- "PluginType"
+- "Result"
+- !private "SVProgressHUD"
+- "TargetType"
+- "TimeInterval"
+- "URLRequest"
+depends-member:
+- !private ["So15CALayerDelegateP", "dismiss"]
+- !private ["So15CALayerDelegateP", "setDefaultMaskType"]
+- !private ["So15CALayerDelegateP", "show"]
+- !private ["s7CVarArgP", "dismiss"]
+- !private ["s7CVarArgP", "setDefaultMaskType"]
+- !private ["s7CVarArgP", "show"]
+- !private ["7SnapKit25ConstraintRelatableTargetP", "dismiss"]
+- !private ["7SnapKit25ConstraintRelatableTargetP", "setDefaultMaskType"]
+- !private ["7SnapKit25ConstraintRelatableTargetP", "show"]
+- !private ["s28CustomDebugStringConvertibleP", "dismiss"]
+- !private ["s28CustomDebugStringConvertibleP", "setDefaultMaskType"]
+- !private ["s28CustomDebugStringConvertibleP", "show"]
+- !private ["s28CustomDebugStringConvertibleP", "timeoutInterval"]
+- !private ["s17CustomReflectableP", "timeoutInterval"]
+- !private ["s23CustomStringConvertibleP", "dismiss"]
+- !private ["s23CustomStringConvertibleP", "setDefaultMaskType"]
+- !private ["s23CustomStringConvertibleP", "show"]
+- !private ["s23CustomStringConvertibleP", "timeoutInterval"]
+- ["SQ", ""]
+- !private ["SQ", "clear"]
+- !private ["SQ", "dismiss"]
+- ["SQ", "hash"]
+- ["SQ", "hashValue"]
+- ["SQ", "loading"]
+- ["SQ", "maskLoading"]
+- !private ["SQ", "none"]
+- !private ["SQ", "setDefaultMaskType"]
+- !private ["SQ", "show"]
+- ["SQ", "showNothing"]
+- !private ["SQ", "timeoutInterval"]
+- ["SH", ""]
+- !private ["SH", "clear"]
+- !private ["SH", "dismiss"]
+- ["SH", "hash"]
+- ["SH", "hashValue"]
+- ["SH", "loading"]
+- ["SH", "maskLoading"]
+- !private ["SH", "none"]
+- !private ["SH", "setDefaultMaskType"]
+- !private ["SH", "show"]
+- ["SH", "showNothing"]
+- !private ["SH", "timeoutInterval"]
+- !private ["s6HasherV", "combine"]
+- ["10RX_Product13LMErrorOptionO", "__derived_enum_equals"]
+- ["10RX_Product13LMErrorOptionO", "default"]
+- ["10RX_Product13LMErrorOptionO", "deinit"]
+- ["10RX_Product13LMErrorOptionO", "hash"]
+- ["10RX_Product13LMErrorOptionO", "hashValue"]
+- ["10RX_Product13LMErrorOptionO", "showNothing"]
+- !private ["7SnapKit20LayoutConstraintItemP", "dismiss"]
+- !private ["7SnapKit20LayoutConstraintItemP", "setDefaultMaskType"]
+- !private ["7SnapKit20LayoutConstraintItemP", "show"]
+- ["10RX_Product13LoadingOptionO", "__derived_enum_equals"]
+- ["10RX_Product13LoadingOptionO", "deinit"]
+- ["10RX_Product13LoadingOptionO", "hash"]
+- ["10RX_Product13LoadingOptionO", "hashValue"]
+- ["10RX_Product13LoadingOptionO", "loading"]
+- ["10RX_Product13LoadingOptionO", "loadingWithLightStyle"]
+- ["10RX_Product13LoadingOptionO", "maskLoading"]
+- ["10RX_Product13LoadingOptionO", "showNothing"]
+- !private ["So8NSCodingP", "dismiss"]
+- !private ["So8NSCodingP", "setDefaultMaskType"]
+- !private ["So8NSCodingP", "show"]
+- !private ["So8NSObjectC", "dismiss"]
+- !private ["So8NSObjectC", "setDefaultMaskType"]
+- !private ["So8NSObjectC", "show"]
+- !private ["So8NSObjectP", "dismiss"]
+- !private ["So8NSObjectP", "setDefaultMaskType"]
+- !private ["So8NSObjectP", "show"]
+- ["10RX_Product20NetworkLoadingPluginC", "Moya"]
+- ["10RX_Product20NetworkLoadingPluginC", "MoyaError"]
+- !private ["10RX_Product20NetworkLoadingPluginC", "NetworkLoadingProtocol"]
+- ["10RX_Product20NetworkLoadingPluginC", "Result"]
+- !private ["10RX_Product20NetworkLoadingPluginC", "SVProgressHUD"]
+- ["10RX_Product20NetworkLoadingPluginC", "TargetType"]
+- ["10RX_Product20NetworkLoadingPluginC", "URLRequest"]
+- ["10RX_Product20NetworkLoadingPluginC", "deinit"]
+- ["10RX_Product20NetworkLoadingPluginC", "didReceive"]
+- ["10RX_Product20NetworkLoadingPluginC", "init"]
+- ["10RX_Product20NetworkLoadingPluginC", "prepare"]
+- ["10RX_Product20NetworkLoadingPluginC", "process"]
+- ["10RX_Product20NetworkLoadingPluginC", "willSend"]
+- ["10RX_Product22NetworkLoadingProtocolP", "LoadingOption"]
+- ["10RX_Product22NetworkLoadingProtocolP", "loadingOption"]
+- !private ["10RX_Product20NetworkTimeoutPluginC", "NetworkTimeoutProtocol"]
+- ["10RX_Product20NetworkTimeoutPluginC", "TargetType"]
+- ["10RX_Product20NetworkTimeoutPluginC", "URLRequest"]
+- ["10RX_Product20NetworkTimeoutPluginC", "deinit"]
+- ["10RX_Product20NetworkTimeoutPluginC", "didReceive"]
+- ["10RX_Product20NetworkTimeoutPluginC", "init"]
+- ["10RX_Product20NetworkTimeoutPluginC", "prepare"]
+- ["10RX_Product20NetworkTimeoutPluginC", "process"]
+- ["10RX_Product20NetworkTimeoutPluginC", "willSend"]
+- ["10RX_Product22NetworkTimeoutProtocolP", "TimeInterval"]
+- ["10RX_Product22NetworkTimeoutProtocolP", "timeout"]
+- !private ["4Moya10PluginTypeP", "SVProgressHUD"]
+- ["4Moya10PluginTypeP", ""]
+- ["4Moya10PluginTypeP", "didReceive"]
+- ["4Moya10PluginTypeP", "prepare"]
+- ["4Moya10PluginTypeP", "process"]
+- ["4Moya10PluginTypeP", "willSend"]
+- !private ["SY", "clear"]
+- !private ["SY", "none"]
+- !private ["7RxSwift18ReactiveCompatibleP", "dismiss"]
+- !private ["7RxSwift18ReactiveCompatibleP", "setDefaultMaskType"]
+- !private ["7RxSwift18ReactiveCompatibleP", "show"]
+- !private ["10Foundation20ReferenceConvertibleP", "timeoutInterval"]
+- !private ["So13SVProgressHUDC", "dismiss"]
+- !private ["So13SVProgressHUDC", "setDefaultMaskType"]
+- !private ["So13SVProgressHUDC", "show"]
+- !private ["So21SVProgressHUDMaskTypeV", "clear"]
+- !private ["So21SVProgressHUDMaskTypeV", "none"]
+- !private ["So29UIAccessibilityIdentificationP", "dismiss"]
+- !private ["So29UIAccessibilityIdentificationP", "setDefaultMaskType"]
+- !private ["So29UIAccessibilityIdentificationP", "show"]
+- !private ["So12UIAppearanceP", "dismiss"]
+- !private ["So12UIAppearanceP", "setDefaultMaskType"]
+- !private ["So12UIAppearanceP", "show"]
+- !private ["So21UIAppearanceContainerP", "dismiss"]
+- !private ["So21UIAppearanceContainerP", "setDefaultMaskType"]
+- !private ["So21UIAppearanceContainerP", "show"]
+- !private ["So17UICoordinateSpaceP", "dismiss"]
+- !private ["So17UICoordinateSpaceP", "setDefaultMaskType"]
+- !private ["So17UICoordinateSpaceP", "show"]
+- !private ["So13UIDynamicItemP", "dismiss"]
+- !private ["So13UIDynamicItemP", "setDefaultMaskType"]
+- !private ["So13UIDynamicItemP", "show"]
+- !private ["So18UIFocusEnvironmentP", "dismiss"]
+- !private ["So18UIFocusEnvironmentP", "setDefaultMaskType"]
+- !private ["So18UIFocusEnvironmentP", "show"]
+- !private ["So11UIFocusItemP", "dismiss"]
+- !private ["So11UIFocusItemP", "setDefaultMaskType"]
+- !private ["So11UIFocusItemP", "show"]
+- !private ["So20UIFocusItemContainerP", "dismiss"]
+- !private ["So20UIFocusItemContainerP", "setDefaultMaskType"]
+- !private ["So20UIFocusItemContainerP", "show"]
+- !private ["So30UIPasteConfigurationSupportingP", "dismiss"]
+- !private ["So30UIPasteConfigurationSupportingP", "setDefaultMaskType"]
+- !private ["So30UIPasteConfigurationSupportingP", "show"]
+- !private ["So11UIResponderC", "dismiss"]
+- !private ["So11UIResponderC", "setDefaultMaskType"]
+- !private ["So11UIResponderC", "show"]
+- !private ["So30UIResponderStandardEditActionsP", "dismiss"]
+- !private ["So30UIResponderStandardEditActionsP", "setDefaultMaskType"]
+- !private ["So30UIResponderStandardEditActionsP", "show"]
+- !private ["So18UITraitEnvironmentP", "dismiss"]
+- !private ["So18UITraitEnvironmentP", "setDefaultMaskType"]
+- !private ["So18UITraitEnvironmentP", "show"]
+- !private ["So23UIUserActivityRestoringP", "dismiss"]
+- !private ["So23UIUserActivityRestoringP", "setDefaultMaskType"]
+- !private ["So23UIUserActivityRestoringP", "show"]
+- !private ["So6UIViewC", "dismiss"]
+- !private ["So6UIViewC", "setDefaultMaskType"]
+- !private ["So6UIViewC", "show"]
+- !private ["10Foundation10URLRequestV", "timeoutInterval"]
+- !private ["9Alamofire21URLRequestConvertibleP", "timeoutInterval"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "dismiss"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "setDefaultMaskType"]
+- !private ["s37_DefaultCustomPlaygroundQuickLookableP", "show"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "dismiss"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "setDefaultMaskType"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "show"]
+- !private ["s21_ObjectiveCBridgeableP", "timeoutInterval"]
+depends-nominal:
+- !private "So15CALayerDelegateP"
+- !private "s7CVarArgP"
+- !private "7SnapKit25ConstraintRelatableTargetP"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- "SQ"
+- "SH"
+- !private "s6HasherV"
+- "10RX_Product13LMErrorOptionO"
+- !private "7SnapKit20LayoutConstraintItemP"
+- "10RX_Product13LoadingOptionO"
+- !private "So8NSCodingP"
+- !private "So8NSObjectC"
+- !private "So8NSObjectP"
+- "10RX_Product20NetworkLoadingPluginC"
+- "10RX_Product22NetworkLoadingProtocolP"
+- "10RX_Product20NetworkTimeoutPluginC"
+- "10RX_Product22NetworkTimeoutProtocolP"
+- "4Moya10PluginTypeP"
+- !private "SY"
+- !private "7RxSwift18ReactiveCompatibleP"
+- !private "10Foundation20ReferenceConvertibleP"
+- !private "So13SVProgressHUDC"
+- !private "So21SVProgressHUDMaskTypeV"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "So12UIAppearanceP"
+- !private "So21UIAppearanceContainerP"
+- !private "So17UICoordinateSpaceP"
+- !private "So13UIDynamicItemP"
+- !private "So18UIFocusEnvironmentP"
+- !private "So11UIFocusItemP"
+- !private "So20UIFocusItemContainerP"
+- !private "So30UIPasteConfigurationSupportingP"
+- !private "So11UIResponderC"
+- !private "So30UIResponderStandardEditActionsP"
+- !private "So18UITraitEnvironmentP"
+- !private "So23UIUserActivityRestoringP"
+- !private "So6UIViewC"
+- !private "10Foundation10URLRequestV"
+- !private "9Alamofire21URLRequestConvertibleP"
+- !private "s37_DefaultCustomPlaygroundQuickLookableP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
+- "/Users/sunchuyue/Documents/test/RX_Product/DerivedData/RX_Product/Build/Products/Debug-iphoneos/RxCocoa/RxCocoa.framework/Modules/RxCocoa.swiftmodule/arm64.swiftmodule"
+- "/Users/sunchuyue/Documents/test/RX_Product/DerivedData/RX_Product/Build/Products/Debug-iphoneos/Moya/Moya.framework/Modules/Moya.swiftmodule/arm64.swiftmodule"
+- "/Users/sunchuyue/Documents/test/RX_Product/DerivedData/RX_Product/Build/Products/Debug-iphoneos/Alamofire/Alamofire.framework/Modules/Alamofire.swiftmodule/arm64.swiftmodule"
+- "/Users/sunchuyue/Documents/test/RX_Product/DerivedData/RX_Product/Build/Products/Debug-iphoneos/ObjectMapper/ObjectMapper.framework/Modules/ObjectMapper.swiftmodule/arm64.swiftmodule"
+- "/Users/sunchuyue/Documents/test/RX_Product/DerivedData/RX_Product/Build/Products/Debug-iphoneos/Moya-ObjectMapper/Moya_ObjectMapper.framework/Modules/Moya_ObjectMapper.swiftmodule/arm64.swiftmodule"
+- "/Users/sunchuyue/Documents/test/RX_Product/DerivedData/RX_Product/Build/Products/Debug-iphoneos/Differentiator/Differentiator.framework/Modules/Differentiator.swiftmodule/arm64.swiftmodule"
+- "/Users/sunchuyue/Documents/test/RX_Product/DerivedData/RX_Product/Build/Products/Debug-iphoneos/RxDataSources/RxDataSources.framework/Modules/RxDataSources.swiftmodule/arm64.swiftmodule"
+- "/Users/sunchuyue/Documents/test/RX_Product/DerivedData/RX_Product/Build/Products/Debug-iphoneos/ReactiveSwift/ReactiveSwift.framework/Modules/ReactiveSwift.swiftmodule/arm64.swiftmodule"
+- "/Users/sunchuyue/Documents/test/RX_Product/DerivedData/RX_Product/Build/Products/Debug-iphoneos/RxSwift/RxSwift.framework/Modules/RxSwift.swiftmodule/arm64.swiftmodule"
+- "/Users/sunchuyue/Documents/test/RX_Product/DerivedData/RX_Product/Build/Products/Debug-iphoneos/SnapKit/SnapKit.framework/Modules/SnapKit.swiftmodule/arm64.swiftmodule"
+- "/Users/sunchuyue/Documents/test/RX_Product/DerivedData/RX_Product/Build/Products/Debug-iphoneos/Result/Result.framework/Modules/Result.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreData.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Users/sunchuyue/Documents/test/RX_Product/DerivedData/RX_Product/Build/Products/Debug-iphoneos/SVProgressHUD/SVProgressHUD.framework/Headers/SVProgressHUD.h"
+- "/Users/sunchuyue/Documents/test/RX_Product/DerivedData/RX_Product/Build/Products/Debug-iphoneos/RxCocoa/RxCocoa.framework/Headers/_RX.h"
+- "/Users/sunchuyue/Documents/test/RX_Product/DerivedData/RX_Product/Build/Products/Debug-iphoneos/SVProgressHUD/SVProgressHUD.framework/Headers/SVProgressHUD-umbrella.h"
+- "/Users/sunchuyue/Documents/test/RX_Product/DerivedData/RX_Product/Build/Products/Debug-iphoneos/RxCocoa/RxCocoa.framework/Headers/RxCocoa-umbrella.h"
+- "/Users/sunchuyue/Documents/test/RX_Product/DerivedData/RX_Product/Build/Products/Debug-iphoneos/Moya/Moya.framework/Headers/Moya-umbrella.h"
+- "/Users/sunchuyue/Documents/test/RX_Product/DerivedData/RX_Product/Build/Products/Debug-iphoneos/Alamofire/Alamofire.framework/Headers/Alamofire-umbrella.h"
+- "/Users/sunchuyue/Documents/test/RX_Product/DerivedData/RX_Product/Build/Products/Debug-iphoneos/Moya-ObjectMapper/Moya_ObjectMapper.framework/Headers/Moya-ObjectMapper-umbrella.h"
+- "/Users/sunchuyue/Documents/test/RX_Product/DerivedData/RX_Product/Build/Products/Debug-iphoneos/ObjectMapper/ObjectMapper.framework/Headers/ObjectMapper-umbrella.h"
+- "/Users/sunchuyue/Documents/test/RX_Product/DerivedData/RX_Product/Build/Products/Debug-iphoneos/Differentiator/Differentiator.framework/Headers/Differentiator-umbrella.h"
+- "/Users/sunchuyue/Documents/test/RX_Product/DerivedData/RX_Product/Build/Products/Debug-iphoneos/RxDataSources/RxDataSources.framework/Headers/RxDataSources-umbrella.h"
+- "/Users/sunchuyue/Documents/test/RX_Product/DerivedData/RX_Product/Build/Products/Debug-iphoneos/ReactiveSwift/ReactiveSwift.framework/Headers/ReactiveSwift-umbrella.h"
+- "/Users/sunchuyue/Documents/test/RX_Product/DerivedData/RX_Product/Build/Products/Debug-iphoneos/RxSwift/RxSwift.framework/Headers/RxSwift-umbrella.h"
+- "/Users/sunchuyue/Documents/test/RX_Product/DerivedData/RX_Product/Build/Products/Debug-iphoneos/SnapKit/SnapKit.framework/Headers/SnapKit-umbrella.h"
+- "/Users/sunchuyue/Documents/test/RX_Product/DerivedData/RX_Product/Build/Products/Debug-iphoneos/Result/Result.framework/Headers/Result-umbrella.h"
+- "/Users/sunchuyue/Documents/test/RX_Product/DerivedData/RX_Product/Build/Products/Debug-iphoneos/RxCocoa/RxCocoa.framework/Headers/RxCocoa.h"
+- "/Users/sunchuyue/Documents/test/RX_Product/DerivedData/RX_Product/Build/Products/Debug-iphoneos/RxCocoa/RxCocoa.framework/Headers/_RXObjCRuntime.h"
+- "/Users/sunchuyue/Documents/test/RX_Product/DerivedData/RX_Product/Build/Products/Debug-iphoneos/RxCocoa/RxCocoa.framework/Headers/RxCocoaRuntime.h"
+- "/Users/sunchuyue/Documents/test/RX_Product/DerivedData/RX_Product/Build/Products/Debug-iphoneos/RxCocoa/RxCocoa.framework/Headers/_RXKVOObserver.h"
+- "/Users/sunchuyue/Documents/test/RX_Product/DerivedData/RX_Product/Build/Products/Debug-iphoneos/SVProgressHUD/SVProgressHUD.framework/Headers/SVRadialGradientLayer.h"
+- "/Users/sunchuyue/Documents/test/RX_Product/DerivedData/RX_Product/Build/Products/Debug-iphoneos/RxCocoa/RxCocoa.framework/Headers/RxCocoa-Swift.h"
+- "/Users/sunchuyue/Documents/test/RX_Product/DerivedData/RX_Product/Build/Products/Debug-iphoneos/Moya/Moya.framework/Headers/Moya-Swift.h"
+- "/Users/sunchuyue/Documents/test/RX_Product/DerivedData/RX_Product/Build/Products/Debug-iphoneos/Alamofire/Alamofire.framework/Headers/Alamofire-Swift.h"
+- "/Users/sunchuyue/Documents/test/RX_Product/DerivedData/RX_Product/Build/Products/Debug-iphoneos/ObjectMapper/ObjectMapper.framework/Headers/ObjectMapper-Swift.h"
+- "/Users/sunchuyue/Documents/test/RX_Product/DerivedData/RX_Product/Build/Products/Debug-iphoneos/Moya-ObjectMapper/Moya_ObjectMapper.framework/Headers/Moya_ObjectMapper-Swift.h"
+- "/Users/sunchuyue/Documents/test/RX_Product/DerivedData/RX_Product/Build/Products/Debug-iphoneos/Differentiator/Differentiator.framework/Headers/Differentiator-Swift.h"
+- "/Users/sunchuyue/Documents/test/RX_Product/DerivedData/RX_Product/Build/Products/Debug-iphoneos/RxDataSources/RxDataSources.framework/Headers/RxDataSources-Swift.h"
+- "/Users/sunchuyue/Documents/test/RX_Product/DerivedData/RX_Product/Build/Products/Debug-iphoneos/ReactiveSwift/ReactiveSwift.framework/Headers/ReactiveSwift-Swift.h"
+- "/Users/sunchuyue/Documents/test/RX_Product/DerivedData/RX_Product/Build/Products/Debug-iphoneos/RxSwift/RxSwift.framework/Headers/RxSwift-Swift.h"
+- "/Users/sunchuyue/Documents/test/RX_Product/DerivedData/RX_Product/Build/Products/Debug-iphoneos/SnapKit/SnapKit.framework/Headers/SnapKit-Swift.h"
+- "/Users/sunchuyue/Documents/test/RX_Product/DerivedData/RX_Product/Build/Products/Debug-iphoneos/Result/Result.framework/Headers/Result-Swift.h"
+- "/Users/sunchuyue/Documents/test/RX_Product/DerivedData/RX_Product/Build/Products/Debug-iphoneos/SVProgressHUD/SVProgressHUD.framework/Headers/SVIndefiniteAnimatedView.h"
+- "/Users/sunchuyue/Documents/test/RX_Product/DerivedData/RX_Product/Build/Products/Debug-iphoneos/SVProgressHUD/SVProgressHUD.framework/Headers/SVProgressAnimatedView.h"
+- "/Users/sunchuyue/Documents/test/RX_Product/DerivedData/RX_Product/Build/Products/Debug-iphoneos/RxCocoa/RxCocoa.framework/Headers/_RXDelegateProxy.h"
+- "/Users/sunchuyue/Documents/test/RX_Product/DerivedData/RX_Product/Build/Products/Debug-iphoneos/SVProgressHUD/SVProgressHUD.framework/Modules/module.modulemap"
+- "/Users/sunchuyue/Documents/test/RX_Product/DerivedData/RX_Product/Build/Products/Debug-iphoneos/RxCocoa/RxCocoa.framework/Modules/module.modulemap"
+- "/Users/sunchuyue/Documents/test/RX_Product/DerivedData/RX_Product/Build/Products/Debug-iphoneos/Moya/Moya.framework/Modules/module.modulemap"
+- "/Users/sunchuyue/Documents/test/RX_Product/DerivedData/RX_Product/Build/Products/Debug-iphoneos/Alamofire/Alamofire.framework/Modules/module.modulemap"
+- "/Users/sunchuyue/Documents/test/RX_Product/DerivedData/RX_Product/Build/Products/Debug-iphoneos/ObjectMapper/ObjectMapper.framework/Modules/module.modulemap"
+- "/Users/sunchuyue/Documents/test/RX_Product/DerivedData/RX_Product/Build/Products/Debug-iphoneos/Moya-ObjectMapper/Moya_ObjectMapper.framework/Modules/module.modulemap"
+- "/Users/sunchuyue/Documents/test/RX_Product/DerivedData/RX_Product/Build/Products/Debug-iphoneos/Differentiator/Differentiator.framework/Modules/module.modulemap"
+- "/Users/sunchuyue/Documents/test/RX_Product/DerivedData/RX_Product/Build/Products/Debug-iphoneos/RxDataSources/RxDataSources.framework/Modules/module.modulemap"
+- "/Users/sunchuyue/Documents/test/RX_Product/DerivedData/RX_Product/Build/Products/Debug-iphoneos/ReactiveSwift/ReactiveSwift.framework/Modules/module.modulemap"
+- "/Users/sunchuyue/Documents/test/RX_Product/DerivedData/RX_Product/Build/Products/Debug-iphoneos/RxSwift/RxSwift.framework/Modules/module.modulemap"
+- "/Users/sunchuyue/Documents/test/RX_Product/DerivedData/RX_Product/Build/Products/Debug-iphoneos/SnapKit/SnapKit.framework/Modules/module.modulemap"
+- "/Users/sunchuyue/Documents/test/RX_Product/DerivedData/RX_Product/Build/Products/Debug-iphoneos/Result/Result.framework/Modules/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "2c940f55d5a9b670896d81560ba7c3b3"

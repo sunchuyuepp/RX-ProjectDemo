@@ -1,0 +1,161 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "BlockTap"
+provides-nominal:
+- "17EZSwiftExtensions8BlockTapC"
+provides-member:
+- ["17EZSwiftExtensions8BlockTapC", ""]
+provides-dynamic-lookup:
+- "didTap"
+depends-top-level:
+- "AssignmentPrecedence"
+- "BlockTap"
+- "FloatLiteralType"
+- "Int"
+- "IntegerLiteralType"
+- "Selector"
+- "UITapGestureRecognizer"
+- "Void"
+depends-member:
+- !private ["17EZSwiftExtensions8BlockTapC", "BlockTap"]
+- ["17EZSwiftExtensions8BlockTapC", "Int"]
+- ["17EZSwiftExtensions8BlockTapC", "Selector"]
+- ["17EZSwiftExtensions8BlockTapC", "UITapGestureRecognizer"]
+- ["17EZSwiftExtensions8BlockTapC", "Void"]
+- !private ["17EZSwiftExtensions8BlockTapC", "addTarget"]
+- ["17EZSwiftExtensions8BlockTapC", "didTap"]
+- ["17EZSwiftExtensions8BlockTapC", "init"]
+- !private ["17EZSwiftExtensions8BlockTapC", "numberOfTapsRequired"]
+- !private ["17EZSwiftExtensions8BlockTapC", "numberOfTouchesRequired"]
+- !private ["17EZSwiftExtensions8BlockTapC", "tapAction"]
+- !private ["s7CVarArgP", "BlockTap"]
+- ["s7CVarArgP", ""]
+- !private ["s7CVarArgP", "addTarget"]
+- !private ["s7CVarArgP", "didTap"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "numberOfTapsRequired"]
+- !private ["s7CVarArgP", "numberOfTouchesRequired"]
+- !private ["s7CVarArgP", "tapAction"]
+- !private ["s28CustomDebugStringConvertibleP", "BlockTap"]
+- ["s28CustomDebugStringConvertibleP", ""]
+- !private ["s28CustomDebugStringConvertibleP", "addTarget"]
+- !private ["s28CustomDebugStringConvertibleP", "didTap"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "numberOfTapsRequired"]
+- !private ["s28CustomDebugStringConvertibleP", "numberOfTouchesRequired"]
+- !private ["s28CustomDebugStringConvertibleP", "tapAction"]
+- !private ["s23CustomStringConvertibleP", "BlockTap"]
+- ["s23CustomStringConvertibleP", ""]
+- !private ["s23CustomStringConvertibleP", "addTarget"]
+- !private ["s23CustomStringConvertibleP", "didTap"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "numberOfTapsRequired"]
+- !private ["s23CustomStringConvertibleP", "numberOfTouchesRequired"]
+- !private ["s23CustomStringConvertibleP", "tapAction"]
+- !private ["SQ", "BlockTap"]
+- ["SQ", ""]
+- !private ["SQ", "addTarget"]
+- !private ["SQ", "didTap"]
+- !private ["SQ", "init"]
+- !private ["SQ", "numberOfTapsRequired"]
+- !private ["SQ", "numberOfTouchesRequired"]
+- !private ["SQ", "tapAction"]
+- !private ["SH", "BlockTap"]
+- ["SH", ""]
+- !private ["SH", "addTarget"]
+- !private ["SH", "didTap"]
+- !private ["SH", "init"]
+- !private ["SH", "numberOfTapsRequired"]
+- !private ["SH", "numberOfTouchesRequired"]
+- !private ["SH", "tapAction"]
+- !private ["So8NSObjectC", "BlockTap"]
+- ["So8NSObjectC", "Int"]
+- ["So8NSObjectC", "Selector"]
+- ["So8NSObjectC", "UITapGestureRecognizer"]
+- ["So8NSObjectC", "Void"]
+- !private ["So8NSObjectC", "addTarget"]
+- ["So8NSObjectC", "didTap"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "numberOfTapsRequired"]
+- !private ["So8NSObjectC", "numberOfTouchesRequired"]
+- ["So8NSObjectC", "tapAction"]
+- !private ["So8NSObjectP", "BlockTap"]
+- ["So8NSObjectP", ""]
+- !private ["So8NSObjectP", "addTarget"]
+- !private ["So8NSObjectP", "didTap"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "numberOfTapsRequired"]
+- !private ["So8NSObjectP", "numberOfTouchesRequired"]
+- !private ["So8NSObjectP", "tapAction"]
+- !private ["So19UIGestureRecognizerC", "BlockTap"]
+- ["So19UIGestureRecognizerC", "Int"]
+- ["So19UIGestureRecognizerC", "Selector"]
+- ["So19UIGestureRecognizerC", "UITapGestureRecognizer"]
+- ["So19UIGestureRecognizerC", "Void"]
+- !private ["So19UIGestureRecognizerC", "addTarget"]
+- ["So19UIGestureRecognizerC", "didTap"]
+- ["So19UIGestureRecognizerC", "init"]
+- !private ["So19UIGestureRecognizerC", "numberOfTapsRequired"]
+- !private ["So19UIGestureRecognizerC", "numberOfTouchesRequired"]
+- ["So19UIGestureRecognizerC", "tapAction"]
+- !private ["So22UITapGestureRecognizerC", "BlockTap"]
+- ["So22UITapGestureRecognizerC", "Int"]
+- ["So22UITapGestureRecognizerC", "Selector"]
+- ["So22UITapGestureRecognizerC", "UITapGestureRecognizer"]
+- ["So22UITapGestureRecognizerC", "Void"]
+- ["So22UITapGestureRecognizerC", ""]
+- !private ["So22UITapGestureRecognizerC", "addTarget"]
+- ["So22UITapGestureRecognizerC", "didTap"]
+- ["So22UITapGestureRecognizerC", "init"]
+- !private ["So22UITapGestureRecognizerC", "numberOfTapsRequired"]
+- !private ["So22UITapGestureRecognizerC", "numberOfTouchesRequired"]
+- ["So22UITapGestureRecognizerC", "tapAction"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "BlockTap"]
+- ["10Foundation27_KeyValueCodingAndObservingP", ""]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "addTarget"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "didTap"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "numberOfTapsRequired"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "numberOfTouchesRequired"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "tapAction"]
+depends-nominal:
+- "17EZSwiftExtensions8BlockTapC"
+- "s7CVarArgP"
+- "s28CustomDebugStringConvertibleP"
+- "s23CustomStringConvertibleP"
+- "SQ"
+- "SH"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- "So19UIGestureRecognizerC"
+- "So22UITapGestureRecognizerC"
+- "10Foundation27_KeyValueCodingAndObservingP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/sunchuyue/Documents/test/RX_Product/Pods/Target Support Files/EZSwiftExtensions/EZSwiftExtensions-umbrella.h"
+- "/Users/sunchuyue/Documents/test/RX_Product/DerivedData/RX_Product/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/EZSwiftExtensions.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "4a65d8f131213b4a4f81143894e2da41"

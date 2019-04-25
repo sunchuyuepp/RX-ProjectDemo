@@ -1,0 +1,30 @@
+dependencies: \
+  /Users/sunchuyue/Documents/test/RX_Product/Pods/YYKit/YYKit/Text/YYTextView.m \
+  /Users/sunchuyue/Documents/test/RX_Product/DerivedData/RX_Product/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/YYKit.build/module.modulemap \
+  /Users/sunchuyue/Documents/test/RX_Product/Pods/Target\ Support\ Files/YYKit/YYKit-prefix.pch \
+  /Users/sunchuyue/Documents/test/RX_Product/Pods/YYKit/YYKit/Text/YYTextView.h \
+  /Users/sunchuyue/Documents/test/RX_Product/Pods/YYKit/YYKit/Text/String/YYTextParser.h \
+  /Users/sunchuyue/Documents/test/RX_Product/Pods/YYKit/YYKit/Text/Component/YYTextLayout.h \
+  /Users/sunchuyue/Documents/test/RX_Product/Pods/YYKit/YYKit/Text/Component/YYTextDebugOption.h \
+  /Users/sunchuyue/Documents/test/RX_Product/Pods/YYKit/YYKit/Text/Component/YYTextLine.h \
+  /Users/sunchuyue/Documents/test/RX_Product/Pods/YYKit/YYKit/Text/String/YYTextAttribute.h \
+  /Users/sunchuyue/Documents/test/RX_Product/Pods/YYKit/YYKit/Text/Component/YYTextInput.h \
+  /Users/sunchuyue/Documents/test/RX_Product/Pods/YYKit/YYKit/Base/YYKitMacro.h \
+  /Users/sunchuyue/Documents/test/RX_Product/Pods/YYKit/YYKit/Text/Component/YYTextContainerView.h \
+  /Users/sunchuyue/Documents/test/RX_Product/Pods/YYKit/YYKit/Text/Component/YYTextSelectionView.h \
+  /Users/sunchuyue/Documents/test/RX_Product/Pods/YYKit/YYKit/Text/Component/YYTextMagnifier.h \
+  /Users/sunchuyue/Documents/test/RX_Product/Pods/YYKit/YYKit/Text/Component/YYTextEffectWindow.h \
+  /Users/sunchuyue/Documents/test/RX_Product/Pods/YYKit/YYKit/Text/Component/YYTextKeyboardManager.h \
+  /Users/sunchuyue/Documents/test/RX_Product/Pods/YYKit/YYKit/Text/String/YYTextUtilities.h \
+  /Users/sunchuyue/Documents/test/RX_Product/Pods/YYKit/YYKit/Base/Quartz/YYCGUtilities.h \
+  /Users/sunchuyue/Documents/test/RX_Product/Pods/YYKit/YYKit/Utility/YYTransaction.h \
+  /Users/sunchuyue/Documents/test/RX_Product/Pods/YYKit/YYKit/Utility/YYWeakProxy.h \
+  /Users/sunchuyue/Documents/test/RX_Product/Pods/YYKit/YYKit/Base/UIKit/UIView+YYAdd.h \
+  /Users/sunchuyue/Documents/test/RX_Product/Pods/YYKit/YYKit/Text/String/NSAttributedString+YYText.h \
+  /Users/sunchuyue/Documents/test/RX_Product/Pods/YYKit/YYKit/Text/String/YYTextRubyAnnotation.h \
+  /Users/sunchuyue/Documents/test/RX_Product/Pods/YYKit/YYKit/Text/String/UIPasteboard+YYText.h \
+  /Users/sunchuyue/Documents/test/RX_Product/Pods/YYKit/YYKit/Base/UIKit/UIDevice+YYAdd.h \
+  /Users/sunchuyue/Documents/test/RX_Product/Pods/YYKit/YYKit/Base/UIKit/UIApplication+YYAdd.h \
+  /Users/sunchuyue/Documents/test/RX_Product/Pods/YYKit/YYKit/Image/YYImage.h \
+  /Users/sunchuyue/Documents/test/RX_Product/Pods/YYKit/YYKit/Image/YYAnimatedImageView.h \
+  /Users/sunchuyue/Documents/test/RX_Product/Pods/YYKit/YYKit/Image/YYImageCoder.h

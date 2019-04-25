@@ -1,0 +1,6 @@
+framework module CryptoCoding {
+  umbrella header "CryptoCoding-umbrella.h"
+
+  export *
+  module * { export * }
+}

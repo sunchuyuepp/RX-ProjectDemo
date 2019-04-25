@@ -1,0 +1,280 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Action"
+- "ActionError"
+- "=="
+provides-nominal:
+- "13ReactiveSwift6ActionC"
+- "13ReactiveSwift11ActionErrorO"
+provides-member:
+- ["13ReactiveSwift6ActionC", ""]
+- ["13ReactiveSwift11ActionErrorO", ""]
+- ["13ReactiveSwift6ActionC", "apply"]
+- ["13ReactiveSwift6ActionC", "init"]
+- ["13ReactiveSwift6ActionC", "init"]
+- ["13ReactiveSwift11ActionErrorO", "=="]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "!"
+- !private "!="
+- !private "&&"
+- !private "+="
+- "=="
+- "Action"
+- "ActionError"
+- "AssignmentPrecedence"
+- "BindingTarget"
+- "BindingTargetProvider"
+- "Bool"
+- !private "BooleanLiteralType"
+- "Equatable"
+- "Lifetime"
+- !private "MutableProperty"
+- "NoError"
+- "Property"
+- "PropertyProtocol"
+- "Signal"
+- "SignalProducer"
+- "Swift"
+- !private "TernaryPrecedence"
+- "Void"
+depends-member:
+- ["13ReactiveSwift6ActionC", "Action"]
+- ["13ReactiveSwift6ActionC", "ActionError"]
+- !private ["13ReactiveSwift6ActionC", "ActionState"]
+- ["13ReactiveSwift6ActionC", "BindingTarget"]
+- ["13ReactiveSwift6ActionC", "Bool"]
+- ["13ReactiveSwift6ActionC", "Error"]
+- ["13ReactiveSwift6ActionC", "Input"]
+- ["13ReactiveSwift6ActionC", "Lifetime"]
+- !private ["13ReactiveSwift6ActionC", "MutableProperty"]
+- ["13ReactiveSwift6ActionC", "NoError"]
+- ["13ReactiveSwift6ActionC", "Output"]
+- ["13ReactiveSwift6ActionC", "Property"]
+- ["13ReactiveSwift6ActionC", "PropertyProtocol"]
+- ["13ReactiveSwift6ActionC", "Signal"]
+- ["13ReactiveSwift6ActionC", "SignalProducer"]
+- ["13ReactiveSwift6ActionC", "Value"]
+- ["13ReactiveSwift6ActionC", "Void"]
+- ["13ReactiveSwift6ActionC", "_Default_Value"]
+- ["13ReactiveSwift6ActionC", "apply"]
+- ["13ReactiveSwift6ActionC", "bindingTarget"]
+- ["13ReactiveSwift6ActionC", "completed"]
+- ["13ReactiveSwift6ActionC", "deinit"]
+- !private ["13ReactiveSwift6ActionC", "deinitToken"]
+- ["13ReactiveSwift6ActionC", "disabledErrors"]
+- !private ["13ReactiveSwift6ActionC", "disabledErrorsObserver"]
+- ["13ReactiveSwift6ActionC", "errors"]
+- ["13ReactiveSwift6ActionC", "events"]
+- !private ["13ReactiveSwift6ActionC", "eventsObserver"]
+- !private ["13ReactiveSwift6ActionC", "execute"]
+- ["13ReactiveSwift6ActionC", "init"]
+- ["13ReactiveSwift6ActionC", "isEnabled"]
+- ["13ReactiveSwift6ActionC", "isExecuting"]
+- ["13ReactiveSwift6ActionC", "lifetime"]
+- ["13ReactiveSwift6ActionC", "values"]
+- ["13ReactiveSwift11ActionErrorO", "=="]
+- ["13ReactiveSwift11ActionErrorO", "ActionError"]
+- ["13ReactiveSwift11ActionErrorO", "Bool"]
+- ["13ReactiveSwift11ActionErrorO", "Equatable"]
+- ["13ReactiveSwift11ActionErrorO", "Error"]
+- ["13ReactiveSwift11ActionErrorO", "_code"]
+- ["13ReactiveSwift11ActionErrorO", "_domain"]
+- ["13ReactiveSwift11ActionErrorO", "_getEmbeddedNSError"]
+- ["13ReactiveSwift11ActionErrorO", "_userInfo"]
+- ["13ReactiveSwift11ActionErrorO", "deinit"]
+- ["13ReactiveSwift11ActionErrorO", "disabled"]
+- ["13ReactiveSwift11ActionErrorO", "producerFailed"]
+- ["13ReactiveSwift13BindingSourceP", "Event"]
+- ["13ReactiveSwift13BindingSourceP", "Observer"]
+- !private ["13ReactiveSwift13BindingSourceP", "Value"]
+- !private ["13ReactiveSwift13BindingSourceP", "begin"]
+- !private ["13ReactiveSwift13BindingSourceP", "filterMap"]
+- !private ["13ReactiveSwift13BindingSourceP", "init"]
+- !private ["13ReactiveSwift13BindingSourceP", "pipe"]
+- !private ["13ReactiveSwift13BindingSourceP", "producer"]
+- !private ["13ReactiveSwift13BindingSourceP", "start"]
+- !private ["13ReactiveSwift13BindingSourceP", "startWithValues"]
+- !private ["13ReactiveSwift13BindingSourceP", "value"]
+- !private ["13ReactiveSwift13BindingTargetV", "init"]
+- !private ["13ReactiveSwift21BindingTargetProviderP", "ActionError"]
+- !private ["13ReactiveSwift21BindingTargetProviderP", "ActionState"]
+- !private ["13ReactiveSwift21BindingTargetProviderP", "BindingTarget"]
+- !private ["13ReactiveSwift21BindingTargetProviderP", "Lifetime"]
+- !private ["13ReactiveSwift21BindingTargetProviderP", "MutableProperty"]
+- !private ["13ReactiveSwift21BindingTargetProviderP", "Property"]
+- !private ["13ReactiveSwift21BindingTargetProviderP", "Signal"]
+- !private ["13ReactiveSwift21BindingTargetProviderP", "SignalProducer"]
+- ["13ReactiveSwift21BindingTargetProviderP", "Value"]
+- ["13ReactiveSwift21BindingTargetProviderP", "Void"]
+- ["13ReactiveSwift21BindingTargetProviderP", ""]
+- ["13ReactiveSwift21BindingTargetProviderP", "_Default_Value"]
+- !private ["13ReactiveSwift21BindingTargetProviderP", "apply"]
+- !private ["13ReactiveSwift21BindingTargetProviderP", "begin"]
+- ["13ReactiveSwift21BindingTargetProviderP", "bindingTarget"]
+- !private ["13ReactiveSwift21BindingTargetProviderP", "completed"]
+- !private ["13ReactiveSwift21BindingTargetProviderP", "deinitToken"]
+- !private ["13ReactiveSwift21BindingTargetProviderP", "disabledErrors"]
+- !private ["13ReactiveSwift21BindingTargetProviderP", "disabledErrorsObserver"]
+- !private ["13ReactiveSwift21BindingTargetProviderP", "errors"]
+- !private ["13ReactiveSwift21BindingTargetProviderP", "events"]
+- !private ["13ReactiveSwift21BindingTargetProviderP", "eventsObserver"]
+- !private ["13ReactiveSwift21BindingTargetProviderP", "execute"]
+- !private ["13ReactiveSwift21BindingTargetProviderP", "init"]
+- !private ["13ReactiveSwift21BindingTargetProviderP", "isEnabled"]
+- !private ["13ReactiveSwift21BindingTargetProviderP", "isExecuting"]
+- !private ["13ReactiveSwift21BindingTargetProviderP", "lifetime"]
+- !private ["13ReactiveSwift21BindingTargetProviderP", "value"]
+- !private ["13ReactiveSwift21BindingTargetProviderP", "values"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- !private ["13ReactiveSwift33ComposableMutablePropertyProtocolP", "begin"]
+- !private ["13ReactiveSwift33ComposableMutablePropertyProtocolP", "init"]
+- !private ["13ReactiveSwift33ComposableMutablePropertyProtocolP", "value"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "error"]
+- !private ["s23CustomStringConvertibleP", "isCompleted"]
+- !private ["s23CustomStringConvertibleP", "mapError"]
+- !private ["s23CustomStringConvertibleP", "value"]
+- !private ["Se", "_getBuiltinLogicValue"]
+- !private ["13ReactiveSwift10DisposableP", "dispose"]
+- !private ["SE", "_getBuiltinLogicValue"]
+- !private ["SQ", "_getBuiltinLogicValue"]
+- ["s5ErrorP", "Equatable"]
+- ["s5ErrorP", ""]
+- ["s5ErrorP", "_code"]
+- ["s5ErrorP", "_domain"]
+- ["s5ErrorP", "_getEmbeddedNSError"]
+- ["s5ErrorP", "_userInfo"]
+- ["s5ErrorP", "disabled"]
+- ["s5ErrorP", "producerFailed"]
+- !private ["13ReactiveSwift6SignalC5EventO", "error"]
+- !private ["13ReactiveSwift6SignalC5EventO", "isCompleted"]
+- !private ["13ReactiveSwift6SignalC5EventO", "mapError"]
+- !private ["13ReactiveSwift6SignalC5EventO", "value"]
+- !private ["13ReactiveSwift13EventProtocolP", "error"]
+- !private ["13ReactiveSwift13EventProtocolP", "isCompleted"]
+- !private ["13ReactiveSwift13EventProtocolP", "mapError"]
+- !private ["13ReactiveSwift13EventProtocolP", "value"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["SH", "_getBuiltinLogicValue"]
+- ["13ReactiveSwift8LifetimeC", "Token"]
+- !private ["13ReactiveSwift8LifetimeC", "make"]
+- !private ["13ReactiveSwift8LifetimeC", "observeEnded"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["13ReactiveSwift15MutablePropertyC", "begin"]
+- !private ["13ReactiveSwift15MutablePropertyC", "deinit"]
+- !private ["13ReactiveSwift15MutablePropertyC", "init"]
+- !private ["13ReactiveSwift15MutablePropertyC", "value"]
+- !private ["13ReactiveSwift23MutablePropertyProtocolP", "begin"]
+- !private ["13ReactiveSwift23MutablePropertyProtocolP", "init"]
+- !private ["13ReactiveSwift23MutablePropertyProtocolP", "value"]
+- !private ["13ReactiveSwift6SignalC8ObserverC", "send"]
+- !private ["13ReactiveSwift6SignalC8ObserverC", "sendCompleted"]
+- !private ["13ReactiveSwift8PropertyC", "deinit"]
+- !private ["13ReactiveSwift8PropertyC", "init"]
+- !private ["13ReactiveSwift16PropertyProtocolP", "Value"]
+- !private ["13ReactiveSwift16PropertyProtocolP", "begin"]
+- !private ["13ReactiveSwift16PropertyProtocolP", "init"]
+- !private ["13ReactiveSwift16PropertyProtocolP", "producer"]
+- !private ["13ReactiveSwift16PropertyProtocolP", "value"]
+- !private ["13ReactiveSwift15PropertyStorageV", "modify"]
+- !private ["13ReactiveSwift15PropertyStorageV", "value"]
+- ["13ReactiveSwift6SignalC", "Event"]
+- ["13ReactiveSwift6SignalC", "Observer"]
+- !private ["13ReactiveSwift6SignalC", "filterMap"]
+- !private ["13ReactiveSwift6SignalC", "pipe"]
+- !private ["13ReactiveSwift14SignalProducerV", "init"]
+- !private ["13ReactiveSwift14SignalProducerV", "start"]
+- !private ["13ReactiveSwift14SignalProducerV", "startWithValues"]
+- ["13ReactiveSwift25SignalProducerConvertibleP", "Event"]
+- ["13ReactiveSwift25SignalProducerConvertibleP", "Observer"]
+- !private ["13ReactiveSwift25SignalProducerConvertibleP", "Value"]
+- !private ["13ReactiveSwift25SignalProducerConvertibleP", "begin"]
+- !private ["13ReactiveSwift25SignalProducerConvertibleP", "filterMap"]
+- !private ["13ReactiveSwift25SignalProducerConvertibleP", "init"]
+- !private ["13ReactiveSwift25SignalProducerConvertibleP", "pipe"]
+- !private ["13ReactiveSwift25SignalProducerConvertibleP", "producer"]
+- !private ["13ReactiveSwift25SignalProducerConvertibleP", "start"]
+- !private ["13ReactiveSwift25SignalProducerConvertibleP", "startWithValues"]
+- !private ["13ReactiveSwift25SignalProducerConvertibleP", "value"]
+- !private ["13ReactiveSwift22SignalProducerProtocolP", "init"]
+- !private ["13ReactiveSwift22SignalProducerProtocolP", "start"]
+- !private ["13ReactiveSwift22SignalProducerProtocolP", "startWithValues"]
+- ["13ReactiveSwift14SignalProtocolP", "Event"]
+- ["13ReactiveSwift14SignalProtocolP", "Observer"]
+- !private ["13ReactiveSwift14SignalProtocolP", "filterMap"]
+- !private ["13ReactiveSwift14SignalProtocolP", "pipe"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+depends-nominal:
+- "13ReactiveSwift6ActionC"
+- "13ReactiveSwift11ActionErrorO"
+- "13ReactiveSwift13BindingSourceP"
+- !private "13ReactiveSwift13BindingTargetV"
+- "13ReactiveSwift21BindingTargetProviderP"
+- !private "Sb"
+- !private "s7CVarArgP"
+- !private "13ReactiveSwift33ComposableMutablePropertyProtocolP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "13ReactiveSwift10DisposableP"
+- !private "SE"
+- !private "SQ"
+- "s5ErrorP"
+- !private "13ReactiveSwift6SignalC5EventO"
+- !private "13ReactiveSwift13EventProtocolP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "SH"
+- "13ReactiveSwift8LifetimeC"
+- !private "s25LosslessStringConvertibleP"
+- !private "13ReactiveSwift15MutablePropertyC"
+- !private "13ReactiveSwift23MutablePropertyProtocolP"
+- !private "13ReactiveSwift6SignalC8ObserverC"
+- !private "13ReactiveSwift8PropertyC"
+- !private "13ReactiveSwift16PropertyProtocolP"
+- !private "13ReactiveSwift15PropertyStorageV"
+- "13ReactiveSwift6SignalC"
+- !private "13ReactiveSwift14SignalProducerV"
+- "13ReactiveSwift25SignalProducerConvertibleP"
+- !private "13ReactiveSwift22SignalProducerProtocolP"
+- "13ReactiveSwift14SignalProtocolP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s21_ObjectiveCBridgeableP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Users/sunchuyue/Documents/test/RX_Product/DerivedData/RX_Product/Build/Products/Debug-iphonesimulator/Result/Result.framework/Modules/Result.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/sunchuyue/Documents/test/RX_Product/Pods/Target Support Files/ReactiveSwift/ReactiveSwift-umbrella.h"
+- "/Users/sunchuyue/Documents/test/RX_Product/Pods/Target Support Files/Result/Result-umbrella.h"
+- "/Users/sunchuyue/Documents/test/RX_Product/DerivedData/RX_Product/Build/Products/Debug-iphonesimulator/Result/Result.framework/Headers/Result-Swift.h"
+- "/Users/sunchuyue/Documents/test/RX_Product/DerivedData/RX_Product/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ReactiveSwift.build/unextended-module.modulemap"
+- "/Users/sunchuyue/Documents/test/RX_Product/DerivedData/RX_Product/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Result.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "4b87f724ee34fdfd1268165270e1aece"

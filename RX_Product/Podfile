@@ -1,0 +1,67 @@
+source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, '8.0'
+use_frameworks!
+workspace 'RX_Product.xcworkspace'
+
+def basePods
+    pod 'EZSwiftExtensions'
+end
+
+def networkPods
+    pod 'Alamofire', '~> 4.4'
+    pod 'SwiftyJSON'
+end
+
+def dataRelatedPods
+  pod 'CryptoCoding', '~> 1.1'
+  pod 'SQLite.swift'
+end
+
+def toolPods
+  pod 'pop'
+  pod 'SVProgressHUD'
+  pod 'SwiftKeychainWrapper'
+  pod 'YYKit'
+  pod 'MJRefresh'
+  pod 'RxSwift',    '~> 4.0'
+  pod 'RxCocoa',    '~> 4.0'
+  pod 'Moya'
+  pod 'Moya/RxSwift'
+  pod 'Moya/ReactiveSwift'
+  
+  pod 'RxDataSources', '~> 3.0'
+  pod 'ObjectMapper'
+  pod 'Moya-ObjectMapper/RxSwift'
+#  pod 'Moya-ObjectMapper/ReactiveSwift'
+  pod 'Moya-ObjectMapper'
+  pod 'RxAlamofire'
+  pod 'Result'
+  
+  
+end
+
+def cocoaUIPods
+  pod 'SteviaLayout', :git => "https://github.com/s4cha/Stevia.git", :tag => '3.2.0'
+  pod 'IQKeyboardManager'
+  pod 'Toaster'
+  pod 'SnapKit'
+  
+end
+
+target 'RX_Product' do
+    project 'RX_Product.xcodeproj'
+    basePods
+    networkPods
+    cocoaUIPods
+    toolPods
+    dataRelatedPods
+end
+
+
+post_install do |installer|
+    installer.pods_project.targets.each do |target|
+        target.build_configurations.each do |config|
+            config.build_settings['SWIFT_VERSION'] = '3.0'
+        end
+    end
+end

@@ -1,0 +1,927 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Scheduler"
+- "DateScheduler"
+- "ImmediateScheduler"
+- "UIScheduler"
+- "QueueScheduler"
+- "TestScheduler"
+provides-nominal:
+- "13ReactiveSwift9SchedulerP"
+- "13ReactiveSwift13DateSchedulerP"
+- "13ReactiveSwift18ImmediateSchedulerC"
+- "13ReactiveSwift11UISchedulerC"
+- "13ReactiveSwift14QueueSchedulerC"
+- "13ReactiveSwift13TestSchedulerC"
+provides-member:
+- ["13ReactiveSwift9SchedulerP", ""]
+- ["13ReactiveSwift13DateSchedulerP", ""]
+- ["13ReactiveSwift18ImmediateSchedulerC", ""]
+- ["13ReactiveSwift11UISchedulerC", ""]
+- ["13ReactiveSwift14QueueSchedulerC", ""]
+- ["13ReactiveSwift13TestSchedulerC", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "!"
+- !private "!="
+- !private "!=="
+- !private "&&"
+- !private "*"
+- !private "-"
+- "=="
+- !private "==="
+- !private ">"
+- !private ">="
+- !private "AnyDisposable"
+- "AnyObject"
+- "AssignmentPrecedence"
+- "Atomic"
+- "Bool"
+- "Date"
+- "DateScheduler"
+- "DispatchQoS"
+- "DispatchQueue"
+- !private "DispatchSource"
+- "DispatchSourceTimer"
+- "DispatchSourceTimerWrapper"
+- "DispatchSpecificKey"
+- "DispatchTimeInterval"
+- "DispatchWallTime"
+- "Disposable"
+- !private "Double"
+- "FloatLiteralType"
+- "Hashable"
+- "ImmediateScheduler"
+- "Int"
+- "Int32"
+- "IntegerLiteralType"
+- !private "NSEC_PER_SEC"
+- "NSRecursiveLock"
+- !private "OSAtomicDecrement32"
+- !private "OSAtomicIncrement32"
+- !private "ObjectIdentifier"
+- "QueueScheduler"
+- "Scheduler"
+- "SerialDisposable"
+- "Set"
+- "String"
+- "StringLiteralType"
+- "TestScheduler"
+- "UIScheduler"
+- !private "UInt"
+- "UInt8"
+- "UnsafeMutablePointer"
+- "Void"
+- !private "assert"
+- !private "modf"
+- !private "precondition"
+- !private "timespec"
+depends-member:
+- !private ["13ReactiveSwift13AnyDisposableC", "deinit"]
+- !private ["13ReactiveSwift13AnyDisposableC", "init"]
+- !private ["13ReactiveSwift13AnyDisposableC", "isDisposed"]
+- !private ["Sa", "append"]
+- !private ["Sa", "count"]
+- !private ["Sa", "filter"]
+- !private ["Sa", "remove"]
+- !private ["Sa", "sort"]
+- !private ["Sa", "subscript"]
+- !private ["s13ArrayProtocolP", "append"]
+- !private ["s13ArrayProtocolP", "count"]
+- !private ["s13ArrayProtocolP", "filter"]
+- !private ["s13ArrayProtocolP", "remove"]
+- !private ["s13ArrayProtocolP", "sort"]
+- !private ["s13ArrayProtocolP", "subscript"]
+- !private ["13ReactiveSwift6AtomicC", "init"]
+- !private ["13ReactiveSwift6AtomicC", "modify"]
+- !private ["SK", "append"]
+- !private ["SK", "count"]
+- !private ["SK", "filter"]
+- !private ["SK", "init"]
+- !private ["SK", "init"]
+- !private ["SK", "remove"]
+- !private ["SK", "sort"]
+- !private ["SK", "subscript"]
+- !private ["SB", "init"]
+- !private ["Sz", "init"]
+- ["Sz", "max"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "TimerFlags"]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- ["s7CVarArgP", "allocate"]
+- !private ["s7CVarArgP", "append"]
+- !private ["s7CVarArgP", "async"]
+- !private ["s7CVarArgP", "asyncAfter"]
+- !private ["s7CVarArgP", "count"]
+- !private ["s7CVarArgP", "deallocate"]
+- !private ["s7CVarArgP", "deinitialize"]
+- !private ["s7CVarArgP", "filter"]
+- !private ["s7CVarArgP", "getSpecific"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "init"]
+- ["s7CVarArgP", "initialize"]
+- !private ["s7CVarArgP", "insert"]
+- !private ["s7CVarArgP", "lock"]
+- ["s7CVarArgP", "main"]
+- !private ["s7CVarArgP", "makeTimerSource"]
+- ["s7CVarArgP", "max"]
+- !private ["s7CVarArgP", "name"]
+- !private ["s7CVarArgP", "remove"]
+- ["s7CVarArgP", "setSpecific"]
+- !private ["s7CVarArgP", "sort"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["s7CVarArgP", "unlock"]
+- !private ["Sl", "append"]
+- !private ["Sl", "count"]
+- !private ["Sl", "filter"]
+- !private ["Sl", "init"]
+- !private ["Sl", "init"]
+- !private ["Sl", "insert"]
+- !private ["Sl", "remove"]
+- !private ["Sl", "sort"]
+- !private ["Sl", "subscript"]
+- !private ["SL", "addingTimeInterval"]
+- ["SL", "allocate"]
+- !private ["SL", "compare"]
+- !private ["SL", "deallocate"]
+- !private ["SL", "deinitialize"]
+- !private ["SL", "distantFuture"]
+- !private ["SL", "hashValue"]
+- !private ["SL", "init"]
+- !private ["SL", "init"]
+- ["SL", "initialize"]
+- ["SL", "max"]
+- !private ["SL", "timeIntervalSince1970"]
+- !private ["So18NSComparisonResultV", "orderedAscending"]
+- !private ["So18NSComparisonResultV", "orderedDescending"]
+- !private ["s28CustomDebugStringConvertibleP", "TimerFlags"]
+- !private ["s28CustomDebugStringConvertibleP", "addingTimeInterval"]
+- ["s28CustomDebugStringConvertibleP", "allocate"]
+- !private ["s28CustomDebugStringConvertibleP", "append"]
+- !private ["s28CustomDebugStringConvertibleP", "async"]
+- !private ["s28CustomDebugStringConvertibleP", "asyncAfter"]
+- !private ["s28CustomDebugStringConvertibleP", "compare"]
+- !private ["s28CustomDebugStringConvertibleP", "count"]
+- !private ["s28CustomDebugStringConvertibleP", "deallocate"]
+- !private ["s28CustomDebugStringConvertibleP", "deinitialize"]
+- !private ["s28CustomDebugStringConvertibleP", "distantFuture"]
+- !private ["s28CustomDebugStringConvertibleP", "filter"]
+- !private ["s28CustomDebugStringConvertibleP", "getSpecific"]
+- !private ["s28CustomDebugStringConvertibleP", "hashValue"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- ["s28CustomDebugStringConvertibleP", "initialize"]
+- !private ["s28CustomDebugStringConvertibleP", "insert"]
+- !private ["s28CustomDebugStringConvertibleP", "lock"]
+- ["s28CustomDebugStringConvertibleP", "main"]
+- !private ["s28CustomDebugStringConvertibleP", "makeTimerSource"]
+- !private ["s28CustomDebugStringConvertibleP", "name"]
+- !private ["s28CustomDebugStringConvertibleP", "remove"]
+- ["s28CustomDebugStringConvertibleP", "setSpecific"]
+- !private ["s28CustomDebugStringConvertibleP", "sort"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "timeIntervalSince1970"]
+- !private ["s28CustomDebugStringConvertibleP", "unlock"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "addingTimeInterval"]
+- ["s29CustomPlaygroundQuickLookableP", "allocate"]
+- !private ["s29CustomPlaygroundQuickLookableP", "compare"]
+- !private ["s29CustomPlaygroundQuickLookableP", "deallocate"]
+- !private ["s29CustomPlaygroundQuickLookableP", "deinitialize"]
+- !private ["s29CustomPlaygroundQuickLookableP", "distantFuture"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- ["s29CustomPlaygroundQuickLookableP", "initialize"]
+- ["s29CustomPlaygroundQuickLookableP", "max"]
+- !private ["s29CustomPlaygroundQuickLookableP", "timeIntervalSince1970"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "addingTimeInterval"]
+- ["s17CustomReflectableP", "allocate"]
+- !private ["s17CustomReflectableP", "append"]
+- !private ["s17CustomReflectableP", "compare"]
+- !private ["s17CustomReflectableP", "count"]
+- !private ["s17CustomReflectableP", "deallocate"]
+- !private ["s17CustomReflectableP", "deinitialize"]
+- !private ["s17CustomReflectableP", "distantFuture"]
+- !private ["s17CustomReflectableP", "filter"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "init"]
+- ["s17CustomReflectableP", "initialize"]
+- !private ["s17CustomReflectableP", "insert"]
+- ["s17CustomReflectableP", "max"]
+- !private ["s17CustomReflectableP", "remove"]
+- !private ["s17CustomReflectableP", "sort"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s17CustomReflectableP", "timeIntervalSince1970"]
+- !private ["s23CustomStringConvertibleP", "TimerFlags"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "addingTimeInterval"]
+- !private ["s23CustomStringConvertibleP", "append"]
+- !private ["s23CustomStringConvertibleP", "async"]
+- !private ["s23CustomStringConvertibleP", "asyncAfter"]
+- !private ["s23CustomStringConvertibleP", "compare"]
+- !private ["s23CustomStringConvertibleP", "count"]
+- !private ["s23CustomStringConvertibleP", "distantFuture"]
+- !private ["s23CustomStringConvertibleP", "filter"]
+- !private ["s23CustomStringConvertibleP", "getSpecific"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "insert"]
+- !private ["s23CustomStringConvertibleP", "lock"]
+- ["s23CustomStringConvertibleP", "main"]
+- !private ["s23CustomStringConvertibleP", "makeTimerSource"]
+- ["s23CustomStringConvertibleP", "max"]
+- !private ["s23CustomStringConvertibleP", "name"]
+- !private ["s23CustomStringConvertibleP", "remove"]
+- ["s23CustomStringConvertibleP", "setSpecific"]
+- !private ["s23CustomStringConvertibleP", "sort"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "timeIntervalSince1970"]
+- !private ["s23CustomStringConvertibleP", "unlock"]
+- !private ["10Foundation4DateV", "addingTimeInterval"]
+- !private ["10Foundation4DateV", "compare"]
+- !private ["10Foundation4DateV", "distantFuture"]
+- !private ["10Foundation4DateV", "init"]
+- !private ["10Foundation4DateV", "timeIntervalSince1970"]
+- !private ["13ReactiveSwift13DateSchedulerP", "AnyDisposable"]
+- !private ["13ReactiveSwift13DateSchedulerP", "Atomic"]
+- ["13ReactiveSwift13DateSchedulerP", "Date"]
+- ["13ReactiveSwift13DateSchedulerP", "DispatchQueue"]
+- !private ["13ReactiveSwift13DateSchedulerP", "DispatchSource"]
+- !private ["13ReactiveSwift13DateSchedulerP", "DispatchSourceTimerWrapper"]
+- ["13ReactiveSwift13DateSchedulerP", "DispatchTimeInterval"]
+- !private ["13ReactiveSwift13DateSchedulerP", "DispatchWallTime"]
+- ["13ReactiveSwift13DateSchedulerP", "Disposable"]
+- !private ["13ReactiveSwift13DateSchedulerP", "Double"]
+- !private ["13ReactiveSwift13DateSchedulerP", "Int"]
+- !private ["13ReactiveSwift13DateSchedulerP", "NSEC_PER_SEC"]
+- ["13ReactiveSwift13DateSchedulerP", "NSRecursiveLock"]
+- ["13ReactiveSwift13DateSchedulerP", "QueueScheduler"]
+- !private ["13ReactiveSwift13DateSchedulerP", "ScheduledAction"]
+- !private ["13ReactiveSwift13DateSchedulerP", "SerialDisposable"]
+- !private ["13ReactiveSwift13DateSchedulerP", "Set"]
+- !private ["13ReactiveSwift13DateSchedulerP", "UInt"]
+- ["13ReactiveSwift13DateSchedulerP", "Void"]
+- ["13ReactiveSwift13DateSchedulerP", ""]
+- !private ["13ReactiveSwift13DateSchedulerP", "_currentDate"]
+- !private ["13ReactiveSwift13DateSchedulerP", "advance"]
+- !private ["13ReactiveSwift13DateSchedulerP", "assert"]
+- ["13ReactiveSwift13DateSchedulerP", "currentDate"]
+- ["13ReactiveSwift13DateSchedulerP", "init"]
+- !private ["13ReactiveSwift13DateSchedulerP", "lock"]
+- !private ["13ReactiveSwift13DateSchedulerP", "modf"]
+- !private ["13ReactiveSwift13DateSchedulerP", "precondition"]
+- !private ["13ReactiveSwift13DateSchedulerP", "queue"]
+- ["13ReactiveSwift13DateSchedulerP", "schedule"]
+- !private ["13ReactiveSwift13DateSchedulerP", "scheduledActions"]
+- !private ["13ReactiveSwift13DateSchedulerP", "timers"]
+- !private ["13ReactiveSwift13DateSchedulerP", "timespec"]
+- !private ["13ReactiveSwift13DateSchedulerP", "wallTime"]
+- !private ["Se", "_getBuiltinLogicValue"]
+- !private ["Se", "addingTimeInterval"]
+- !private ["Se", "append"]
+- !private ["Se", "compare"]
+- !private ["Se", "count"]
+- !private ["Se", "distantFuture"]
+- !private ["Se", "filter"]
+- !private ["Se", "init"]
+- !private ["Se", "init"]
+- !private ["Se", "insert"]
+- ["Se", "max"]
+- !private ["Se", "remove"]
+- !private ["Se", "sort"]
+- !private ["Se", "subscript"]
+- !private ["Se", "timeIntervalSince1970"]
+- !private ["So18OS_dispatch_objectC", "TimerFlags"]
+- !private ["So18OS_dispatch_objectC", "async"]
+- !private ["So18OS_dispatch_objectC", "asyncAfter"]
+- !private ["So18OS_dispatch_objectC", "getSpecific"]
+- !private ["So18OS_dispatch_objectC", "init"]
+- ["So18OS_dispatch_objectC", "main"]
+- !private ["So18OS_dispatch_objectC", "makeTimerSource"]
+- ["So18OS_dispatch_objectC", "setSpecific"]
+- !private ["8Dispatch0A3QoSV", "default"]
+- !private ["So17OS_dispatch_queueC", "async"]
+- !private ["So17OS_dispatch_queueC", "asyncAfter"]
+- !private ["So17OS_dispatch_queueC", "getSpecific"]
+- !private ["So17OS_dispatch_queueC", "init"]
+- ["So17OS_dispatch_queueC", "main"]
+- ["So17OS_dispatch_queueC", "setSpecific"]
+- !private ["So18OS_dispatch_sourceC", "TimerFlags"]
+- !private ["So18OS_dispatch_sourceC", "makeTimerSource"]
+- !private ["So24OS_dispatch_source_vnodeP", "TimerFlags"]
+- !private ["So24OS_dispatch_source_vnodeP", "makeTimerSource"]
+- !private ["So28OS_dispatch_source_mach_recvP", "TimerFlags"]
+- !private ["So28OS_dispatch_source_mach_recvP", "makeTimerSource"]
+- !private ["So28OS_dispatch_source_mach_sendP", "TimerFlags"]
+- !private ["So28OS_dispatch_source_mach_sendP", "makeTimerSource"]
+- !private ["So33OS_dispatch_source_memorypressureP", "TimerFlags"]
+- !private ["So33OS_dispatch_source_memorypressureP", "makeTimerSource"]
+- !private ["So23OS_dispatch_source_procP", "TimerFlags"]
+- !private ["So23OS_dispatch_source_procP", "makeTimerSource"]
+- !private ["So18OS_dispatch_sourceP", "TimerFlags"]
+- !private ["So18OS_dispatch_sourceP", "cancel"]
+- !private ["So18OS_dispatch_sourceP", "makeTimerSource"]
+- !private ["So18OS_dispatch_sourceP", "resume"]
+- !private ["So18OS_dispatch_sourceP", "scheduleRepeating"]
+- !private ["So18OS_dispatch_sourceP", "setEventHandler"]
+- !private ["So23OS_dispatch_source_readP", "TimerFlags"]
+- !private ["So23OS_dispatch_source_readP", "makeTimerSource"]
+- !private ["So25OS_dispatch_source_signalP", "TimerFlags"]
+- !private ["So25OS_dispatch_source_signalP", "makeTimerSource"]
+- !private ["So24OS_dispatch_source_timerP", "TimerFlags"]
+- !private ["So24OS_dispatch_source_timerP", "cancel"]
+- !private ["So24OS_dispatch_source_timerP", "makeTimerSource"]
+- !private ["So24OS_dispatch_source_timerP", "resume"]
+- !private ["So24OS_dispatch_source_timerP", "scheduleRepeating"]
+- !private ["So24OS_dispatch_source_timerP", "setEventHandler"]
+- !private ["So27OS_dispatch_source_data_addP", "TimerFlags"]
+- !private ["So27OS_dispatch_source_data_addP", "makeTimerSource"]
+- !private ["So26OS_dispatch_source_data_orP", "TimerFlags"]
+- !private ["So26OS_dispatch_source_data_orP", "makeTimerSource"]
+- !private ["So31OS_dispatch_source_data_replaceP", "TimerFlags"]
+- !private ["So31OS_dispatch_source_data_replaceP", "makeTimerSource"]
+- !private ["So24OS_dispatch_source_writeP", "TimerFlags"]
+- !private ["So24OS_dispatch_source_writeP", "makeTimerSource"]
+- ["8Dispatch0A11SpecificKeyC", "init"]
+- !private ["8Dispatch0A12TimeIntervalO", "nanoseconds"]
+- !private ["8Dispatch0A12TimeIntervalO", "seconds"]
+- !private ["8Dispatch0A12TimeIntervalO", "timeInterval"]
+- !private ["8Dispatch0A8WallTimeV", "init"]
+- !private ["13ReactiveSwift10DisposableP", "init"]
+- !private ["13ReactiveSwift10DisposableP", "inner"]
+- !private ["13ReactiveSwift10DisposableP", "isDisposed"]
+- !private ["Sd", "init"]
+- !private ["SE", "_getBuiltinLogicValue"]
+- !private ["SE", "addingTimeInterval"]
+- !private ["SE", "append"]
+- !private ["SE", "compare"]
+- !private ["SE", "count"]
+- !private ["SE", "distantFuture"]
+- !private ["SE", "filter"]
+- !private ["SE", "init"]
+- !private ["SE", "init"]
+- !private ["SE", "insert"]
+- ["SE", "max"]
+- !private ["SE", "remove"]
+- !private ["SE", "sort"]
+- !private ["SE", "subscript"]
+- !private ["SE", "timeIntervalSince1970"]
+- !private ["SQ", "ObjectIdentifier"]
+- !private ["SQ", "TimerFlags"]
+- !private ["SQ", ""]
+- !private ["SQ", "_getBuiltinLogicValue"]
+- !private ["SQ", "addingTimeInterval"]
+- ["SQ", "allocate"]
+- !private ["SQ", "append"]
+- !private ["SQ", "async"]
+- !private ["SQ", "asyncAfter"]
+- !private ["SQ", "compare"]
+- !private ["SQ", "count"]
+- !private ["SQ", "deallocate"]
+- !private ["SQ", "default"]
+- !private ["SQ", "deinitialize"]
+- !private ["SQ", "distantFuture"]
+- !private ["SQ", "filter"]
+- !private ["SQ", "getSpecific"]
+- ["SQ", "hash"]
+- ["SQ", "hashValue"]
+- ["SQ", "init"]
+- !private ["SQ", "init"]
+- ["SQ", "initialize"]
+- !private ["SQ", "insert"]
+- !private ["SQ", "lock"]
+- ["SQ", "main"]
+- !private ["SQ", "makeTimerSource"]
+- ["SQ", "max"]
+- !private ["SQ", "name"]
+- !private ["SQ", "nanoseconds"]
+- !private ["SQ", "orderedAscending"]
+- !private ["SQ", "orderedDescending"]
+- !private ["SQ", "remove"]
+- !private ["SQ", "seconds"]
+- ["SQ", "setSpecific"]
+- !private ["SQ", "sort"]
+- !private ["SQ", "subscript"]
+- !private ["SQ", "timeInterval"]
+- !private ["SQ", "timeIntervalSince1970"]
+- !private ["SQ", "unlock"]
+- !private ["SQ", "value"]
+- !private ["s25ExpressibleByArrayLiteralP", "append"]
+- !private ["s25ExpressibleByArrayLiteralP", "count"]
+- !private ["s25ExpressibleByArrayLiteralP", "filter"]
+- !private ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s25ExpressibleByArrayLiteralP", "insert"]
+- !private ["s25ExpressibleByArrayLiteralP", "remove"]
+- !private ["s25ExpressibleByArrayLiteralP", "sort"]
+- !private ["s25ExpressibleByArrayLiteralP", "subscript"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s25ExpressibleByFloatLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- ["s27ExpressibleByIntegerLiteralP", "max"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s17FixedWidthIntegerP", "init"]
+- ["s17FixedWidthIntegerP", "max"]
+- !private ["SF", "init"]
+- !private ["SH", "ObjectIdentifier"]
+- !private ["SH", "TimerFlags"]
+- !private ["SH", ""]
+- !private ["SH", "_getBuiltinLogicValue"]
+- !private ["SH", "addingTimeInterval"]
+- ["SH", "allocate"]
+- !private ["SH", "append"]
+- !private ["SH", "async"]
+- !private ["SH", "asyncAfter"]
+- !private ["SH", "compare"]
+- !private ["SH", "count"]
+- !private ["SH", "deallocate"]
+- !private ["SH", "deinitialize"]
+- !private ["SH", "distantFuture"]
+- !private ["SH", "filter"]
+- !private ["SH", "getSpecific"]
+- ["SH", "hash"]
+- ["SH", "hashValue"]
+- ["SH", "init"]
+- !private ["SH", "init"]
+- ["SH", "initialize"]
+- !private ["SH", "insert"]
+- !private ["SH", "lock"]
+- ["SH", "main"]
+- !private ["SH", "makeTimerSource"]
+- ["SH", "max"]
+- !private ["SH", "name"]
+- !private ["SH", "orderedAscending"]
+- !private ["SH", "orderedDescending"]
+- !private ["SH", "remove"]
+- ["SH", "setSpecific"]
+- !private ["SH", "sort"]
+- !private ["SH", "subscript"]
+- !private ["SH", "timeIntervalSince1970"]
+- !private ["SH", "unlock"]
+- !private ["SH", "value"]
+- !private ["s6HasherV", "combine"]
+- ["13ReactiveSwift18ImmediateSchedulerC", "Disposable"]
+- ["13ReactiveSwift18ImmediateSchedulerC", "Void"]
+- ["13ReactiveSwift18ImmediateSchedulerC", "deinit"]
+- ["13ReactiveSwift18ImmediateSchedulerC", "init"]
+- ["13ReactiveSwift18ImmediateSchedulerC", "schedule"]
+- !private ["Si", "init"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- ["s25LosslessStringConvertibleP", "max"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["SM", "append"]
+- !private ["SM", "count"]
+- !private ["SM", "filter"]
+- !private ["SM", "remove"]
+- !private ["SM", "sort"]
+- !private ["SM", "subscript"]
+- ["So9NSLockingP", "init"]
+- !private ["So9NSLockingP", "lock"]
+- !private ["So9NSLockingP", "name"]
+- !private ["So9NSLockingP", "unlock"]
+- !private ["So8NSObjectC", "TimerFlags"]
+- !private ["So8NSObjectC", "async"]
+- !private ["So8NSObjectC", "asyncAfter"]
+- !private ["So8NSObjectC", "getSpecific"]
+- ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "lock"]
+- ["So8NSObjectC", "main"]
+- !private ["So8NSObjectC", "makeTimerSource"]
+- !private ["So8NSObjectC", "name"]
+- ["So8NSObjectC", "setSpecific"]
+- !private ["So8NSObjectC", "unlock"]
+- !private ["So8NSObjectP", "TimerFlags"]
+- !private ["So8NSObjectP", "async"]
+- !private ["So8NSObjectP", "asyncAfter"]
+- !private ["So8NSObjectP", "cancel"]
+- !private ["So8NSObjectP", "getSpecific"]
+- ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "lock"]
+- ["So8NSObjectP", "main"]
+- !private ["So8NSObjectP", "makeTimerSource"]
+- !private ["So8NSObjectP", "name"]
+- !private ["So8NSObjectP", "resume"]
+- !private ["So8NSObjectP", "scheduleRepeating"]
+- !private ["So8NSObjectP", "setEventHandler"]
+- ["So8NSObjectP", "setSpecific"]
+- !private ["So8NSObjectP", "unlock"]
+- ["So15NSRecursiveLockC", "init"]
+- !private ["So15NSRecursiveLockC", "lock"]
+- !private ["So15NSRecursiveLockC", "name"]
+- !private ["So15NSRecursiveLockC", "unlock"]
+- !private ["Sj", "init"]
+- ["Sj", "max"]
+- !private ["So9OS_objectC", "TimerFlags"]
+- !private ["So9OS_objectC", "async"]
+- !private ["So9OS_objectC", "asyncAfter"]
+- !private ["So9OS_objectC", "getSpecific"]
+- !private ["So9OS_objectC", "init"]
+- ["So9OS_objectC", "main"]
+- !private ["So9OS_objectC", "makeTimerSource"]
+- ["So9OS_objectC", "setSpecific"]
+- !private ["SO", "hashValue"]
+- !private ["SO", "init"]
+- !private ["s9OptionSetP", "init"]
+- !private ["13ReactiveSwift14QueueSchedulerC", "AnyDisposable"]
+- ["13ReactiveSwift14QueueSchedulerC", "Atomic"]
+- ["13ReactiveSwift14QueueSchedulerC", "Date"]
+- ["13ReactiveSwift14QueueSchedulerC", "DispatchQoS"]
+- ["13ReactiveSwift14QueueSchedulerC", "DispatchQueue"]
+- !private ["13ReactiveSwift14QueueSchedulerC", "DispatchSource"]
+- ["13ReactiveSwift14QueueSchedulerC", "DispatchSourceTimerWrapper"]
+- ["13ReactiveSwift14QueueSchedulerC", "DispatchTimeInterval"]
+- ["13ReactiveSwift14QueueSchedulerC", "DispatchWallTime"]
+- ["13ReactiveSwift14QueueSchedulerC", "Disposable"]
+- !private ["13ReactiveSwift14QueueSchedulerC", "Double"]
+- !private ["13ReactiveSwift14QueueSchedulerC", "Int"]
+- !private ["13ReactiveSwift14QueueSchedulerC", "NSEC_PER_SEC"]
+- ["13ReactiveSwift14QueueSchedulerC", "QueueScheduler"]
+- ["13ReactiveSwift14QueueSchedulerC", "Set"]
+- ["13ReactiveSwift14QueueSchedulerC", "String"]
+- !private ["13ReactiveSwift14QueueSchedulerC", "UInt"]
+- ["13ReactiveSwift14QueueSchedulerC", "Void"]
+- ["13ReactiveSwift14QueueSchedulerC", "currentDate"]
+- ["13ReactiveSwift14QueueSchedulerC", "deinit"]
+- ["13ReactiveSwift14QueueSchedulerC", "init"]
+- ["13ReactiveSwift14QueueSchedulerC", "main"]
+- !private ["13ReactiveSwift14QueueSchedulerC", "modf"]
+- !private ["13ReactiveSwift14QueueSchedulerC", "precondition"]
+- ["13ReactiveSwift14QueueSchedulerC", "queue"]
+- ["13ReactiveSwift14QueueSchedulerC", "schedule"]
+- !private ["13ReactiveSwift14QueueSchedulerC", "timers"]
+- !private ["13ReactiveSwift14QueueSchedulerC", "timespec"]
+- !private ["13ReactiveSwift14QueueSchedulerC", "wallTime"]
+- !private ["Sk", "append"]
+- !private ["Sk", "count"]
+- !private ["Sk", "filter"]
+- !private ["Sk", "remove"]
+- !private ["Sk", "sort"]
+- !private ["Sk", "subscript"]
+- !private ["Sm", "append"]
+- !private ["Sm", "count"]
+- !private ["Sm", "filter"]
+- !private ["Sm", "init"]
+- !private ["Sm", "init"]
+- !private ["Sm", "remove"]
+- !private ["Sm", "sort"]
+- !private ["Sm", "subscript"]
+- !private ["SY", "init"]
+- !private ["SY", "orderedAscending"]
+- !private ["SY", "orderedDescending"]
+- !private ["10Foundation20ReferenceConvertibleP", "addingTimeInterval"]
+- !private ["10Foundation20ReferenceConvertibleP", "compare"]
+- !private ["10Foundation20ReferenceConvertibleP", "distantFuture"]
+- !private ["10Foundation20ReferenceConvertibleP", "init"]
+- !private ["10Foundation20ReferenceConvertibleP", "timeIntervalSince1970"]
+- !private ["13ReactiveSwift9SchedulerP", "AnyDisposable"]
+- !private ["13ReactiveSwift9SchedulerP", "Atomic"]
+- ["13ReactiveSwift9SchedulerP", "Date"]
+- ["13ReactiveSwift9SchedulerP", "DispatchQueue"]
+- !private ["13ReactiveSwift9SchedulerP", "DispatchSource"]
+- !private ["13ReactiveSwift9SchedulerP", "DispatchSourceTimerWrapper"]
+- ["13ReactiveSwift9SchedulerP", "DispatchSpecificKey"]
+- ["13ReactiveSwift9SchedulerP", "DispatchTimeInterval"]
+- !private ["13ReactiveSwift9SchedulerP", "DispatchWallTime"]
+- ["13ReactiveSwift9SchedulerP", "Disposable"]
+- !private ["13ReactiveSwift9SchedulerP", "Double"]
+- !private ["13ReactiveSwift9SchedulerP", "Int"]
+- !private ["13ReactiveSwift9SchedulerP", "NSEC_PER_SEC"]
+- ["13ReactiveSwift9SchedulerP", "NSRecursiveLock"]
+- !private ["13ReactiveSwift9SchedulerP", "OSAtomicDecrement32"]
+- !private ["13ReactiveSwift9SchedulerP", "OSAtomicIncrement32"]
+- ["13ReactiveSwift9SchedulerP", "QueueScheduler"]
+- !private ["13ReactiveSwift9SchedulerP", "ScheduledAction"]
+- !private ["13ReactiveSwift9SchedulerP", "SerialDisposable"]
+- !private ["13ReactiveSwift9SchedulerP", "Set"]
+- ["13ReactiveSwift9SchedulerP", "UIScheduler"]
+- !private ["13ReactiveSwift9SchedulerP", "UInt"]
+- ["13ReactiveSwift9SchedulerP", "UInt8"]
+- ["13ReactiveSwift9SchedulerP", "UnsafeMutablePointer"]
+- ["13ReactiveSwift9SchedulerP", "Void"]
+- ["13ReactiveSwift9SchedulerP", ""]
+- !private ["13ReactiveSwift9SchedulerP", "__once"]
+- !private ["13ReactiveSwift9SchedulerP", "_currentDate"]
+- !private ["13ReactiveSwift9SchedulerP", "advance"]
+- !private ["13ReactiveSwift9SchedulerP", "assert"]
+- ["13ReactiveSwift9SchedulerP", "currentDate"]
+- !private ["13ReactiveSwift9SchedulerP", "dequeue"]
+- ["13ReactiveSwift9SchedulerP", "dispatchSpecificKey"]
+- ["13ReactiveSwift9SchedulerP", "dispatchSpecificValue"]
+- !private ["13ReactiveSwift9SchedulerP", "enqueue"]
+- ["13ReactiveSwift9SchedulerP", "init"]
+- !private ["13ReactiveSwift9SchedulerP", "lock"]
+- !private ["13ReactiveSwift9SchedulerP", "modf"]
+- !private ["13ReactiveSwift9SchedulerP", "precondition"]
+- !private ["13ReactiveSwift9SchedulerP", "queue"]
+- !private ["13ReactiveSwift9SchedulerP", "queueLength"]
+- ["13ReactiveSwift9SchedulerP", "schedule"]
+- !private ["13ReactiveSwift9SchedulerP", "scheduledActions"]
+- !private ["13ReactiveSwift9SchedulerP", "timers"]
+- !private ["13ReactiveSwift9SchedulerP", "timespec"]
+- !private ["13ReactiveSwift9SchedulerP", "wallTime"]
+- !private ["ST", "append"]
+- !private ["ST", "count"]
+- !private ["ST", "filter"]
+- !private ["ST", "init"]
+- !private ["ST", "init"]
+- !private ["ST", "insert"]
+- !private ["ST", "remove"]
+- !private ["ST", "sort"]
+- !private ["ST", "subscript"]
+- !private ["13ReactiveSwift16SerialDisposableC", "deinit"]
+- !private ["13ReactiveSwift16SerialDisposableC", "init"]
+- !private ["13ReactiveSwift16SerialDisposableC", "inner"]
+- !private ["Sh", "init"]
+- !private ["Sh", "insert"]
+- !private ["Sh", "remove"]
+- !private ["s10SetAlgebraP", "init"]
+- !private ["s10SetAlgebraP", "insert"]
+- !private ["s10SetAlgebraP", "remove"]
+- !private ["SZ", "init"]
+- !private ["s13SignedNumericP", "init"]
+- !private ["s12StaticStringV", "init"]
+- !private ["s12StaticStringV", "init"]
+- ["Sx", "allocate"]
+- !private ["Sx", "deallocate"]
+- !private ["Sx", "deinitialize"]
+- !private ["Sx", "init"]
+- ["Sx", "initialize"]
+- ["Sx", "max"]
+- !private ["SS", "init"]
+- !private ["SS", "init"]
+- !private ["Sy", "init"]
+- !private ["Sy", "init"]
+- !private ["13ReactiveSwift13TestSchedulerC", "AnyDisposable"]
+- ["13ReactiveSwift13TestSchedulerC", "Bool"]
+- ["13ReactiveSwift13TestSchedulerC", "Date"]
+- ["13ReactiveSwift13TestSchedulerC", "DispatchTimeInterval"]
+- ["13ReactiveSwift13TestSchedulerC", "Disposable"]
+- ["13ReactiveSwift13TestSchedulerC", "NSRecursiveLock"]
+- ["13ReactiveSwift13TestSchedulerC", "ScheduledAction"]
+- ["13ReactiveSwift13TestSchedulerC", "SerialDisposable"]
+- ["13ReactiveSwift13TestSchedulerC", "Void"]
+- !private ["13ReactiveSwift13TestSchedulerC", "_currentDate"]
+- ["13ReactiveSwift13TestSchedulerC", "advance"]
+- !private ["13ReactiveSwift13TestSchedulerC", "assert"]
+- ["13ReactiveSwift13TestSchedulerC", "currentDate"]
+- ["13ReactiveSwift13TestSchedulerC", "deinit"]
+- ["13ReactiveSwift13TestSchedulerC", "init"]
+- !private ["13ReactiveSwift13TestSchedulerC", "lock"]
+- !private ["13ReactiveSwift13TestSchedulerC", "precondition"]
+- ["13ReactiveSwift13TestSchedulerC", "rewind"]
+- ["13ReactiveSwift13TestSchedulerC", "run"]
+- ["13ReactiveSwift13TestSchedulerC", "schedule"]
+- !private ["13ReactiveSwift13TestSchedulerC", "scheduledActions"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["So18OS_dispatch_sourceC8DispatchE10TimerFlagsV", "init"]
+- !private ["13ReactiveSwift11UISchedulerC", "AnyDisposable"]
+- ["13ReactiveSwift11UISchedulerC", "DispatchQueue"]
+- ["13ReactiveSwift11UISchedulerC", "DispatchSpecificKey"]
+- ["13ReactiveSwift11UISchedulerC", "Disposable"]
+- ["13ReactiveSwift11UISchedulerC", "Int32"]
+- !private ["13ReactiveSwift11UISchedulerC", "OSAtomicDecrement32"]
+- !private ["13ReactiveSwift11UISchedulerC", "OSAtomicIncrement32"]
+- ["13ReactiveSwift11UISchedulerC", "UIScheduler"]
+- ["13ReactiveSwift11UISchedulerC", "UInt8"]
+- ["13ReactiveSwift11UISchedulerC", "UnsafeMutablePointer"]
+- ["13ReactiveSwift11UISchedulerC", "Void"]
+- !private ["13ReactiveSwift11UISchedulerC", "__once"]
+- ["13ReactiveSwift11UISchedulerC", "deinit"]
+- !private ["13ReactiveSwift11UISchedulerC", "dequeue"]
+- ["13ReactiveSwift11UISchedulerC", "dispatchSpecificKey"]
+- ["13ReactiveSwift11UISchedulerC", "dispatchSpecificValue"]
+- !private ["13ReactiveSwift11UISchedulerC", "enqueue"]
+- ["13ReactiveSwift11UISchedulerC", "init"]
+- !private ["13ReactiveSwift11UISchedulerC", "queueLength"]
+- ["13ReactiveSwift11UISchedulerC", "schedule"]
+- !private ["Su", "init"]
+- ["s5UInt8V", "max"]
+- ["Sp", "allocate"]
+- !private ["Sp", "deallocate"]
+- !private ["Sp", "deinitialize"]
+- ["Sp", "initialize"]
+- !private ["SU", "init"]
+- ["SU", "max"]
+- !private ["s18_BitwiseOperationsP", "init"]
+- ["s18_BitwiseOperationsP", "max"]
+- !private ["s15_CVarArgAlignedP", "init"]
+- !private ["s22_CVarArgPassedAsDoubleP", "init"]
+- !private ["s24_DestructorSafeContainerP", "append"]
+- !private ["s24_DestructorSafeContainerP", "count"]
+- !private ["s24_DestructorSafeContainerP", "filter"]
+- !private ["s24_DestructorSafeContainerP", "remove"]
+- !private ["s24_DestructorSafeContainerP", "sort"]
+- !private ["s24_DestructorSafeContainerP", "subscript"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s33_ExpressibleByBuiltinFloatLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- ["s35_ExpressibleByBuiltinIntegerLiteralP", "max"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "append"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "count"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "filter"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "insert"]
+- ["s35_HasCustomAnyHashableRepresentationP", "max"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "remove"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "sort"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "TimerFlags"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "async"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "asyncAfter"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "getSpecific"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "lock"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "main"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "makeTimerSource"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "name"]
+- ["10Foundation27_KeyValueCodingAndObservingP", "setSpecific"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "unlock"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "addingTimeInterval"]
+- !private ["s21_ObjectiveCBridgeableP", "append"]
+- !private ["s21_ObjectiveCBridgeableP", "compare"]
+- !private ["s21_ObjectiveCBridgeableP", "count"]
+- !private ["s21_ObjectiveCBridgeableP", "distantFuture"]
+- !private ["s21_ObjectiveCBridgeableP", "filter"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "insert"]
+- ["s21_ObjectiveCBridgeableP", "max"]
+- !private ["s21_ObjectiveCBridgeableP", "remove"]
+- !private ["s21_ObjectiveCBridgeableP", "sort"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+- !private ["s21_ObjectiveCBridgeableP", "timeIntervalSince1970"]
+- ["s8_PointerP", "allocate"]
+- !private ["s8_PointerP", "deallocate"]
+- !private ["s8_PointerP", "deinitialize"]
+- ["s8_PointerP", "initialize"]
+- ["s14_StringElementP", "max"]
+- !private ["s16_SwiftStringViewP", "init"]
+- !private ["s16_SwiftStringViewP", "init"]
+- !private ["So8timespecV", "init"]
+depends-nominal:
+- !private "13ReactiveSwift13AnyDisposableC"
+- !private "Sa"
+- !private "s13ArrayProtocolP"
+- !private "13ReactiveSwift6AtomicC"
+- !private "SK"
+- !private "SB"
+- "Sz"
+- !private "Sb"
+- "s7CVarArgP"
+- !private "Sl"
+- "SL"
+- !private "So18NSComparisonResultV"
+- "s28CustomDebugStringConvertibleP"
+- "s29CustomPlaygroundQuickLookableP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- !private "10Foundation4DateV"
+- "13ReactiveSwift13DateSchedulerP"
+- "Se"
+- "So18OS_dispatch_objectC"
+- !private "8Dispatch0A3QoSV"
+- "So17OS_dispatch_queueC"
+- !private "So18OS_dispatch_sourceC"
+- !private "So24OS_dispatch_source_vnodeP"
+- !private "So28OS_dispatch_source_mach_recvP"
+- !private "So28OS_dispatch_source_mach_sendP"
+- !private "So33OS_dispatch_source_memorypressureP"
+- !private "So23OS_dispatch_source_procP"
+- !private "So18OS_dispatch_sourceP"
+- !private "So23OS_dispatch_source_readP"
+- !private "So25OS_dispatch_source_signalP"
+- !private "So24OS_dispatch_source_timerP"
+- !private "So27OS_dispatch_source_data_addP"
+- !private "So26OS_dispatch_source_data_orP"
+- !private "So31OS_dispatch_source_data_replaceP"
+- !private "So24OS_dispatch_source_writeP"
+- "8Dispatch0A11SpecificKeyC"
+- !private "8Dispatch0A12TimeIntervalO"
+- !private "8Dispatch0A8WallTimeV"
+- !private "13ReactiveSwift10DisposableP"
+- !private "Sd"
+- "SE"
+- "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s25ExpressibleByFloatLiteralP"
+- "s27ExpressibleByIntegerLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- "s17FixedWidthIntegerP"
+- !private "SF"
+- "SH"
+- !private "s6HasherV"
+- "13ReactiveSwift18ImmediateSchedulerC"
+- !private "Si"
+- "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "SM"
+- "So9NSLockingP"
+- "So8NSObjectC"
+- "So8NSObjectP"
+- "So15NSRecursiveLockC"
+- "Sj"
+- "So9OS_objectC"
+- !private "SO"
+- !private "s9OptionSetP"
+- "13ReactiveSwift14QueueSchedulerC"
+- !private "Sk"
+- !private "Sm"
+- !private "SY"
+- !private "10Foundation20ReferenceConvertibleP"
+- "13ReactiveSwift9SchedulerP"
+- !private "ST"
+- !private "13ReactiveSwift16SerialDisposableC"
+- !private "Sh"
+- !private "s10SetAlgebraP"
+- !private "SZ"
+- !private "s13SignedNumericP"
+- !private "s12StaticStringV"
+- "Sx"
+- !private "SS"
+- !private "Sy"
+- "13ReactiveSwift13TestSchedulerC"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "So18OS_dispatch_sourceC8DispatchE10TimerFlagsV"
+- "13ReactiveSwift11UISchedulerC"
+- !private "Su"
+- "s5UInt8V"
+- "Sp"
+- "SU"
+- "s18_BitwiseOperationsP"
+- !private "s15_CVarArgAlignedP"
+- !private "s22_CVarArgPassedAsDoubleP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s33_ExpressibleByBuiltinFloatLiteralP"
+- "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- "s35_HasCustomAnyHashableRepresentationP"
+- "10Foundation27_KeyValueCodingAndObservingP"
+- "s21_ObjectiveCBridgeableP"
+- "s8_PointerP"
+- "s14_StringElementP"
+- !private "s16_SwiftStringViewP"
+- !private "So8timespecV"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Users/sunchuyue/Documents/test/RX_Product/DerivedData/RX_Product/Build/Products/Debug-iphonesimulator/Result/Result.framework/Modules/Result.swiftmodule/x86_64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/sunchuyue/Documents/test/RX_Product/Pods/Target Support Files/ReactiveSwift/ReactiveSwift-umbrella.h"
+- "/Users/sunchuyue/Documents/test/RX_Product/Pods/Target Support Files/Result/Result-umbrella.h"
+- "/Users/sunchuyue/Documents/test/RX_Product/DerivedData/RX_Product/Build/Products/Debug-iphonesimulator/Result/Result.framework/Headers/Result-Swift.h"
+- "/Users/sunchuyue/Documents/test/RX_Product/DerivedData/RX_Product/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/ReactiveSwift.build/unextended-module.modulemap"
+- "/Users/sunchuyue/Documents/test/RX_Product/DerivedData/RX_Product/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/Result.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "1f31590a6517b4e1735ca77e6452fd42"

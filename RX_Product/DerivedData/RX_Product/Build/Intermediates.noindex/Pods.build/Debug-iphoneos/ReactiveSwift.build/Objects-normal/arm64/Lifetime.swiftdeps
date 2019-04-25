@@ -1,0 +1,102 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "Lifetime"
+- "+="
+provides-nominal:
+- "13ReactiveSwift8LifetimeC"
+- "13ReactiveSwift8LifetimeC5TokenC"
+provides-member:
+- ["13ReactiveSwift8LifetimeC", ""]
+- ["13ReactiveSwift8LifetimeC5TokenC", ""]
+- ["13ReactiveSwift8LifetimeC", "make"]
+- ["13ReactiveSwift8LifetimeC", "empty"]
+- ["13ReactiveSwift8LifetimeC", "Token"]
+provides-dynamic-lookup:
+depends-top-level:
+- "+="
+- "AssignmentPrecedence"
+- "Bool"
+- "CompositeDisposable"
+- "Disposable"
+- "Lifetime"
+- "Never"
+- "NoError"
+- "Signal"
+- "Void"
+depends-member:
+- !private ["13ReactiveSwift13BindingSourceP", "init"]
+- ["13ReactiveSwift19CompositeDisposableC", "deinit"]
+- ["13ReactiveSwift19CompositeDisposableC", "dispose"]
+- ["13ReactiveSwift19CompositeDisposableC", "init"]
+- !private ["13ReactiveSwift19CompositeDisposableC", "isDisposed"]
+- ["13ReactiveSwift10DisposableP", "dispose"]
+- ["13ReactiveSwift10DisposableP", "init"]
+- !private ["13ReactiveSwift10DisposableP", "isDisposed"]
+- ["13ReactiveSwift8LifetimeC", "+="]
+- ["13ReactiveSwift8LifetimeC", "Bool"]
+- ["13ReactiveSwift8LifetimeC", "CompositeDisposable"]
+- ["13ReactiveSwift8LifetimeC", "Disposable"]
+- ["13ReactiveSwift8LifetimeC", "Lifetime"]
+- ["13ReactiveSwift8LifetimeC", "Never"]
+- ["13ReactiveSwift8LifetimeC", "NoError"]
+- ["13ReactiveSwift8LifetimeC", "Signal"]
+- ["13ReactiveSwift8LifetimeC", "Token"]
+- ["13ReactiveSwift8LifetimeC", "Void"]
+- !private ["13ReactiveSwift8LifetimeC", "disposables"]
+- ["13ReactiveSwift8LifetimeC", "empty"]
+- ["13ReactiveSwift8LifetimeC", "ended"]
+- ["13ReactiveSwift8LifetimeC", "hasEnded"]
+- ["13ReactiveSwift8LifetimeC", "init"]
+- ["13ReactiveSwift8LifetimeC", "make"]
+- ["13ReactiveSwift8LifetimeC", "observeEnded"]
+- !private ["13ReactiveSwift6SignalC8ObserverC", "sendCompleted"]
+- !private ["13ReactiveSwift6SignalC", "init"]
+- !private ["13ReactiveSwift25SignalProducerConvertibleP", "init"]
+- !private ["13ReactiveSwift14SignalProtocolP", "init"]
+- ["13ReactiveSwift8LifetimeC5TokenC", "CompositeDisposable"]
+- ["13ReactiveSwift8LifetimeC5TokenC", "deinit"]
+- !private ["13ReactiveSwift8LifetimeC5TokenC", "disposables"]
+- ["13ReactiveSwift8LifetimeC5TokenC", "init"]
+depends-nominal:
+- !private "13ReactiveSwift13BindingSourceP"
+- "13ReactiveSwift19CompositeDisposableC"
+- "13ReactiveSwift10DisposableP"
+- "13ReactiveSwift8LifetimeC"
+- !private "13ReactiveSwift6SignalC8ObserverC"
+- !private "13ReactiveSwift6SignalC"
+- !private "13ReactiveSwift25SignalProducerConvertibleP"
+- !private "13ReactiveSwift14SignalProtocolP"
+- "13ReactiveSwift8LifetimeC5TokenC"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
+- "/Users/sunchuyue/Documents/test/RX_Product/DerivedData/RX_Product/Build/Products/Debug-iphoneos/Result/Result.framework/Modules/Result.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Users/sunchuyue/Documents/test/RX_Product/Pods/Target Support Files/ReactiveSwift/ReactiveSwift-umbrella.h"
+- "/Users/sunchuyue/Documents/test/RX_Product/Pods/Target Support Files/Result/Result-umbrella.h"
+- "/Users/sunchuyue/Documents/test/RX_Product/DerivedData/RX_Product/Build/Products/Debug-iphoneos/Result/Result.framework/Headers/Result-Swift.h"
+- "/Users/sunchuyue/Documents/test/RX_Product/DerivedData/RX_Product/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/ReactiveSwift.build/unextended-module.modulemap"
+- "/Users/sunchuyue/Documents/test/RX_Product/DerivedData/RX_Product/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/Result.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "34cd4541f0de2798449d31556fc91e49"

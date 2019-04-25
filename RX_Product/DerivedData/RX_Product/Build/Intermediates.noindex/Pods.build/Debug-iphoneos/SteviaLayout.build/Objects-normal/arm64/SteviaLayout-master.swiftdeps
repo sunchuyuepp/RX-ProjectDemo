@@ -1,0 +1,22 @@
+version: "Apple Swift version 4.2.1 (swiftlang-1000.11.42 clang-1000.11.45.1)"
+options: "8dccfc23bb9b404cb197e5cb9950c59b"
+build_time: [1556086001, 922861000]
+inputs:
+  "/Users/sunchuyue/Documents/test/RX_Product/Pods/SteviaLayout/Source/Stevia+Alignment.swift": [1553861470, 0]
+  "/Users/sunchuyue/Documents/test/RX_Product/Pods/SteviaLayout/Source/Stevia+Center.swift": [1553861470, 0]
+  "/Users/sunchuyue/Documents/test/RX_Product/Pods/SteviaLayout/Source/Stevia+Constraints.swift": [1553861470, 0]
+  "/Users/sunchuyue/Documents/test/RX_Product/Pods/SteviaLayout/Source/Stevia+Content.swift": [1553861470, 0]
+  "/Users/sunchuyue/Documents/test/RX_Product/Pods/SteviaLayout/Source/Stevia+DoubleDash.swift": [1553861470, 0]
+  "/Users/sunchuyue/Documents/test/RX_Product/Pods/SteviaLayout/Source/Stevia+Equation.swift": [1553861470, 0]
+  "/Users/sunchuyue/Documents/test/RX_Product/Pods/SteviaLayout/Source/Stevia+Fill.swift": [1553861470, 0]
+  "/Users/sunchuyue/Documents/test/RX_Product/Pods/SteviaLayout/Source/Stevia+FlexibleMargin.swift": [1553861470, 0]
+  "/Users/sunchuyue/Documents/test/RX_Product/Pods/SteviaLayout/Source/Stevia+GetConstraint.swift": [1553861470, 0]
+  "/Users/sunchuyue/Documents/test/RX_Product/Pods/SteviaLayout/Source/Stevia+Hierarchy.swift": [1553861470, 0]
+  "/Users/sunchuyue/Documents/test/RX_Product/Pods/SteviaLayout/Source/Stevia+Notifications.swift": [1553861470, 0]
+  "/Users/sunchuyue/Documents/test/RX_Product/Pods/SteviaLayout/Source/Stevia+Operators.swift": [1553861470, 0]
+  "/Users/sunchuyue/Documents/test/RX_Product/Pods/SteviaLayout/Source/Stevia+Percentage.swift": [1553861470, 0]
+  "/Users/sunchuyue/Documents/test/RX_Product/Pods/SteviaLayout/Source/Stevia+Position.swift": [1553861470, 0]
+  "/Users/sunchuyue/Documents/test/RX_Product/Pods/SteviaLayout/Source/Stevia+Size.swift": [1553861470, 0]
+  "/Users/sunchuyue/Documents/test/RX_Product/Pods/SteviaLayout/Source/Stevia+Stacks.swift": [1553861470, 0]
+  "/Users/sunchuyue/Documents/test/RX_Product/Pods/SteviaLayout/Source/Stevia+Style.swift": [1553861470, 0]
+  "/Users/sunchuyue/Documents/test/RX_Product/Pods/SteviaLayout/Source/Stevia+Tap.swift": [1553861470, 0]

@@ -1,0 +1,257 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+- "Si"
+- "s4Int8V"
+- "s5Int16V"
+- "s5Int32V"
+- "s5Int64V"
+- "Su"
+- "s5UInt8V"
+- "s6UInt16V"
+- "s6UInt32V"
+- "s6UInt64V"
+provides-member:
+- ["Sz", ""]
+- ["Si", ""]
+- ["s4Int8V", ""]
+- ["s5Int16V", ""]
+- ["s5Int32V", ""]
+- ["s5Int64V", ""]
+- ["Su", ""]
+- ["s5UInt8V", ""]
+- ["s6UInt16V", ""]
+- ["s6UInt32V", ""]
+- ["s6UInt64V", ""]
+- ["Sz", "identity"]
+- ["Sz", "identity"]
+provides-dynamic-lookup:
+depends-top-level:
+- "BinaryInteger"
+- "IdentifiableType"
+- "Int"
+- "Int16"
+- "Int32"
+- "Int64"
+- "Int8"
+- "UInt"
+- "UInt16"
+- "UInt32"
+- "UInt64"
+- "UInt8"
+depends-member:
+- ["Sz", "Identity"]
+- ["Sz", "Self"]
+- ["Sz", "_Default_Identity"]
+- ["Sz", "identity"]
+- ["s7CVarArgP", "Identity"]
+- ["s7CVarArgP", "_Default_Identity"]
+- ["s7CVarArgP", "identity"]
+- ["SL", "Identity"]
+- ["SL", "Self"]
+- ["SL", "_Default_Identity"]
+- ["SL", "identity"]
+- ["s29CustomPlaygroundQuickLookableP", "Identity"]
+- ["s29CustomPlaygroundQuickLookableP", "_Default_Identity"]
+- ["s29CustomPlaygroundQuickLookableP", "identity"]
+- ["s17CustomReflectableP", "Identity"]
+- ["s17CustomReflectableP", "_Default_Identity"]
+- ["s17CustomReflectableP", "identity"]
+- ["s23CustomStringConvertibleP", "Identity"]
+- ["s23CustomStringConvertibleP", "Self"]
+- ["s23CustomStringConvertibleP", "_Default_Identity"]
+- ["s23CustomStringConvertibleP", "identity"]
+- ["Se", "Identity"]
+- ["Se", "_Default_Identity"]
+- ["Se", "identity"]
+- ["SE", "Identity"]
+- ["SE", "_Default_Identity"]
+- ["SE", "identity"]
+- ["SQ", "Identity"]
+- ["SQ", "Self"]
+- ["SQ", "_Default_Identity"]
+- ["SQ", "identity"]
+- ["s27ExpressibleByIntegerLiteralP", "Identity"]
+- ["s27ExpressibleByIntegerLiteralP", "Self"]
+- ["s27ExpressibleByIntegerLiteralP", "_Default_Identity"]
+- ["s27ExpressibleByIntegerLiteralP", "identity"]
+- ["s17FixedWidthIntegerP", "Identity"]
+- ["s17FixedWidthIntegerP", "_Default_Identity"]
+- ["s17FixedWidthIntegerP", "identity"]
+- ["SH", "Identity"]
+- ["SH", "Self"]
+- ["SH", "_Default_Identity"]
+- ["SH", "identity"]
+- ["14Differentiator16IdentifiableTypeP", "Identity"]
+- ["14Differentiator16IdentifiableTypeP", ""]
+- ["14Differentiator16IdentifiableTypeP", "_Default_Identity"]
+- ["14Differentiator16IdentifiableTypeP", "identity"]
+- ["Si", "Identity"]
+- ["Si", "_Default_Identity"]
+- ["Si", "deinit"]
+- ["Si", "identity"]
+- ["s5Int16V", "Identity"]
+- ["s5Int16V", "_Default_Identity"]
+- ["s5Int16V", "deinit"]
+- ["s5Int16V", "identity"]
+- ["s5Int32V", "Identity"]
+- ["s5Int32V", "_Default_Identity"]
+- ["s5Int32V", "deinit"]
+- ["s5Int32V", "identity"]
+- ["s5Int64V", "Identity"]
+- ["s5Int64V", "_Default_Identity"]
+- ["s5Int64V", "deinit"]
+- ["s5Int64V", "identity"]
+- ["s4Int8V", "Identity"]
+- ["s4Int8V", "_Default_Identity"]
+- ["s4Int8V", "deinit"]
+- ["s4Int8V", "identity"]
+- ["7RxCocoa16KVORepresentableP", "Identity"]
+- ["7RxCocoa16KVORepresentableP", "_Default_Identity"]
+- ["7RxCocoa16KVORepresentableP", "identity"]
+- ["s25LosslessStringConvertibleP", "Identity"]
+- ["s25LosslessStringConvertibleP", "_Default_Identity"]
+- ["s25LosslessStringConvertibleP", "identity"]
+- ["s10MirrorPathP", "Identity"]
+- ["s10MirrorPathP", "_Default_Identity"]
+- ["s10MirrorPathP", "identity"]
+- ["Sj", "Identity"]
+- ["Sj", "Self"]
+- ["Sj", "_Default_Identity"]
+- ["Sj", "identity"]
+- ["SZ", "Identity"]
+- ["SZ", "_Default_Identity"]
+- ["SZ", "identity"]
+- ["s13SignedNumericP", "Identity"]
+- ["s13SignedNumericP", "_Default_Identity"]
+- ["s13SignedNumericP", "identity"]
+- ["Sx", "Identity"]
+- ["Sx", "Self"]
+- ["Sx", "_Default_Identity"]
+- ["Sx", "identity"]
+- ["Su", "Identity"]
+- ["Su", "_Default_Identity"]
+- ["Su", "deinit"]
+- ["Su", "identity"]
+- ["s6UInt16V", "Identity"]
+- ["s6UInt16V", "_Default_Identity"]
+- ["s6UInt16V", "deinit"]
+- ["s6UInt16V", "identity"]
+- ["s6UInt32V", "Identity"]
+- ["s6UInt32V", "_Default_Identity"]
+- ["s6UInt32V", "deinit"]
+- ["s6UInt32V", "identity"]
+- ["s6UInt64V", "Identity"]
+- ["s6UInt64V", "_Default_Identity"]
+- ["s6UInt64V", "deinit"]
+- ["s6UInt64V", "identity"]
+- ["s5UInt8V", "Identity"]
+- ["s5UInt8V", "_Default_Identity"]
+- ["s5UInt8V", "deinit"]
+- ["s5UInt8V", "identity"]
+- ["SU", "Identity"]
+- ["SU", "_Default_Identity"]
+- ["SU", "identity"]
+- ["s18_BitwiseOperationsP", "Identity"]
+- ["s18_BitwiseOperationsP", "_Default_Identity"]
+- ["s18_BitwiseOperationsP", "identity"]
+- ["s15_CVarArgAlignedP", "Identity"]
+- ["s15_CVarArgAlignedP", "_Default_Identity"]
+- ["s15_CVarArgAlignedP", "identity"]
+- ["s35_ExpressibleByBuiltinIntegerLiteralP", "Identity"]
+- ["s35_ExpressibleByBuiltinIntegerLiteralP", "_Default_Identity"]
+- ["s35_ExpressibleByBuiltinIntegerLiteralP", "identity"]
+- ["s35_HasCustomAnyHashableRepresentationP", "Identity"]
+- ["s35_HasCustomAnyHashableRepresentationP", "_Default_Identity"]
+- ["s35_HasCustomAnyHashableRepresentationP", "identity"]
+- ["s21_ObjectiveCBridgeableP", "Identity"]
+- ["s21_ObjectiveCBridgeableP", "_Default_Identity"]
+- ["s21_ObjectiveCBridgeableP", "identity"]
+- ["s14_StringElementP", "Identity"]
+- ["s14_StringElementP", "_Default_Identity"]
+- ["s14_StringElementP", "identity"]
+depends-nominal:
+- "Sz"
+- "s7CVarArgP"
+- "SL"
+- "s29CustomPlaygroundQuickLookableP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "Se"
+- "SE"
+- "SQ"
+- "s27ExpressibleByIntegerLiteralP"
+- "s17FixedWidthIntegerP"
+- "SH"
+- "14Differentiator16IdentifiableTypeP"
+- "Si"
+- "s5Int16V"
+- "s5Int32V"
+- "s5Int64V"
+- "s4Int8V"
+- "7RxCocoa16KVORepresentableP"
+- "s25LosslessStringConvertibleP"
+- "s10MirrorPathP"
+- "Sj"
+- "SZ"
+- "s13SignedNumericP"
+- "Sx"
+- "Su"
+- "s6UInt16V"
+- "s6UInt32V"
+- "s6UInt64V"
+- "s5UInt8V"
+- "SU"
+- "s18_BitwiseOperationsP"
+- "s15_CVarArgAlignedP"
+- "s35_ExpressibleByBuiltinIntegerLiteralP"
+- "s35_HasCustomAnyHashableRepresentationP"
+- "s21_ObjectiveCBridgeableP"
+- "s14_StringElementP"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
+- "/Users/sunchuyue/Documents/test/RX_Product/DerivedData/RX_Product/Build/Products/Debug-iphoneos/RxCocoa/RxCocoa.framework/Modules/RxCocoa.swiftmodule/arm64.swiftmodule"
+- "/Users/sunchuyue/Documents/test/RX_Product/DerivedData/RX_Product/Build/Products/Debug-iphoneos/Differentiator/Differentiator.framework/Modules/Differentiator.swiftmodule/arm64.swiftmodule"
+- "/Users/sunchuyue/Documents/test/RX_Product/DerivedData/RX_Product/Build/Products/Debug-iphoneos/RxSwift/RxSwift.framework/Modules/RxSwift.swiftmodule/arm64.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Users/sunchuyue/Documents/test/RX_Product/Pods/RxCocoa/RxCocoa/Runtime/include/_RX.h"
+- "/Users/sunchuyue/Documents/test/RX_Product/Pods/Target Support Files/RxCocoa/RxCocoa-umbrella.h"
+- "/Users/sunchuyue/Documents/test/RX_Product/Pods/Target Support Files/Differentiator/Differentiator-umbrella.h"
+- "/Users/sunchuyue/Documents/test/RX_Product/Pods/Target Support Files/RxDataSources/RxDataSources-umbrella.h"
+- "/Users/sunchuyue/Documents/test/RX_Product/Pods/Target Support Files/RxSwift/RxSwift-umbrella.h"
+- "/Users/sunchuyue/Documents/test/RX_Product/Pods/RxCocoa/RxCocoa/RxCocoa.h"
+- "/Users/sunchuyue/Documents/test/RX_Product/Pods/RxCocoa/RxCocoa/Runtime/include/_RXObjCRuntime.h"
+- "/Users/sunchuyue/Documents/test/RX_Product/Pods/RxCocoa/RxCocoa/Runtime/include/RxCocoaRuntime.h"
+- "/Users/sunchuyue/Documents/test/RX_Product/Pods/RxCocoa/RxCocoa/Runtime/include/_RXKVOObserver.h"
+- "/Users/sunchuyue/Documents/test/RX_Product/DerivedData/RX_Product/Build/Products/Debug-iphoneos/RxCocoa/RxCocoa.framework/Headers/RxCocoa-Swift.h"
+- "/Users/sunchuyue/Documents/test/RX_Product/DerivedData/RX_Product/Build/Products/Debug-iphoneos/Differentiator/Differentiator.framework/Headers/Differentiator-Swift.h"
+- "/Users/sunchuyue/Documents/test/RX_Product/DerivedData/RX_Product/Build/Products/Debug-iphoneos/RxSwift/RxSwift.framework/Headers/RxSwift-Swift.h"
+- "/Users/sunchuyue/Documents/test/RX_Product/Pods/RxCocoa/RxCocoa/Runtime/include/_RXDelegateProxy.h"
+- "/Users/sunchuyue/Documents/test/RX_Product/DerivedData/RX_Product/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/RxDataSources.build/unextended-module.modulemap"
+- "/Users/sunchuyue/Documents/test/RX_Product/DerivedData/RX_Product/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/RxCocoa.build/module.modulemap"
+- "/Users/sunchuyue/Documents/test/RX_Product/DerivedData/RX_Product/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/Differentiator.build/module.modulemap"
+- "/Users/sunchuyue/Documents/test/RX_Product/DerivedData/RX_Product/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/RxSwift.build/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "303b6873e98a018c50f1efddfc12f311"

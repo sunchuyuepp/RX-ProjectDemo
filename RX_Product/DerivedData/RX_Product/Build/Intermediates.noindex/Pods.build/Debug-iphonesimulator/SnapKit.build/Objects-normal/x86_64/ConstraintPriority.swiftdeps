@@ -1,0 +1,128 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ConstraintPriority"
+- "=="
+provides-nominal:
+- "7SnapKit18ConstraintPriorityV"
+provides-member:
+- ["7SnapKit18ConstraintPriorityV", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "+"
+- !private "-"
+- "<"
+- "<="
+- "=="
+- ">"
+- ">="
+- "AssignmentPrecedence"
+- "Bool"
+- "ConstraintPriority"
+- "Equatable"
+- "ExpressibleByFloatLiteral"
+- "Float"
+- !private "FloatLiteralType"
+- "Strideable"
+depends-member:
+- !private ["SL", "ConstraintPriority"]
+- ["SL", "FloatLiteralType"]
+- ["SL", "Stride"]
+- ["SL", ""]
+- ["SL", "_Default_Stride"]
+- ["SL", "_Default__DisabledRangeIndex"]
+- ["SL", "_DisabledRangeIndex"]
+- ["SL", "_step"]
+- ["SL", "advanced"]
+- ["SL", "distance"]
+- ["SL", "init"]
+- !private ["SL", "value"]
+- ["7SnapKit18ConstraintPriorityV", "=="]
+- ["7SnapKit18ConstraintPriorityV", "Bool"]
+- ["7SnapKit18ConstraintPriorityV", "ConstraintPriority"]
+- ["7SnapKit18ConstraintPriorityV", "Float"]
+- ["7SnapKit18ConstraintPriorityV", "FloatLiteralType"]
+- ["7SnapKit18ConstraintPriorityV", "Stride"]
+- ["7SnapKit18ConstraintPriorityV", "_Default_Stride"]
+- ["7SnapKit18ConstraintPriorityV", "_Default__DisabledRangeIndex"]
+- ["7SnapKit18ConstraintPriorityV", "_DisabledRangeIndex"]
+- ["7SnapKit18ConstraintPriorityV", "_step"]
+- ["7SnapKit18ConstraintPriorityV", "advanced"]
+- ["7SnapKit18ConstraintPriorityV", "deinit"]
+- ["7SnapKit18ConstraintPriorityV", "distance"]
+- ["7SnapKit18ConstraintPriorityV", "high"]
+- ["7SnapKit18ConstraintPriorityV", "init"]
+- ["7SnapKit18ConstraintPriorityV", "low"]
+- ["7SnapKit18ConstraintPriorityV", "medium"]
+- ["7SnapKit18ConstraintPriorityV", "required"]
+- ["7SnapKit18ConstraintPriorityV", "value"]
+- !private ["SQ", "ConstraintPriority"]
+- ["SQ", "FloatLiteralType"]
+- ["SQ", "Stride"]
+- ["SQ", ""]
+- ["SQ", "_Default_Stride"]
+- ["SQ", "_Default__DisabledRangeIndex"]
+- ["SQ", "_DisabledRangeIndex"]
+- ["SQ", "_step"]
+- ["SQ", "advanced"]
+- ["SQ", "distance"]
+- ["SQ", "init"]
+- !private ["SQ", "value"]
+- !private ["s25ExpressibleByFloatLiteralP", "ConstraintPriority"]
+- ["s25ExpressibleByFloatLiteralP", "FloatLiteralType"]
+- ["s25ExpressibleByFloatLiteralP", "Stride"]
+- ["s25ExpressibleByFloatLiteralP", ""]
+- ["s25ExpressibleByFloatLiteralP", "_Default_Stride"]
+- ["s25ExpressibleByFloatLiteralP", "_Default__DisabledRangeIndex"]
+- ["s25ExpressibleByFloatLiteralP", "_DisabledRangeIndex"]
+- ["s25ExpressibleByFloatLiteralP", "_step"]
+- ["s25ExpressibleByFloatLiteralP", "advanced"]
+- ["s25ExpressibleByFloatLiteralP", "distance"]
+- ["s25ExpressibleByFloatLiteralP", "init"]
+- !private ["s25ExpressibleByFloatLiteralP", "value"]
+- !private ["Sx", "ConstraintPriority"]
+- ["Sx", "FloatLiteralType"]
+- ["Sx", "Stride"]
+- ["Sx", ""]
+- ["Sx", "_Default_Stride"]
+- ["Sx", "_Default__DisabledRangeIndex"]
+- ["Sx", "_DisabledRangeIndex"]
+- ["Sx", "_step"]
+- ["Sx", "advanced"]
+- ["Sx", "distance"]
+- ["Sx", "init"]
+- !private ["Sx", "value"]
+depends-nominal:
+- "SL"
+- "7SnapKit18ConstraintPriorityV"
+- "SQ"
+- "s25ExpressibleByFloatLiteralP"
+- "Sx"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/sunchuyue/Documents/test/RX_Product/Pods/Target Support Files/SnapKit/SnapKit-umbrella.h"
+- "/Users/sunchuyue/Documents/test/RX_Product/DerivedData/RX_Product/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/SnapKit.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "3a48298710a544efa74f41df11b181c4"

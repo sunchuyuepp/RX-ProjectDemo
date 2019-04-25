@@ -1,0 +1,851 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "ez"
+provides-nominal:
+- "17EZSwiftExtensions2ezV"
+provides-member:
+- ["17EZSwiftExtensions2ezV", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "!="
+- !private "&&"
+- !private "*"
+- !private "+"
+- !private "+="
+- !private "-"
+- !private "/"
+- !private "=="
+- !private "??"
+- "AnyIterator"
+- "AssignmentPrecedence"
+- "Bool"
+- !private "BooleanLiteralType"
+- !private "Bundle"
+- !private "CChar"
+- !private "CFAbsoluteTimeGetCurrent"
+- !private "CFRunLoopAddTimer"
+- !private "CFRunLoopGetCurrent"
+- !private "CFRunLoopMode"
+- "CFRunLoopTimer"
+- !private "CFRunLoopTimerCreateWithHandler"
+- "CGFloat"
+- "CastingPrecedence"
+- "Data"
+- "DispatchQueue"
+- !private "DispatchTime"
+- "Double"
+- !private "FloatLiteralType"
+- "Hashable"
+- !private "Int"
+- !private "Int64"
+- !private "IntegerLiteralType"
+- !private "JSONSerialization"
+- !private "Locale"
+- !private "NSEC_PER_SEC"
+- "NSError"
+- !private "NSLocale"
+- !private "NSNotification"
+- !private "NotificationCenter"
+- !private "OperationQueue"
+- "String"
+- !private "StringLiteralType"
+- "TimeInterval"
+- "Timer"
+- !private "UIApplication"
+- "UIImage"
+- "UIInterfaceOrientation"
+- !private "UIInterfaceOrientationIsPortrait"
+- !private "UIScreen"
+- "UIUserInterfaceSizeClass"
+- "UIViewController"
+- !private "URL"
+- !private "URLRequest"
+- !private "URLSession"
+- !private "UnicodeScalarType"
+- "Void"
+- !private "assertionFailure"
+- "ez"
+- !private "kCFAllocatorDefault"
+- !private "kCFBundleVersionKey"
+- !private "print"
+- !private "sysctlbyname"
+- !private "withUnsafePointer"
+depends-member:
+- !private ["s11AnyIteratorV", "init"]
+- !private ["Sa", "init"]
+- !private ["s13ArrayProtocolP", "init"]
+- !private ["SK", "contains"]
+- !private ["SK", "init"]
+- !private ["SK", "init"]
+- !private ["SB", "init"]
+- !private ["Sz", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["So8NSBundleC", "appStoreReceiptURL"]
+- !private ["So8NSBundleC", "bundleIdentifier"]
+- !private ["So8NSBundleC", "main"]
+- !private ["So8NSBundleC", "object"]
+- !private ["So13CFRunLoopModea", "commonModes"]
+- !private ["So6CGRectV", "height"]
+- !private ["So6CGRectV", "size"]
+- !private ["So6CGSizeV", "height"]
+- !private ["So6CGSizeV", "width"]
+- !private ["s7CVarArgP", "Key"]
+- !private ["s7CVarArgP", "Name"]
+- !private ["s7CVarArgP", "ReadingOptions"]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "addObserver"]
+- !private ["s7CVarArgP", "appStoreReceiptURL"]
+- !private ["s7CVarArgP", "async"]
+- !private ["s7CVarArgP", "asyncAfter"]
+- !private ["s7CVarArgP", "bounds"]
+- !private ["s7CVarArgP", "bundleIdentifier"]
+- !private ["s7CVarArgP", "contains"]
+- !private ["s7CVarArgP", "dataTask"]
+- !private ["s7CVarArgP", "default"]
+- !private ["s7CVarArgP", "global"]
+- !private ["s7CVarArgP", "horizontalSizeClass"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "jsonObject"]
+- !private ["s7CVarArgP", "main"]
+- !private ["s7CVarArgP", "object"]
+- !private ["s7CVarArgP", "pointee"]
+- !private ["s7CVarArgP", "resume"]
+- !private ["s7CVarArgP", "shared"]
+- !private ["s7CVarArgP", "statusBarFrame"]
+- !private ["s7CVarArgP", "statusBarOrientation"]
+- !private ["s7CVarArgP", "topViewController"]
+- !private ["s7CVarArgP", "traitCollection"]
+- !private ["s7CVarArgP", "verticalSizeClass"]
+- !private ["s7CVarArgP", "withMemoryRebound"]
+- !private ["Sl", "contains"]
+- !private ["Sl", "init"]
+- !private ["Sl", "init"]
+- !private ["SL", "contains"]
+- !private ["SL", "init"]
+- !private ["SL", "init"]
+- !private ["SL", "now"]
+- !private ["SL", "pointee"]
+- !private ["SL", "withMemoryRebound"]
+- !private ["s28CustomDebugStringConvertibleP", "Key"]
+- !private ["s28CustomDebugStringConvertibleP", "Name"]
+- !private ["s28CustomDebugStringConvertibleP", "ReadingOptions"]
+- !private ["s28CustomDebugStringConvertibleP", "addObserver"]
+- !private ["s28CustomDebugStringConvertibleP", "appStoreReceiptURL"]
+- !private ["s28CustomDebugStringConvertibleP", "async"]
+- !private ["s28CustomDebugStringConvertibleP", "asyncAfter"]
+- !private ["s28CustomDebugStringConvertibleP", "bounds"]
+- !private ["s28CustomDebugStringConvertibleP", "bundleIdentifier"]
+- !private ["s28CustomDebugStringConvertibleP", "contains"]
+- !private ["s28CustomDebugStringConvertibleP", "current"]
+- !private ["s28CustomDebugStringConvertibleP", "dataTask"]
+- !private ["s28CustomDebugStringConvertibleP", "default"]
+- !private ["s28CustomDebugStringConvertibleP", "global"]
+- !private ["s28CustomDebugStringConvertibleP", "height"]
+- !private ["s28CustomDebugStringConvertibleP", "horizontalSizeClass"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "jsonObject"]
+- !private ["s28CustomDebugStringConvertibleP", "main"]
+- !private ["s28CustomDebugStringConvertibleP", "object"]
+- !private ["s28CustomDebugStringConvertibleP", "path"]
+- !private ["s28CustomDebugStringConvertibleP", "pointee"]
+- !private ["s28CustomDebugStringConvertibleP", "resume"]
+- !private ["s28CustomDebugStringConvertibleP", "shared"]
+- !private ["s28CustomDebugStringConvertibleP", "size"]
+- !private ["s28CustomDebugStringConvertibleP", "statusBarFrame"]
+- !private ["s28CustomDebugStringConvertibleP", "statusBarOrientation"]
+- !private ["s28CustomDebugStringConvertibleP", "topViewController"]
+- !private ["s28CustomDebugStringConvertibleP", "traitCollection"]
+- !private ["s28CustomDebugStringConvertibleP", "verticalSizeClass"]
+- !private ["s28CustomDebugStringConvertibleP", "width"]
+- !private ["s28CustomDebugStringConvertibleP", "withMemoryRebound"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "contains"]
+- !private ["s29CustomPlaygroundQuickLookableP", "height"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s29CustomPlaygroundQuickLookableP", "path"]
+- !private ["s29CustomPlaygroundQuickLookableP", "pointee"]
+- !private ["s29CustomPlaygroundQuickLookableP", "size"]
+- !private ["s29CustomPlaygroundQuickLookableP", "width"]
+- !private ["s29CustomPlaygroundQuickLookableP", "withMemoryRebound"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "contains"]
+- !private ["s17CustomReflectableP", "current"]
+- !private ["s17CustomReflectableP", "height"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "pointee"]
+- !private ["s17CustomReflectableP", "size"]
+- !private ["s17CustomReflectableP", "width"]
+- !private ["s17CustomReflectableP", "withMemoryRebound"]
+- !private ["s23CustomStringConvertibleP", "Key"]
+- !private ["s23CustomStringConvertibleP", "Name"]
+- !private ["s23CustomStringConvertibleP", "ReadingOptions"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "addObserver"]
+- !private ["s23CustomStringConvertibleP", "appStoreReceiptURL"]
+- !private ["s23CustomStringConvertibleP", "async"]
+- !private ["s23CustomStringConvertibleP", "asyncAfter"]
+- !private ["s23CustomStringConvertibleP", "bounds"]
+- !private ["s23CustomStringConvertibleP", "bundleIdentifier"]
+- !private ["s23CustomStringConvertibleP", "contains"]
+- !private ["s23CustomStringConvertibleP", "current"]
+- !private ["s23CustomStringConvertibleP", "dataTask"]
+- !private ["s23CustomStringConvertibleP", "default"]
+- !private ["s23CustomStringConvertibleP", "global"]
+- !private ["s23CustomStringConvertibleP", "horizontalSizeClass"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "jsonObject"]
+- !private ["s23CustomStringConvertibleP", "main"]
+- !private ["s23CustomStringConvertibleP", "object"]
+- !private ["s23CustomStringConvertibleP", "path"]
+- !private ["s23CustomStringConvertibleP", "resume"]
+- !private ["s23CustomStringConvertibleP", "shared"]
+- !private ["s23CustomStringConvertibleP", "statusBarFrame"]
+- !private ["s23CustomStringConvertibleP", "statusBarOrientation"]
+- !private ["s23CustomStringConvertibleP", "topViewController"]
+- !private ["s23CustomStringConvertibleP", "traitCollection"]
+- !private ["s23CustomStringConvertibleP", "verticalSizeClass"]
+- !private ["Se", "_getBuiltinLogicValue"]
+- !private ["Se", "contains"]
+- !private ["Se", "current"]
+- !private ["Se", "height"]
+- !private ["Se", "init"]
+- !private ["Se", "init"]
+- !private ["Se", "path"]
+- !private ["Se", "size"]
+- !private ["Se", "width"]
+- !private ["So18OS_dispatch_objectC", "async"]
+- !private ["So18OS_dispatch_objectC", "asyncAfter"]
+- !private ["So18OS_dispatch_objectC", "global"]
+- !private ["So18OS_dispatch_objectC", "main"]
+- !private ["So17OS_dispatch_queueC", "async"]
+- !private ["So17OS_dispatch_queueC", "asyncAfter"]
+- !private ["So17OS_dispatch_queueC", "global"]
+- !private ["So17OS_dispatch_queueC", "main"]
+- !private ["8Dispatch0A4TimeV", "now"]
+- !private ["Sd", "init"]
+- !private ["SE", "_getBuiltinLogicValue"]
+- !private ["SE", "contains"]
+- !private ["SE", "current"]
+- !private ["SE", "height"]
+- !private ["SE", "init"]
+- !private ["SE", "init"]
+- !private ["SE", "path"]
+- !private ["SE", "size"]
+- !private ["SE", "width"]
+- !private ["SQ", "Key"]
+- !private ["SQ", "Name"]
+- !private ["SQ", "ReadingOptions"]
+- !private ["SQ", "UIApplicationUserDidTakeScreenshot"]
+- !private ["SQ", "_getBuiltinLogicValue"]
+- !private ["SQ", "addObserver"]
+- !private ["SQ", "allowFragments"]
+- !private ["SQ", "appStoreReceiptURL"]
+- !private ["SQ", "async"]
+- !private ["SQ", "asyncAfter"]
+- !private ["SQ", "background"]
+- !private ["SQ", "bounds"]
+- !private ["SQ", "bundleIdentifier"]
+- !private ["SQ", "commonModes"]
+- !private ["SQ", "contains"]
+- !private ["SQ", "countryCode"]
+- !private ["SQ", "current"]
+- !private ["SQ", "dataTask"]
+- !private ["SQ", "default"]
+- !private ["SQ", "global"]
+- !private ["SQ", "hashValue"]
+- !private ["SQ", "height"]
+- !private ["SQ", "horizontalSizeClass"]
+- !private ["SQ", "init"]
+- !private ["SQ", "init"]
+- !private ["SQ", "jsonObject"]
+- !private ["SQ", "main"]
+- !private ["SQ", "now"]
+- !private ["SQ", "object"]
+- !private ["SQ", "path"]
+- !private ["SQ", "pointee"]
+- !private ["SQ", "resume"]
+- !private ["SQ", "shared"]
+- !private ["SQ", "size"]
+- !private ["SQ", "statusBarFrame"]
+- !private ["SQ", "statusBarOrientation"]
+- !private ["SQ", "topViewController"]
+- !private ["SQ", "traitCollection"]
+- !private ["SQ", "unspecified"]
+- !private ["SQ", "userInitiated"]
+- !private ["SQ", "userInteractive"]
+- !private ["SQ", "utility"]
+- !private ["SQ", "verticalSizeClass"]
+- !private ["SQ", "width"]
+- !private ["SQ", "withMemoryRebound"]
+- !private ["s25ExpressibleByArrayLiteralP", "allowFragments"]
+- !private ["s25ExpressibleByArrayLiteralP", "init"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "contains"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s25ExpressibleByFloatLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "contains"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "contains"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s17FixedWidthIntegerP", "init"]
+- !private ["SF", "init"]
+- !private ["SH", "Key"]
+- !private ["SH", "Name"]
+- !private ["SH", "ReadingOptions"]
+- !private ["SH", "UIApplicationUserDidTakeScreenshot"]
+- !private ["SH", "_getBuiltinLogicValue"]
+- !private ["SH", "addObserver"]
+- !private ["SH", "appStoreReceiptURL"]
+- !private ["SH", "async"]
+- !private ["SH", "asyncAfter"]
+- !private ["SH", "background"]
+- !private ["SH", "bounds"]
+- !private ["SH", "bundleIdentifier"]
+- !private ["SH", "commonModes"]
+- !private ["SH", "contains"]
+- !private ["SH", "countryCode"]
+- !private ["SH", "current"]
+- !private ["SH", "dataTask"]
+- !private ["SH", "default"]
+- !private ["SH", "global"]
+- !private ["SH", "hashValue"]
+- !private ["SH", "horizontalSizeClass"]
+- !private ["SH", "init"]
+- !private ["SH", "init"]
+- !private ["SH", "jsonObject"]
+- !private ["SH", "main"]
+- !private ["SH", "object"]
+- !private ["SH", "path"]
+- !private ["SH", "pointee"]
+- !private ["SH", "resume"]
+- !private ["SH", "shared"]
+- !private ["SH", "statusBarFrame"]
+- !private ["SH", "statusBarOrientation"]
+- !private ["SH", "topViewController"]
+- !private ["SH", "traitCollection"]
+- !private ["SH", "unspecified"]
+- !private ["SH", "userInitiated"]
+- !private ["SH", "userInteractive"]
+- !private ["SH", "utility"]
+- !private ["SH", "verticalSizeClass"]
+- !private ["SH", "withMemoryRebound"]
+- !private ["Si", "init"]
+- !private ["s5Int64V", "init"]
+- !private ["St", "init"]
+- !private ["So19NSJSONSerializationC", "ReadingOptions"]
+- !private ["So19NSJSONSerializationC", "jsonObject"]
+- !private ["So11NSLocaleKeya", "countryCode"]
+- !private ["10Foundation6LocaleV", "current"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "contains"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s25LosslessStringConvertibleP", "init"]
+- !private ["s10MirrorPathP", "contains"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["s10MirrorPathP", "init"]
+- !private ["SM", "init"]
+- !private ["So8NSCodingP", "Key"]
+- !private ["So8NSCodingP", "Name"]
+- !private ["So8NSCodingP", "contains"]
+- !private ["So8NSCodingP", "horizontalSizeClass"]
+- !private ["So8NSCodingP", "init"]
+- !private ["So8NSCodingP", "object"]
+- !private ["So8NSCodingP", "traitCollection"]
+- !private ["So8NSCodingP", "verticalSizeClass"]
+- !private ["So9NSCopyingP", "Key"]
+- !private ["So9NSCopyingP", "Name"]
+- !private ["So9NSCopyingP", "contains"]
+- !private ["So9NSCopyingP", "horizontalSizeClass"]
+- !private ["So9NSCopyingP", "object"]
+- !private ["So9NSCopyingP", "resume"]
+- !private ["So9NSCopyingP", "verticalSizeClass"]
+- !private ["So26NSExtensionRequestHandlingP", "traitCollection"]
+- !private ["So21NSItemProviderReadingP", "contains"]
+- !private ["So21NSItemProviderReadingP", "init"]
+- !private ["So21NSItemProviderWritingP", "contains"]
+- !private ["So21NSItemProviderWritingP", "init"]
+- !private ["So8NSLocaleC", "Key"]
+- !private ["So8NSLocaleC", "object"]
+- !private ["So16NSMutableCopyingP", "contains"]
+- !private ["So14NSNotificationC", "Name"]
+- !private ["So8NSObjectC", "Key"]
+- !private ["So8NSObjectC", "Name"]
+- !private ["So8NSObjectC", "ReadingOptions"]
+- !private ["So8NSObjectC", "addObserver"]
+- !private ["So8NSObjectC", "appStoreReceiptURL"]
+- !private ["So8NSObjectC", "async"]
+- !private ["So8NSObjectC", "asyncAfter"]
+- !private ["So8NSObjectC", "bounds"]
+- !private ["So8NSObjectC", "bundleIdentifier"]
+- !private ["So8NSObjectC", "contains"]
+- !private ["So8NSObjectC", "dataTask"]
+- !private ["So8NSObjectC", "default"]
+- !private ["So8NSObjectC", "global"]
+- !private ["So8NSObjectC", "horizontalSizeClass"]
+- !private ["So8NSObjectC", "init"]
+- !private ["So8NSObjectC", "jsonObject"]
+- !private ["So8NSObjectC", "main"]
+- !private ["So8NSObjectC", "object"]
+- !private ["So8NSObjectC", "resume"]
+- !private ["So8NSObjectC", "shared"]
+- !private ["So8NSObjectC", "statusBarFrame"]
+- !private ["So8NSObjectC", "statusBarOrientation"]
+- !private ["So8NSObjectC", "topViewController"]
+- !private ["So8NSObjectC", "traitCollection"]
+- !private ["So8NSObjectC", "verticalSizeClass"]
+- !private ["So8NSObjectP", "Key"]
+- !private ["So8NSObjectP", "Name"]
+- !private ["So8NSObjectP", "ReadingOptions"]
+- !private ["So8NSObjectP", "addObserver"]
+- !private ["So8NSObjectP", "appStoreReceiptURL"]
+- !private ["So8NSObjectP", "async"]
+- !private ["So8NSObjectP", "asyncAfter"]
+- !private ["So8NSObjectP", "bounds"]
+- !private ["So8NSObjectP", "bundleIdentifier"]
+- !private ["So8NSObjectP", "contains"]
+- !private ["So8NSObjectP", "dataTask"]
+- !private ["So8NSObjectP", "default"]
+- !private ["So8NSObjectP", "global"]
+- !private ["So8NSObjectP", "horizontalSizeClass"]
+- !private ["So8NSObjectP", "init"]
+- !private ["So8NSObjectP", "jsonObject"]
+- !private ["So8NSObjectP", "main"]
+- !private ["So8NSObjectP", "object"]
+- !private ["So8NSObjectP", "resume"]
+- !private ["So8NSObjectP", "shared"]
+- !private ["So8NSObjectP", "statusBarFrame"]
+- !private ["So8NSObjectP", "statusBarOrientation"]
+- !private ["So8NSObjectP", "topViewController"]
+- !private ["So8NSObjectP", "traitCollection"]
+- !private ["So8NSObjectP", "verticalSizeClass"]
+- !private ["So14NSSecureCodingP", "Key"]
+- !private ["So14NSSecureCodingP", "contains"]
+- !private ["So14NSSecureCodingP", "horizontalSizeClass"]
+- !private ["So14NSSecureCodingP", "init"]
+- !private ["So14NSSecureCodingP", "object"]
+- !private ["So14NSSecureCodingP", "verticalSizeClass"]
+- !private ["So8NSStringC", "contains"]
+- !private ["So18NSNotificationNamea", "UIApplicationUserDidTakeScreenshot"]
+- !private ["So20NSNotificationCenterC", "addObserver"]
+- !private ["So20NSNotificationCenterC", "default"]
+- !private ["Sj", "init"]
+- !private ["So9OS_objectC", "async"]
+- !private ["So9OS_objectC", "asyncAfter"]
+- !private ["So9OS_objectC", "global"]
+- !private ["So9OS_objectC", "main"]
+- !private ["So16NSOperationQueueC", "main"]
+- !private ["s9OptionSetP", "allowFragments"]
+- !private ["So19NSProgressReportingP", "resume"]
+- !private ["8Dispatch0A3QoSV0B6SClassO", "background"]
+- !private ["8Dispatch0A3QoSV0B6SClassO", "default"]
+- !private ["8Dispatch0A3QoSV0B6SClassO", "userInitiated"]
+- !private ["8Dispatch0A3QoSV0B6SClassO", "userInteractive"]
+- !private ["8Dispatch0A3QoSV0B6SClassO", "utility"]
+- !private ["Sk", "init"]
+- !private ["Sm", "contains"]
+- !private ["Sm", "init"]
+- !private ["Sm", "init"]
+- !private ["SY", "UIApplicationUserDidTakeScreenshot"]
+- !private ["SY", "allowFragments"]
+- !private ["SY", "commonModes"]
+- !private ["SY", "countryCode"]
+- !private ["SY", "unspecified"]
+- !private ["So20NSJSONReadingOptionsV", "allowFragments"]
+- !private ["10Foundation20ReferenceConvertibleP", "current"]
+- !private ["10Foundation20ReferenceConvertibleP", "init"]
+- !private ["10Foundation20ReferenceConvertibleP", "path"]
+- !private ["ST", "contains"]
+- !private ["ST", "init"]
+- !private ["ST", "init"]
+- !private ["s10SetAlgebraP", "allowFragments"]
+- !private ["SZ", "init"]
+- !private ["s13SignedNumericP", "init"]
+- !private ["s12StaticStringV", "init"]
+- !private ["s12StaticStringV", "init"]
+- !private ["Sx", "init"]
+- !private ["Sx", "pointee"]
+- !private ["Sx", "withMemoryRebound"]
+- !private ["SS", "contains"]
+- !private ["SS", "init"]
+- !private ["SS", "init"]
+- !private ["Sy", "contains"]
+- !private ["Sy", "init"]
+- !private ["Sy", "init"]
+- !private ["s16TextOutputStreamP", "contains"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "contains"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["s20TextOutputStreamableP", "init"]
+- !private ["So29UIAccessibilityIdentificationP", "init"]
+- !private ["So21UIAppearanceContainerP", "traitCollection"]
+- !private ["So13UIApplicationC", "shared"]
+- !private ["So13UIApplicationC", "statusBarFrame"]
+- !private ["So13UIApplicationC", "statusBarOrientation"]
+- !private ["So13UIApplicationC", "topViewController"]
+- !private ["So18UIContentContainerP", "traitCollection"]
+- !private ["So18UIFocusEnvironmentP", "traitCollection"]
+- !private ["So7UIImageC", "init"]
+- !private ["So39UIItemProviderPresentationSizeProvidingP", "init"]
+- !private ["So30UIPasteConfigurationSupportingP", "shared"]
+- !private ["So30UIPasteConfigurationSupportingP", "statusBarFrame"]
+- !private ["So30UIPasteConfigurationSupportingP", "statusBarOrientation"]
+- !private ["So30UIPasteConfigurationSupportingP", "topViewController"]
+- !private ["So30UIPasteConfigurationSupportingP", "traitCollection"]
+- !private ["So11UIResponderC", "shared"]
+- !private ["So11UIResponderC", "statusBarFrame"]
+- !private ["So11UIResponderC", "statusBarOrientation"]
+- !private ["So11UIResponderC", "topViewController"]
+- !private ["So11UIResponderC", "traitCollection"]
+- !private ["So30UIResponderStandardEditActionsP", "shared"]
+- !private ["So30UIResponderStandardEditActionsP", "statusBarFrame"]
+- !private ["So30UIResponderStandardEditActionsP", "statusBarOrientation"]
+- !private ["So30UIResponderStandardEditActionsP", "topViewController"]
+- !private ["So30UIResponderStandardEditActionsP", "traitCollection"]
+- !private ["So8UIScreenC", "bounds"]
+- !private ["So8UIScreenC", "main"]
+- !private ["So16UIStateRestoringP", "traitCollection"]
+- !private ["So17UITraitCollectionC", "horizontalSizeClass"]
+- !private ["So17UITraitCollectionC", "verticalSizeClass"]
+- !private ["So18UITraitEnvironmentP", "bounds"]
+- !private ["So18UITraitEnvironmentP", "main"]
+- !private ["So18UITraitEnvironmentP", "traitCollection"]
+- !private ["So23UIUserActivityRestoringP", "shared"]
+- !private ["So23UIUserActivityRestoringP", "statusBarFrame"]
+- !private ["So23UIUserActivityRestoringP", "statusBarOrientation"]
+- !private ["So23UIUserActivityRestoringP", "topViewController"]
+- !private ["So23UIUserActivityRestoringP", "traitCollection"]
+- !private ["So24UIUserInterfaceSizeClassV", "unspecified"]
+- !private ["So16UIViewControllerC", "traitCollection"]
+- !private ["10Foundation3URLV", "init"]
+- !private ["10Foundation3URLV", "path"]
+- !private ["10Foundation10URLRequestV", "init"]
+- !private ["So12NSURLSessionC", "dataTask"]
+- !private ["So12NSURLSessionC", "shared"]
+- !private ["So20NSURLSessionDataTaskC", "resume"]
+- !private ["So16NSURLSessionTaskC", "resume"]
+- !private ["SP", "pointee"]
+- !private ["SP", "withMemoryRebound"]
+- !private ["s18_BitwiseOperationsP", "init"]
+- !private ["s15_CVarArgAlignedP", "init"]
+- !private ["s22_CVarArgPassedAsDoubleP", "init"]
+- !private ["s24_DestructorSafeContainerP", "init"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "contains"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s33_ExpressibleByBuiltinFloatLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "contains"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "contains"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "contains"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s34_ExpressibleByFileReferenceLiteralP", "init"]
+- !private ["s34_ExpressibleByFileReferenceLiteralP", "path"]
+- !private ["s26_ExpressibleByImageLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "contains"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "Key"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "Name"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "UIApplicationUserDidTakeScreenshot"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "commonModes"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "contains"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "countryCode"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "object"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Key"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Name"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "ReadingOptions"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "addObserver"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "appStoreReceiptURL"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "async"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "asyncAfter"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "bounds"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "bundleIdentifier"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "contains"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "dataTask"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "default"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "global"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "horizontalSizeClass"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "init"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "jsonObject"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "main"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "object"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "resume"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "shared"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "statusBarFrame"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "statusBarOrientation"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "topViewController"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "traitCollection"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "verticalSizeClass"]
+- !private ["s21_ObjectiveCBridgeableP", "UIApplicationUserDidTakeScreenshot"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "contains"]
+- !private ["s21_ObjectiveCBridgeableP", "countryCode"]
+- !private ["s21_ObjectiveCBridgeableP", "current"]
+- !private ["s21_ObjectiveCBridgeableP", "height"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "path"]
+- !private ["s21_ObjectiveCBridgeableP", "size"]
+- !private ["s21_ObjectiveCBridgeableP", "width"]
+- !private ["s8_PointerP", "pointee"]
+- !private ["s8_PointerP", "withMemoryRebound"]
+- !private ["s20_SwiftNewtypeWrapperP", "UIApplicationUserDidTakeScreenshot"]
+- !private ["s20_SwiftNewtypeWrapperP", "commonModes"]
+- !private ["s20_SwiftNewtypeWrapperP", "countryCode"]
+- !private ["s16_SwiftStringViewP", "contains"]
+- !private ["s16_SwiftStringViewP", "init"]
+- !private ["s16_SwiftStringViewP", "init"]
+- ["17EZSwiftExtensions2ezV", "AnyIterator"]
+- ["17EZSwiftExtensions2ezV", "Bool"]
+- !private ["17EZSwiftExtensions2ezV", "Bundle"]
+- !private ["17EZSwiftExtensions2ezV", "CChar"]
+- !private ["17EZSwiftExtensions2ezV", "CFAbsoluteTimeGetCurrent"]
+- !private ["17EZSwiftExtensions2ezV", "CFRunLoopAddTimer"]
+- !private ["17EZSwiftExtensions2ezV", "CFRunLoopGetCurrent"]
+- !private ["17EZSwiftExtensions2ezV", "CFRunLoopMode"]
+- ["17EZSwiftExtensions2ezV", "CFRunLoopTimer"]
+- !private ["17EZSwiftExtensions2ezV", "CFRunLoopTimerCreateWithHandler"]
+- ["17EZSwiftExtensions2ezV", "CGFloat"]
+- ["17EZSwiftExtensions2ezV", "Data"]
+- ["17EZSwiftExtensions2ezV", "DispatchQueue"]
+- !private ["17EZSwiftExtensions2ezV", "DispatchTime"]
+- ["17EZSwiftExtensions2ezV", "Double"]
+- ["17EZSwiftExtensions2ezV", "Hashable"]
+- !private ["17EZSwiftExtensions2ezV", "Int"]
+- !private ["17EZSwiftExtensions2ezV", "Int64"]
+- !private ["17EZSwiftExtensions2ezV", "JSONSerialization"]
+- !private ["17EZSwiftExtensions2ezV", "Locale"]
+- !private ["17EZSwiftExtensions2ezV", "NSEC_PER_SEC"]
+- ["17EZSwiftExtensions2ezV", "NSError"]
+- !private ["17EZSwiftExtensions2ezV", "NSLocale"]
+- !private ["17EZSwiftExtensions2ezV", "NSNotification"]
+- !private ["17EZSwiftExtensions2ezV", "NotificationCenter"]
+- !private ["17EZSwiftExtensions2ezV", "OperationQueue"]
+- ["17EZSwiftExtensions2ezV", "String"]
+- ["17EZSwiftExtensions2ezV", "TimeInterval"]
+- ["17EZSwiftExtensions2ezV", "Timer"]
+- !private ["17EZSwiftExtensions2ezV", "UIApplication"]
+- ["17EZSwiftExtensions2ezV", "UIImage"]
+- ["17EZSwiftExtensions2ezV", "UIInterfaceOrientation"]
+- !private ["17EZSwiftExtensions2ezV", "UIInterfaceOrientationIsPortrait"]
+- !private ["17EZSwiftExtensions2ezV", "UIScreen"]
+- ["17EZSwiftExtensions2ezV", "UIUserInterfaceSizeClass"]
+- ["17EZSwiftExtensions2ezV", "UIViewController"]
+- !private ["17EZSwiftExtensions2ezV", "URL"]
+- !private ["17EZSwiftExtensions2ezV", "URLRequest"]
+- !private ["17EZSwiftExtensions2ezV", "URLSession"]
+- ["17EZSwiftExtensions2ezV", "Void"]
+- ["17EZSwiftExtensions2ezV", "appBuild"]
+- ["17EZSwiftExtensions2ezV", "appBundleID"]
+- ["17EZSwiftExtensions2ezV", "appDisplayName"]
+- ["17EZSwiftExtensions2ezV", "appVersion"]
+- ["17EZSwiftExtensions2ezV", "appVersionAndBuild"]
+- !private ["17EZSwiftExtensions2ezV", "assertionFailure"]
+- ["17EZSwiftExtensions2ezV", "currentRegion"]
+- !private ["17EZSwiftExtensions2ezV", "dataToJsonDict"]
+- ["17EZSwiftExtensions2ezV", "detectScreenShot"]
+- ["17EZSwiftExtensions2ezV", "deviceVersion"]
+- ["17EZSwiftExtensions2ezV", "dispatchDelay"]
+- ["17EZSwiftExtensions2ezV", "globalBackgroundQueue"]
+- ["17EZSwiftExtensions2ezV", "globalMainQueue"]
+- ["17EZSwiftExtensions2ezV", "globalQueue"]
+- ["17EZSwiftExtensions2ezV", "globalUserInitiatedQueue"]
+- ["17EZSwiftExtensions2ezV", "globalUserInteractiveQueue"]
+- ["17EZSwiftExtensions2ezV", "globalUtilityQueue"]
+- ["17EZSwiftExtensions2ezV", "horizontalSizeClass"]
+- ["17EZSwiftExtensions2ezV", "init"]
+- ["17EZSwiftExtensions2ezV", "isDebug"]
+- ["17EZSwiftExtensions2ezV", "isDevice"]
+- ["17EZSwiftExtensions2ezV", "isInTestFlight"]
+- ["17EZSwiftExtensions2ezV", "isRelease"]
+- ["17EZSwiftExtensions2ezV", "isSimulator"]
+- ["17EZSwiftExtensions2ezV", "iterateEnum"]
+- !private ["17EZSwiftExtensions2ezV", "kCFAllocatorDefault"]
+- !private ["17EZSwiftExtensions2ezV", "kCFBundleVersionKey"]
+- !private ["17EZSwiftExtensions2ezV", "print"]
+- ["17EZSwiftExtensions2ezV", "requestImage"]
+- ["17EZSwiftExtensions2ezV", "requestJSON"]
+- !private ["17EZSwiftExtensions2ezV", "requestURL"]
+- ["17EZSwiftExtensions2ezV", "runThisAfterDelay"]
+- ["17EZSwiftExtensions2ezV", "runThisEvery"]
+- ["17EZSwiftExtensions2ezV", "runThisInBackground"]
+- ["17EZSwiftExtensions2ezV", "runThisInMainThread"]
+- ["17EZSwiftExtensions2ezV", "screenHeight"]
+- ["17EZSwiftExtensions2ezV", "screenHeightWithoutStatusBar"]
+- ["17EZSwiftExtensions2ezV", "screenOrientation"]
+- ["17EZSwiftExtensions2ezV", "screenStatusBarHeight"]
+- ["17EZSwiftExtensions2ezV", "screenWidth"]
+- !private ["17EZSwiftExtensions2ezV", "sysctlbyname"]
+- ["17EZSwiftExtensions2ezV", "topMostVC"]
+- ["17EZSwiftExtensions2ezV", "verticalSizeClass"]
+- !private ["17EZSwiftExtensions2ezV", "withUnsafePointer"]
+depends-nominal:
+- !private "s11AnyIteratorV"
+- !private "Sa"
+- !private "s13ArrayProtocolP"
+- !private "SK"
+- !private "SB"
+- !private "Sz"
+- !private "Sb"
+- !private "So8NSBundleC"
+- !private "So13CFRunLoopModea"
+- !private "So6CGRectV"
+- !private "So6CGSizeV"
+- !private "s7CVarArgP"
+- !private "Sl"
+- !private "SL"
+- !private "s28CustomDebugStringConvertibleP"
+- !private "s29CustomPlaygroundQuickLookableP"
+- !private "s17CustomReflectableP"
+- !private "s23CustomStringConvertibleP"
+- !private "Se"
+- !private "So18OS_dispatch_objectC"
+- !private "So17OS_dispatch_queueC"
+- !private "8Dispatch0A4TimeV"
+- !private "Sd"
+- !private "SE"
+- !private "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s25ExpressibleByFloatLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- !private "s26ExpressibleByStringLiteralP"
+- !private "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "s17FixedWidthIntegerP"
+- !private "SF"
+- !private "SH"
+- !private "Si"
+- !private "s5Int64V"
+- !private "St"
+- !private "So19NSJSONSerializationC"
+- !private "So11NSLocaleKeya"
+- !private "10Foundation6LocaleV"
+- !private "s25LosslessStringConvertibleP"
+- !private "s10MirrorPathP"
+- !private "SM"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So26NSExtensionRequestHandlingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So8NSLocaleC"
+- !private "So16NSMutableCopyingP"
+- !private "So14NSNotificationC"
+- !private "So8NSObjectC"
+- !private "So8NSObjectP"
+- !private "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- !private "So18NSNotificationNamea"
+- !private "So20NSNotificationCenterC"
+- !private "Sj"
+- !private "So9OS_objectC"
+- !private "So16NSOperationQueueC"
+- !private "s9OptionSetP"
+- !private "So19NSProgressReportingP"
+- !private "8Dispatch0A3QoSV0B6SClassO"
+- !private "Sk"
+- !private "Sm"
+- !private "SY"
+- !private "So20NSJSONReadingOptionsV"
+- !private "10Foundation20ReferenceConvertibleP"
+- !private "ST"
+- !private "s10SetAlgebraP"
+- !private "SZ"
+- !private "s13SignedNumericP"
+- !private "s12StaticStringV"
+- !private "Sx"
+- !private "SS"
+- !private "Sy"
+- !private "s16TextOutputStreamP"
+- !private "s20TextOutputStreamableP"
+- !private "So29UIAccessibilityIdentificationP"
+- !private "So21UIAppearanceContainerP"
+- !private "So13UIApplicationC"
+- !private "So18UIContentContainerP"
+- !private "So18UIFocusEnvironmentP"
+- !private "So7UIImageC"
+- !private "So39UIItemProviderPresentationSizeProvidingP"
+- !private "So30UIPasteConfigurationSupportingP"
+- !private "So11UIResponderC"
+- !private "So30UIResponderStandardEditActionsP"
+- !private "So8UIScreenC"
+- !private "So16UIStateRestoringP"
+- !private "So17UITraitCollectionC"
+- !private "So18UITraitEnvironmentP"
+- !private "So23UIUserActivityRestoringP"
+- !private "So24UIUserInterfaceSizeClassV"
+- !private "So16UIViewControllerC"
+- !private "10Foundation3URLV"
+- !private "10Foundation10URLRequestV"
+- !private "So12NSURLSessionC"
+- !private "So20NSURLSessionDataTaskC"
+- !private "So16NSURLSessionTaskC"
+- !private "SP"
+- !private "s18_BitwiseOperationsP"
+- !private "s15_CVarArgAlignedP"
+- !private "s22_CVarArgPassedAsDoubleP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- !private "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s33_ExpressibleByBuiltinFloatLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- !private "s34_ExpressibleByBuiltinStringLiteralP"
+- !private "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- !private "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- !private "s34_ExpressibleByFileReferenceLiteralP"
+- !private "s26_ExpressibleByImageLiteralP"
+- !private "s33_ExpressibleByStringInterpolationP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- !private "s21_ObjectiveCBridgeableP"
+- !private "s8_PointerP"
+- !private "s20_SwiftNewtypeWrapperP"
+- !private "s16_SwiftStringViewP"
+- "17EZSwiftExtensions2ezV"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/SwiftOnoneSupport.swiftmodule"
+- "/Users/sunchuyue/Documents/test/RX_Product/Pods/Target Support Files/EZSwiftExtensions/EZSwiftExtensions-umbrella.h"
+- "/Users/sunchuyue/Documents/test/RX_Product/DerivedData/RX_Product/Build/Intermediates.noindex/Pods.build/Debug-iphonesimulator/EZSwiftExtensions.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator12.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "4124712e438edf869dfadce604767e52"

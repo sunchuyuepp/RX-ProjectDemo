@@ -1,0 +1,807 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+provides-nominal:
+- "So8UIDeviceC17EZSwiftExtensionsE8VersionsO"
+provides-member:
+- ["So8UIDeviceC", ""]
+- ["So8UIDeviceC17EZSwiftExtensionsE8VersionsO", ""]
+- ["So8UIDeviceC", "idForVendor"]
+- ["So8UIDeviceC", "systemName"]
+- ["So8UIDeviceC", "systemVersion"]
+- ["So8UIDeviceC", "systemFloatVersion"]
+- ["So8UIDeviceC", "deviceName"]
+- ["So8UIDeviceC", "deviceLanguage"]
+- ["So8UIDeviceC", "deviceModelReadable"]
+- ["So8UIDeviceC", "isPhone"]
+- ["So8UIDeviceC", "isPad"]
+- ["So8UIDeviceC", "deviceModel"]
+- ["So8UIDeviceC", "Versions"]
+- ["So8UIDeviceC", "isVersion"]
+- ["So8UIDeviceC", "isVersionOrLater"]
+- ["So8UIDeviceC", "isVersionOrEarlier"]
+- ["So8UIDeviceC", "CURRENT_VERSION"]
+- ["So8UIDeviceC", "IS_OS_5"]
+- ["So8UIDeviceC", "IS_OS_5_OR_LATER"]
+- ["So8UIDeviceC", "IS_OS_5_OR_EARLIER"]
+- ["So8UIDeviceC", "IS_OS_6"]
+- ["So8UIDeviceC", "IS_OS_6_OR_LATER"]
+- ["So8UIDeviceC", "IS_OS_6_OR_EARLIER"]
+- ["So8UIDeviceC", "IS_OS_7"]
+- ["So8UIDeviceC", "IS_OS_7_OR_LATER"]
+- ["So8UIDeviceC", "IS_OS_7_OR_EARLIER"]
+- ["So8UIDeviceC", "IS_OS_8"]
+- ["So8UIDeviceC", "IS_OS_8_OR_LATER"]
+- ["So8UIDeviceC", "IS_OS_8_OR_EARLIER"]
+- ["So8UIDeviceC", "IS_OS_9"]
+- ["So8UIDeviceC", "IS_OS_9_OR_LATER"]
+- ["So8UIDeviceC", "IS_OS_9_OR_EARLIER"]
+- ["So8UIDeviceC", "IS_OS_10"]
+- ["So8UIDeviceC", "IS_OS_10_OR_LATER"]
+- ["So8UIDeviceC", "IS_OS_10_OR_EARLIER"]
+- ["So8UIDeviceC", "isSystemVersionOver"]
+provides-dynamic-lookup:
+- "CURRENT_VERSION"
+- "IS_OS_10"
+- "IS_OS_10_OR_EARLIER"
+- "IS_OS_10_OR_LATER"
+- "IS_OS_5"
+- "IS_OS_5_OR_EARLIER"
+- "IS_OS_5_OR_LATER"
+- "IS_OS_6"
+- "IS_OS_6_OR_EARLIER"
+- "IS_OS_6_OR_LATER"
+- "IS_OS_7"
+- "IS_OS_7_OR_EARLIER"
+- "IS_OS_7_OR_LATER"
+- "IS_OS_8"
+- "IS_OS_8_OR_EARLIER"
+- "IS_OS_8_OR_LATER"
+- "IS_OS_9"
+- "IS_OS_9_OR_EARLIER"
+- "IS_OS_9_OR_LATER"
+- "deviceLanguage"
+- "deviceModel"
+- "deviceModelReadable"
+- "deviceName"
+- "idForVendor"
+- "isPad"
+- "isPhone"
+- "isSystemVersionOver"
+- "systemFloatVersion"
+- "systemName"
+- "systemVersion"
+depends-top-level:
+- !private "!="
+- !private "&&"
+- !private "+"
+- !private "<"
+- "=="
+- !private ">="
+- !private "??"
+- "Bool"
+- !private "BooleanLiteralType"
+- !private "Bundle"
+- "CastingPrecedence"
+- !private "DeviceList"
+- "Dictionary"
+- "Float"
+- "FloatLiteralType"
+- !private "Int8"
+- !private "IntegerLiteralType"
+- !private "Mirror"
+- !private "NSString"
+- "String"
+- "StringLiteralType"
+- "UIDevice"
+- !private "UIUserInterfaceIdiom"
+- !private "UInt8"
+- !private "UnicodeScalar"
+- !private "uname"
+- !private "utsname"
+- !private "~="
+depends-member:
+- !private ["Sa", "subscript"]
+- !private ["s13ArrayProtocolP", "subscript"]
+- !private ["SK", "append"]
+- !private ["SK", "compare"]
+- ["SK", "init"]
+- ["SK", "init"]
+- !private ["SK", "subscript"]
+- !private ["Sz", "init"]
+- !private ["Sb", "_getBuiltinLogicValue"]
+- !private ["So8NSBundleC", "main"]
+- !private ["So8NSBundleC", "preferredLocalizations"]
+- !private ["s7CVarArgP", "Bundle"]
+- !private ["s7CVarArgP", "CompareOptions"]
+- !private ["s7CVarArgP", "DeviceList"]
+- !private ["s7CVarArgP", "Mirror"]
+- !private ["s7CVarArgP", "NSString"]
+- !private ["s7CVarArgP", "String"]
+- !private ["s7CVarArgP", "UIDevice"]
+- !private ["s7CVarArgP", "UIUserInterfaceIdiom"]
+- !private ["s7CVarArgP", "UInt8"]
+- !private ["s7CVarArgP", "UnicodeScalar"]
+- !private ["s7CVarArgP", "_getBuiltinLogicValue"]
+- !private ["s7CVarArgP", "append"]
+- !private ["s7CVarArgP", "compare"]
+- !private ["s7CVarArgP", "current"]
+- !private ["s7CVarArgP", "deviceModel"]
+- !private ["s7CVarArgP", "floatValue"]
+- !private ["s7CVarArgP", "identifierForVendor"]
+- ["s7CVarArgP", "init"]
+- ["s7CVarArgP", "init"]
+- !private ["s7CVarArgP", "isVersion"]
+- !private ["s7CVarArgP", "isVersionOrEarlier"]
+- !private ["s7CVarArgP", "isVersionOrLater"]
+- !private ["s7CVarArgP", "main"]
+- !private ["s7CVarArgP", "name"]
+- !private ["s7CVarArgP", "preferredLocalizations"]
+- !private ["s7CVarArgP", "subscript"]
+- !private ["s7CVarArgP", "systemFloatVersion"]
+- !private ["s7CVarArgP", "systemName"]
+- !private ["s7CVarArgP", "systemVersion"]
+- !private ["s7CVarArgP", "uname"]
+- !private ["s7CVarArgP", "userInterfaceIdiom"]
+- !private ["s7CVarArgP", "utsname"]
+- !private ["Sl", "append"]
+- !private ["Sl", "compare"]
+- ["Sl", "init"]
+- ["Sl", "init"]
+- !private ["Sl", "subscript"]
+- !private ["SL", "append"]
+- !private ["SL", "compare"]
+- ["SL", "init"]
+- ["SL", "init"]
+- !private ["So22NSStringCompareOptionsV", "numeric"]
+- ["So18NSComparisonResultV", "orderedAscending"]
+- ["So18NSComparisonResultV", "orderedDescending"]
+- ["So18NSComparisonResultV", "orderedSame"]
+- !private ["s28CustomDebugStringConvertibleP", "Bundle"]
+- !private ["s28CustomDebugStringConvertibleP", "CompareOptions"]
+- !private ["s28CustomDebugStringConvertibleP", "DeviceList"]
+- !private ["s28CustomDebugStringConvertibleP", "Mirror"]
+- !private ["s28CustomDebugStringConvertibleP", "NSString"]
+- !private ["s28CustomDebugStringConvertibleP", "String"]
+- !private ["s28CustomDebugStringConvertibleP", "UIDevice"]
+- !private ["s28CustomDebugStringConvertibleP", "UIUserInterfaceIdiom"]
+- !private ["s28CustomDebugStringConvertibleP", "UInt8"]
+- !private ["s28CustomDebugStringConvertibleP", "UnicodeScalar"]
+- !private ["s28CustomDebugStringConvertibleP", "append"]
+- !private ["s28CustomDebugStringConvertibleP", "compare"]
+- !private ["s28CustomDebugStringConvertibleP", "current"]
+- !private ["s28CustomDebugStringConvertibleP", "deviceModel"]
+- !private ["s28CustomDebugStringConvertibleP", "floatValue"]
+- !private ["s28CustomDebugStringConvertibleP", "identifierForVendor"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- ["s28CustomDebugStringConvertibleP", "init"]
+- !private ["s28CustomDebugStringConvertibleP", "isVersion"]
+- !private ["s28CustomDebugStringConvertibleP", "isVersionOrEarlier"]
+- !private ["s28CustomDebugStringConvertibleP", "isVersionOrLater"]
+- !private ["s28CustomDebugStringConvertibleP", "main"]
+- !private ["s28CustomDebugStringConvertibleP", "name"]
+- !private ["s28CustomDebugStringConvertibleP", "preferredLocalizations"]
+- !private ["s28CustomDebugStringConvertibleP", "subscript"]
+- !private ["s28CustomDebugStringConvertibleP", "systemFloatVersion"]
+- !private ["s28CustomDebugStringConvertibleP", "systemName"]
+- !private ["s28CustomDebugStringConvertibleP", "systemVersion"]
+- !private ["s28CustomDebugStringConvertibleP", "uname"]
+- !private ["s28CustomDebugStringConvertibleP", "userInterfaceIdiom"]
+- !private ["s28CustomDebugStringConvertibleP", "utsname"]
+- !private ["s28CustomDebugStringConvertibleP", "uuidString"]
+- !private ["s29CustomPlaygroundQuickLookableP", "CompareOptions"]
+- !private ["s29CustomPlaygroundQuickLookableP", "_getBuiltinLogicValue"]
+- !private ["s29CustomPlaygroundQuickLookableP", "append"]
+- !private ["s29CustomPlaygroundQuickLookableP", "compare"]
+- !private ["s29CustomPlaygroundQuickLookableP", "floatValue"]
+- ["s29CustomPlaygroundQuickLookableP", "init"]
+- ["s29CustomPlaygroundQuickLookableP", "init"]
+- !private ["s17CustomReflectableP", "_getBuiltinLogicValue"]
+- !private ["s17CustomReflectableP", "append"]
+- !private ["s17CustomReflectableP", "children"]
+- !private ["s17CustomReflectableP", "compare"]
+- ["s17CustomReflectableP", "init"]
+- ["s17CustomReflectableP", "init"]
+- !private ["s17CustomReflectableP", "subscript"]
+- !private ["s17CustomReflectableP", "uuidString"]
+- !private ["s23CustomStringConvertibleP", "Bundle"]
+- !private ["s23CustomStringConvertibleP", "CompareOptions"]
+- !private ["s23CustomStringConvertibleP", "DeviceList"]
+- !private ["s23CustomStringConvertibleP", "Mirror"]
+- !private ["s23CustomStringConvertibleP", "NSString"]
+- !private ["s23CustomStringConvertibleP", "String"]
+- !private ["s23CustomStringConvertibleP", "UIDevice"]
+- !private ["s23CustomStringConvertibleP", "UIUserInterfaceIdiom"]
+- !private ["s23CustomStringConvertibleP", "UInt8"]
+- !private ["s23CustomStringConvertibleP", "UnicodeScalar"]
+- !private ["s23CustomStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s23CustomStringConvertibleP", "append"]
+- !private ["s23CustomStringConvertibleP", "children"]
+- !private ["s23CustomStringConvertibleP", "compare"]
+- !private ["s23CustomStringConvertibleP", "current"]
+- !private ["s23CustomStringConvertibleP", "deviceModel"]
+- !private ["s23CustomStringConvertibleP", "floatValue"]
+- !private ["s23CustomStringConvertibleP", "identifierForVendor"]
+- ["s23CustomStringConvertibleP", "init"]
+- ["s23CustomStringConvertibleP", "init"]
+- !private ["s23CustomStringConvertibleP", "isVersion"]
+- !private ["s23CustomStringConvertibleP", "isVersionOrEarlier"]
+- !private ["s23CustomStringConvertibleP", "isVersionOrLater"]
+- !private ["s23CustomStringConvertibleP", "main"]
+- !private ["s23CustomStringConvertibleP", "name"]
+- !private ["s23CustomStringConvertibleP", "preferredLocalizations"]
+- !private ["s23CustomStringConvertibleP", "subscript"]
+- !private ["s23CustomStringConvertibleP", "systemFloatVersion"]
+- !private ["s23CustomStringConvertibleP", "systemName"]
+- !private ["s23CustomStringConvertibleP", "systemVersion"]
+- !private ["s23CustomStringConvertibleP", "uname"]
+- !private ["s23CustomStringConvertibleP", "userInterfaceIdiom"]
+- !private ["s23CustomStringConvertibleP", "utsname"]
+- !private ["s23CustomStringConvertibleP", "uuidString"]
+- !private ["Se", "_getBuiltinLogicValue"]
+- !private ["Se", "append"]
+- !private ["Se", "compare"]
+- ["Se", "init"]
+- ["Se", "init"]
+- !private ["Se", "subscript"]
+- !private ["Se", "uuidString"]
+- !private ["SD", "subscript"]
+- !private ["SE", "_getBuiltinLogicValue"]
+- !private ["SE", "append"]
+- !private ["SE", "compare"]
+- ["SE", "init"]
+- ["SE", "init"]
+- !private ["SE", "subscript"]
+- !private ["SE", "uuidString"]
+- !private ["SQ", "Bundle"]
+- !private ["SQ", "CompareOptions"]
+- !private ["SQ", "DeviceList"]
+- !private ["SQ", "Mirror"]
+- !private ["SQ", "NSString"]
+- ["SQ", "RawValue"]
+- !private ["SQ", "String"]
+- !private ["SQ", "UIDevice"]
+- !private ["SQ", "UIUserInterfaceIdiom"]
+- !private ["SQ", "UInt8"]
+- !private ["SQ", "UnicodeScalar"]
+- ["SQ", ""]
+- ["SQ", "_Default_RawValue"]
+- !private ["SQ", "_getBuiltinLogicValue"]
+- !private ["SQ", "append"]
+- !private ["SQ", "compare"]
+- !private ["SQ", "current"]
+- !private ["SQ", "deviceModel"]
+- !private ["SQ", "eight"]
+- !private ["SQ", "five"]
+- !private ["SQ", "floatValue"]
+- ["SQ", "hash"]
+- ["SQ", "hashValue"]
+- !private ["SQ", "identifierForVendor"]
+- ["SQ", "init"]
+- ["SQ", "init"]
+- !private ["SQ", "isVersion"]
+- !private ["SQ", "isVersionOrEarlier"]
+- !private ["SQ", "isVersionOrLater"]
+- !private ["SQ", "main"]
+- !private ["SQ", "name"]
+- !private ["SQ", "nine"]
+- !private ["SQ", "numeric"]
+- ["SQ", "orderedAscending"]
+- ["SQ", "orderedDescending"]
+- ["SQ", "orderedSame"]
+- !private ["SQ", "pad"]
+- !private ["SQ", "phone"]
+- !private ["SQ", "preferredLocalizations"]
+- ["SQ", "rawValue"]
+- !private ["SQ", "seven"]
+- !private ["SQ", "six"]
+- !private ["SQ", "subscript"]
+- !private ["SQ", "systemFloatVersion"]
+- !private ["SQ", "systemName"]
+- !private ["SQ", "systemVersion"]
+- !private ["SQ", "ten"]
+- !private ["SQ", "uname"]
+- !private ["SQ", "userInterfaceIdiom"]
+- !private ["SQ", "utsname"]
+- !private ["SQ", "uuidString"]
+- !private ["s25ExpressibleByArrayLiteralP", "numeric"]
+- !private ["s25ExpressibleByArrayLiteralP", "subscript"]
+- !private ["s27ExpressibleByBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s30ExpressibleByDictionaryLiteralP", "subscript"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "CompareOptions"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "append"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "compare"]
+- !private ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "floatValue"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- ["s43ExpressibleByExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s27ExpressibleByIntegerLiteralP", "init"]
+- !private ["s26ExpressibleByStringLiteralP", "CompareOptions"]
+- !private ["s26ExpressibleByStringLiteralP", "append"]
+- !private ["s26ExpressibleByStringLiteralP", "compare"]
+- !private ["s26ExpressibleByStringLiteralP", "floatValue"]
+- ["s26ExpressibleByStringLiteralP", "init"]
+- ["s26ExpressibleByStringLiteralP", "init"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "CompareOptions"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "append"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "compare"]
+- !private ["s33ExpressibleByUnicodeScalarLiteralP", "floatValue"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- ["s33ExpressibleByUnicodeScalarLiteralP", "init"]
+- !private ["s17FixedWidthIntegerP", "init"]
+- !private ["SH", "Bundle"]
+- !private ["SH", "CompareOptions"]
+- !private ["SH", "DeviceList"]
+- !private ["SH", "Mirror"]
+- !private ["SH", "NSString"]
+- ["SH", "RawValue"]
+- !private ["SH", "String"]
+- !private ["SH", "UIDevice"]
+- !private ["SH", "UIUserInterfaceIdiom"]
+- !private ["SH", "UInt8"]
+- !private ["SH", "UnicodeScalar"]
+- ["SH", ""]
+- ["SH", "_Default_RawValue"]
+- !private ["SH", "_getBuiltinLogicValue"]
+- !private ["SH", "append"]
+- !private ["SH", "compare"]
+- !private ["SH", "current"]
+- !private ["SH", "deviceModel"]
+- !private ["SH", "eight"]
+- !private ["SH", "five"]
+- !private ["SH", "floatValue"]
+- ["SH", "hash"]
+- ["SH", "hashValue"]
+- !private ["SH", "identifierForVendor"]
+- ["SH", "init"]
+- ["SH", "init"]
+- !private ["SH", "isVersion"]
+- !private ["SH", "isVersionOrEarlier"]
+- !private ["SH", "isVersionOrLater"]
+- !private ["SH", "main"]
+- !private ["SH", "name"]
+- !private ["SH", "nine"]
+- ["SH", "orderedAscending"]
+- ["SH", "orderedDescending"]
+- ["SH", "orderedSame"]
+- !private ["SH", "pad"]
+- !private ["SH", "phone"]
+- !private ["SH", "preferredLocalizations"]
+- ["SH", "rawValue"]
+- !private ["SH", "seven"]
+- !private ["SH", "six"]
+- !private ["SH", "subscript"]
+- !private ["SH", "systemFloatVersion"]
+- !private ["SH", "systemName"]
+- !private ["SH", "systemVersion"]
+- !private ["SH", "ten"]
+- !private ["SH", "uname"]
+- !private ["SH", "userInterfaceIdiom"]
+- !private ["SH", "utsname"]
+- !private ["SH", "uuidString"]
+- !private ["s6HasherV", "combine"]
+- !private ["s25LosslessStringConvertibleP", "_getBuiltinLogicValue"]
+- !private ["s25LosslessStringConvertibleP", "append"]
+- !private ["s25LosslessStringConvertibleP", "compare"]
+- ["s25LosslessStringConvertibleP", "init"]
+- ["s25LosslessStringConvertibleP", "init"]
+- !private ["s6MirrorV", "children"]
+- !private ["s6MirrorV", "init"]
+- !private ["s10MirrorPathP", "append"]
+- !private ["s10MirrorPathP", "compare"]
+- ["s10MirrorPathP", "init"]
+- ["s10MirrorPathP", "init"]
+- !private ["SM", "subscript"]
+- !private ["So8NSCodingP", "CompareOptions"]
+- !private ["So8NSCodingP", "append"]
+- !private ["So8NSCodingP", "compare"]
+- !private ["So8NSCodingP", "floatValue"]
+- !private ["So9NSCopyingP", "CompareOptions"]
+- !private ["So9NSCopyingP", "append"]
+- !private ["So9NSCopyingP", "compare"]
+- !private ["So9NSCopyingP", "floatValue"]
+- !private ["So21NSItemProviderReadingP", "CompareOptions"]
+- !private ["So21NSItemProviderReadingP", "append"]
+- !private ["So21NSItemProviderReadingP", "compare"]
+- !private ["So21NSItemProviderReadingP", "floatValue"]
+- !private ["So21NSItemProviderWritingP", "CompareOptions"]
+- !private ["So21NSItemProviderWritingP", "append"]
+- !private ["So21NSItemProviderWritingP", "compare"]
+- !private ["So21NSItemProviderWritingP", "floatValue"]
+- !private ["So16NSMutableCopyingP", "CompareOptions"]
+- !private ["So16NSMutableCopyingP", "append"]
+- !private ["So16NSMutableCopyingP", "compare"]
+- !private ["So16NSMutableCopyingP", "floatValue"]
+- ["So8NSObjectC", "Bool"]
+- !private ["So8NSObjectC", "Bundle"]
+- ["So8NSObjectC", "CURRENT_VERSION"]
+- !private ["So8NSObjectC", "CompareOptions"]
+- !private ["So8NSObjectC", "DeviceList"]
+- ["So8NSObjectC", "Float"]
+- ["So8NSObjectC", "IS_OS_10"]
+- ["So8NSObjectC", "IS_OS_10_OR_EARLIER"]
+- ["So8NSObjectC", "IS_OS_10_OR_LATER"]
+- ["So8NSObjectC", "IS_OS_5"]
+- ["So8NSObjectC", "IS_OS_5_OR_EARLIER"]
+- ["So8NSObjectC", "IS_OS_5_OR_LATER"]
+- ["So8NSObjectC", "IS_OS_6"]
+- ["So8NSObjectC", "IS_OS_6_OR_EARLIER"]
+- ["So8NSObjectC", "IS_OS_6_OR_LATER"]
+- ["So8NSObjectC", "IS_OS_7"]
+- ["So8NSObjectC", "IS_OS_7_OR_EARLIER"]
+- ["So8NSObjectC", "IS_OS_7_OR_LATER"]
+- ["So8NSObjectC", "IS_OS_8"]
+- ["So8NSObjectC", "IS_OS_8_OR_EARLIER"]
+- ["So8NSObjectC", "IS_OS_8_OR_LATER"]
+- ["So8NSObjectC", "IS_OS_9"]
+- ["So8NSObjectC", "IS_OS_9_OR_EARLIER"]
+- ["So8NSObjectC", "IS_OS_9_OR_LATER"]
+- !private ["So8NSObjectC", "Int8"]
+- !private ["So8NSObjectC", "Mirror"]
+- !private ["So8NSObjectC", "NSString"]
+- ["So8NSObjectC", "String"]
+- !private ["So8NSObjectC", "UIDevice"]
+- !private ["So8NSObjectC", "UIUserInterfaceIdiom"]
+- !private ["So8NSObjectC", "UInt8"]
+- !private ["So8NSObjectC", "UnicodeScalar"]
+- ["So8NSObjectC", "Versions"]
+- !private ["So8NSObjectC", "append"]
+- !private ["So8NSObjectC", "compare"]
+- !private ["So8NSObjectC", "current"]
+- ["So8NSObjectC", "deviceLanguage"]
+- ["So8NSObjectC", "deviceModel"]
+- ["So8NSObjectC", "deviceModelReadable"]
+- ["So8NSObjectC", "deviceName"]
+- !private ["So8NSObjectC", "floatValue"]
+- ["So8NSObjectC", "idForVendor"]
+- !private ["So8NSObjectC", "identifierForVendor"]
+- ["So8NSObjectC", "isPad"]
+- ["So8NSObjectC", "isPhone"]
+- ["So8NSObjectC", "isSystemVersionOver"]
+- ["So8NSObjectC", "isVersion"]
+- ["So8NSObjectC", "isVersionOrEarlier"]
+- ["So8NSObjectC", "isVersionOrLater"]
+- !private ["So8NSObjectC", "main"]
+- !private ["So8NSObjectC", "name"]
+- !private ["So8NSObjectC", "preferredLocalizations"]
+- ["So8NSObjectC", "systemFloatVersion"]
+- ["So8NSObjectC", "systemName"]
+- ["So8NSObjectC", "systemVersion"]
+- !private ["So8NSObjectC", "uname"]
+- !private ["So8NSObjectC", "userInterfaceIdiom"]
+- !private ["So8NSObjectC", "utsname"]
+- !private ["So8NSObjectP", "Bundle"]
+- !private ["So8NSObjectP", "CompareOptions"]
+- !private ["So8NSObjectP", "DeviceList"]
+- !private ["So8NSObjectP", "Mirror"]
+- !private ["So8NSObjectP", "NSString"]
+- !private ["So8NSObjectP", "String"]
+- !private ["So8NSObjectP", "UIDevice"]
+- !private ["So8NSObjectP", "UIUserInterfaceIdiom"]
+- !private ["So8NSObjectP", "UInt8"]
+- !private ["So8NSObjectP", "UnicodeScalar"]
+- !private ["So8NSObjectP", "append"]
+- !private ["So8NSObjectP", "compare"]
+- !private ["So8NSObjectP", "current"]
+- !private ["So8NSObjectP", "deviceModel"]
+- !private ["So8NSObjectP", "floatValue"]
+- !private ["So8NSObjectP", "identifierForVendor"]
+- !private ["So8NSObjectP", "isVersion"]
+- !private ["So8NSObjectP", "isVersionOrEarlier"]
+- !private ["So8NSObjectP", "isVersionOrLater"]
+- !private ["So8NSObjectP", "main"]
+- !private ["So8NSObjectP", "name"]
+- !private ["So8NSObjectP", "preferredLocalizations"]
+- !private ["So8NSObjectP", "systemFloatVersion"]
+- !private ["So8NSObjectP", "systemName"]
+- !private ["So8NSObjectP", "systemVersion"]
+- !private ["So8NSObjectP", "uname"]
+- !private ["So8NSObjectP", "userInterfaceIdiom"]
+- !private ["So8NSObjectP", "utsname"]
+- !private ["So14NSSecureCodingP", "CompareOptions"]
+- !private ["So14NSSecureCodingP", "append"]
+- !private ["So14NSSecureCodingP", "compare"]
+- !private ["So14NSSecureCodingP", "floatValue"]
+- !private ["So8NSStringC", "CompareOptions"]
+- !private ["So8NSStringC", "append"]
+- !private ["So8NSStringC", "compare"]
+- !private ["So8NSStringC", "floatValue"]
+- !private ["Sj", "init"]
+- !private ["s9OptionSetP", "numeric"]
+- !private ["Sk", "subscript"]
+- !private ["Sm", "append"]
+- !private ["Sm", "compare"]
+- ["Sm", "init"]
+- ["Sm", "init"]
+- !private ["Sm", "subscript"]
+- ["SY", "RawValue"]
+- ["SY", ""]
+- ["SY", "_Default_RawValue"]
+- !private ["SY", "eight"]
+- !private ["SY", "five"]
+- ["SY", "hash"]
+- ["SY", "hashValue"]
+- ["SY", "init"]
+- !private ["SY", "nine"]
+- !private ["SY", "numeric"]
+- ["SY", "orderedAscending"]
+- ["SY", "orderedDescending"]
+- ["SY", "orderedSame"]
+- !private ["SY", "pad"]
+- !private ["SY", "phone"]
+- ["SY", "rawValue"]
+- !private ["SY", "seven"]
+- !private ["SY", "six"]
+- !private ["SY", "ten"]
+- !private ["10Foundation20ReferenceConvertibleP", "uuidString"]
+- !private ["s7UnicodeO6ScalarV", "init"]
+- !private ["ST", "append"]
+- !private ["ST", "compare"]
+- ["ST", "init"]
+- ["ST", "init"]
+- !private ["ST", "subscript"]
+- !private ["s10SetAlgebraP", "numeric"]
+- !private ["Sx", "init"]
+- !private ["SS", "append"]
+- !private ["SS", "compare"]
+- ["SS", "init"]
+- ["SS", "init"]
+- !private ["Sy", "append"]
+- !private ["Sy", "compare"]
+- ["Sy", "init"]
+- ["Sy", "init"]
+- !private ["s16TextOutputStreamP", "append"]
+- !private ["s16TextOutputStreamP", "compare"]
+- ["s16TextOutputStreamP", "init"]
+- ["s16TextOutputStreamP", "init"]
+- !private ["s20TextOutputStreamableP", "append"]
+- !private ["s20TextOutputStreamableP", "compare"]
+- ["s20TextOutputStreamableP", "init"]
+- ["s20TextOutputStreamableP", "init"]
+- ["So8UIDeviceC", "Bool"]
+- !private ["So8UIDeviceC", "Bundle"]
+- ["So8UIDeviceC", "CURRENT_VERSION"]
+- !private ["So8UIDeviceC", "DeviceList"]
+- ["So8UIDeviceC", "Float"]
+- ["So8UIDeviceC", "IS_OS_10"]
+- ["So8UIDeviceC", "IS_OS_10_OR_EARLIER"]
+- ["So8UIDeviceC", "IS_OS_10_OR_LATER"]
+- ["So8UIDeviceC", "IS_OS_5"]
+- ["So8UIDeviceC", "IS_OS_5_OR_EARLIER"]
+- ["So8UIDeviceC", "IS_OS_5_OR_LATER"]
+- ["So8UIDeviceC", "IS_OS_6"]
+- ["So8UIDeviceC", "IS_OS_6_OR_EARLIER"]
+- ["So8UIDeviceC", "IS_OS_6_OR_LATER"]
+- ["So8UIDeviceC", "IS_OS_7"]
+- ["So8UIDeviceC", "IS_OS_7_OR_EARLIER"]
+- ["So8UIDeviceC", "IS_OS_7_OR_LATER"]
+- ["So8UIDeviceC", "IS_OS_8"]
+- ["So8UIDeviceC", "IS_OS_8_OR_EARLIER"]
+- ["So8UIDeviceC", "IS_OS_8_OR_LATER"]
+- ["So8UIDeviceC", "IS_OS_9"]
+- ["So8UIDeviceC", "IS_OS_9_OR_EARLIER"]
+- ["So8UIDeviceC", "IS_OS_9_OR_LATER"]
+- !private ["So8UIDeviceC", "Int8"]
+- !private ["So8UIDeviceC", "Mirror"]
+- !private ["So8UIDeviceC", "NSString"]
+- ["So8UIDeviceC", "String"]
+- !private ["So8UIDeviceC", "UIDevice"]
+- !private ["So8UIDeviceC", "UIUserInterfaceIdiom"]
+- !private ["So8UIDeviceC", "UInt8"]
+- !private ["So8UIDeviceC", "UnicodeScalar"]
+- ["So8UIDeviceC", "Versions"]
+- !private ["So8UIDeviceC", "current"]
+- ["So8UIDeviceC", "deviceLanguage"]
+- ["So8UIDeviceC", "deviceModel"]
+- ["So8UIDeviceC", "deviceModelReadable"]
+- ["So8UIDeviceC", "deviceName"]
+- ["So8UIDeviceC", "idForVendor"]
+- !private ["So8UIDeviceC", "identifierForVendor"]
+- ["So8UIDeviceC", "isPad"]
+- ["So8UIDeviceC", "isPhone"]
+- ["So8UIDeviceC", "isSystemVersionOver"]
+- ["So8UIDeviceC", "isVersion"]
+- ["So8UIDeviceC", "isVersionOrEarlier"]
+- ["So8UIDeviceC", "isVersionOrLater"]
+- !private ["So8UIDeviceC", "name"]
+- ["So8UIDeviceC", "systemFloatVersion"]
+- ["So8UIDeviceC", "systemName"]
+- ["So8UIDeviceC", "systemVersion"]
+- !private ["So8UIDeviceC", "uname"]
+- !private ["So8UIDeviceC", "userInterfaceIdiom"]
+- !private ["So8UIDeviceC", "utsname"]
+- !private ["So20UIUserInterfaceIdiomV", "pad"]
+- !private ["So20UIUserInterfaceIdiomV", "phone"]
+- !private ["s5UInt8V", "init"]
+- !private ["10Foundation4UUIDV", "uuidString"]
+- !private ["SU", "init"]
+- ["So8UIDeviceC17EZSwiftExtensionsE8VersionsO", "RawValue"]
+- ["So8UIDeviceC17EZSwiftExtensionsE8VersionsO", "_Default_RawValue"]
+- ["So8UIDeviceC17EZSwiftExtensionsE8VersionsO", "deinit"]
+- ["So8UIDeviceC17EZSwiftExtensionsE8VersionsO", "eight"]
+- ["So8UIDeviceC17EZSwiftExtensionsE8VersionsO", "five"]
+- ["So8UIDeviceC17EZSwiftExtensionsE8VersionsO", "hash"]
+- ["So8UIDeviceC17EZSwiftExtensionsE8VersionsO", "hashValue"]
+- ["So8UIDeviceC17EZSwiftExtensionsE8VersionsO", "init"]
+- ["So8UIDeviceC17EZSwiftExtensionsE8VersionsO", "nine"]
+- ["So8UIDeviceC17EZSwiftExtensionsE8VersionsO", "rawValue"]
+- ["So8UIDeviceC17EZSwiftExtensionsE8VersionsO", "seven"]
+- ["So8UIDeviceC17EZSwiftExtensionsE8VersionsO", "six"]
+- ["So8UIDeviceC17EZSwiftExtensionsE8VersionsO", "ten"]
+- !private ["s18_BitwiseOperationsP", "init"]
+- !private ["s24_DestructorSafeContainerP", "subscript"]
+- !private ["s35_ExpressibleByBuiltinBooleanLiteralP", "_getBuiltinLogicValue"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "append"]
+- !private ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "compare"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- ["s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP", "init"]
+- !private ["s35_ExpressibleByBuiltinIntegerLiteralP", "init"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "append"]
+- !private ["s34_ExpressibleByBuiltinStringLiteralP", "compare"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- ["s34_ExpressibleByBuiltinStringLiteralP", "init"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "append"]
+- !private ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "compare"]
+- ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- ["s39_ExpressibleByBuiltinUTF16StringLiteralP", "init"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "append"]
+- !private ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "compare"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- ["s41_ExpressibleByBuiltinUnicodeScalarLiteralP", "init"]
+- !private ["s33_ExpressibleByStringInterpolationP", "append"]
+- !private ["s33_ExpressibleByStringInterpolationP", "compare"]
+- ["s33_ExpressibleByStringInterpolationP", "init"]
+- ["s33_ExpressibleByStringInterpolationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "CompareOptions"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "append"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "compare"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "floatValue"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "init"]
+- !private ["s35_HasCustomAnyHashableRepresentationP", "subscript"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Bundle"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "CompareOptions"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "DeviceList"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "Mirror"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "NSString"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "String"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIDevice"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UIUserInterfaceIdiom"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UInt8"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "UnicodeScalar"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "append"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "compare"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "current"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "deviceModel"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "floatValue"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "identifierForVendor"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "isVersion"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "isVersionOrEarlier"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "isVersionOrLater"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "main"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "name"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "preferredLocalizations"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "systemFloatVersion"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "systemName"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "systemVersion"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "uname"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "userInterfaceIdiom"]
+- !private ["10Foundation27_KeyValueCodingAndObservingP", "utsname"]
+- !private ["s21_ObjectiveCBridgeableP", "_getBuiltinLogicValue"]
+- !private ["s21_ObjectiveCBridgeableP", "append"]
+- !private ["s21_ObjectiveCBridgeableP", "compare"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- ["s21_ObjectiveCBridgeableP", "init"]
+- !private ["s21_ObjectiveCBridgeableP", "subscript"]
+- !private ["s21_ObjectiveCBridgeableP", "uuidString"]
+- !private ["s14_StringElementP", "init"]
+- !private ["s16_SwiftStringViewP", "append"]
+- !private ["s16_SwiftStringViewP", "compare"]
+- ["s16_SwiftStringViewP", "init"]
+- ["s16_SwiftStringViewP", "init"]
+- !private ["So7utsnameV", "init"]
+- !private ["So7utsnameV", "machine"]
+depends-nominal:
+- !private "Sa"
+- !private "s13ArrayProtocolP"
+- "SK"
+- !private "Sz"
+- !private "Sb"
+- !private "So8NSBundleC"
+- "s7CVarArgP"
+- "Sl"
+- "SL"
+- !private "So22NSStringCompareOptionsV"
+- "So18NSComparisonResultV"
+- "s28CustomDebugStringConvertibleP"
+- "s29CustomPlaygroundQuickLookableP"
+- "s17CustomReflectableP"
+- "s23CustomStringConvertibleP"
+- "Se"
+- !private "SD"
+- "SE"
+- "SQ"
+- !private "s25ExpressibleByArrayLiteralP"
+- !private "s27ExpressibleByBooleanLiteralP"
+- !private "s30ExpressibleByDictionaryLiteralP"
+- "s43ExpressibleByExtendedGraphemeClusterLiteralP"
+- !private "s27ExpressibleByIntegerLiteralP"
+- "s26ExpressibleByStringLiteralP"
+- "s33ExpressibleByUnicodeScalarLiteralP"
+- !private "s17FixedWidthIntegerP"
+- "SH"
+- !private "s6HasherV"
+- "s25LosslessStringConvertibleP"
+- !private "s6MirrorV"
+- "s10MirrorPathP"
+- !private "SM"
+- !private "So8NSCodingP"
+- !private "So9NSCopyingP"
+- !private "So21NSItemProviderReadingP"
+- !private "So21NSItemProviderWritingP"
+- !private "So16NSMutableCopyingP"
+- "So8NSObjectC"
+- !private "So8NSObjectP"
+- !private "So14NSSecureCodingP"
+- !private "So8NSStringC"
+- !private "Sj"
+- !private "s9OptionSetP"
+- !private "Sk"
+- "Sm"
+- "SY"
+- !private "10Foundation20ReferenceConvertibleP"
+- !private "s7UnicodeO6ScalarV"
+- "ST"
+- !private "s10SetAlgebraP"
+- !private "Sx"
+- "SS"
+- "Sy"
+- "s16TextOutputStreamP"
+- "s20TextOutputStreamableP"
+- "So8UIDeviceC"
+- !private "So20UIUserInterfaceIdiomV"
+- !private "s5UInt8V"
+- !private "10Foundation4UUIDV"
+- !private "SU"
+- "So8UIDeviceC17EZSwiftExtensionsE8VersionsO"
+- !private "s18_BitwiseOperationsP"
+- !private "s24_DestructorSafeContainerP"
+- !private "s35_ExpressibleByBuiltinBooleanLiteralP"
+- "s51_ExpressibleByBuiltinExtendedGraphemeClusterLiteralP"
+- !private "s35_ExpressibleByBuiltinIntegerLiteralP"
+- "s34_ExpressibleByBuiltinStringLiteralP"
+- "s39_ExpressibleByBuiltinUTF16StringLiteralP"
+- "s41_ExpressibleByBuiltinUnicodeScalarLiteralP"
+- "s33_ExpressibleByStringInterpolationP"
+- !private "s35_HasCustomAnyHashableRepresentationP"
+- !private "10Foundation27_KeyValueCodingAndObservingP"
+- "s21_ObjectiveCBridgeableP"
+- !private "s14_StringElementP"
+- "s16_SwiftStringViewP"
+- !private "So7utsnameV"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.apinotesc"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/QuartzCore.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Metal.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreFoundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/SwiftOnoneSupport.swiftmodule"
+- "/Users/sunchuyue/Documents/test/RX_Product/Pods/Target Support Files/EZSwiftExtensions/EZSwiftExtensions-umbrella.h"
+- "/Users/sunchuyue/Documents/test/RX_Product/DerivedData/RX_Product/Build/Intermediates.noindex/Pods.build/Debug-iphoneos/EZSwiftExtensions.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/usr/include/objc/ObjectiveC.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/OpenGLES.framework/Headers/OpenGLES.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreImage.framework/Headers/CoreImage.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/QuartzCore.framework/Headers/QuartzCore.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/Metal.framework/Headers/Metal.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/usr/include/Darwin.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CoreGraphics.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/CoreText.framework/Headers/CoreText.apinotes"
+- "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.1.sdk/System/Library/Frameworks/Security.framework/Headers/Security.apinotes"
+interface-hash: "ba867364e33bde66ce92ff654ab0f8c8"

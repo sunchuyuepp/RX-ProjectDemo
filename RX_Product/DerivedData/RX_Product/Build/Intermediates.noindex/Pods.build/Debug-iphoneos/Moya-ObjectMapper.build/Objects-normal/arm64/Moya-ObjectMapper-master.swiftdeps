@@ -1,0 +1,7 @@
+version: "Apple Swift version 4.2.1 (swiftlang-1000.11.42 clang-1000.11.45.1)"
+options: "b0edd5fa3c1a680f7386144aafd5cd19"
+build_time: [1556086037, 172896000]
+inputs:
+  "/Users/sunchuyue/Documents/test/RX_Product/Pods/Moya-ObjectMapper/Source/RxSwift/ObservableType+ObjectMapper.swift": [1554100786, 0]
+  "/Users/sunchuyue/Documents/test/RX_Product/Pods/Moya-ObjectMapper/Source/Response+ObjectMapper.swift": [1554100786, 0]
+  "/Users/sunchuyue/Documents/test/RX_Product/Pods/Moya-ObjectMapper/Source/RxSwift/Single+ObjectMapper.swift": [1554100786, 0]
