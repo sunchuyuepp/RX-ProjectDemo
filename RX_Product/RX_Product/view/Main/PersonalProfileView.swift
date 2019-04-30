@@ -17,7 +17,7 @@ class PersonalProfileView: UIView {
     tableView.register(ProfileHeaderCell.self, forCellReuseIdentifier: "ProfileHeaderCell")
     tableView.estimatedRowHeight = 60
     tableView.tableFooterView = UIView()
-    tableView.rowHeight = UITableViewAutomaticDimension
+    tableView.rowHeight = UITableView.automaticDimension
 //    tableView.mj_header = MJRefreshNormalHeader()
     return tableView
   }()

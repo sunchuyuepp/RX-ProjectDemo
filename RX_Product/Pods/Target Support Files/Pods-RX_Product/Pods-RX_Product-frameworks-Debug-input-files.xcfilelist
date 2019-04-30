@@ -1,0 +1,24 @@
+${PODS_ROOT}/Target Support Files/Pods-RX_Product/Pods-RX_Product-frameworks.sh
+${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework
+${BUILT_PRODUCTS_DIR}/CryptoCoding/CryptoCoding.framework
+${BUILT_PRODUCTS_DIR}/Differentiator/Differentiator.framework
+${BUILT_PRODUCTS_DIR}/EZSwiftExtensions/EZSwiftExtensions.framework
+${BUILT_PRODUCTS_DIR}/IQKeyboardManager/IQKeyboardManager.framework
+${BUILT_PRODUCTS_DIR}/MJRefresh/MJRefresh.framework
+${BUILT_PRODUCTS_DIR}/Moya/Moya.framework
+${BUILT_PRODUCTS_DIR}/Moya-ObjectMapper/Moya_ObjectMapper.framework
+${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework
+${BUILT_PRODUCTS_DIR}/ReactiveSwift/ReactiveSwift.framework
+${BUILT_PRODUCTS_DIR}/Result/Result.framework
+${BUILT_PRODUCTS_DIR}/RxAlamofire/RxAlamofire.framework
+${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework
+${BUILT_PRODUCTS_DIR}/RxDataSources/RxDataSources.framework
+${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework
+${BUILT_PRODUCTS_DIR}/SQLite.swift/SQLite.framework
+${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework
+${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework
+${BUILT_PRODUCTS_DIR}/SwiftKeychainWrapper/SwiftKeychainWrapper.framework
+${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework
+${BUILT_PRODUCTS_DIR}/Toaster/Toaster.framework
+${BUILT_PRODUCTS_DIR}/YYKit/YYKit.framework
+${BUILT_PRODUCTS_DIR}/pop/pop.framework

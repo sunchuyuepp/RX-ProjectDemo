@@ -99,11 +99,6 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>SteviaLayout.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
 		<key>SwiftKeychainWrapper.xcscheme</key>
 		<dict>
 			<key>isShown</key>
